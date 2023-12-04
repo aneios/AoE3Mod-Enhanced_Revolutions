@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="91837" imagepath="ui\random_map\treaty_maps" helpTextID="91838" cannotReplace="">
+  <map>euAlps</map>
+  <map>euBalkans</map>
+  <map>euVistulaBasin</map>
+  <map>afAtlas</map>
+  <map>afDarfur</map>
+  <map>afSavanna</map>
+  <map>afSiwaOasis</map>
+  <map>Andes Upper</map>
+  <map>California</map>
+  <map>Guianas</map>
+  <map>Orinoco</map>
+  <map>Ozarks</map>
+  <map>Texas</map>
+  <map>Deccan</map>
+</randomMaps>

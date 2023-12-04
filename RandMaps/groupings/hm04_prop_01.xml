@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>12</width>
+	<height>10</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="112" posx="-4.5300" posz="-7.1547" orientx="-0.0000" orienty="0.0000" orientz="1.0000">UnderbrushForest</unit>
+		<unit variation="189" posx="-4.4974" posz="-9.0005" orientx="0.7071" orienty="0.0000" orientz="-0.7071">UnderbrushForest</unit>
+		<unit variation="22" posx="-3.6305" posz="-6.9535" orientx="-0.9239" orienty="0.0000" orientz="0.3827">UnderbrushForest</unit>
+		<unit variation="37" posx="-10.6750" posz="-7.0082" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushForest</unit>
+		<unit variation="189" posx="-9.8407" posz="-6.7695" orientx="0.3827" orienty="0.0000" orientz="0.9239">UnderbrushForest</unit>
+		<unit variation="189" posx="-8.4372" posz="-7.8198" orientx="0.7071" orienty="0.0000" orientz="-0.7071">UnderbrushForest</unit>
+		<unit variation="221" posx="-1.3669" posz="-7.8527" orientx="-0.0868" orienty="-0.0000" orientz="0.9962">TreeGreatLakes</unit>
+		<unit variation="221" posx="-7.7617" posz="-7.6932" orientx="-0.0868" orienty="-0.0000" orientz="0.9962">TreeGreatLakes</unit>
+		<unit variation="189" posx="4.2299" posz="-5.0894" orientx="0.7071" orienty="0.0000" orientz="-0.7071">UnderbrushForest</unit>
+		<unit variation="27" posx="-13.0301" posz="-3.9110" orientx="0.9239" orienty="0.0000" orientz="0.3827">UnderbrushForest</unit>
+		<unit variation="221" posx="5.9371" posz="-3.0756" orientx="-0.0868" orienty="-0.0000" orientz="0.9962">TreeGreatLakes</unit>
+		<unit variation="104" posx="-4.9192" posz="-1.8808" orientx="0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushForest</unit>
+		<unit variation="111" posx="-1.5429" posz="-1.8317" orientx="0.3827" orienty="0.0000" orientz="0.9239">UnderbrushForest</unit>
+		<unit variation="124" posx="1.2841" posz="-0.8972" orientx="0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushForest</unit>
+		<unit variation="56" posx="-3.1826" posz="-0.4575" orientx="-0.9239" orienty="0.0000" orientz="0.3827">UnderbrushForest</unit>
+		<unit variation="125" posx="2.0380" posz="-0.3317" orientx="0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushForest</unit>
+		<unit variation="221" posx="-9.5829" posz="1.0189" orientx="-0.3011" orienty="-0.0000" orientz="-0.9536">TreeGreatLakes</unit>
+		<unit variation="218" posx="10.4792" posz="2.6252" orientx="1.0000" orienty="0.0000" orientz="0.0000">UnderbrushForest</unit>
+		<unit variation="221" posx="-2.3231" posz="1.4108" orientx="0.9536" orienty="-0.0000" orientz="-0.3011">TreeGreatLakes</unit>
+		<unit variation="221" posx="2.2964" posz="5.0147" orientx="0.9536" orienty="-0.0000" orientz="-0.3011">TreeGreatLakes</unit>
+		<unit variation="221" posx="10.9370" posz="3.3016" orientx="0.3011" orienty="-0.0000" orientz="0.9536">TreeGreatLakes</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="great_plains\ground3_gp">
+			<block startx="-6" startz="-5" endx="-6" endz="-4"></block>
+			<block startx="-5" startz="-5" endx="-5" endz="-4"></block>
+			<block startx="-4" startz="-5" endx="-4" endz="-5"></block>
+			<block startx="5" startz="-5" endx="5" endz="-5"></block>
+			<block startx="4" startz="0" endx="4" endz="0"></block>
+			<block startx="4" startz="2" endx="4" endz="2"></block>
+			<block startx="5" startz="2" endx="5" endz="2"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_lakes\ground_grass1_gls">
+			<block startx="-6" startz="0" endx="-6" endz="0"></block>
+			<block startx="-6" startz="2" endx="-6" endz="2"></block>
+			<block startx="-4" startz="-1" endx="-4" endz="-1"></block>
+			<block startx="-4" startz="2" endx="-4" endz="3"></block>
+			<block startx="-3" startz="-1" endx="-3" endz="0"></block>
+			<block startx="-3" startz="2" endx="-3" endz="3"></block>
+			<block startx="-2" startz="-1" endx="-2" endz="0"></block>
+			<block startx="-2" startz="2" endx="-2" endz="3"></block>
+			<block startx="-1" startz="0" endx="-1" endz="0"></block>
+			<block startx="-1" startz="2" endx="-1" endz="3"></block>
+			<block startx="0" startz="3" endx="0" endz="4"></block>
+			<block startx="1" startz="3" endx="1" endz="4"></block>
+			<block startx="2" startz="2" endx="2" endz="2"></block>
+			<block startx="2" startz="4" endx="2" endz="4"></block>
+			<block startx="3" startz="-1" endx="3" endz="-1"></block>
+			<block startx="3" startz="2" endx="3" endz="3"></block>
+			<block startx="-4" startz="-4" endx="-4" endz="-4"></block>
+			<block startx="-3" startz="-5" endx="-3" endz="-4"></block>
+			<block startx="-2" startz="-5" endx="-2" endz="-5"></block>
+			<block startx="-1" startz="-5" endx="-1" endz="-5"></block>
+			<block startx="1" startz="-4" endx="1" endz="-3"></block>
+			<block startx="3" startz="-5" endx="3" endz="-4"></block>
+			<block startx="4" startz="-5" endx="4" endz="-4"></block>
+			<block startx="5" startz="-4" endx="5" endz="-4"></block>
+			<block startx="4" startz="-1" endx="4" endz="-1"></block>
+			<block startx="4" startz="1" endx="4" endz="1"></block>
+			<block startx="4" startz="3" endx="4" endz="3"></block>
+			<block startx="5" startz="-1" endx="5" endz="1"></block>
+			<block startx="5" startz="3" endx="5" endz="4"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground12_ara">
+			<block startx="-6" startz="1" endx="-6" endz="1"></block>
+			<block startx="-6" startz="3" endx="-6" endz="4"></block>
+			<block startx="-5" startz="-1" endx="-5" endz="4"></block>
+			<block startx="-4" startz="0" endx="-4" endz="1"></block>
+			<block startx="-4" startz="4" endx="-4" endz="4"></block>
+			<block startx="-3" startz="1" endx="-3" endz="1"></block>
+			<block startx="-3" startz="4" endx="-3" endz="4"></block>
+			<block startx="-2" startz="1" endx="-2" endz="1"></block>
+			<block startx="-2" startz="4" endx="-2" endz="4"></block>
+			<block startx="-1" startz="1" endx="-1" endz="1"></block>
+			<block startx="-1" startz="4" endx="-1" endz="4"></block>
+			<block startx="0" startz="1" endx="0" endz="2"></block>
+			<block startx="1" startz="2" endx="1" endz="2"></block>
+			<block startx="2" startz="-2" endx="2" endz="-2"></block>
+			<block startx="2" startz="3" endx="2" endz="3"></block>
+			<block startx="3" startz="-2" endx="3" endz="-2"></block>
+			<block startx="3" startz="4" endx="3" endz="4"></block>
+			<block startx="-2" startz="-4" endx="-2" endz="-4"></block>
+			<block startx="-1" startz="-4" endx="-1" endz="-4"></block>
+			<block startx="0" startz="-5" endx="0" endz="-4"></block>
+			<block startx="1" startz="-5" endx="1" endz="-5"></block>
+			<block startx="2" startz="-5" endx="2" endz="-3"></block>
+			<block startx="3" startz="-3" endx="3" endz="-3"></block>
+			<block startx="4" startz="-3" endx="4" endz="-3"></block>
+			<block startx="5" startz="-3" endx="5" endz="-3"></block>
+			<block startx="4" startz="-2" endx="4" endz="-2"></block>
+			<block startx="4" startz="4" endx="4" endz="4"></block>
+			<block startx="5" startz="-2" endx="5" endz="-2"></block>
+		</tilegroup>
+		<tilegroup type="Shoreline" subtype="great_lakes\ground_shoreline3_gls">
+			<block startx="-6" startz="-3" endx="-6" endz="-3"></block>
+			<block startx="-5" startz="-3" endx="-5" endz="-3"></block>
+			<block startx="-6" startz="-2" endx="-6" endz="-1"></block>
+			<block startx="-5" startz="-2" endx="-5" endz="-2"></block>
+			<block startx="-4" startz="-2" endx="-4" endz="-2"></block>
+			<block startx="-3" startz="-2" endx="-3" endz="-2"></block>
+			<block startx="-2" startz="-2" endx="-2" endz="-2"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="-1"></block>
+			<block startx="0" startz="-2" endx="0" endz="0"></block>
+			<block startx="1" startz="-2" endx="1" endz="1"></block>
+			<block startx="2" startz="-1" endx="2" endz="1"></block>
+			<block startx="3" startz="0" endx="3" endz="1"></block>
+			<block startx="-4" startz="-3" endx="-4" endz="-3"></block>
+			<block startx="-3" startz="-3" endx="-3" endz="-3"></block>
+			<block startx="-2" startz="-3" endx="-2" endz="-3"></block>
+			<block startx="-1" startz="-3" endx="-1" endz="-3"></block>
+			<block startx="0" startz="-3" endx="0" endz="-3"></block>
+		</tilegroup>
+		<heights>
+			<tiles x="-6" z="-5">-0.296 -0.296 -0.296 -0.261 -0.105 -0.148 0.201 0.021 -0.296 -0.296 -0.296 -0.296 </tiles>
+			<tiles x="-6" z="-4">0.176 0.755 1.117 0.993 0.777 1.292 1.116 0.601 -0.214 -0.296 -0.296 -0.296 </tiles>
+			<tiles x="-6" z="-3">0.923 1.885 2.700 2.394 3.084 3.296 3.322 2.143 0.012 -0.296 -0.296 -0.296 </tiles>
+			<tiles x="-6" z="-2">1.684 2.869 4.009 4.554 4.863 4.868 4.378 3.745 2.261 -0.023 -0.205 -0.296 </tiles>
+			<tiles x="-6" z="-1">2.190 3.411 5.002 5.398 5.488 5.123 4.876 4.915 3.969 1.425 -0.060 -0.294 </tiles>
+			<tiles x="-6" z="0">2.181 2.939 4.181 5.649 4.248 3.983 4.265 4.795 3.968 2.342 0.263 -0.212 </tiles>
+			<tiles x="-6" z="1">0.985 0.743 1.468 0.511 1.034 1.971 2.172 3.100 3.520 2.725 1.496 0.129 </tiles>
+			<tiles x="-6" z="2">-0.044 0.115 -0.169 -0.296 -0.217 -0.033 0.462 1.608 2.436 2.756 2.136 0.812 </tiles>
+			<tiles x="-6" z="3">-0.296 -0.296 -0.296 -0.296 -0.296 -0.296 -0.135 0.216 1.075 1.761 2.453 0.698 </tiles>
+			<tiles x="-6" z="4">-0.296 -0.296 -0.296 -0.296 -0.296 -0.296 -0.296 -0.296 -0.296 0.024 0.325 -0.150 </tiles>
+		</heights>
+	</tiles>
+</grouping>

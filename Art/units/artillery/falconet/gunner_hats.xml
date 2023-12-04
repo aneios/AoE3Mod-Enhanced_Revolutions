@@ -1,0 +1,4 @@
+<animfile>
+  <component>gunner_hats<logic type="Tech"><none></none><fieldgun><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_4age_hat</file></assetreference></fieldgun><grapeshot><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_4age_hat</file></assetreference></grapeshot><howitzer><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_4age_hat</file></assetreference></howitzer><rabauld><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_4age_hat</file></assetreference></rabauld></logic></component>
+  <anim>Idle<component>gunner_hats</component></anim>
+</animfile>

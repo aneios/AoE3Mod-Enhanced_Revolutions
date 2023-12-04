@@ -1,0 +1,448 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Campaign>
+   <!-- DisplayName.  The non-localized name the user will see for this campaign.  -->
+   <DisplayName>Historical Battles</DisplayName>
+   <!-- DisplayNameStringID.  The localized string ID for the name the user will see for this campaign.  Overrides DisplayName.  -->
+   <DisplayNameStringID>90400</DisplayNameStringID>
+
+   <!-- Battle #1 -->
+   <CampaignNode>
+      <Filename>Historical Battles\age3zhb1</Filename>
+      <DisplayName>Algiers</DisplayName>
+      <DisplayNameStringID>71399</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb01</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>71401</LoadTextID>
+
+      <!-- The following are specific to historic battle scenarios, and are used for the metadata on that ui screen -->
+      <CivDisplayNameID>80600</CivDisplayNameID>
+      <ProtagonistDisplayNameID>71400</ProtagonistDisplayNameID>
+      <EnemyCivDisplayNameID>22864</EnemyCivDisplayNameID>
+   </CampaignNode>
+   
+   <!-- Battle #1 Outro -->
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>Historical Battles\age3zhb1b</Filename>
+      <DisplayName>Algiers (aftermath)</DisplayName>
+      <DisplayNameStringID>90406</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>0</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb01</LoadImage>
+      <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <!-- Battle #2 -->
+   <CampaignNode>
+      <Filename>Historical Battles\age3zhb6</Filename>
+      <DisplayName>Christopher da Gama's Expedition</DisplayName>
+      <DisplayNameStringID>71403</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb06</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>71405</LoadTextID>
+
+      <!-- The following are specific to historic battle scenarios, and are used for the metadata on that ui screen -->
+      <CivDisplayNameID>22865</CivDisplayNameID>
+      <ProtagonistDisplayNameID>71404</ProtagonistDisplayNameID>
+      <EnemyCivDisplayNameID>72629</EnemyCivDisplayNameID>
+   </CampaignNode>
+   
+   <!-- Battle #2 Outro -->
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>Historical Battles\age3zhb6b</Filename>
+      <DisplayName>Christopher da Gama's Expedition (aftermath)</DisplayName>
+      <DisplayNameStringID>71406</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>0</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb06</LoadImage>
+      <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+   
+   <!-- Battle #3 -->
+   <CampaignNode>
+      <Filename>Historical Battles\age3zhb2</Filename>
+      <DisplayName>Chuvash Cape</DisplayName>
+      <DisplayNameStringID>71407</DisplayNameStringID>
+      <Visible>0</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb02</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>71409</LoadTextID>
+
+      <!-- The following are specific to historic battle scenarios, and are used for the metadata on that ui screen -->
+      <CivDisplayNameID>22867</CivDisplayNameID>
+      <ProtagonistDisplayNameID>71408</ProtagonistDisplayNameID>
+      <EnemyCivDisplayNameID>80661</EnemyCivDisplayNameID>
+   </CampaignNode>
+   
+   <!-- Battle #3 Outro -->
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>Historical Battles\age3zhb2b</Filename>
+      <DisplayName>Chuvash Cape (aftermath)</DisplayName>
+      <DisplayNameStringID>71410</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>0</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb02</LoadImage>
+      <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <!-- Battle #4 -->
+   <CampaignNode>
+      <Filename>Historical Battles\age3zhb3</Filename>
+      <DisplayName>Raid on the Caribbean</DisplayName>
+      <DisplayNameStringID>71411</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb03</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>71413</LoadTextID>
+
+      <!-- The following are specific to historic battle scenarios, and are used for the metadata on that ui screen -->
+      <CivDisplayNameID>22861</CivDisplayNameID>
+      <ProtagonistDisplayNameID>71412</ProtagonistDisplayNameID>
+      <EnemyCivDisplayNameID>22864</EnemyCivDisplayNameID>
+   </CampaignNode>
+   
+   <!-- Battle #4 Outro -->
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>Historical Battles\age3zhb3b</Filename>
+      <DisplayName>Raid on the Caribbean (aftermath)</DisplayName>
+      <DisplayNameStringID>71414</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>0</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb03</LoadImage>
+      <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <!-- Battle #5 -->
+   <CampaignNode>
+      <Filename>Historical Battles\age3zhb4</Filename>
+      <DisplayName>Fort Duquesne</DisplayName>
+      <DisplayNameStringID>71415</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb04</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>71417</LoadTextID>
+
+      <!-- The following are specific to historic battle scenarios, and are used for the metadata on that ui screen -->
+      <CivDisplayNameID>22862</CivDisplayNameID>
+      <ProtagonistDisplayNameID>71416</ProtagonistDisplayNameID>
+      <EnemyCivDisplayNameID>22861</EnemyCivDisplayNameID>
+   </CampaignNode>
+   
+   <!-- Battle #5 Outro -->
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>Historical Battles\age3zhb4b</Filename>
+      <DisplayName>Fort Duquesne (aftermath)</DisplayName>
+      <DisplayNameStringID>71418</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>0</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb04</LoadImage>
+      <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+
+   <!-- Battle #6 -->
+   <CampaignNode>
+      <Filename>Historical Battles\age3zhb5</Filename>
+      <DisplayName>Battle of New Orleans</DisplayName>
+      <DisplayNameStringID>71419</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb05</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>71421</LoadTextID>
+
+      <!-- The following are specific to historic battle scenarios, and are used for the metadata on that ui screen -->
+      <CivDisplayNameID>34139</CivDisplayNameID>
+      <ProtagonistDisplayNameID>90424</ProtagonistDisplayNameID>
+      <EnemyCivDisplayNameID>22861</EnemyCivDisplayNameID>
+   </CampaignNode>
+   
+   <!-- Battle #6 Outro -->
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>Historical Battles\age3zhb5b</Filename>
+      <DisplayName>Battle of New Orleans (aftermath)</DisplayName>
+      <DisplayNameStringID>90426</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>0</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb05</LoadImage>
+      <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+   
+   
+   <!-- Battle #7 -->
+   <CampaignNode>
+      <Filename>Historical Battles\age3zhb7</Filename>
+      <DisplayName>Fall of the Hausa</DisplayName>
+      <DisplayNameStringID>90400</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb07</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>90402</LoadTextID>
+
+      <!-- The following are specific to historic battle scenarios, and are used for the metadata on that ui screen -->
+      <CivDisplayNameID>101010</CivDisplayNameID>
+      <ProtagonistDisplayNameID>90401</ProtagonistDisplayNameID>
+      <EnemyCivDisplayNameID>101010</EnemyCivDisplayNameID>
+      <DisplayOrder>4</DisplayOrder>
+   </CampaignNode>
+   
+   <!-- Battle #7 Outro -->
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>Historical Battles\age3zhb7b</Filename>
+      <DisplayName>Fall of the Hausa (aftermath)</DisplayName>
+      <DisplayNameStringID>90403</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>0</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+	  
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb07</LoadImage>
+      <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+   
+   <!-- Battle #8 -->
+   <CampaignNode>
+      <Filename>Historical Battles\age3zhb8</Filename>
+      <DisplayName>The Era of the Princes</DisplayName>
+      <DisplayNameStringID>90404</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb08</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>90406</LoadTextID>
+
+      <!-- The following are specific to historic battle scenarios, and are used for the metadata on that ui screen -->
+      <CivDisplayNameID>101000</CivDisplayNameID>
+      <ProtagonistDisplayNameID>90405</ProtagonistDisplayNameID>
+      <EnemyCivDisplayNameID>101000</EnemyCivDisplayNameID>
+      <DisplayOrder>5</DisplayOrder>
+   </CampaignNode>
+   
+   <!-- Battle #8 Outro -->
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>Historical Battles\age3zhb8b</Filename>
+      <DisplayName>The Era of the Princes (aftermath)</DisplayName>
+      <DisplayNameStringID>90407</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>0</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+	  
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb08</LoadImage>
+      <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+   
+   <!-- Battle #9 -->
+   <CampaignNode>
+      <Filename>Historical Battles\age3zhb9</Filename>
+      <DisplayName>The Battle of the Three Kings</DisplayName>
+      <DisplayNameStringID>90408</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb09</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>90410</LoadTextID>
+
+      <!-- The following are specific to historic battle scenarios, and are used for the metadata on that ui screen -->
+      <CivDisplayNameID>101506</CivDisplayNameID>
+      <ProtagonistDisplayNameID>90409</ProtagonistDisplayNameID>
+      <EnemyCivDisplayNameID>22865</EnemyCivDisplayNameID>
+      <DisplayOrder>6</DisplayOrder>
+   </CampaignNode>
+   
+   <!-- Battle #9 Outro -->
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>Historical Battles\age3zhb9b</Filename>
+      <DisplayName>The Battle of the Three Kings (aftermath)</DisplayName>
+      <DisplayNameStringID>90411</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>0</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+	  
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb09</LoadImage>
+      <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+   
+   <!-- Battle #10 -->
+   <CampaignNode>
+      <Filename>Historical Battles\age3zhb10</Filename>
+      <DisplayName>The Burning of USS Philadelphia</DisplayName>
+      <DisplayNameStringID>90427</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb10</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>90429</LoadTextID>
+
+      <!-- The following are specific to historic battle scenarios, and are used for the metadata on that ui screen -->
+      <CivDisplayNameID>110000</CivDisplayNameID>
+      <ProtagonistDisplayNameID>90428</ProtagonistDisplayNameID>
+      <EnemyCivDisplayNameID>80804</EnemyCivDisplayNameID>
+      <DisplayOrder>1</DisplayOrder>
+   </CampaignNode>
+   
+   <!-- Battle #10 Outro -->
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>Historical Battles\age3zhb10b</Filename>
+      <DisplayName>The Burning of USS Philadelphia (aftermath)</DisplayName>
+      <DisplayNameStringID>90430</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>0</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb10</LoadImage>
+      <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+   
+   <!-- Battle #11 -->
+   <CampaignNode>
+      <Filename>Historical Battles\age3zhb11</Filename>
+      <DisplayName>Grito de Dolores</DisplayName>
+      <DisplayNameStringID>90431</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb11</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>90433</LoadTextID>
+
+      <!-- The following are specific to historic battle scenarios, and are used for the metadata on that ui screen -->
+      <CivDisplayNameID>112000</CivDisplayNameID>
+      <ProtagonistDisplayNameID>90432</ProtagonistDisplayNameID>
+      <EnemyCivDisplayNameID>22864</EnemyCivDisplayNameID>
+      <DisplayOrder>2</DisplayOrder>
+   </CampaignNode>
+   
+   <!-- Battle #11 Outro -->
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>Historical Battles\age3zhb11b</Filename>
+      <DisplayName>Grito de Dolores (aftermath)</DisplayName>
+      <DisplayNameStringID>90434</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>0</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb11</LoadImage>
+      <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+   
+   <!-- Battle #12 -->
+   <CampaignNode>
+      <Filename>Historical Battles\age3zhb12</Filename>
+      <DisplayName>Battle of Queenston Heights</DisplayName>
+      <DisplayNameStringID>90435</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb12</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>90437</LoadTextID>
+
+      <!-- The following are specific to historic battle scenarios, and are used for the metadata on that ui screen -->
+      <CivDisplayNameID>112225</CivDisplayNameID>
+      <ProtagonistDisplayNameID>90436</ProtagonistDisplayNameID>
+      <EnemyCivDisplayNameID>110000</EnemyCivDisplayNameID>
+      <DisplayOrder>3</DisplayOrder>
+   </CampaignNode>
+   
+   <!-- Battle #12 Outro -->
+   <CampaignNode>
+      <!-- Filename.  The file (scn or IGC) of this node.  -->
+      <Filename>Historical Battles\age3zhb12b</Filename>
+      <DisplayName>Battle of Queenston Heights (aftermath)</DisplayName>
+      <DisplayNameStringID>90438</DisplayNameStringID>
+      <!-- Visible.  1 means it shows up to the end user, 0 means it does not.  -->
+      <Visible>0</Visible>
+      <PostCinematic>1</PostCinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>spcz_load_screen_hb12</LoadImage>
+      <!-- LoadMode = There are two layouts.  Specify which layout (0 - Text across the bottom, 1 - Text in the middle -->
+      <LoadMode>0</LoadMode>
+   </CampaignNode>
+</Campaign>

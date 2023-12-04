@@ -1,0 +1,4 @@
+<animfile>
+  <component>secrets<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\native_ruins\insuksuk_a</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_ruins\insuksuk_b</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_ruins\insuksuk_c</file></assetreference></data></logic><decal><texture>buildings\native_ruins\inuksuk_ground</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><width>10.00</width><height>10.00</height></decal></component>
+  <anim>Idle<component>secrets</component></anim>
+</animfile>

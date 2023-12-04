@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="90612" imagepath="ui\random_map\american_maps" helpTextID="90613" cannotReplace="">
+  <map>Alaska</map>
+  <map>Amazonia</map>
+  <map>Andes</map>
+  <map>Andes Upper</map>
+  <map>Araucania</map>
+  <map>Arctic Territories</map>
+  <map>Bahia</map>
+  <map>Baja California</map>
+  <map>Bayou</map>
+  <map>California</map>
+  <map>Caribbean</map>
+  <map>Carolina</map>
+  <map>Cascade Range</map>
+  <map>Colorado</map>
+  <map>Dakota</map>
+  <map>Florida</map>
+  <map>Gran Chaco</map>
+  <map>Great Lakes</map>
+  <map>Great Plains</map>
+  <map>Guianas</map>
+  <map>Hispaniola</map>
+  <map>Mexico</map>
+  <map>MinasGerais</map>
+  <map>New England</map>
+  <map>Northwest Territory</map>
+  <map>Orinoco</map>
+  <map>Ozarks</map>
+  <map>Painted Desert</map>
+  <map>Pampas</map>
+  <map>Pampas Sierras</map>
+  <map>Panama</map>
+  <map>Patagonia</map>
+  <map>Plymouth</map>
+  <map>Rockies</map>
+  <map>Saguenay</map>
+  <map>Sonora</map>
+  <map>Texas</map>
+  <map>TexasFrontier</map>
+  <map>Yucatan</map>
+  <map>Yukon</map>
+</randomMaps>

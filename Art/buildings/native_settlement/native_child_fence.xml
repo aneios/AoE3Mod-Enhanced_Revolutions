@@ -1,0 +1,6 @@
+<animfile>
+  <definebone>Bone_attachpointA</definebone>
+  <definebone>Bone_attachpointB</definebone>
+  <component>fence<assetreference type="GrannyModel"><file>buildings\native_settlement\native_child_fence</file></assetreference><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<component>fence</component></anim>
+</animfile>

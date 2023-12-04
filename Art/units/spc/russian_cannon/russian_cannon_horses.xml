@@ -1,0 +1,12 @@
+<animfile>
+  <component>horses<logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>units\spc\russian_cannon\russian_cannon_horses</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>units\spc\russian_cannon\lp_russian_cannon_horse</file></assetreference></lowpoly></logic></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\spc\russian_cannon\russian_cannon_horses_idle</file></assetreference><component>horses</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>units\spc\russian_cannon\russian_cannon_horses_idle</file></assetreference><component>horses</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\spc\russian_cannon\russian_cannon_horses_walk</file><tag type="FootstepLeft">0.30</tag><tag type="FootstepRight">0.80</tag></assetreference><component>horses</component></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>units\spc\russian_cannon\russian_cannon_horses_attack</file></assetreference><component>horses</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>units\spc\russian_cannon\russian_cannon_horses_death</file></assetreference><component>horses</component></anim>
+  <anim>Reload<assetreference type="GrannyAnim"><file>units\spc\russian_cannon\russian_cannon_horses_reload</file></assetreference><component>horses</component></anim>
+  <anim>CombatIdle<assetreference type="GrannyAnim"><file>units\spc\russian_cannon\russian_cannon_horses_combatidle</file></assetreference><component>horses</component></anim>
+  <anim>Limber<assetreference type="GrannyAnim"><file>units\spc\russian_cannon\russian_cannon_horses_limber</file></assetreference><component>horses</component></anim>
+  <anim>Unlimber<assetreference type="GrannyAnim"><file>units\spc\russian_cannon\russian_cannon_horses_unlimber</file></assetreference><component>horses</component></anim>
+</animfile>

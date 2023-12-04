@@ -1,0 +1,4 @@
+<animfile>
+  <component>axe<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\natives\iroquois\tomahawk_warrior\tomahawk_warrior_1_axe</file></assetreference></none><eliteaennas><assetreference type="GrannyModel"><file>units\natives\iroquois\tomahawk_warrior\tomahawk_warrior_2_axe</file></assetreference></eliteaennas><championaennas><assetreference type="GrannyModel"><file>units\natives\iroquois\tomahawk_warrior\tomahawk_warrior_3_axe</file></assetreference></championaennas></logic></component>
+  <anim>Idle<component>axe</component></anim>
+</animfile>

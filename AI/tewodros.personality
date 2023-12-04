@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>101004</nameID>
+   <tooltipID>101005</tooltipID>
+   <forcedciv>DEEthiopians</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>resources/images/icons/singleplayer/cpai_avatar_ethiopian.png</icon>
+   <chatset>tewodros</chatset>
+   <playerNames>
+      <nameID>101004<civ>DEEthiopians</civ></nameID> 
+	</playerNames>
+</AI>

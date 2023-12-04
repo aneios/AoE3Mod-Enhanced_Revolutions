@@ -1,0 +1,4 @@
+<animfile>
+  <component>guns<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\asians\natives\gurkha\gurkha_rifle2</file></assetreference></none><denatoldenburgarmedneutrality><logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_2age_gun</file></assetreference></none><deveteranoldenburg><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_3age_gun</file></assetreference></deveteranoldenburg><denatoldenburgkalthoffrepeaters><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_4age_gun</file></assetreference></denatoldenburgkalthoffrepeaters></logic></denatoldenburgarmedneutrality></logic></component>
+  <anim>Idle<component>guns</component></anim>
+</animfile>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>african_props<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\statues\horse_statue_01</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\statues\horse_statue_02</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\statues\horse_statue_03</file></assetreference></data></logic></component>
+  <anim>Idle<assetreference type="GrannyAnim"></assetreference><component>african_props</component></anim>
+</animfile>

@@ -1,0 +1,12 @@
+<animfile>
+  <definebone>bone_hat</definebone>
+  <definebone>bone_gun</definebone>
+  <definebone>bip01 Prop1</definebone>
+  <attachment>hat<component>hat<assetreference type="GrannyModel"><file>units\infantry_ranged\minuteman\us_marine_hat</file></assetreference></component><anim>Idle<component>hat</component></anim></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\infantry_ranged\minuteman\us_marine</file></assetreference><attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"></attach><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <component>Barrel<assetreference type="GrannyModel"><file>units\spc\marine\marine_barrel</file></assetreference><decal><effecttype>default</effecttype><texture>shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\homecity\2_leg_idle\human_carry_food_idle</file></assetreference><component>Barrel</component></anim>
+  <anim>WalkBarrel<assetreference type="GrannyAnim"><file>animation_library\homecity\2_leg_walk\human_walk_carry_food</file></assetreference><component>Barrel</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\villager\villager_male_walk1</file><tag type="FootstepLeft" footprinttype="HumanLeft">0.33</tag><tag type="FootstepRight" footprinttype="HumanRight">0.73</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Pickup<assetreference type="GrannyAnim"><file>animation_library\explorer\pickup_explorer_A</file><tag type="SpecificSoundSet" checkvisible="1" set="GatherFruit">0.35</tag></assetreference><component>ModelComp</component></anim>
+</animfile>

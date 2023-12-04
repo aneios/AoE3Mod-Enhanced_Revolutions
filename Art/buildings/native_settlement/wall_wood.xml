@@ -1,0 +1,4 @@
+<animfile>
+  <component>wall_wood<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\native_settlement\wall_wood_A</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\wall_wood_B</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\wall_wood_C</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\wall_wood_D</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\wall_wood_E</file></assetreference></data></logic></component>
+  <anim>Idle<component>wall_wood</component></anim>
+</animfile>

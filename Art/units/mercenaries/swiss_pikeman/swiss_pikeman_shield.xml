@@ -1,0 +1,4 @@
+<animfile>
+  <component>shield<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\mercenaries\swiss_pikeman\swiss_pikeman_shield</file></assetreference></none></logic></component>
+  <anim>Idle<component>shield</component></anim>
+</animfile>

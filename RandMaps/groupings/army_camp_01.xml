@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>32</width>
+	<height>32</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="41" posx="0.5465" posz="-1.0103" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCommandPost</unit>
+		<unit variation="7" posx="3.3141" posz="-27.1684" orientx="-1.0000" orienty="0.0000" orientz="0.0000">PropsColony</unit>
+		<unit variation="8" posx="3.1322" posz="-27.9371" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">PropsColony</unit>
+		<unit variation="1" posx="4.5114" posz="-27.2267" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">PropsColony</unit>
+		<unit variation="34" posx="0.7373" posz="-25.4037" orientx="-0.7071" orienty="0.0000" orientz="0.7071">SPCTent</unit>
+		<unit variation="153" posx="-3.8272" posz="-21.0345" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCTent</unit>
+		<unit variation="57" posx="4.4532" posz="-20.3632" orientx="-0.9239" orienty="0.0000" orientz="0.3827">SPCTent</unit>
+		<unit variation="15" posx="0.2329" posz="-18.9377" orientx="-0.9239" orienty="-0.0000" orientz="-0.3827">Campfire</unit>
+		<unit variation="2" posx="7.7606" posz="-13.1601" orientx="-0.3827" orienty="0.0000" orientz="0.9239">PropsColony</unit>
+		<unit variation="4" posx="8.9342" posz="-12.4249" orientx="0.9239" orienty="0.0000" orientz="-0.3827">PropsColony</unit>
+		<unit variation="1" posx="8.3272" posz="-12.1789" orientx="0.9239" orienty="0.0000" orientz="0.3827">PropsColony</unit>
+		<unit variation="112" posx="20.7066" posz="-7.4163" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">SPCTent</unit>
+		<unit variation="1" posx="-18.0640" posz="-6.7554" orientx="-1.0000" orienty="0.0000" orientz="0.0000">PropsColony</unit>
+		<unit variation="9" posx="-19.2558" posz="-6.6766" orientx="-1.0000" orienty="0.0000" orientz="0.0000">PropsColony</unit>
+		<unit variation="11" posx="17.0558" posz="-4.9585" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">Campfire</unit>
+		<unit variation="196" posx="-21.5044" posz="-3.7714" orientx="-0.3827" orienty="0.0000" orientz="0.9239">SPCTent</unit>
+		<unit variation="8" posx="-16.6325" posz="-3.3164" orientx="-1.0000" orienty="0.0000" orientz="0.0000">SPCTent</unit>
+		<unit variation="136" posx="21.8680" posz="-2.9891" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">SPCTent</unit>
+		<unit variation="3" posx="14.2900" posz="-1.1115" orientx="-1.0000" orienty="0.0000" orientz="0.0000">PropsColony</unit>
+		<unit variation="2" posx="14.8104" posz="0.0001" orientx="-1.0000" orienty="0.0000" orientz="0.0000">PropsColony</unit>
+		<unit variation="62" posx="17.4394" posz="-0.5536" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCTent</unit>
+		<unit variation="11" posx="-18.4541" posz="1.9987" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">Campfire</unit>
+		<unit variation="7" posx="-23.5963" posz="3.1424" orientx="0.7071" orienty="0.0000" orientz="0.7071">SPCTent</unit>
+		<unit variation="5" posx="-11.5025" posz="8.4956" orientx="0.0000" orienty="0.0000" orientz="1.0000">PropsColony</unit>
+		<unit variation="1" posx="-12.5624" posz="7.3992" orientx="0.0000" orienty="0.0000" orientz="1.0000">PropsColony</unit>
+		<unit variation="60" posx="1.6605" posz="14.2473" orientx="0.3827" orienty="0.0000" orientz="-0.9239">Campfire</unit>
+		<unit variation="74" posx="5.1789" posz="13.4044" orientx="0.0000" orienty="0.0000" orientz="-1.0000">SPCTent</unit>
+		<unit variation="37" posx="-2.6660" posz="13.8097" orientx="0.3827" orienty="0.0000" orientz="0.9239">SPCTent</unit>
+		<unit variation="2" posx="-0.4266" posz="18.5572" orientx="0.9239" orienty="0.0000" orientz="-0.3827">PropsColony</unit>
+		<unit variation="3" posx="-1.5607" posz="18.6382" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">PropsColony</unit>
+		<unit variation="28" posx="2.2235" posz="18.8184" orientx="0.3827" orienty="0.0000" orientz="-0.9239">SPCTent</unit>
+		<unit variation="1" posx="-0.9764" posz="19.4608" orientx="0.3827" orienty="0.0000" orientz="-0.9239">PropsColony</unit>
+		<unit variation="108" posx="-12.7690" posz="-14.8945" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">Outpost</unit>
+		<unit variation="89" posx="13.0653" posz="-14.8257" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">Outpost</unit>
+		<unit variation="108" posx="17.1062" posz="12.7346" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">Outpost</unit>
+		<unit variation="108" posx="-13.7226" posz="12.2405" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">Outpost</unit>
+	</units>
+</grouping>

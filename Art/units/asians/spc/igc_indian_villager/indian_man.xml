@@ -1,0 +1,8 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\asians\spc\igc_indian_villager\igc_hc_man</file></assetreference><decal><effecttype>default</effecttype><texture>shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\homecity\2_leg_idle\human_idle_homecity_male_a</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\homecity\2_leg_bored\human_bored_homecity_male_a</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\homecity\2_leg_walk\human_walk_homecity_male_a</file><tag type="FootstepLeft">0.30</tag><tag type="FootstepRight">0.80</tag></assetreference><component>ModelComp</component></anim>
+  <anim>OpenDoor<assetreference type="GrannyAnim"><file>animation_library\homecity\2_leg_task\human_opendoor_homecity_male</file></assetreference><component>ModelComp</component></anim>
+  <anim>CloseDoor<assetreference type="GrannyAnim"><file>animation_library\homecity\2_leg_task\human_closedoor_homecity_male</file></assetreference><component>ModelComp</component></anim>
+</animfile>

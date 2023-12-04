@@ -1,0 +1,11 @@
+<animfile>
+  <component>manowar<assetreference type="GrannyModel"><file>units\naval\man_o_war\manowar</file></assetreference></component>
+  <anim>Idle<component>manowar</component><assetreference type="GrannyAnim"></assetreference></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>animation_library\naval\naval_idle_generic_A</file><tag type="Attack">0.45</tag></assetreference><component>manowar</component></anim>
+  <decal>
+    <texture>shadows_selections\shadow_hero_64x64</texture>
+    <selectedtexture>shadows_selections\selection_hero_64x64</selectedtexture>
+    <width>1.50</width>
+    <height>4.00</height>
+  </decal>
+</animfile>

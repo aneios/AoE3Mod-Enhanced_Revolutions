@@ -1,0 +1,4 @@
+<animfile>
+  <component>flag<assetreference type="GrannyModel"><file>units\squad\flag_bearer\attachment_flag</file></assetreference></component>
+  <anim>Idle<component>flag</component></anim>
+</animfile>

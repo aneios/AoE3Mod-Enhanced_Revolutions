@@ -1,0 +1,4 @@
+<animfile>
+  <component>guns<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\natives\ally\navajo_rifleman\navajo_rifleman_gun</file></assetreference></none><deveteranstatemilitia><assetreference type="GrannyModel"><file>units\asians\shared\irregular\Musket_Irr</file></assetreference></deveteranstatemilitia><devolunteers><assetreference type="GrannyModel"><file>units\mercenaries\fusilier\fusilier_gun</file></assetreference></devolunteers><deimperialvolunteers><assetreference type="GrannyModel"><file>units\mercenaries\highlander\highlander_gun</file></assetreference></deimperialvolunteers></logic></component>
+  <anim>Idle<component>guns</component></anim>
+</animfile>

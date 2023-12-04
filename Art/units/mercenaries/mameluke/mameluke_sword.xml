@@ -1,0 +1,4 @@
+<animfile>
+  <component>sword<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\mercenaries\mameluke\mameluke_sword</file></assetreference></none></logic></component>
+  <anim>Idle<component>sword</component></anim>
+</animfile>

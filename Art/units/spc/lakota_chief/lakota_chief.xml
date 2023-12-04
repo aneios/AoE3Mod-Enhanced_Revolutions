@@ -1,0 +1,12 @@
+<animfile>
+  <component>ModelComp<logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>units\spc\lakota_chief\lakotachief</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>units\spc\lakota_chief\lp_lakota_chief</file></assetreference></lowpoly></logic><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_hero_64x64</texture><selectedtexture>shadows_selections\selection_hero_64x64</selectedtexture><width>1.50</width><height>1.50</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\shared\human_idle_generic_a</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\shared\human_bored_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\shared\human_walk_generic_b</file><tag type="FootstepLeft">0.85</tag><tag type="FootstepRight">0.35</tag></assetreference><component>ModelComp</component></anim>
+  <anim>HandAttack<assetreference type="GrannyAnim"><file>animation_library\shared\human_attack_generic_a</file><tag type="Attack">0.45</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\shared\human_death_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Nugget_rock_idle<assetreference type="GrannyAnim"><file>objects\nugget_indian_wolves\nugget_indian_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Nugget_rock_exit<assetreference type="GrannyAnim"><file>objects\nugget_indian_wolves\nugget_indian_exit</file></assetreference><component>ModelComp</component></anim>
+  <anim>Storytelling<assetreference type="GrannyAnim"><file>buildings\native_settlement\lakotachief_storytelling</file></assetreference><component>ModelComp</component></anim>
+  <anim>Nugget_rock_idle_nowolves<assetreference type="GrannyAnim"><file>objects\nugget_indian_wolves\nugget_indian_no_wolves_idle</file></assetreference><component>ModelComp</component></anim>
+</animfile>

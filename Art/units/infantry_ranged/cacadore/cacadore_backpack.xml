@@ -1,0 +1,4 @@
+<animfile>
+  <component>backpack<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\cacadore\cacadore_2age_pack</file></assetreference></none><guardcacadores><assetreference type="GrannyModel"><file>units\infantry_ranged\cacadore\cacadore_4age_pack</file></assetreference></guardcacadores></logic></component>
+  <anim>Idle<component>backpack</component></anim>
+</animfile>

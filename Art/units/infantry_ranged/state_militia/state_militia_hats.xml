@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\state_militia\state_militia_age2_hat</file></assetreference></none><deveteranstatemilitia><assetreference type="GrannyModel"><file>units\infantry_ranged\state_militia\state_militia_age2_hat2</file></assetreference></deveteranstatemilitia><devolunteers><assetreference type="GrannyModel"><file>units\infantry_ranged\state_militia\state_militia_age3_hat</file></assetreference></devolunteers><deimperialvolunteers><assetreference type="GrannyModel"><file>units\infantry_ranged\state_militia\state_militia_age4_hat</file></assetreference></deimperialvolunteers></logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

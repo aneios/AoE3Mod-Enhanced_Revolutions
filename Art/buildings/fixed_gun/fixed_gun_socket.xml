@@ -1,0 +1,4 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>buildings\fixed_gun\fixed_gun_base</file></assetreference></component>
+  <anim>Idle<component>ModelComp</component></anim>
+</animfile>

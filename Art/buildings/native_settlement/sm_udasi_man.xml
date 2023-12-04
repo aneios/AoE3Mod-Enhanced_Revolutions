@@ -1,0 +1,8 @@
+<animfile>
+  <attachment>bhakti_temple<include>buildings\native_settlement\udasi_temple.xml</include></attachment>
+  <component>man<assetreference type="GrannyModel"><file>buildings\native_settlement\indian_male_settler_mixer</file></assetreference><decal><effecttype>default</effecttype><texture>buildings\native_settlement\deccan_decal_01</texture><selectedtexture>shadows_selections\selection_square_64x64</selectedtexture><width>10.00</width><height>10.00</height></decal><attach a="bhakti_temple" frombone="MASTER" tobone="MASTER" syncanims="0"></attach></component>
+  <anim>Mode1_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\udasi_mode1_idle_A</file></assetreference><component>man</component></anim>
+  <anim>Mode1_Mode2<assetreference type="GrannyAnim"><file>buildings\native_settlement\udasi_mixer_enter</file></assetreference><component>man</component></anim>
+  <anim>Mode2_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\udasi_mixer_A</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\udasi_mixer_B</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\udasi_mixer_C</file></assetreference><component>man</component></anim>
+  <anim>Mode2_Mode1<assetreference type="GrannyAnim"><file>buildings\native_settlement\udasi_mixer_exit</file></assetreference><component>man</component></anim>
+</animfile>

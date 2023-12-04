@@ -1,0 +1,4 @@
+<animfile>
+  <component>shield<assetreference type="GrannyModel"><file>units\natives\aztec\macehuatlin\macehuatlin_shield_03</file></assetreference></component>
+  <anim>Idle<component>shield</component></anim>
+</animfile>

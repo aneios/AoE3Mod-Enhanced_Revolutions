@@ -1,0 +1,5 @@
+<animfile>
+  <attachment>spoon<component>spoon<assetreference type="GrannyModel"><file>buildings\native_settlement\sm_cookpot_spoon</file></assetreference></component><anim>Idle<component>spoon</component></anim></attachment>
+  <component>cookpot<assetreference type="GrannyModel"><file>buildings\native_settlement\sm_incan_woman</file></assetreference></component>
+  <anim>Mode1_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_cookpot_cook_idleA</file><weight>5</weight></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_cookpot_cook_idleB</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_cookpot_cook_idleC</file></assetreference><component>cookpot</component><attach a="spoon" frombone="MASTER" tobone="PROP2" syncanims="0"></attach></anim>
+</animfile>

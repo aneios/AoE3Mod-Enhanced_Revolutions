@@ -1,0 +1,4 @@
+<animfile>
+  <component>man<assetreference type="GrannyModel"><file>buildings\asian_civs\spc\saltpeter_site\SaltPeter_elephant</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_square_64x64</selectedtexture><width>10.00</width><height>10.00</height></decal></component>
+  <anim>Mode1_Idle<assetreference type="GrannyAnim"><file>buildings\asian_civs\spc\saltpeter_site\SaltPeter_elephant_idle</file><weight>40</weight></assetreference><assetreference type="GrannyAnim"><file>buildings\asian_civs\spc\saltpeter_site\SaltPeter_elephant_squat</file><weight>10</weight></assetreference><assetreference type="GrannyAnim"><file>buildings\asian_civs\spc\saltpeter_site\SaltPeter_elephant_stomp</file><weight>10</weight></assetreference><component>man</component></anim>
+</animfile>

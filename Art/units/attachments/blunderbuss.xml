@@ -1,0 +1,5 @@
+<animfile>
+  <definebone>master</definebone>
+  <component>blunderbuss<assetreference type="GrannyModel"><file>units\attachments\blunderbuss_villager</file></assetreference></component>
+  <anim>Idle<component>blunderbuss</component></anim>
+</animfile>

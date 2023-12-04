@@ -1,0 +1,4 @@
+<animfile>
+  <component>axe<assetreference type="GrannyModel"><file>units\natives\iroquois\war_chief\axe</file></assetreference></component>
+  <anim>Idle<component>axe</component></anim>
+</animfile>

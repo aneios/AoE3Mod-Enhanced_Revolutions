@@ -1,0 +1,4 @@
+<animfile>
+  <component>quivers<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\natives\aztec\arrow_knight\ak_quiver</file></assetreference></none><eliteaennas><assetreference type="GrannyModel"><file>units\natives\aztec\arrow_knight\ak_quiver</file></assetreference></eliteaennas><championaennas><assetreference type="GrannyModel"><file>units\natives\aztec\arrow_knight\ak_quiver</file></assetreference></championaennas></logic></component>
+  <anim>Idle<component>quivers</component></anim>
+</animfile>

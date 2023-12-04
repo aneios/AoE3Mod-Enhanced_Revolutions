@@ -1,0 +1,4 @@
+<animfile>
+  <component>wall<logic type="Tech"><none><logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\wall\palisade_corner_inside_A</file></assetreference></data></logic></none><bastion><logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\wall\stone_corner_inside_A</file></assetreference></data></logic></bastion></logic></component>
+  <anim>Idle<component>wall</component><assetreference type="GrannyAnim"></assetreference></anim>
+</animfile>

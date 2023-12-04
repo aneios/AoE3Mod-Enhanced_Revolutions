@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>6</width>
+	<height>5</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="149" posx="1.1537" posz="-3.2744" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">GenericCorpse</unit>
+		<unit variation="76" posx="1.9336" posz="1.3098" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">SPCDamagedCannons</unit>
+		<unit variation="138" posx="-1.5188" posz="-2.7116" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">GenericCorpse</unit>
+		<unit variation="179" posx="-2.4610" posz="0.3850" orientx="-1.0000" orienty="0.0000" orientz="-0.0000">GenericCorpse</unit>
+	</units>
+	<tiles>
+		<tilegroup type="Shoreline" subtype="yucatan\ground_shoreline1_yuc">
+			<block startx="-3" startz="-2" endx="-3" endz="2"></block>
+			<block startx="-2" startz="-2" endx="-2" endz="2"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="2"></block>
+			<block startx="0" startz="-2" endx="0" endz="2"></block>
+			<block startx="1" startz="-2" endx="1" endz="2"></block>
+			<block startx="2" startz="-2" endx="2" endz="2"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

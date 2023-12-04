@@ -1,0 +1,4 @@
+<animfile>
+  <component>fence_rock<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\native_settlement\fence_rock_A</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\fence_rock_B</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\fence_rock_C</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\fence_rock_D</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\fence_rock_E</file></assetreference></data></logic></component>
+  <anim>Idle<component>fence_rock</component></anim>
+</animfile>

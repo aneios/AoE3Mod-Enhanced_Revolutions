@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapinfo details="70028" displayNameID="70029" loadDetails="70030" largeMapName = "indochinaLarge"
+    imagepath="ui\random_map\indochina\indochina_mini" cannotReplace="" loadBackground="ui\random_map\indochina\indochina_map">
+  <loadss>ui\random_map\indochina\indochina_ss_01</loadss>
+  <loadss>ui\random_map\indochina\indochina_ss_02</loadss>
+  <loadss>ui\random_map\indochina\indochina_ss_03</loadss>
+</mapinfo>

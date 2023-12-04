@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="90602" imagepath="ui\random_map\standard_maps" helpTextID="90603" cannotReplace="">
+  <map>euAnatolia</map>
+  <map>euBalkans</map>
+  <map>euBohemia</map>
+  <map>euCaucasus</map>
+  <map>euCourland</map>
+  <map>euDnieperBasin</map>
+  <map>euFinland</map>
+  <map>euHungarianPlains</map>
+  <map>euKarelian</map>
+  <map>euLithuania</map>
+  <map>euPomerania</map>
+  <map>euPortugal</map>
+  <map>euPripetMarshes</map>
+  <map>euSaxony</map>
+  <map>euScandinavia</map>
+  <map>euVistulaBasin</map>
+  <map>euWallachia</map>
+  <map>afArabia</map>
+  <map>afDarfur</map>
+  <map>afGreat Rift</map>
+  <map>afLakeChad</map>
+  <map>afNile Valley</map>
+  <map>afSahel</map>
+  <map>afSavanna</map>
+  <map>afSudd</map>
+  <map>afTassili</map>
+  <map>Arctic Territories</map>
+  <map>Colorado</map>
+  <map>Dakota</map>
+  <map>Florida</map>
+  <map>Great Plains</map>
+  <map>Guianas</map>
+  <map>Mexico</map>
+  <map>pampas</map>
+  <map>Rockies</map>
+  <map>Saguenay</map>
+  <map>Texas</map>
+  <map>Fertile Crescent</map>
+  <map>CentralAsia</map>
+  <map>Kamchatka</map>
+  <map>Korea</map>
+  <map>Malaysia</map>
+  <map>Manchuria</map>
+  <map>Mongolia</map>
+  <map>Punjab</map>
+</randomMaps>

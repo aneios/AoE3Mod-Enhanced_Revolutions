@@ -1,0 +1,4 @@
+<animfile>
+  <component>spear<assetreference type="GrannyModel"><file>units\natives\lakota\war_chief\war_chief_spear</file></assetreference></component>
+  <anim>Idle<component>spear</component></anim>
+</animfile>

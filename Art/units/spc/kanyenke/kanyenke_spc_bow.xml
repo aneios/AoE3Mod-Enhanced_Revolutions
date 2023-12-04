@@ -1,0 +1,4 @@
+<animfile>
+  <component>bow<assetreference type="GrannyModel"><file>units\spc\kanyenke\kanyenke_spc_bow</file></assetreference></component>
+  <anim>Idle<component>bow</component></anim>
+</animfile>

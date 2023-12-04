@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>6</width>
+	<height>6</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="136" posx="-0.6732" posz="-4.6481" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">SPCDamagedProps</unit>
+		<unit variation="50" posx="3.8818" posz="-4.2105" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">SPCDamagedProps</unit>
+		<unit variation="114" posx="2.5243" posz="-2.0327" orientx="-0.3827" orienty="0.0000" orientz="0.9239">SPCDamagedCannons</unit>
+		<unit variation="50" posx="2.7083" posz="-5.1358" orientx="-0.7071" orienty="-0.0000" orientz="-0.7071">SPCDamagedProps</unit>
+		<unit variation="50" posx="1.4295" posz="-5.5086" orientx="-0.9239" orienty="-0.0000" orientz="-0.3827">SPCDamagedProps</unit>
+		<unit variation="136" posx="4.7129" posz="-2.0849" orientx="0.9239" orienty="0.0000" orientz="-0.3827">SPCDamagedProps</unit>
+		<unit variation="108" posx="4.2263" posz="-1.5729" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">Fire</unit>
+		<unit variation="245" posx="-0.4564" posz="-1.2287" orientx="0.0000" orienty="0.0000" orientz="-1.0000">GenericCorpse</unit>
+		<unit variation="30" posx="-4.8319" posz="2.5337" orientx="0.3827" orienty="0.0000" orientz="0.9239">SPCDamagedCannons</unit>
+		<unit variation="32" posx="2.6629" posz="0.3774" orientx="-0.7071" orienty="0.0000" orientz="0.7071">GenericCorpse</unit>
+		<unit variation="49" posx="-0.6988" posz="2.9048" orientx="1.0000" orienty="0.0000" orientz="0.0000">Rubble</unit>
+		<unit variation="244" posx="-3.0147" posz="3.6076" orientx="-1.0000" orienty="0.0000" orientz="-0.0000">GenericCorpse</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="great_lakes\ground_grass1_gls">
+			<block startx="-3" startz="-3" endx="-3" endz="-1"></block>
+			<block startx="-2" startz="-3" endx="-2" endz="-2"></block>
+			<block startx="-1" startz="-3" endx="-1" endz="-3"></block>
+			<block startx="-1" startz="1" endx="-1" endz="1"></block>
+			<block startx="0" startz="0" endx="0" endz="1"></block>
+			<block startx="1" startz="1" endx="1" endz="1"></block>
+			<block startx="-3" startz="2" endx="-3" endz="2"></block>
+			<block startx="-2" startz="2" endx="-2" endz="2"></block>
+			<block startx="-1" startz="2" endx="-1" endz="2"></block>
+			<block startx="0" startz="2" endx="0" endz="2"></block>
+			<block startx="1" startz="2" endx="1" endz="2"></block>
+			<block startx="2" startz="2" endx="2" endz="2"></block>
+			<block startx="2" startz="0" endx="2" endz="0"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="texas\walking_path_tex">
+			<block startx="-3" startz="0" endx="-3" endz="1"></block>
+			<block startx="-2" startz="-1" endx="-2" endz="1"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="0"></block>
+			<block startx="0" startz="-3" endx="0" endz="-1"></block>
+			<block startx="1" startz="-3" endx="1" endz="0"></block>
+			<block startx="2" startz="-2" endx="2" endz="-1"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_plains\ground3_gp">
+			<block startx="2" startz="-3" endx="2" endz="-3"></block>
+			<block startx="2" startz="1" endx="2" endz="1"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

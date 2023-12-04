@@ -1,0 +1,4 @@
+<animfile>
+  <component>gun<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\colonial_militia\colonial_militia_gun</file></assetreference></none><despcmercfusiliers><assetreference type="GrannyModel"><file>units\mercenaries\fusilier\fusilier_gun</file></assetreference></despcmercfusiliers></logic></component>
+  <anim>Idle<component>gun</component></anim>
+</animfile>

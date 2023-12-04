@@ -1,0 +1,6 @@
+<animfile>
+  <definebone>bone_flag_civ</definebone>
+  <component>shelter<logic type="BuildingCompletion"><p0><assetreference type="GrannyModel"><file>buildings\Constructions\con_stage_1</file></assetreference></p0><p33><assetreference type="GrannyModel"><file>buildings\Constructions\con_stage_2</file></assetreference></p33><p66><assetreference type="GrannyModel"><file>buildings\Constructions\con_stage_3</file></assetreference></p66><p100><assetreference type="GrannyModel"><file>buildings\field_hospital\west_shelter_age2</file></assetreference></p100></logic><decal><effecttype>default</effecttype><texture>buildings\shelter\shelter_ground</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><width>10.00</width><height>10.00</height></decal></component>
+  <anim>Idle<component>shelter</component></anim>
+  <anim>Heal<assetreference type="GrannyAnim"><file>animation_library\2_leg_task\human_pickup_a</file></assetreference><component>shelter</component></anim>
+</animfile>

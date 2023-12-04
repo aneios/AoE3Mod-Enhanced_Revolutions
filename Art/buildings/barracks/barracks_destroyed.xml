@@ -1,0 +1,11 @@
+<animfile>
+  <definebone>bone_smolder_01</definebone>
+  <definebone>bone_smolder_02</definebone>
+  <definebone>bone_smolder_03</definebone>
+  <definebone>bone_smolder_04</definebone>
+  <attachment>attachment_smolder_small<component>smolder_small<assetreference type="ParticleSystem"><file>effects\smoke\smolder_a.particle</file></assetreference></component><anim>Idle<component>smolder_small</component></anim></attachment>
+  <attachment>attachment_smolder_medium<component>smolder_medium<assetreference type="ParticleSystem"><file>effects\smoke\smolder_b.particle</file></assetreference></component><anim>Idle<component>smolder_medium</component></anim></attachment>
+  <attachment>attachment_smolder_large<component>smolder_large<assetreference type="ParticleSystem"><file>effects\smoke\smolder_c.particle</file></assetreference></component><anim>Idle<component>smolder_large</component></anim></attachment>
+  <component>barracks<assetreference type="GrannyModel"><file>buildings\barracks\WEST\AGE_2\west_barracks_rubble</file></assetreference><decal><effecttype>default</effecttype><texture></texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><width>10.00</width><height>10.00</height></decal></component>
+  <anim>Idle<component>barracks</component><attach a="attachment_smolder_small" frombone="bone_smolder_03" tobone="bone_smolder_03" syncanims="0"></attach><attach a="attachment_smolder_medium" frombone="bone_smolder_02" tobone="bone_smolder_02" syncanims="0"></attach><attach a="attachment_smolder_large" frombone="bone_smolder_04" tobone="bone_smolder_04" syncanims="0"></attach><attach a="attachment_smolder_small" frombone="bone_smolder_01" tobone="bone_smolder_01" syncanims="0"></attach></anim>
+</animfile>

@@ -1,0 +1,18 @@
+<animfile>
+  <definebone>bone_muzzlel01</definebone>
+  <definebone>bone_muzzlel02</definebone>
+  <definebone>bone_muzzlel03</definebone>
+  <definebone>bone_muzzlel04</definebone>
+  <definebone>bone_muzzlel05</definebone>
+  <definebone>bone_muzzlel06</definebone>
+  <definebone>bone_muzzler01</definebone>
+  <definebone>bone_muzzler02</definebone>
+  <definebone>bone_muzzler03</definebone>
+  <definebone>bone_muzzler04</definebone>
+  <definebone>bone_muzzler05</definebone>
+  <definebone>bone_muzzler06</definebone>
+  <component>ModelComp<logic type="Variation"><v1><assetreference type="GrannyModel"><file>units\spc\igc_galleon\IGC_galleon_morgan</file></assetreference></v1></logic><decal><effecttype>default</effecttype><width>0.50</width><height>2.00</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\spc\igc_galleon\IGC_galleon_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>RangedAttackLeft<assetreference type="GrannyAnim"><file>units\spc\igc_galleon\IGC_galleon_FireLeft</file><tag type="SpecificSoundSet" set="ShipCannonShoot">0.03</tag><tag type="SpecificSoundSet" set="ShipCannonShoot">0.07</tag><tag type="SpecificSoundSet" set="ShipCannonShoot">0.13</tag><tag type="SpecificSoundSet" set="ShipCannonShoot">0.24</tag><tag type="SpecificSoundSet" set="ShipCannonShoot">0.39</tag><tag type="SpecificSoundSet" set="ShipCannonShoot">0.49</tag><tag type="Particles" particlename="igcgalleonmuzzlel01">0.00</tag><tag type="Particles" particlename="igcgalleonmuzzlel02">0.04</tag><tag type="Particles" particlename="igcgalleonmuzzlel03">0.08</tag><tag type="Particles" particlename="igcgalleonmuzzlel04">0.22</tag><tag type="Particles" particlename="igcgalleonmuzzlel05">0.37</tag><tag type="Particles" particlename="igcgalleonmuzzlel06">0.47</tag></assetreference><component>ModelComp</component></anim>
+  <anim>RangedAttackRight<assetreference type="GrannyAnim"><file>units\spc\igc_galleon\IGC_galleon_FireRight</file><tag type="SpecificSoundSet" set="ShipCannonShoot">0.02</tag><tag type="SpecificSoundSet" set="ShipCannonShoot">0.10</tag><tag type="SpecificSoundSet" set="ShipCannonShoot">0.18</tag><tag type="SpecificSoundSet" set="ShipCannonShoot">0.27</tag><tag type="SpecificSoundSet" set="ShipCannonShoot">0.34</tag><tag type="SpecificSoundSet" set="ShipCannonShoot">0.47</tag><tag type="Particles" particlename="igcgalleonmuzzler01">0.00</tag><tag type="Particles" particlename="igcgalleonmuzzler02">0.08</tag><tag type="Particles" particlename="igcgalleonmuzzler03">0.15</tag><tag type="Particles" particlename="igcgalleonmuzzler04">0.25</tag><tag type="Particles" particlename="igcgalleonmuzzler05">0.32</tag><tag type="Particles" particlename="igcgalleonmuzzler06">0.45</tag></assetreference><component>ModelComp</component></anim>
+</animfile>

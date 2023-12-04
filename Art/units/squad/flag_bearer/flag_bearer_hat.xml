@@ -1,0 +1,4 @@
+<animfile>
+  <component>hat<assetreference type="GrannyModel"><file>units\squad\flag_bearer\flag_bearer_hat</file></assetreference></component>
+  <anim>Idle<component>hat</component></anim>
+</animfile>

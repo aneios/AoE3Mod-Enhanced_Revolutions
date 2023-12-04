@@ -1,0 +1,4 @@
+<animfile>
+  <component>sword<assetreference type="GrannyModel"><file>units\attachments\dagger\dagger</file></assetreference></component>
+  <anim>Idle<component>sword</component></anim>
+</animfile>

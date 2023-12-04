@@ -1,0 +1,8 @@
+<animfile>
+  <definebone>Bone_attachpointA</definebone>
+  <definebone>Bone_attachpointB</definebone>
+  <definebone>Bone_attachpointC</definebone>
+  <attachment>fire<component>fire<assetreference type="popcornfx"><file>fire\campfire_a.pkfx</file></assetreference></component><anim>Idle<component>fire</component></anim></attachment>
+  <component>cooking_pot<assetreference type="GrannyModel"><file>buildings\native_settlement\native_women_cooking_pot</file></assetreference><decal><effecttype>default</effecttype><width>0.0</width><height>0.0</height></decal><attach a="fire" frombone="coolking_pot" tobone="coolking_pot" syncanims="0"></attach></component>
+  <anim>Idle<component>cooking_pot</component></anim>
+</animfile>

@@ -1,0 +1,8 @@
+<animfile>
+  <attachment>shaolin_temple<include>buildings\native_settlement\shaolin_temple_disciples.xml</include></attachment>
+  <component>man<assetreference type="GrannyModel"><file>buildings\native_settlement\shaolin_class_0</file></assetreference><decal><effecttype>default</effecttype><texture>buildings\native_settlement\shaolin_decal</texture><selectedtexture>shadows_selections\selection_square_64x64</selectedtexture><width>10.00</width><height>10.00</height></decal><attach a="shaolin_temple" frombone="MASTER" tobone="MASTER" syncanims="0"></attach></component>
+  <anim>Mode1_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\shaolin_class_Mode1idle00</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\shaolin_class_Mode1idle01</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\shaolin_class_Mode1idle02</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\shaolin_class_Mode1idle03</file></assetreference><component>man</component></anim>
+  <anim>Mode1_Mode2<assetreference type="GrannyAnim"><file>buildings\native_settlement\shaolin_class_Mode1toMode2</file></assetreference><component>man</component></anim>
+  <anim>Mode2_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\shaolin_class_Mode2idle00</file></assetreference><component>man</component></anim>
+  <anim>Mode2_Mode1<assetreference type="GrannyAnim"><file>buildings\native_settlement\shaolin_class_Mode2toMode1</file></assetreference><component>man</component></anim>
+</animfile>

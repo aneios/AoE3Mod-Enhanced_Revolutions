@@ -1,0 +1,4 @@
+<animfile>
+  <component>Palaces<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\palaces\phanar_mosque</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\palaces\phanar_mosque</file><materialvariant index="1"></materialvariant></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\palaces\phanar_mosque</file><materialvariant index="2"></materialvariant></assetreference></data></logic></component>
+  <anim>Idle<component>Palaces</component></anim>
+</animfile>

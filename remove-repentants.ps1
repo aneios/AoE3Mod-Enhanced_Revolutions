@@ -1,5 +1,5 @@
 # Allowed Missing Animations.xml
-$animationsFile = '$HOME\Games\Age of Empires 3 DE\76561198043389070\mods\local\enhanced revolutions\Data\Allowed Missing Animations.xml'
+$animationsFile = '.\Data\Allowed Missing Animations.xml'
 $animationsNode = [xml](Get-Content $animationsFile)
 
 foreach ($element in $animationsNode.SelectNodes("//unit[contains(@name, 'Repentant')]")) {
@@ -9,7 +9,7 @@ foreach ($element in $animationsNode.SelectNodes("//unit[contains(@name, 'Repent
 $animationsNode.Save($animationsFile)
 
 # attacktime.xml
-$attacksFile = '$HOME\Games\Age of Empires 3 DE\76561198043389070\mods\local\enhanced revolutions\Data\attacktime.xml'
+$attacksFile = '.\Data\attacktime.xml'
 $attacksNode = [xml](Get-Content $attacksFile)
 
 foreach ($element in $attacksNode.SelectNodes("//unit[contains(@name, 'Repentant')]")) {
@@ -19,7 +19,7 @@ foreach ($element in $attacksNode.SelectNodes("//unit[contains(@name, 'Repentant
 $attacksNode.Save($attacksFile)
 
 # protoy.xml
-$protoFile = '$HOME\Games\Age of Empires 3 DE\76561198043389070\mods\local\enhanced revolutions\Data\protoy.xml'
+$protoFile = '.\Data\protoy.xml'
 $protoNode = [xml](Get-Content $protoFile)
 
 foreach ($element in $protoNode.SelectNodes("//unit[contains(@name, 'Repentant')]")) {
@@ -29,7 +29,7 @@ foreach ($element in $protoNode.SelectNodes("//unit[contains(@name, 'Repentant')
 $protoNode.Save($protoFile)
 
 # unithelpy.xml
-$unithelpFile = '$HOME\Games\Age of Empires 3 DE\76561198043389070\mods\local\enhanced revolutions\Data\unithelpy.xml'
+$unithelpFile = '.\Data\unithelpy.xml'
 $unithelpNode = [xml](Get-Content $unithelpFile)
 
 foreach ($element in $unithelpNode.SelectNodes("//entry[contains(@protoname, 'Repentant')]")) {
@@ -39,9 +39,9 @@ foreach ($element in $unithelpNode.SelectNodes("//entry[contains(@protoname, 'Re
 $unithelpNode.Save($unithelpFile)
 
 # techtreedata_asians.xml
-$techtree_asians = @('$HOME\Games\Age of Empires 3 DE\76561198043389070\mods\local\enhanced revolutions\Data\uitechtree\techtreedata_chinese.xml',
-	'$HOME\Games\Age of Empires 3 DE\76561198043389070\mods\local\enhanced revolutions\Data\uitechtree\techtreedata_indians.xml',
-	'$HOME\Games\Age of Empires 3 DE\76561198043389070\mods\local\enhanced revolutions\Data\uitechtree\techtreedata_japanese.xml')
+$techtree_asians = @('.\Data\uitechtree\techtreedata_chinese.xml',
+	'.\Data\uitechtree\techtreedata_indians.xml',
+	'.\Data\uitechtree\techtreedata_japanese.xml')
 
 foreach ($file in $techtree_asians) {
 	$techtreeNode = [xml](Get-Content $file)
@@ -200,7 +200,7 @@ foreach ($file in $techtree_asians) {
 }
 
 # techtreey.xml
-$techtreeFile = '$HOME\Games\Age of Empires 3 DE\76561198043389070\mods\local\enhanced revolutions\Data\techtreey.xml'
+$techtreeFile = '.\Data\techtreey.xml'
 $techtreeNode = [xml](Get-Content $techtreeFile)
 
 foreach ($element in $techtreeNode.SelectNodes("//effect[@subtype='Enable']")) {
@@ -219,7 +219,7 @@ if ($targetNode) {
 $techtreeNode.Save($techtreeFile)
 
 # civs.xml
-$civsFile = '$HOME\Games\Age of Empires 3 DE\76561198043389070\mods\local\enhanced revolutions\Data\civs.xml'
+$civsFile = '.\Data\civs.xml'
 $civsNode = [xml](Get-Content $civsFile)
 $unitNode = $civsNode.SelectSingleNode("//unit[text()='ypRepentantBlindMonk']")
 if ($unitNode) {

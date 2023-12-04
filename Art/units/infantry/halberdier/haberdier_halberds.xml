@@ -1,0 +1,4 @@
+<animfile>
+  <component>halberds<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry\halberdier\halberdier_2age_halberd</file></assetreference></none><guardhalberdiers><assetreference type="GrannyModel"><file>units\infantry\halberdier\halberdier_3age_halberd</file></assetreference></guardhalberdiers><rgnassauslineartactics><assetreference type="GrannyModel"><file>units\infantry\halberdier\spontoon</file></assetreference></rgnassauslineartactics><imperialhalberdiers><assetreference type="GrannyModel"><file>units\infantry\halberdier\halberdier_3age_halberd</file></assetreference></imperialhalberdiers></logic></component>
+  <anim>Idle<component>halberds</component></anim>
+</animfile>

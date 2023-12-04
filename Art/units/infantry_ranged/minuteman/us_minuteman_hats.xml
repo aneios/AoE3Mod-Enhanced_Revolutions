@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<logic type="Tech"><none><logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\minuteman\us_minuteman_hat</file></assetreference></none><colonialize><assetreference type="GrannyModel"><file>units\infantry_ranged\minuteman\us_minuteman_hat2</file></assetreference></colonialize><deimperialusminutemen><assetreference type="GrannyModel"><file>units\spc\us_volunteer\us_volunteer_cylinder</file></assetreference></deimperialusminutemen></logic></none><dehcusmarines><assetreference type="GrannyModel"><file>units\infantry_ranged\minuteman\us_marine_hat</file></assetreference></dehcusmarines></logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

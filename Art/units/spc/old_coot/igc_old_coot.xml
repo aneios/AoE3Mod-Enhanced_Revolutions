@@ -1,0 +1,12 @@
+<animfile>
+  <component>ModelComp<logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>units\spc\old_coot\igc_old_coot</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>units\spc\old_coot\igc_old_coot</file></assetreference></lowpoly></logic><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\IGC\old_coot\idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>SittingIdle<assetreference type="GrannyAnim"><file>animation_library\IGC\old_coot\sitting_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>SittingTalkA<assetreference type="GrannyAnim"><file>animation_library\IGC\old_coot\sitting_TalkA</file></assetreference><component>ModelComp</component></anim>
+  <anim>SittingTalkB<assetreference type="GrannyAnim"><file>animation_library\IGC\old_coot\sitting_TalkB</file></assetreference><component>ModelComp</component></anim>
+  <anim>SittingTalkC<assetreference type="GrannyAnim"><file>animation_library\IGC\old_coot\sitting_TalkC</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\IGC\old_coot\walk</file><tag type="FootstepLeft" footprinttype="HumanLeft">0.55</tag><tag type="FootstepRight" footprinttype="HumanRight">0.15</tag><tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.55</tag><tag type="SpecificSoundSet" checkvisible="1" set="GenericFootsteps">0.15</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Talk2Sec<assetreference type="GrannyAnim"><file>animation_library\IGC\old_coot\talkA</file></assetreference><component>ModelComp</component></anim>
+  <anim>Talk1Sec<assetreference type="GrannyAnim"><file>animation_library\IGC\old_coot\talkB</file></assetreference><component>ModelComp</component></anim>
+  <anim>pointLeftForward<assetreference type="GrannyAnim"><file>animation_library\IGC\old_coot\pointleft</file></assetreference><component>ModelComp</component></anim>
+</animfile>

@@ -1,0 +1,64 @@
+<animfile>
+  <definebone>bone_debris_1A</definebone>
+  <definebone>bone_debris_1B</definebone>
+  <definebone>bone_debris_1C</definebone>
+  <definebone>bone_debris_1D</definebone>
+  <definebone>bone_debris_1E</definebone>
+  <definebone>bone_debris_1F</definebone>
+  <definebone>bone_debris_1G</definebone>
+  <definebone>bone_debris_1H</definebone>
+  <definebone>bone_debris_1I</definebone>
+  <definebone>bone_debris_1J</definebone>
+  <definebone>bone_debris_1K</definebone>
+  <definebone>bone_debris_1L</definebone>
+  <definebone>bone_debris_1M</definebone>
+  <definebone>bone_debris_2A</definebone>
+  <definebone>bone_debris_2B</definebone>
+  <definebone>bone_debris_2C</definebone>
+  <definebone>bone_debris_2D</definebone>
+  <definebone>bone_debris_2f</definebone>
+  <definebone>bone_debris_2g</definebone>
+  <definebone>bone_debris_2i</definebone>
+  <definebone>bone_debris_2j</definebone>
+  <definebone>bone_debris_2k</definebone>
+  <definebone>bone_debris_2l</definebone>
+  <definebone>bone_debris_2m</definebone>
+  <definebone>bone_debris_2n</definebone>
+  <definebone>bone_debris_2o</definebone>
+  <definebone>bone_debris_2E</definebone>
+  <definebone>bone_debris_3A</definebone>
+  <definebone>bone_debris_3B</definebone>
+  <definebone>bone_debris_3C</definebone>
+  <definebone>bone_debris_3D</definebone>
+  <definebone>bone_debris_3E</definebone>
+  <definebone>bone_debris_3F</definebone>
+  <definebone>bone_debris_3G</definebone>
+  <definebone>bone_debris_4a</definebone>
+  <definebone>bone_debris_4b</definebone>
+  <definebone>bone_debris_4c</definebone>
+  <definebone>bone_debris_4d</definebone>
+  <definebone>bone_debris_4e</definebone>
+  <definebone>bone_debris_4f</definebone>
+  <definebone>bone_debris_4g</definebone>
+  <definebone>bone_debris_4h</definebone>
+  <definebone>bone_debris_4i</definebone>
+  <definebone>bone_debris_4j</definebone>
+  <definebone>bone_debris_5a</definebone>
+  <definebone>bone_debris_5b</definebone>
+  <definebone>bone_debris_5c</definebone>
+  <definebone>bone_debris_5d</definebone>
+  <definebone>bone_debris_5e</definebone>
+  <definebone>bone_debris_1N</definebone>
+  <definebone>bone_debris_3H</definebone>
+  <definebone>bone_debris_3I</definebone>
+  <definebone>bone_debris_3J</definebone>
+  <definebone>bone_devris_4e</definebone>
+  <definebone>bone_debirs_4d</definebone>
+  <definebone>bone_debris_2h</definebone>
+  <definebone>bone_debris_5f</definebone>
+  <attachment>collapse_smoke<component>collapse_smoke<assetreference type="popcornFx"><file>smoke\collapse_smoke_2x2.pkfx</file></assetreference></component><anim>Idle<component>collapse_smoke</component></anim></attachment>
+  <component>west_age3<logic type="LowPoly"><normal><logic type="Destruction"><p1><assetreference type="GrannyModel"><file>buildings\livestock pen\WEST\AGE_3\west_livestock_age3_damaged</file></assetreference></p1><p99><assetreference type="GrannyModel" shape="west_livestockpen_age3"><file>buildings\livestock pen\WEST\AGE_3\west_livestock_age3</file></assetreference></p99></logic></normal><lowpoly><assetreference type="GrannyModel" shape="west_livestockpen_age3"><file>buildings\livestock pen\west\age_3\lp_west_livestock_age3</file></assetreference></lowpoly></logic><decal><effecttype>bump</effecttype><texture>buildings\livestock pen\WEST\AGE_2\west_livestock_ground_age2</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>shadows_selections\flat_normal_black_spec</bumptexture><width>11.00</width><height>11.00</height><xoffset>1.25</xoffset><zoffset>1.70</zoffset></decal></component>
+  <component>west_age3_death<logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>buildings\livestock pen\west\age_3\west_livestock_age3_damaged</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>buildings\livestock pen\west\age_3\lp_west_livestock_age3</file></assetreference></lowpoly></logic><decal><effecttype>bump</effecttype><texture>buildings\livestock pen\WEST\AGE_2\west_livestock_ground_age2</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>shadows_selections\flat_normal_black_spec</bumptexture><width>11.00</width><height>11.00</height><xoffset>1.25</xoffset><zoffset>1.70</zoffset></decal></component>
+  <anim>Idle<component>west_age3</component><simskeleton><model>buildings\livestock pen\WEST\AGE_3\west_livestock_age3_damaged</model></simskeleton></anim>
+  <anim>Death<component>west_age3_death</component><attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach></anim>
+</animfile>

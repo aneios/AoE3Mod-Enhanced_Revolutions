@@ -1,0 +1,4 @@
+<animfile>
+  <component>lance<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\cavalry\lancer\lance_3age</file></assetreference></none><guardlancers><assetreference type="GrannyModel"><file>units\cavalry\lancer\lance_4age</file></assetreference></guardlancers></logic></component>
+  <anim>Idle<component>lance</component></anim>
+</animfile>

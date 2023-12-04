@@ -1,0 +1,4 @@
+<animfile>
+  <component>two_handed_club<assetreference type="GrannyModel"><file>units\natives\ally\mapuche\mapuche_club</file></assetreference></component>
+  <anim>Idle<component>two_handed_club</component></anim>
+</animfile>

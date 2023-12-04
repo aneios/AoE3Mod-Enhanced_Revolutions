@@ -1,0 +1,4 @@
+<animfile>
+  <component>axe<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\strelet\strelet_axe_age02</file></assetreference></none><veteranstrelets><assetreference type="GrannyModel"><file>units\infantry_ranged\strelet\strelet_axe_age03</file></assetreference></veteranstrelets><guardstrelets><assetreference type="GrannyModel"><file>units\infantry_ranged\strelet\strelet_axe_age04</file></assetreference></guardstrelets></logic></component>
+  <anim>Idle<component>axe</component></anim>
+</animfile>

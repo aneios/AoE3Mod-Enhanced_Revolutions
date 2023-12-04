@@ -1,0 +1,4 @@
+<animfile>
+  <component>meeting_pole<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\native_settlement\trade_route_marker_a</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\trade_route_marker_b</file></assetreference></data></logic></component>
+  <anim>Idle<component>meeting_pole</component></anim>
+</animfile>

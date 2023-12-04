@@ -1,0 +1,9 @@
+<animfile>
+  <definebone>Bip01 R Foot</definebone>
+  <definebone>Bip01 L Foot</definebone>
+  <definebone>Bip02 R Foot</definebone>
+  <definebone>Bip02 L Foot</definebone>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\spc\deer_unit\deer_unit</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\IGC\deer_unit\idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\IGC\deer_unit\walk</file><tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="Bip01 L Foot">0.35</tag><tag type="FootstepRight" footprinttype="HumanRight" footprintbone="Bip01 R Foot">0.85</tag><tag type="FootstepLeft" footprinttype="HumanLeft" footprintbone="Bip02 L Foot">0.20</tag><tag type="FootstepRight" footprinttype="HumanRight" footprintbone="Bip02 R Foot">0.70</tag></assetreference><component>ModelComp</component></anim>
+</animfile>

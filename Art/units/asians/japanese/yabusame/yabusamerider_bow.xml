@@ -1,0 +1,4 @@
+<animfile>
+  <component>bow<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\asians\japanese\yabusame\yabusameRider_bow</file></assetreference></none></logic></component>
+  <anim>Idle<component>bow</component></anim>
+</animfile>

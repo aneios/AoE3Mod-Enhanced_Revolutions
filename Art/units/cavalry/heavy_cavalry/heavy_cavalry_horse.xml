@@ -1,0 +1,13 @@
+<animfile>
+  <attachment>RiderAttachment<include>units\cavalry\heavy_cavalry\heavy_cavalry_rider.xml</include></attachment>
+  <component>ModelComp<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\cavalry\heavy_cavalry\heavy_cavalry_age1_horse</file></assetreference></none><eliteuhlans><assetreference type="GrannyModel"><file>units\cavalry\heavy_cavalry\heavy_cavalry_age2_horse</file></assetreference></eliteuhlans><guarduhlans><assetreference type="GrannyModel"><file>units\cavalry\heavy_cavalry\heavy_cavalry_age3_horse</file></assetreference></guarduhlans></logic><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture><selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture><width>1.50</width><height>3.00</height></decal><attach a="RiderAttachment" frombone="hotspot" tobone="Attachpoint" syncanims="1"></attach></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_idle_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_bored_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_canter_generic_A</file><tag type="FootstepLeft">0.30</tag><tag type="FootstepRight">0.80</tag></assetreference><component>ModelComp</component></anim>
+  <anim>HandAttack<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_attack_generic_A</file><tag type="Attack">0.45</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_death_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Run<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_run_generic_a</file><tag type="FootstepLeft" footprinttype="Horse">0.80</tag><tag type="FootstepRight" footprinttype="Horse">0.94</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Jog<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_jog_generic_a</file><tag type="FootstepLeft" footprinttype="Horse">0.80</tag><tag type="FootstepRight" footprinttype="Horse">0.94</tag></assetreference><component>ModelComp</component></anim>
+  <anim>StartWalk<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_canter_generic_a_start</file></assetreference><component>ModelComp</component></anim>
+  <anim>StopWalk<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_canter_generic_a_stop</file></assetreference><component>ModelComp</component></anim>
+</animfile>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>bows<assetreference type="GrannyModel"><file>units\cavalry\cav_archer\cav_archer_2age_bow</file></assetreference></component>
+  <anim>Idle<component>bows</component></anim>
+</animfile>

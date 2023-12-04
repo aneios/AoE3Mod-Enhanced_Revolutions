@@ -1,0 +1,4 @@
+<animfile>
+  <component>crossbows<assetreference type="GrannyModel"><file>units\infantry_ranged\crossbow\crossbow_4age_crossbow</file></assetreference></component>
+  <anim>Idle<component>crossbows</component></anim>
+</animfile>

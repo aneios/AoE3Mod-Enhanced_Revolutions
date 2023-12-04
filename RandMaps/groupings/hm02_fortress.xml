@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>65</width>
+	<height>63</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="103" posx="-26.0176" posz="-52.8161" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">deSPCFortCornerProp</unit>
+		<unit variation="38" posx="-20.4069" posz="-50.4475" orientx="0.3827" orienty="0.0000" orientz="-0.9239">deSPCFortWallLargeProp</unit>
+		<unit variation="38" posx="-27.7632" posz="-47.8306" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">deSPCFortWallLargeProp</unit>
+		<unit variation="103" posx="-3.0421" posz="-49.0141" orientx="0.0000" orienty="0.0000" orientz="-1.0000">deSPCFortCornerProp</unit>
+		<unit variation="103" posx="-15.1092" posz="-49.0894" orientx="0.0000" orienty="0.0000" orientz="-1.0000">deSPCFortCornerProp</unit>
+		<unit variation="103" posx="4.9926" posz="-48.9824" orientx="0.0000" orienty="0.0000" orientz="-1.0000">deSPCFortCornerProp</unit>
+		<unit variation="46" posx="1.1890" posz="-48.6469" orientx="0.0000" orienty="-0.0000" orientz="-1.0000">deSPCFortWallMediumProp</unit>
+		<unit variation="38" posx="9.7751" posz="-44.5207" orientx="0.7071" orienty="0.0000" orientz="-0.7071">deSPCFortWallLargeProp</unit>
+		<unit variation="191" posx="-9.0233" posz="-48.4837" orientx="0.0000" orienty="0.0000" orientz="-1.0000">deSPCFortWallLargeProp</unit>
+		<unit variation="103" posx="-31.0578" posz="-42.3638" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">deSPCFortCornerProp</unit>
+		<unit variation="6" posx="-30.7431" posz="-42.2709" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlag</unit>
+		<unit variation="103" posx="14.3329" posz="-40.6690" orientx="0.7071" orienty="0.0000" orientz="-0.7071">deSPCFortCornerProp</unit>
+		<unit variation="191" posx="-36.1120" posz="-38.3962" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">SPCFortGate</unit>
+		<unit variation="38" posx="19.5706" posz="-37.3314" orientx="0.3827" orienty="0.0000" orientz="-0.9239">deSPCFortWallLargeProp</unit>
+		<unit variation="103" posx="25.6225" posz="-35.5234" orientx="0.7071" orienty="0.0000" orientz="-0.7071">deSPCFortCornerProp</unit>
+		<unit variation="6" posx="25.5333" posz="-35.1669" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlag</unit>
+		<unit variation="191" posx="30.2072" posz="-30.7584" orientx="0.7071" orienty="0.0000" orientz="-0.7071">SPCFortGate</unit>
+		<unit variation="103" posx="-40.2344" posz="-33.2532" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">deSPCFortCornerProp</unit>
+		<unit variation="6" posx="-39.7796" posz="-33.0628" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlag</unit>
+		<unit variation="38" posx="-44.7915" posz="-30.3998" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">deSPCFortWallLargeProp</unit>
+		<unit variation="103" posx="34.8318" posz="-26.2163" orientx="0.7071" orienty="0.0000" orientz="-0.7071">deSPCFortCornerProp</unit>
+		<unit variation="103" posx="-50.4338" posz="-28.1073" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">deSPCFortCornerProp</unit>
+		<unit variation="38" posx="-48.1427" posz="-23.3477" orientx="-0.9239" orienty="0.0000" orientz="0.3827">deSPCFortWallLargeProp</unit>
+		<unit variation="6" posx="34.8179" posz="-25.7691" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlag</unit>
+		<unit variation="38" posx="36.9736" posz="-20.1026" orientx="0.9239" orienty="0.0000" orientz="-0.3827">deSPCFortWallLargeProp</unit>
+		<unit variation="103" posx="-46.7591" posz="-17.2800" orientx="-1.0000" orienty="0.0000" orientz="-0.0000">deSPCFortCornerProp</unit>
+		<unit variation="103" posx="39.6166" posz="-15.0621" orientx="0.7071" orienty="0.0000" orientz="-0.7071">deSPCFortCornerProp</unit>
+		<unit variation="191" posx="-46.0874" posz="-11.4461" orientx="-1.0000" orienty="0.0000" orientz="-0.0000">deSPCFortWallLargeProp</unit>
+		<unit variation="38" posx="44.1458" posz="-10.4420" orientx="0.7071" orienty="0.0000" orientz="-0.7071">deSPCFortWallLargeProp</unit>
+		<unit variation="103" posx="47.9727" posz="-7.3142" orientx="1.0000" orienty="0.0000" orientz="0.0000">deSPCFortCornerProp</unit>
+		<unit variation="103" posx="-46.6323" posz="-5.1308" orientx="-1.0000" orienty="0.0000" orientz="-0.0000">deSPCFortCornerProp</unit>
+		<unit variation="46" posx="47.7441" posz="-3.3162" orientx="1.0000" orienty="-0.0000" orientz="0.0000">deSPCFortWallMediumProp</unit>
+		<unit variation="46" posx="-46.1283" posz="-1.0442" orientx="-1.0000" orienty="-0.0000" orientz="-0.0000">deSPCFortWallMediumProp</unit>
+		<unit variation="103" posx="48.0177" posz="0.3984" orientx="1.0000" orienty="0.0000" orientz="0.0000">deSPCFortCornerProp</unit>
+		<unit variation="6" posx="47.7343" posz="0.6216" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlag</unit>
+		<unit variation="103" posx="-46.3569" posz="2.9538" orientx="-1.0000" orienty="0.0000" orientz="-0.0000">deSPCFortCornerProp</unit>
+		<unit variation="191" posx="48.8441" posz="7.1110" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCFortGate</unit>
+		<unit variation="38" posx="-41.8059" posz="7.1058" orientx="-0.7071" orienty="0.0000" orientz="0.7071">deSPCFortWallLargeProp</unit>
+		<unit variation="103" posx="-37.6826" posz="11.7174" orientx="-0.7071" orienty="0.0000" orientz="0.7071">deSPCFortCornerProp</unit>
+		<unit variation="6" posx="47.6382" posz="13.4333" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlag</unit>
+		<unit variation="103" posx="47.9709" posz="13.3294" orientx="1.0000" orienty="0.0000" orientz="0.0000">deSPCFortCornerProp</unit>
+		<unit variation="38" posx="-34.9356" posz="16.8332" orientx="-0.9239" orienty="0.0000" orientz="0.3827">deSPCFortWallLargeProp</unit>
+		<unit variation="38" posx="49.7583" posz="18.9873" orientx="0.9239" orienty="0.0000" orientz="-0.3827">deSPCFortWallLargeProp</unit>
+		<unit variation="103" posx="-32.6322" posz="22.4942" orientx="-0.7071" orienty="0.0000" orientz="0.7071">deSPCFortCornerProp</unit>
+		<unit variation="6" posx="-32.5723" posz="22.2334" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlag</unit>
+		<unit variation="38" posx="46.4070" posz="26.0394" orientx="0.3827" orienty="0.0000" orientz="0.9239">deSPCFortWallLargeProp</unit>
+		<unit variation="103" posx="52.0493" posz="23.7469" orientx="0.9239" orienty="0.0000" orientz="0.3827">deSPCFortCornerProp</unit>
+		<unit variation="191" posx="-28.2629" posz="27.1365" orientx="-0.7071" orienty="0.0000" orientz="0.7071">SPCFortGate</unit>
+		<unit variation="103" posx="41.8499" posz="28.8928" orientx="0.7071" orienty="0.0000" orientz="0.7071">deSPCFortCornerProp</unit>
+		<unit variation="6" posx="41.3277" posz="28.6772" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlag</unit>
+		<unit variation="103" posx="-23.5419" posz="31.6971" orientx="-0.7071" orienty="0.0000" orientz="0.7071">deSPCFortCornerProp</unit>
+		<unit variation="6" posx="-23.2780" posz="31.4950" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlag</unit>
+		<unit variation="38" posx="-17.8017" posz="33.6563" orientx="-0.3827" orienty="0.0000" orientz="0.9239">deSPCFortWallLargeProp</unit>
+		<unit variation="191" posx="37.7036" posz="34.1349" orientx="0.7071" orienty="0.0000" orientz="0.7071">SPCFortGate</unit>
+		<unit variation="103" posx="-12.3031" posz="36.6182" orientx="-0.7071" orienty="0.0000" orientz="0.7071">deSPCFortCornerProp</unit>
+		<unit variation="6" posx="32.2442" posz="37.8088" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlag</unit>
+		<unit variation="103" posx="32.6732" posz="38.0032" orientx="0.7071" orienty="0.0000" orientz="0.7071">deSPCFortCornerProp</unit>
+		<unit variation="38" posx="-7.5210" posz="40.4273" orientx="-0.7071" orienty="0.0000" orientz="0.7071">deSPCFortWallLargeProp</unit>
+		<unit variation="38" posx="29.3785" posz="43.4700" orientx="0.9239" orienty="0.0000" orientz="0.3827">deSPCFortWallLargeProp</unit>
+		<unit variation="103" posx="4.3354" posz="44.5765" orientx="-0.0000" orienty="0.0000" orientz="1.0000">deSPCFortCornerProp</unit>
+		<unit variation="103" posx="17.2664" posz="44.6234" orientx="-0.0000" orienty="0.0000" orientz="1.0000">deSPCFortCornerProp</unit>
+		<unit variation="46" posx="0.5933" posz="44.5678" orientx="-0.0000" orienty="0.0000" orientz="1.0000">deSPCFortWallMediumProp</unit>
+		<unit variation="103" posx="-2.9023" posz="44.4436" orientx="-0.0000" orienty="0.0000" orientz="1.0000">deSPCFortCornerProp</unit>
+		<unit variation="38" posx="22.0222" posz="46.0869" orientx="-0.3827" orienty="0.0000" orientz="0.9239">deSPCFortWallLargeProp</unit>
+		<unit variation="6" posx="4.1168" posz="44.3400" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlag</unit>
+		<unit variation="6" posx="17.1514" posz="44.4420" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlag</unit>
+		<unit variation="191" posx="10.6557" posz="45.1401" orientx="-0.0000" orienty="0.0000" orientz="1.0000">SPCFortGate</unit>
+		<unit variation="103" posx="27.6329" posz="48.4555" orientx="0.3827" orienty="0.0000" orientz="0.9239">deSPCFortCornerProp</unit>
+		<unit variation="113" posx="-19.6287" posz="-40.2616" orientx="0.3827" orienty="0.0000" orientz="-0.9239">deSPCEuroTower</unit>
+		<unit variation="113" posx="15.3093" posz="-30.6356" orientx="0.9239" orienty="-0.0000" orientz="0.3827">deSPCEuroTower</unit>
+		<unit variation="113" posx="-38.2591" posz="-22.3293" orientx="-0.3826" orienty="0.0000" orientz="-0.9239">deSPCEuroTower</unit>
+		<unit variation="113" posx="29.1649" posz="-17.0483" orientx="0.3826" orienty="0.0000" orientz="0.9239">deSPCEuroTower</unit>
+		<unit variation="227" posx="-9.4675" posz="-12.0382" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">deSPCHeadquarters</unit>
+		<unit variation="113" posx="-27.9924" posz="12.4714" orientx="-0.3826" orienty="0.0000" orientz="-0.9239">deSPCEuroTower</unit>
+		<unit variation="113" posx="40.1574" posz="19.2695" orientx="-0.9239" orienty="0.0000" orientz="0.3826">deSPCEuroTower</unit>
+		<unit variation="113" posx="-14.7634" posz="26.1599" orientx="-0.9239" orienty="-0.0000" orientz="-0.3827">deSPCEuroTower</unit>
+		<unit variation="113" posx="22.7546" posz="36.7883" orientx="-0.3827" orienty="0.0000" orientz="0.9239">deSPCEuroTower</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="city\ground1_city_street_ground">
+			<block startx="-21" startz="-16" endx="-21" endz="-16"></block>
+			<block startx="-20" startz="-17" endx="-20" endz="-16"></block>
+			<block startx="-19" startz="-18" endx="-19" endz="-16"></block>
+			<block startx="-18" startz="-19" endx="-18" endz="-16"></block>
+			<block startx="-23" startz="-3" endx="-23" endz="0"></block>
+			<block startx="-22" startz="-7" endx="-22" endz="0"></block>
+			<block startx="-21" startz="-7" endx="-21" endz="0"></block>
+			<block startx="-20" startz="-7" endx="-20" endz="0"></block>
+			<block startx="-19" startz="-7" endx="-19" endz="0"></block>
+			<block startx="-18" startz="-7" endx="-18" endz="0"></block>
+			<block startx="-24" startz="-14" endx="-24" endz="-11"></block>
+			<block startx="-23" startz="-15" endx="-23" endz="-8"></block>
+			<block startx="-22" startz="-15" endx="-22" endz="-8"></block>
+			<block startx="-21" startz="-15" endx="-21" endz="-8"></block>
+			<block startx="-20" startz="-15" endx="-20" endz="-8"></block>
+			<block startx="-19" startz="-15" endx="-19" endz="-8"></block>
+			<block startx="-18" startz="-15" endx="-18" endz="-8"></block>
+			<block startx="-17" startz="-15" endx="-2" endz="0"></block>
+			<block startx="-14" startz="-25" endx="-14" endz="-24"></block>
+			<block startx="-13" startz="-26" endx="-13" endz="-24"></block>
+			<block startx="-12" startz="-26" endx="-12" endz="-24"></block>
+			<block startx="-11" startz="-25" endx="-11" endz="-24"></block>
+			<block startx="-10" startz="-25" endx="-10" endz="-24"></block>
+			<block startx="-17" startz="-20" endx="-17" endz="-16"></block>
+			<block startx="-16" startz="-20" endx="-16" endz="-16"></block>
+			<block startx="-15" startz="-22" endx="-15" endz="-16"></block>
+			<block startx="-14" startz="-23" endx="-14" endz="-16"></block>
+			<block startx="-13" startz="-23" endx="-13" endz="-16"></block>
+			<block startx="-12" startz="-23" endx="-12" endz="-16"></block>
+			<block startx="-11" startz="-23" endx="-11" endz="-16"></block>
+			<block startx="-10" startz="-23" endx="-10" endz="-16"></block>
+			<block startx="-9" startz="-23" endx="-2" endz="-16"></block>
+			<block startx="-9" startz="-24" endx="-9" endz="-24"></block>
+			<block startx="-7" startz="-24" endx="-7" endz="-24"></block>
+			<block startx="-6" startz="-24" endx="-6" endz="-24"></block>
+			<block startx="-5" startz="-25" endx="-5" endz="-24"></block>
+			<block startx="-4" startz="-25" endx="-4" endz="-24"></block>
+			<block startx="-3" startz="-25" endx="-3" endz="-24"></block>
+			<block startx="-2" startz="-25" endx="-2" endz="-24"></block>
+			<block startx="-23" startz="1" endx="-23" endz="1"></block>
+			<block startx="-22" startz="1" endx="-22" endz="2"></block>
+			<block startx="-21" startz="1" endx="-21" endz="3"></block>
+			<block startx="-20" startz="1" endx="-20" endz="4"></block>
+			<block startx="-19" startz="1" endx="-19" endz="6"></block>
+			<block startx="-18" startz="1" endx="-18" endz="8"></block>
+			<block startx="-9" startz="17" endx="-9" endz="17"></block>
+			<block startx="-8" startz="17" endx="-8" endz="17"></block>
+			<block startx="-7" startz="17" endx="-7" endz="17"></block>
+			<block startx="-6" startz="17" endx="-6" endz="18"></block>
+			<block startx="-5" startz="17" endx="-5" endz="18"></block>
+			<block startx="-4" startz="17" endx="-4" endz="19"></block>
+			<block startx="-3" startz="17" endx="-3" endz="20"></block>
+			<block startx="-2" startz="17" endx="-2" endz="22"></block>
+			<block startx="-17" startz="1" endx="-10" endz="8"></block>
+			<block startx="-17" startz="9" endx="-17" endz="10"></block>
+			<block startx="-16" startz="9" endx="-16" endz="11"></block>
+			<block startx="-15" startz="9" endx="-15" endz="12"></block>
+			<block startx="-14" startz="9" endx="-14" endz="14"></block>
+			<block startx="-13" startz="9" endx="-13" endz="15"></block>
+			<block startx="-12" startz="9" endx="-12" endz="15"></block>
+			<block startx="-11" startz="9" endx="-11" endz="16"></block>
+			<block startx="-10" startz="9" endx="-10" endz="16"></block>
+			<block startx="-9" startz="9" endx="-2" endz="16"></block>
+			<block startx="-9" startz="1" endx="-2" endz="8"></block>
+			<block startx="-1" startz="1" endx="14" endz="16"></block>
+			<block startx="-1" startz="17" endx="-1" endz="23"></block>
+			<block startx="0" startz="17" endx="0" endz="23"></block>
+			<block startx="1" startz="17" endx="1" endz="22"></block>
+			<block startx="2" startz="17" endx="2" endz="21"></block>
+			<block startx="3" startz="17" endx="3" endz="22"></block>
+			<block startx="4" startz="17" endx="4" endz="22"></block>
+			<block startx="5" startz="17" endx="5" endz="22"></block>
+			<block startx="6" startz="17" endx="6" endz="22"></block>
+			<block startx="7" startz="17" endx="7" endz="22"></block>
+			<block startx="8" startz="17" endx="8" endz="21"></block>
+			<block startx="9" startz="17" endx="9" endz="21"></block>
+			<block startx="10" startz="17" endx="10" endz="23"></block>
+			<block startx="11" startz="17" endx="11" endz="24"></block>
+			<block startx="12" startz="17" endx="12" endz="24"></block>
+			<block startx="13" startz="17" endx="13" endz="24"></block>
+			<block startx="14" startz="17" endx="14" endz="23"></block>
+			<block startx="15" startz="17" endx="15" endz="20"></block>
+			<block startx="16" startz="17" endx="16" endz="18"></block>
+			<block startx="17" startz="17" endx="17" endz="18"></block>
+			<block startx="18" startz="17" endx="18" endz="17"></block>
+			<block startx="15" startz="1" endx="22" endz="8"></block>
+			<block startx="15" startz="9" endx="15" endz="16"></block>
+			<block startx="16" startz="9" endx="16" endz="16"></block>
+			<block startx="17" startz="9" endx="17" endz="16"></block>
+			<block startx="18" startz="9" endx="18" endz="16"></block>
+			<block startx="19" startz="9" endx="19" endz="16"></block>
+			<block startx="20" startz="9" endx="20" endz="15"></block>
+			<block startx="21" startz="9" endx="21" endz="14"></block>
+			<block startx="22" startz="9" endx="22" endz="13"></block>
+			<block startx="23" startz="9" endx="23" endz="13"></block>
+			<block startx="24" startz="9" endx="24" endz="12"></block>
+			<block startx="23" startz="1" endx="23" endz="8"></block>
+			<block startx="24" startz="3" endx="24" endz="5"></block>
+			<block startx="-1" startz="-24" endx="-1" endz="-24"></block>
+			<block startx="0" startz="-24" endx="0" endz="-24"></block>
+			<block startx="1" startz="-24" endx="1" endz="-24"></block>
+			<block startx="-1" startz="-23" endx="-1" endz="-16"></block>
+			<block startx="0" startz="-23" endx="0" endz="-16"></block>
+			<block startx="1" startz="-23" endx="1" endz="-16"></block>
+			<block startx="2" startz="-23" endx="2" endz="-16"></block>
+			<block startx="3" startz="-23" endx="3" endz="-16"></block>
+			<block startx="4" startz="-22" endx="4" endz="-16"></block>
+			<block startx="5" startz="-21" endx="5" endz="-16"></block>
+			<block startx="6" startz="-20" endx="6" endz="-16"></block>
+			<block startx="7" startz="-20" endx="7" endz="-16"></block>
+			<block startx="8" startz="-20" endx="8" endz="-16"></block>
+			<block startx="9" startz="-19" endx="9" endz="-16"></block>
+			<block startx="10" startz="-18" endx="10" endz="-16"></block>
+			<block startx="11" startz="-18" endx="11" endz="-16"></block>
+			<block startx="12" startz="-18" endx="12" endz="-16"></block>
+			<block startx="13" startz="-18" endx="13" endz="-16"></block>
+			<block startx="14" startz="-17" endx="14" endz="-16"></block>
+			<block startx="-1" startz="-15" endx="14" endz="0"></block>
+			<block startx="15" startz="-15" endx="15" endz="-8"></block>
+			<block startx="16" startz="-13" endx="16" endz="-8"></block>
+			<block startx="17" startz="-12" endx="17" endz="-8"></block>
+			<block startx="18" startz="-10" endx="18" endz="-8"></block>
+			<block startx="15" startz="-7" endx="15" endz="0"></block>
+			<block startx="16" startz="-7" endx="16" endz="0"></block>
+			<block startx="17" startz="-7" endx="17" endz="0"></block>
+			<block startx="18" startz="-7" endx="18" endz="0"></block>
+			<block startx="19" startz="-7" endx="19" endz="0"></block>
+			<block startx="20" startz="-6" endx="20" endz="0"></block>
+			<block startx="21" startz="-6" endx="21" endz="0"></block>
+			<block startx="22" startz="-5" endx="22" endz="0"></block>
+			<block startx="23" startz="-5" endx="23" endz="0"></block>
+			<block startx="24" startz="-2" endx="24" endz="-1"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

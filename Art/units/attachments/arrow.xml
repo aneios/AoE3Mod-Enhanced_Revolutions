@@ -1,0 +1,4 @@
+<animfile>
+  <component>arrow<assetreference type="GrannyModel"><file>units\attachments\arrow_attachment</file></assetreference></component>
+  <anim>Idle<component>arrow</component></anim>
+</animfile>

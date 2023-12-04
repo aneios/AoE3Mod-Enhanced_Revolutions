@@ -1,0 +1,4 @@
+<animfile>
+  <component>beaver_lodge<assetreference type="GrannyModel"><file>buildings\beaver_lodge\beaver_lodge</file></assetreference><decal><effecttype>bump</effecttype><texture>buildings\beaver_lodge\beaverlodge_ground</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\beaver_lodge\beaverlodge_ground_b</bumptexture><width>7.00</width><height>7.00</height><xoffset>0.00</xoffset><zoffset>0.00</zoffset></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>buildings\beaver_lodge\beaver_nugget_idle</file></assetreference><component>beaver_lodge</component></anim>
+</animfile>

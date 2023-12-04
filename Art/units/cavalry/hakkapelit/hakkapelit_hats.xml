@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\carolean\carolean_age2_hat</file></assetreference></none><veteranfinnishriders><assetreference type="GrannyModel"><file>units\infantry\pikeman\pikeman_3age_hat</file></assetreference></veteranfinnishriders><rgdrabants><assetreference type="GrannyModel"><file>units\infantry_ranged\minuteman\minuteman_hat</file></assetreference></rgdrabants><imperialdrabants><assetreference type="GrannyModel"><file>units\infantry_ranged\carolean\carolean_age3_hat</file></assetreference></imperialdrabants></logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

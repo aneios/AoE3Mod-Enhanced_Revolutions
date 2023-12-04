@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>3</width>
+	<height>2</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="185" posx="-0.8023" posz="-0.9586" orientx="0.3827" orienty="-0.0000" orientz="-0.9239">UnderbrushRockiesSnow</unit>
+		<unit variation="113" posx="0.9126" posz="-0.6899" orientx="0.3827" orienty="-0.0051" orientz="0.9239">SPCCasualties</unit>
+		<unit variation="48" posx="-2.2008" posz="1.2611" orientx="0.9239" orienty="0.0000" orientz="0.3827">SPCCasualtyCart</unit>
+		<unit variation="182" posx="3.2114" posz="0.8405" orientx="0.3827" orienty="-0.0000" orientz="-0.9239">UnderbrushRockiesSnow</unit>
+		<unit variation="165" posx="-1.9698" posz="1.9566" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushRockiesSnow</unit>
+		<unit variation="166" posx="0.2307" posz="1.8457" orientx="0.3827" orienty="-0.0000" orientz="-0.9239">UnderbrushRockiesSnow</unit>
+		<unit variation="169" posx="2.8040" posz="2.0390" orientx="0.3827" orienty="-0.0000" orientz="-0.9239">UnderbrushRockiesSnow</unit>
+	</units>
+</grouping>

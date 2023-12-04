@@ -1,0 +1,10 @@
+<animfile>
+  <submodel>indian_hc_girl<include>units\asians\spc\igc_indian_villager\indian_girl.xml</include></submodel>
+  <submodel>indian_hc_man<include>units\asians\spc\igc_indian_villager\indian_man.xml</include></submodel>
+  <submodel>indian_hc_monk<include>units\asians\spc\igc_indian_villager\indian_monk.xml</include></submodel>
+  <submodel>indian_hc_woman<include>units\asians\spc\igc_indian_villager\indian_woman.xml</include></submodel>
+  <submodel>indian_hc_snakecharmer<include>units\asians\spc\igc_indian_villager\indian_snakecharmer.xml</include></submodel>
+  <submodel>indian_hc_man2<include>units\asians\spc\igc_indian_villager\indian_man2.xml</include></submodel>
+  <submodel>indian_hc_woman2<include>units\asians\spc\igc_indian_villager\indian_woman2.xml</include></submodel>
+  <component>variations<logic type="Variation"><data><submodelref ref="indian_hc_girl"></submodelref></data><data><submodelref ref="indian_hc_man"></submodelref></data><data><submodelref ref="indian_hc_monk"></submodelref></data><data><submodelref ref="indian_hc_woman"></submodelref></data><data><submodelref ref="indian_hc_snakecharmer"></submodelref></data><data><submodelref ref="indian_hc_man2"></submodelref></data><data><submodelref ref="indian_hc_woman2"></submodelref></data></logic></component>
+</animfile>

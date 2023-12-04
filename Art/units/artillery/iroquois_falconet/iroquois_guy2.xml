@@ -1,0 +1,22 @@
+<animfile>
+  <component>mortar_guy<logic type="LowPoly"><normal><logic type="Tech"><none><assetreference type="GrannyModel"><file>units\artillery\iroquois_falconet\iroquois_guy2</file></assetreference></none><howitzer><assetreference type="GrannyModel"><file>units\artillery\iroquois_falconet\iroquois_guy2</file></assetreference></howitzer></logic></normal><lowpoly><assetreference type="GrannyModel"><file>units\artillery\iroquois_falconet\iroquois_guy2</file></assetreference></lowpoly></logic></component>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\walk</file></assetreference><component>mortar_guy</component></anim>
+  <anim>Jog<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\walk</file></assetreference><component>mortar_guy</component></anim>
+  <anim>Run<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\walk</file></assetreference><component>mortar_guy</component></anim>
+  <anim>idle<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\idle</file></assetreference><component>mortar_guy</component></anim>
+  <anim>bored<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\idle</file></assetreference><component>mortar_guy</component></anim>
+  <anim>Death_by_melee<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\death</file></assetreference><component>mortar_guy</component></anim>
+  <anim>Death_by_range<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\death</file></assetreference><component>mortar_guy</component></anim>
+  <anim>Cheer<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\cheer</file></assetreference><component>mortar_guy</component></anim>
+  <anim>Bombard_ranged_idle<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\bombard_idle</file></assetreference><component>mortar_guy</component></anim>
+  <anim>Bombard_ranged_attack<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\bombard_attack</file><tag type="Attack">0.50</tag><tag type="SpecificSoundSet" checkvisible="1" set="CulverinShoot">0.40</tag></assetreference><component>mortar_guy</component><attach a="attachment_smoke_puff" frombone="ATTACHPOINT" tobone="MASTER" syncanims="0"></attach></anim>
+  <anim>Bombard_aim<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\bombard_idle</file></assetreference><component>mortar_guy</component></anim>
+  <anim>Bombard_reload<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\bombard_reload</file></assetreference><component>mortar_guy</component></anim>
+  <anim>Bombard_bored<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\bombard_idle</file></assetreference><component>mortar_guy</component></anim>
+  <anim>Bombard_walk<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\bombard_walk</file></assetreference><component>mortar_guy</component></anim>
+  <anim>Bombard_jog<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\bombard_walk</file></assetreference><component>mortar_guy</component></anim>
+  <anim>Bombard_run<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\bombard_walk</file></assetreference><component>mortar_guy</component></anim>
+  <anim>Bombard_cheer<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\cheer</file></assetreference><component>mortar_guy</component></anim>
+  <anim>Bombard_Recoil<assetreference type="GrannyAnim"><file>animation_library\shared\recoil_A</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\shared\recoil_C</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\shared\recoil_E</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bombard_death<assetreference type="GrannyAnim"><file>animation_library\artillery\iroquois_falconet\guy2\death</file></assetreference><component>mortar_guy</component></anim>
+</animfile>

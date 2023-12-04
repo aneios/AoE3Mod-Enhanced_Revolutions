@@ -1,0 +1,4 @@
+<animfile>
+  <component>musket<assetreference type="GrannyModel"><file>units\attachments\musketa</file></assetreference></component>
+  <anim>Idle<component>musket</component></anim>
+</animfile>

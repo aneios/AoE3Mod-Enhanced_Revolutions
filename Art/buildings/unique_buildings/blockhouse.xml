@@ -1,0 +1,4 @@
+<animfile>
+  <component>ModelComp<logic type="BuildingCompletion"><p0><assetreference type="GrannyModel"><file>buildings\Constructions\con_stage_1</file></assetreference></p0><p33><assetreference type="GrannyModel"><file>buildings\Constructions\con_stage_2</file></assetreference></p33><p66><assetreference type="GrannyModel"><file>buildings\Constructions\con_stage_3</file></assetreference></p66><p100><assetreference type="GrannyModel"><file>buildings\unique_buildings\blockhouse_2age</file></assetreference></p100></logic></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>buildings\unique_buildings\blockhouse_2age</file></assetreference><component>ModelComp</component></anim>
+</animfile>

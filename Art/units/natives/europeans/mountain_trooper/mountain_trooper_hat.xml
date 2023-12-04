@@ -1,0 +1,4 @@
+<animfile>
+  <component>hat<assetreference type="GrannyModel"><file>units\natives\europeans\mountain_trooper\mountain_trooper_hat</file></assetreference></component>
+  <anim>Idle<component>hat</component></anim>
+</animfile>

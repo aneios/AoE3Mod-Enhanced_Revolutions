@@ -1,0 +1,5 @@
+<animfile>
+  <attachment>merchant_icon<include>ui\victory_points\merchant\merchant_icon.xml</include></attachment>
+  <component>jimmy<assetreference type="GrannyModel"><file>effects\fire\directional_arrow</file></assetreference></component>
+  <anim>Idle<component>jimmy</component><attach a="merchant_icon" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach></anim>
+</animfile>

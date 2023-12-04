@@ -1,0 +1,8 @@
+<blueprint>
+  <mass>7500.0</mass>
+  <friction>20.0</friction>
+  <restitution>0.0</restitution>
+  <centerofmassoffset>0,0,0</centerofmassoffset>
+  <angulardampening>20.01</angulardampening>
+  <shape>spc_fountainofyouth</shape>
+</blueprint>

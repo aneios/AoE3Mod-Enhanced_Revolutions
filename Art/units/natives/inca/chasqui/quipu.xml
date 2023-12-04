@@ -1,0 +1,15 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\natives\inca\chasqui\chasqui_quipu</file></assetreference></component>
+  <anim>Death_by_melee<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_folded</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_folded</file></assetreference><component>ModelComp</component></anim>
+  <anim>Death_by_range<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_folded</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_folded</file></assetreference><component>ModelComp</component></anim>
+  <anim>Death_by_havoc<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_folded</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_folded</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_folded</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_folded</file></assetreference><component>ModelComp</component></anim>
+  <anim>Death_havoc_flail<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_folded</file></assetreference><component>ModelComp</component></anim>
+  <anim>Death_havoc_spin<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_folded</file></assetreference><component>ModelComp</component></anim>
+  <anim>Cheer<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_folded</file></assetreference><component>ModelComp</component></anim>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_idle00</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_bored01</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_walk</file></assetreference><component>ModelComp</component></anim>
+  <anim>Jog<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_walk</file></assetreference><component>ModelComp</component></anim>
+  <anim>Run<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_walk</file></assetreference><component>ModelComp</component></anim>
+  <anim>HandAttack<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_attack01</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_attack02</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_attack04</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_attack05</file></assetreference><component>ModelComp</component></anim>
+</animfile>

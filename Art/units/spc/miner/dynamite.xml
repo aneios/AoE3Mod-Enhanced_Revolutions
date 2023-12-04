@@ -1,0 +1,8 @@
+<animfile>
+  <definebone>bone_dynamite</definebone>
+  <attachment>fusesparks<component>fusesparks<assetreference type="ParticleSystem"><file>effects\spc\fusesparks.particle</file></assetreference></component><anim>None<component>fusesparks</component></anim></attachment>
+  <component>Dynamite<assetreference type="GrannyModel"><file>units\spc\miner\dynamite</file></assetreference></component>
+  <anim>Idle<component>Dynamite</component></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>units\spc\miner\dynamite_attack</file></assetreference><component>Dynamite</component><attach a="fusesparks" frombone="ATTACHPOINT" tobone="bone_dynamite" syncanims="0"></attach></anim>
+  <anim>Raze_Attack<assetreference type="GrannyAnim"><file>units\spc\miner\dynamite_attack</file></assetreference><component>Dynamite</component><attach a="fusesparks" frombone="ATTACHPOINT" tobone="bone_dynamite" syncanims="0"></attach></anim>
+</animfile>

@@ -1,0 +1,11 @@
+<animfile>
+  <definebone>bone_FX01</definebone>
+  <definebone>bone_FX02</definebone>
+  <definebone>bone_FX03</definebone>
+  <attachment>Butterflies1<include>effects\animal particles\butterflyHerd.xml</include></attachment>
+  <attachment>Butterflies2<include>effects\animal particles\butterflyHerd.xml</include></attachment>
+  <attachment>Butterflies3<include>effects\animal particles\butterflyHerd.xml</include></attachment>
+  <attachment>pollen<component>pollenEmitter<assetreference type="ParticleSystem"><file>effects\smoke\nugget_pollen.particle</file></assetreference></component><anim>None<component>pollenEmitter</component></anim></attachment>
+  <component>havana_nugget<assetreference type="GrannyModel"><file>buildings\spc\havana_nugget\havana_nugget</file></assetreference><decal><effecttype>bump</effecttype><texture>buildings\spc\havana_nugget\havana_nugget_ground</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\spc\havana_nugget\Havana_nugget_ground_b</bumptexture><width>4.00</width><height>4.00</height></decal></component>
+  <anim>Idle<component>havana_nugget</component><attach a="Butterflies1" frombone="ATTACHPOINT" tobone="bone_FX01" syncanims="0"></attach><attach a="Butterflies2" frombone="ATTACHPOINT" tobone="bone_FX02" syncanims="0"></attach><attach a="Butterflies3" frombone="ATTACHPOINT" tobone="bone_FX03" syncanims="0"></attach><attach a="pollen" frombone="ATTACHPOINT" tobone="bone_FX01" syncanims="0"></attach></anim>
+</animfile>

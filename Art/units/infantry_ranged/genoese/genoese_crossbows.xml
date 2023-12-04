@@ -1,0 +1,4 @@
+<animfile>
+  <component>crossbows<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\crossbow\crossbow_1age_crossbow</file></assetreference></none><deveteranpavisiers><assetreference type="GrannyModel"><file>units\infantry_ranged\crossbow\crossbow_2age_crossbow</file></assetreference></deveteranpavisiers><deguardpavisiers><assetreference type="GrannyModel"><file>units\infantry_ranged\crossbow\crossbow_3age_crossbow</file></assetreference></deguardpavisiers><deimperialpavisiers><assetreference type="GrannyModel"><file>units\infantry_ranged\crossbow\crossbow_3age_crossbow</file></assetreference></deimperialpavisiers></logic></component>
+  <anim>Idle<component>crossbows</component></anim>
+</animfile>

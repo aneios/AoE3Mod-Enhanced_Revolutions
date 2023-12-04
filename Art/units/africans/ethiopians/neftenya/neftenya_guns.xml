@@ -1,0 +1,4 @@
+<animfile>
+  <component>guns<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_3age_gun</file></assetreference></none><deeliteinfantryethiopian><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_4age_gun</file></assetreference></deeliteinfantryethiopian><dechampioninfantryethiopian><assetreference type="GrannyModel"><file>units\spc\outlaws\outlaw_shotgun_gun_us</file></assetreference></dechampioninfantryethiopian><delegendaryinfantryethiopian><assetreference type="GrannyModel"><file>units\asians\spc\prava\spc_pravar_gun</file></assetreference></delegendaryinfantryethiopian></logic></component>
+  <anim>Idle<component>guns</component></anim>
+</animfile>

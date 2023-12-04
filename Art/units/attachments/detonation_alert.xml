@@ -1,0 +1,9 @@
+<animfile>
+  <definebone>bone_master</definebone>
+  <definebone>bone_north</definebone>
+  <definebone>bone_south</definebone>
+  <definebone>bone_east</definebone>
+  <definebone>bone_west</definebone>
+  <component>ModelComp<assetreference type="PopcornFX"><file>objects\pings\ping_danger.pkfx</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>ui\waypoint_flag\move_to_idle</file></assetreference><component>ModelComp</component></anim>
+</animfile>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapinfo details="70014" displayNameID="68737" loadDetails="70013" isLargeMap=""
+    imagepath="ui\random_map\silk_road\silk_road_lrg_mini" cannotReplace="" loadBackground="ui\random_map\silk_road\silk_road_map">
+  <loadss>ui\random_map\silk_road\ss_silk_road</loadss>
+</mapinfo>

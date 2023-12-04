@@ -1,0 +1,4 @@
+<animfile>
+  <component>aztec mural<logic type="Variation"><v1><assetreference type="GrannyModel"><file>buildings\spc\aztec_mural\spc_aztec_mural1</file></assetreference></v1><v2><assetreference type="GrannyModel"><file>buildings\spc\aztec_mural\spc_aztec_mural2</file></assetreference></v2><v3><assetreference type="GrannyModel"><file>buildings\spc\aztec_mural\spc_aztec_mural3</file></assetreference></v3></logic></component>
+  <anim>idle<component>aztec mural</component></anim>
+</animfile>

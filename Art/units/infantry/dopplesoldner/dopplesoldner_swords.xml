@@ -1,0 +1,4 @@
+<animfile>
+  <component>sword<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry\dopplesoldner\dopplesoldner_age1_sword</file></assetreference></none><veterandopplesoldners><assetreference type="GrannyModel"><file>units\infantry\dopplesoldner\dopplesoldner_age2_sword</file></assetreference></veterandopplesoldners><guarddopplesoldners><assetreference type="GrannyModel"><file>units\infantry\dopplesoldner\dopplesoldner_age3_sword</file></assetreference></guarddopplesoldners></logic></component>
+  <anim>Idle<component>sword</component></anim>
+</animfile>

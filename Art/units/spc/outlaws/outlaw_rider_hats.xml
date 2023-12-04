@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<logic type="RevolutionCiv"><none><assetreference type="GrannyModel"><file>units\spc\outlaws\outlaw_rider_hat</file></assetreference></none><derevbrazil><assetreference type="GrannyModel"><file>units\spc\outlaws\jagunco_hat</file></assetreference></derevbrazil><derevcolombia><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_1age_hat</file></assetreference></derevcolombia><derevmexico><assetreference type="GrannyModel"><file>units\spc\outlaws\mexican_hat</file></assetreference></derevmexico></logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

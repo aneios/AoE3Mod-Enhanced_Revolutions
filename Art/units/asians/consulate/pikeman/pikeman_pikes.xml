@@ -1,0 +1,4 @@
+<animfile>
+  <component>pikes<assetreference type="GrannyModel"><file>units\infantry\pikeman\pikeman_4age_pike</file></assetreference></component>
+  <anim>Idle<component>pikes</component></anim>
+</animfile>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>quivers<assetreference type="GrannyModel"><file>units\natives\iroquois\alarm_warrior\alarm_warrior_quiver</file></assetreference></component>
+  <anim>Idle<component>quivers</component></anim>
+</animfile>

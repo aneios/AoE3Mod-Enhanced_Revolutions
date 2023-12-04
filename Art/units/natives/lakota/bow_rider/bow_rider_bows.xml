@@ -1,0 +1,4 @@
+<animfile>
+  <component>bows<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\natives\lakota\bow_rider\bow_rider_1_bow</file></assetreference></none><elitebowrider><assetreference type="GrannyModel"><file>units\natives\lakota\bow_rider\bow_rider_2_bow</file></assetreference></elitebowrider><championbowrider><assetreference type="GrannyModel"><file>units\natives\lakota\bow_rider\bow_rider_3_bow</file></assetreference></championbowrider></logic></component>
+  <anim>Idle<component>bows</component></anim>
+</animfile>

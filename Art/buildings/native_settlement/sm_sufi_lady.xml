@@ -1,0 +1,8 @@
+<animfile>
+  <attachment>tepee<include>buildings\native_settlement\sufi_temple_lady.xml</include></attachment>
+  <component>cookpot<assetreference type="GrannyModel"><file>homecity\homecity_units\sufi_imam\sufi_imam</file></assetreference><decal><effecttype>default</effecttype><texture>buildings\native_settlement\sufi_decal</texture><selectedtexture>shadows_selections\selection_square_64x64</selectedtexture><width>4.00</width><height>4.00</height></decal><attach a="tepee" frombone="MASTER" tobone="MASTER" syncanims="0"></attach></component>
+  <anim>Mode1_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\sufi_floor_idle01</file></assetreference><component>cookpot</component></anim>
+  <anim>Mode1_Mode2<assetreference type="GrannyAnim"><file>buildings\native_settlement\sufi_floor_01to02</file></assetreference><component>cookpot</component></anim>
+  <anim>Mode2_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\sufi_floor_idle02</file></assetreference><component>cookpot</component></anim>
+  <anim>Mode2_Mode1<assetreference type="GrannyAnim"><file>buildings\native_settlement\sufi_floor_02to01</file></assetreference><component>cookpot</component></anim>
+</animfile>

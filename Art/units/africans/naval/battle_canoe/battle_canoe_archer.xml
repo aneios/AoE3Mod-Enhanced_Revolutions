@@ -1,0 +1,19 @@
+<animfile>
+  <definebone>Bip01 Prop2</definebone>
+  <definebone>bone_hat</definebone>
+  <definebone>bone_gun</definebone>
+  <definebone>bone_bow</definebone>
+  <definebone>Bip01 Prop1</definebone>
+  <attachment>bow<component>bow<assetreference type="GrannyModel"><file>units\asians\japanese\yumi\yumi_bow</file></assetreference></component><anim>Idle<component>bow</component></anim></attachment>
+  <attachment>arrow_attachment<anim>Idle<component></component></anim><include>units\attachments\arrow.xml</include></attachment>
+  <attachment>flaming_arrow<include>units\asians\consulate\shinobi\fire_arrow.xml</include></attachment>
+  <attachment>torch<include>effects\projectiles\torch.xml</include></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\africans\shared\levy\levy_spearman</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\africans\naval\fishing_boat\hau_fishing_man2_idle01</file></assetreference><component>ModelComp</component><attach a="arrow_attachment" frombone="MASTER" tobone="Bip01 Prop2" syncanims="0"></attach><attach a="bow" frombone="bone_bow" tobone="Bip01 Prop1" syncanims="0"></attach></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\africans\naval\fishing_boat\hau_fishing_man2_walk</file></assetreference><component>ModelComp</component><attach a="arrow_attachment" frombone="MASTER" tobone="Bip01 Prop2" syncanims="0"></attach><attach a="bow" frombone="bone_bow" tobone="Bip01 Prop1" syncanims="0"></attach></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>units\africans\naval\fishing_boat\hau_fishing_man2_death</file></assetreference><component>ModelComp</component><attach a="arrow_attachment" frombone="MASTER" tobone="Bip01 Prop2" syncanims="0"></attach><attach a="bow" frombone="bone_bow" tobone="Bip01 Prop1" syncanims="0"></attach></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>units\africans\naval\fishing_boat\hau_fishing_man2_attack</file></assetreference><component>ModelComp</component><attach a="arrow_attachment" frombone="MASTER" tobone="Bip01 Prop2" syncanims="0"></attach><attach a="bow" frombone="bone_bow" tobone="Bip01 Prop1" syncanims="0"></attach></anim>
+  <anim>Raze_Attack<assetreference type="GrannyAnim"><file>units\africans\naval\fishing_boat\hau_fishing_man2_attack</file></assetreference><component>ModelComp</component><attach a="bow" frombone="bone_bow" tobone="Bip01 Prop1" syncanims="0"></attach><attach a="flaming_arrow" frombone="MASTER" tobone="Bip01 Prop2" syncanims="0"></attach></anim>
+  <anim>Raze_Idle<assetreference type="GrannyAnim"><file>units\africans\naval\fishing_boat\hau_fishing_man2_razeidle</file></assetreference><component>ModelComp</component><attach a="bow" frombone="bone_bow" tobone="Bip01 Prop1" syncanims="0"></attach><attach a="flaming_arrow" frombone="MASTER" tobone="Bip01 Prop2" syncanims="0"></attach></anim>
+  <anim>GatherFish<assetreference type="GrannyAnim"><file>units\africans\naval\fishing_boat\hau_fishing_man2_fishing</file></assetreference><component>ModelComp</component></anim>
+</animfile>

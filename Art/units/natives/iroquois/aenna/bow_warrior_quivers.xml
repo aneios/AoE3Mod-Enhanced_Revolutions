@@ -1,0 +1,4 @@
+<animfile>
+  <component>quivers<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\natives\iroquois\aenna\bow_warrior_1_quiver</file></assetreference></none><eliteaennas><assetreference type="GrannyModel"><file>units\natives\iroquois\aenna\bow_warrior_2_quiver</file></assetreference></eliteaennas><championaennas><assetreference type="GrannyModel"><file>units\natives\iroquois\aenna\bow_warrior_3_quiver</file></assetreference></championaennas></logic></component>
+  <anim>Idle<component>quivers</component></anim>
+</animfile>

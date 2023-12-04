@@ -1,0 +1,4 @@
+<animfile>
+  <component>attachment_bola<assetreference type="GrannyModel"><file>units\natives\attachment_bola</file></assetreference></component>
+  <anim>Idle<component>attachment_bola</component></anim>
+</animfile>

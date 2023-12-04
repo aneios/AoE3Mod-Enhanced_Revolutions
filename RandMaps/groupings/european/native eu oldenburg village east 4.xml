@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>13</width>
+	<height>11</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<workonassingleunit>1</workonassingleunit>
+	<units>
+		<unit variation="169" posx="-0.8315" posz="-10.2338" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deNatEUPropFence</unit>
+		<unit variation="200" posx="-0.0059" posz="-9.0699" orientx="-1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="91" posx="-3.2013" posz="-10.1729" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deNatEUPropFence</unit>
+		<unit variation="178" posx="-5.3215" posz="-10.0882" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deNatEUPropFlag</unit>
+		<unit variation="1" posx="-0.0263" posz="-10.8622" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deNatEUPropVilGuards</unit>
+		<unit variation="237" posx="3.8683" posz="-10.8169" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deNatEUPropVilGuards</unit>
+		<unit variation="220" posx="3.7920" posz="-8.9994" orientx="-1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="181" posx="-8.4255" posz="-6.8960" orientx="-1.0000" orienty="0.0000" orientz="0.0000">deSocketOldenburg</unit>
+		<unit variation="19" posx="-1.1402" posz="-7.2888" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="19" posx="1.8826" posz="-7.4390" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="163" posx="-0.0834" posz="-6.0616" orientx="-1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="117" posx="-1.7947" posz="-5.7079" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushCarolinasForest</unit>
+		<unit variation="57" posx="5.5675" posz="-6.1163" orientx="0.3827" orienty="0.0000" orientz="-0.9239">deUnderbrushFlowersJapan</unit>
+		<unit variation="201" posx="3.7106" posz="-6.0150" orientx="-1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="229" posx="8.5742" posz="-6.6247" orientx="-0.9812" orienty="0.0000" orientz="0.1929">deSPCTreeOakProp</unit>
+		<unit variation="19" posx="-2.7489" posz="-3.2193" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="175" posx="-1.3059" posz="-3.8692" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">FenceRock</unit>
+		<unit variation="15" posx="5.1700" posz="-3.9487" orientx="0.3827" orienty="0.0000" orientz="-0.9239">FenceRock</unit>
+		<unit variation="19" posx="7.1202" posz="-1.7520" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="19" posx="-9.0071" posz="-1.2570" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="114" posx="1.9019" posz="-3.4252" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deNatEUPropVilLeaders</unit>
+		<unit variation="149" posx="8.1813" posz="-3.7318" orientx="-1.0000" orienty="0.0000" orientz="0.0000">deNatEUPropVilMale</unit>
+		<unit variation="178" posx="-5.3032" posz="-3.8786" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deNatEUPropFlag</unit>
+		<unit variation="68" posx="-3.7222" posz="-2.2709" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">FenceRock</unit>
+		<unit variation="19" posx="-5.1283" posz="0.6277" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="159" posx="-7.0669" posz="-0.0635" orientx="0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushCarolinasForest</unit>
+		<unit variation="136" posx="-11.6599" posz="-1.1385" orientx="-1.0000" orienty="0.0000" orientz="0.0000">deNatEUPropFence</unit>
+		<unit variation="186" posx="-0.0523" posz="-1.1467" orientx="-0.9239" orienty="0.0000" orientz="0.3827">deUnderbrushFlowersJapan</unit>
+		<unit variation="155" posx="1.9498" posz="-0.8051" orientx="0.0000" orienty="0.0000" orientz="-1.0000">deNatEUPropShield</unit>
+		<unit variation="65" posx="7.8030" posz="-2.5704" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deNatEUPropVilFemale</unit>
+		<unit variation="236" posx="6.0276" posz="-2.1447" orientx="0.3827" orienty="0.0000" orientz="-0.9239">deNatEUPropVilMale</unit>
+		<unit variation="215" posx="-5.3328" posz="0.2542" orientx="-0.9239" orienty="-0.0000" orientz="-0.3827">FenceRock</unit>
+		<unit posx="1.8563" posz="3.3316" orientx="0.0000" orienty="0.0000" orientz="-1.0000">deNatEUPropPalaceE</unit>
+		<unit variation="10" posx="4.2832" posz="-1.2046" orientx="-0.7071" orienty="-0.0000" orientz="-0.7071">deUnderbrushFlowersJapan</unit>
+		<unit variation="19" posx="-9.0297" posz="2.9138" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="61" posx="-11.6951" posz="0.9190" orientx="-1.0000" orienty="0.0000" orientz="0.0000">deNatEUPropFence</unit>
+		<unit variation="133" posx="-7.5012" posz="1.4785" orientx="0.0000" orienty="0.0000" orientz="-1.0000">FenceRock</unit>
+		<unit variation="152" posx="-10.4914" posz="1.5842" orientx="0.0000" orienty="0.0000" orientz="1.0000">FenceRock</unit>
+		<unit variation="15" posx="9.3198" posz="0.5320" orientx="-0.9239" orienty="0.0000" orientz="0.3827">FenceRock</unit>
+		<unit variation="43" posx="11.4727" posz="1.6215" orientx="1.0000" orienty="0.0000" orientz="0.0000">UnderbrushCarolinasForest</unit>
+		<unit variation="19" posx="9.1261" posz="5.0167" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="1" posx="-12.2522" posz="1.5427" orientx="-1.0000" orienty="0.0000" orientz="0.0000">deNatEUPropVilGuards</unit>
+		<unit variation="130" posx="-4.0718" posz="2.8313" orientx="-1.0000" orienty="0.0000" orientz="0.0000">deNatEUPropVilMale</unit>
+		<unit variation="112" posx="9.8178" posz="3.2441" orientx="1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="19" posx="-5.3039" posz="5.3506" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="255" posx="-4.1780" posz="4.1208" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">deNatEUPropVilMale</unit>
+		<unit variation="1" posx="-12.0714" posz="4.6161" orientx="-1.0000" orienty="0.0000" orientz="0.0000">deNatEUPropVilGuards</unit>
+		<unit variation="38" posx="-7.5122" posz="4.6331" orientx="0.0000" orienty="0.0000" orientz="1.0000">FenceRock</unit>
+		<unit variation="80" posx="-10.1871" posz="4.6253" orientx="0.0000" orienty="0.0000" orientz="1.0000">FenceRock</unit>
+		<unit variation="165" posx="-5.4033" posz="5.7559" orientx="-0.9239" orienty="0.0000" orientz="0.3827">FenceRock</unit>
+		<unit variation="146" posx="8.7667" posz="5.7290" orientx="-0.7071" orienty="-0.0000" orientz="-0.7071">FenceRock</unit>
+		<unit variation="19" posx="4.9679" posz="8.9022" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="19" posx="-0.8089" posz="8.8454" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="103" posx="-6.8726" posz="7.3448" orientx="-0.9239" orienty="0.0000" orientz="0.3827">UnderbrushCarolinasForest</unit>
+		<unit variation="110" posx="-0.1970" posz="7.2781" orientx="-0.9239" orienty="0.0000" orientz="0.3827">deUnderbrushFlowersJapan</unit>
+		<unit variation="110" posx="4.1007" posz="7.3619" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deUnderbrushFlowersJapan</unit>
+		<unit variation="177" posx="6.7919" posz="8.0818" orientx="-0.7071" orienty="-0.0000" orientz="-0.7071">FenceRock</unit>
+		<unit variation="227" posx="-6.2068" posz="7.7712" orientx="0.9239" orienty="0.0000" orientz="0.3827">deUnderbrushFlowersJapan</unit>
+		<unit variation="128" posx="-3.6667" posz="8.2598" orientx="0.7071" orienty="0.0000" orientz="-0.7071">FenceRock</unit>
+		<unit variation="165" posx="-1.2528" posz="9.8852" orientx="-0.3827" orienty="0.0000" orientz="0.9239">FenceRock</unit>
+		<unit variation="145" posx="4.4805" posz="9.7211" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">FenceRock</unit>
+		<unit variation="35" posx="8.1293" posz="8.1081" orientx="0.9385" orienty="0.0000" orientz="-0.3453">deSPCTreeOakProp</unit>
+		<unit variation="41" posx="1.7444" posz="10.2505" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">FenceRock</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="">
+			<block startx="-6" startz="-5" endx="-6" endz="-4"></block>
+			<block startx="-6" startz="-3" endx="-6" endz="0"></block>
+			<block startx="-6" startz="3" endx="-6" endz="4"></block>
+			<block startx="-5" startz="4" endx="-5" endz="4"></block>
+			<block startx="-5" startz="-5" endx="-5" endz="-5"></block>
+			<block startx="-4" startz="-5" endx="-4" endz="-5"></block>
+			<block startx="-3" startz="-5" endx="-3" endz="-5"></block>
+			<block startx="-2" startz="-5" endx="-2" endz="-5"></block>
+			<block startx="-1" startz="-5" endx="-1" endz="-5"></block>
+			<block startx="-6" startz="5" endx="-6" endz="5"></block>
+			<block startx="-5" startz="5" endx="-5" endz="5"></block>
+			<block startx="-4" startz="5" endx="-4" endz="5"></block>
+			<block startx="-3" startz="5" endx="-3" endz="5"></block>
+			<block startx="-2" startz="5" endx="-2" endz="5"></block>
+			<block startx="3" startz="5" endx="3" endz="5"></block>
+			<block startx="4" startz="5" endx="4" endz="5"></block>
+			<block startx="5" startz="5" endx="5" endz="5"></block>
+			<block startx="6" startz="5" endx="6" endz="5"></block>
+			<block startx="3" startz="-5" endx="3" endz="-5"></block>
+			<block startx="4" startz="-5" endx="4" endz="-5"></block>
+			<block startx="5" startz="-5" endx="5" endz="-4"></block>
+			<block startx="6" startz="-5" endx="6" endz="-4"></block>
+			<block startx="5" startz="4" endx="5" endz="4"></block>
+			<block startx="6" startz="-3" endx="6" endz="-1"></block>
+			<block startx="6" startz="3" endx="6" endz="4"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="city\ground1_cob_dark">
+			<block startx="-6" startz="1" endx="-6" endz="2"></block>
+			<block startx="-5" startz="-3" endx="-5" endz="3"></block>
+			<block startx="-4" startz="-3" endx="-4" endz="-1"></block>
+			<block startx="-4" startz="1" endx="-4" endz="2"></block>
+			<block startx="-4" startz="4" endx="-4" endz="4"></block>
+			<block startx="-3" startz="-3" endx="-3" endz="-1"></block>
+			<block startx="-3" startz="1" endx="-3" endz="3"></block>
+			<block startx="-2" startz="-3" endx="-2" endz="4"></block>
+			<block startx="-1" startz="-1" endx="-1" endz="4"></block>
+			<block startx="0" startz="-3" endx="0" endz="4"></block>
+			<block startx="1" startz="-3" endx="1" endz="4"></block>
+			<block startx="2" startz="-3" endx="2" endz="4"></block>
+			<block startx="-5" startz="-4" endx="-5" endz="-4"></block>
+			<block startx="-4" startz="-4" endx="-4" endz="-4"></block>
+			<block startx="-3" startz="-4" endx="-3" endz="-4"></block>
+			<block startx="-2" startz="-4" endx="-2" endz="-4"></block>
+			<block startx="-1" startz="-4" endx="-1" endz="-4"></block>
+			<block startx="0" startz="-5" endx="0" endz="-4"></block>
+			<block startx="1" startz="-5" endx="1" endz="-4"></block>
+			<block startx="2" startz="-5" endx="2" endz="-4"></block>
+			<block startx="-1" startz="5" endx="-1" endz="5"></block>
+			<block startx="0" startz="5" endx="0" endz="5"></block>
+			<block startx="1" startz="5" endx="1" endz="5"></block>
+			<block startx="2" startz="5" endx="2" endz="5"></block>
+			<block startx="3" startz="-2" endx="3" endz="4"></block>
+			<block startx="4" startz="-2" endx="4" endz="3"></block>
+			<block startx="5" startz="-2" endx="5" endz="-1"></block>
+			<block startx="5" startz="2" endx="5" endz="3"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground_dirt2_ara">
+			<block startx="-4" startz="0" endx="-4" endz="0"></block>
+			<block startx="-4" startz="3" endx="-4" endz="3"></block>
+			<block startx="-3" startz="0" endx="-3" endz="0"></block>
+			<block startx="-3" startz="4" endx="-3" endz="4"></block>
+			<block startx="-1" startz="-3" endx="-1" endz="-2"></block>
+			<block startx="3" startz="-4" endx="3" endz="-4"></block>
+			<block startx="4" startz="-4" endx="4" endz="-4"></block>
+			<block startx="3" startz="-3" endx="3" endz="-3"></block>
+			<block startx="4" startz="-3" endx="4" endz="-3"></block>
+			<block startx="4" startz="4" endx="4" endz="4"></block>
+			<block startx="5" startz="-3" endx="5" endz="-3"></block>
+			<block startx="5" startz="0" endx="5" endz="1"></block>
+			<block startx="6" startz="0" endx="6" endz="2"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

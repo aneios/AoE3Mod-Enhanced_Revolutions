@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>5</width>
+	<height>5</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="2" posx="0.7655" posz="-1.7558" orientx="0.3827" orienty="0.0000" orientz="0.9239">SPCDamagedCannons</unit>
+		<unit variation="83" posx="-3.1361" posz="-0.0172" orientx="-0.7071" orienty="0.0000" orientz="0.7071">GenericCorpse</unit>
+		<unit variation="241" posx="3.7308" posz="-0.6801" orientx="0.9239" orienty="0.0000" orientz="-0.3827">GenericCorpse</unit>
+		<unit variation="30" posx="1.7538" posz="2.3488" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCDamagedCannons</unit>
+		<unit variation="27" posx="1.1864" posz="2.8931" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">Fire</unit>
+		<unit variation="15" posx="-6.0000" posz="6.0000" orientx="-0.6239" orienty="-0.0000" orientz="0.7815">TreeGreatLakes</unit>
+	</units>
+	<tiles>
+		<tilegroup type="Shoreline" subtype="yucatan\ground_shoreline1_yuc">
+			<block startx="-2" startz="-2" endx="-2" endz="2"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="2"></block>
+			<block startx="0" startz="-2" endx="0" endz="-1"></block>
+			<block startx="0" startz="2" endx="0" endz="2"></block>
+			<block startx="1" startz="-2" endx="1" endz="0"></block>
+			<block startx="2" startz="-2" endx="2" endz="0"></block>
+		</tilegroup>
+		<tilegroup type="Shoreline" subtype="great_lakes\ground_shoreline2_gls">
+			<block startx="0" startz="0" endx="0" endz="1"></block>
+			<block startx="1" startz="1" endx="1" endz="2"></block>
+			<block startx="2" startz="1" endx="2" endz="2"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

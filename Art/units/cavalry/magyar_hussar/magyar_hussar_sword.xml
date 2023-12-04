@@ -1,0 +1,4 @@
+<animfile>
+  <component>sword<assetreference type="GrannyModel"><file>units\cavalry\light_cavalry\light_cavalry_sword_age04</file></assetreference></component>
+  <anim>Idle<component>sword</component></anim>
+</animfile>

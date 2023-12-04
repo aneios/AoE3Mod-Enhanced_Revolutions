@@ -1,0 +1,5 @@
+<animfile>
+  <component>man<assetreference type="GrannyModel"><file>buildings\native_settlement\zen_02_monk</file></assetreference><decal><effecttype>default</effecttype><texture>buildings\native_settlement\japan_decal_01</texture><selectedtexture>shadows_selections\selection_square_64x64</selectedtexture><width>10.00</width><height>10.00</height></decal></component>
+  <anim>Mode2_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\zen_02_idle01</file></assetreference><component>man</component></anim>
+  <anim>Mode2_Mode1<assetreference type="GrannyAnim"><file>buildings\native_settlement\udasi_mixer_exit</file></assetreference><component>man</component></anim>
+</animfile>

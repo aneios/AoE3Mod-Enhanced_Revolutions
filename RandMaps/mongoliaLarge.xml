@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapinfo details="70025" displayNameID="105117" loadDetails="70027" isLargeMap=""
+    imagepath="ui\random_map\mongolia\mongolia_mini" cannotReplace="" loadBackground="ui\random_map\mongolia\mongolia_map">
+  <loadss>ui\random_map\mongolia\mongolia_ss_1</loadss>
+  <loadss>ui\random_map\mongolia\mongolia_ss_2</loadss>
+  <loadss>ui\random_map\mongolia\mongolia_ss_3</loadss>
+</mapinfo>

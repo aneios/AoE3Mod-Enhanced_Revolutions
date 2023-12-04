@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="90610" imagepath="ui\random_map\water_maps" helpTextID="90611" cannotReplace="">
+  <map>euArchipelago</map>
+  <map>euBaltic</map>
+  <map>euDanishStrait</map>
+  <map>euEngland</map>
+  <map>euFinland</map>
+  <map>euIberia</map>
+  <map>euIreland</map>
+  <map>euLowCountries</map>
+  <map>euMediterranean</map>
+  <map>euPomerania</map>
+  <map>euPortugal</map>
+  <map>euSardiniaCorsica</map>
+  <map>euScandinavia</map>
+  <map>euScotland</map>
+  <map>euWales</map>
+  <map>euWallachia</map>
+  <map>afHorn</map>
+  <map>afIvoryCoast</map>
+  <map>afNiger Delta</map>
+  <map>afPepperCoast</map>
+  <map>afSwahiliCoast</map>
+  <map>afTripolitania</map>
+  <map>Alaska</map>
+  <map>Araucania</map>
+  <map>Bahia</map>
+  <map>Baja California</map>
+  <map>California</map>
+  <map>Caribbean</map>
+  <map>Carolina</map>
+  <map>Florida</map>
+  <map>Hispaniola</map>
+  <map>New England</map>
+  <map>Panama</map>
+  <map>Patagonia</map>
+  <map>Plymouth</map>
+  <map>Saguenay</map>
+  <map>Yucatan</map>
+  <map>borneo</map>
+  <map>Ceylon</map>
+  <map>Hokkaido</map>
+  <map>Honshu</map>
+  <map>indochina</map>
+  <map>Indonesia</map>
+  <map>Malaysia</map>
+  <map>Manchuria</map>
+  <map>Yamal</map>
+</randomMaps>

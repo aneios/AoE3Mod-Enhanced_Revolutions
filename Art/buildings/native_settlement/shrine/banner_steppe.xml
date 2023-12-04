@@ -1,0 +1,4 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>buildings\native_settlement\shrine\banner_steppe</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>ui\waypoint_flag\waypoint_idle</file></assetreference><component>ModelComp</component></anim>
+</animfile>

@@ -1,0 +1,20 @@
+<animfile>
+  <definebone>bip01 Prop1</definebone>
+  <definebone>bone_hat</definebone>
+  <definebone>bone_gun</definebone>
+  <attachment>musket<component></component><anim><component></component></anim><include>units\infantry_ranged\coureur\coureur_du_bois_gun.xml</include></attachment>
+  <attachment>hat<component></component><anim><component></component></anim><include>units\infantry_ranged\coureur\coureur_du_bois_hat.xml</include></attachment>
+  <component>ModelComp<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\coureur\coureur_du_bois</file></assetreference></none><uniquecoureurmilice><assetreference type="GrannyModel"><file>units\infantry_ranged\coureur\coureur_du_bois_milice</file></assetreference></uniquecoureurmilice></logic><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal><attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"></attach></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\2_leg_idle\human_idle_generic_A</file></assetreference><component>ModelComp</component><attach a="musket" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"></attach></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\2_leg_bored\human_bored_generic_A</file></assetreference><component>ModelComp</component><attach a="musket" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"></attach></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\2_leg_walk\human_jog_rifle_a</file><tag type="FootstepLeft">0.30</tag><tag type="FootstepRight">0.80</tag></assetreference><component>ModelComp</component><attach a="musket" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"></attach></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>animation_library\2_leg_attack\human_attack_musket_a</file><tag type="Attack">0.45</tag><tag type="SpecificSoundSet" checkvisible="1" set="RifleShot">0.60</tag><tag type="Particles" particlename="RifleShot">0.60</tag></assetreference><component>ModelComp</component><attach a="musket" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"></attach></anim>
+  <anim>HandAttack<assetreference type="GrannyAnim"><file>animation_library\2_leg_attack\human_attack_bayonet_A</file><tag type="Attack">0.45</tag></assetreference><component>ModelComp</component><attach a="musket" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"></attach></anim>
+  <anim>Pickup<assetreference type="GrannyAnim"><file>animation_library\2_leg_task\human_pickup_a</file></assetreference><component>ModelComp</component><attach a="MusketA" frombone="Bip01_AttachRt" tobone="bip01 Prop1" syncanims="0"></attach></anim>
+  <anim>GatherChop<assetreference type="GrannyAnim"><file>animation_library\2_leg_task\human_choptree_A</file><tag type="Attack">0.45</tag></assetreference><component>ModelComp</component></anim>
+  <anim>GatherMine<assetreference type="GrannyAnim"><file>animation_library\2_leg_task\human_mine_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>GatherFarm<assetreference type="GrannyAnim"><file>animation_library\2_leg_task\human_farm_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>GatherHunt<assetreference type="GrannyAnim"><file>animation_library\2_leg_task\human_slice_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Build<assetreference type="GrannyAnim"><file>animation_library\villager\villager_build</file></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\2_leg_death\human_death_generic_A</file></assetreference><component>ModelComp</component><attach a="musket" frombone="bone_gun" tobone="bip01 Prop1" syncanims="0"></attach></anim>
+</animfile>

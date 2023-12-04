@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>11</width>
+	<height>11</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<workOnAsSingleUnit>1</workOnAsSingleUnit>
+	<units>
+		<unit variation="5" posx="10.6964" posz="-9.3967" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="9" posx="0.0680" posz="-9.1436" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="6" posx="6.6141" posz="-10.0566" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="6" posx="9.8721" posz="-10.1501" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="208" posx="7.0872" posz="-6.4409" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="90" posx="10.1162" posz="-6.5285" orientx="-1.0000" orienty="0.0000" orientz="0.0000">SPCPathBlock3</unit>
+		<unit variation="97" posx="7.1121" posz="-9.4233" orientx="0.0000" orienty="0.0000" orientz="-1.0000">SPCPathBlock3</unit>
+		<unit variation="208" posx="3.4722" posz="-5.0846" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="216" posx="3.5260" posz="-8.0709" orientx="0.0000" orienty="0.0000" orientz="1.0000">SPCPathBlock3</unit>
+		<unit variation="2" posx="2.0562" posz="-6.8924" orientx="0.0000" orienty="0.0000" orientz="1.0000">NativeHouseNootka</unit>
+		<unit variation="136" posx="-4.8438" posz="-4.7815" orientx="0.0000" orienty="0.0000" orientz="-1.0000">SocketKlamath</unit>
+		<unit variation="41" posx="8.3802" posz="-6.4258" orientx="1.0000" orienty="0.0000" orientz="0.0000">NativeHouseNootka</unit>
+		<unit variation="26" posx="0.4509" posz="-3.4454" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCPathBlock3</unit>
+		<unit variation="104" posx="9.3580" posz="1.0011" orientx="-1.0000" orienty="0.0000" orientz="0.0000">SPCPathBlock3</unit>
+		<unit variation="128" posx="7.1429" posz="-1.0965" orientx="-0.9977" orienty="0.0000" orientz="0.0678">SMBuffaloCookpot</unit>
+		<unit variation="208" posx="6.3211" posz="1.0361" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="208" posx="3.4274" posz="2.0149" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="13" posx="10.6174" posz="1.4768" orientx="1.0000" orienty="0.0000" orientz="0.0000">PropsNative</unit>
+		<unit variation="19" posx="-4.4751" posz="0.6765" orientx="0.0000" orienty="0.0000" orientz="-1.0000">SPCPathBlock3</unit>
+		<unit variation="208" posx="-7.3080" posz="4.5964" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="208" posx="-4.4476" posz="3.6441" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="172" posx="-10.2867" posz="4.5681" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCPathBlock3</unit>
+		<unit variation="172" posx="-9.0175" posz="4.5817" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCPathBlock3</unit>
+		<unit variation="208" posx="5.2262" posz="4.6953" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">NativeTownObstruction</unit>
+		<unit variation="11" posx="-10.1288" posz="2.8076" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">PropsNative</unit>
+		<unit variation="14" posx="2.7464" posz="2.0497" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="3" posx="-8.4676" posz="3.9660" orientx="0.9239" orienty="0.0000" orientz="0.3827">PropsNative</unit>
+		<unit variation="120" posx="-6.6696" posz="2.1764" orientx="-0.9905" orienty="0.0000" orientz="0.1378">SMBuffaloPickerSitting</unit>
+		<unit variation="15" posx="6.7085" posz="5.5941" orientx="-0.9894" orienty="0.0000" orientz="0.1455">SMBuffaloStoryTelling</unit>
+		<unit variation="141" posx="7.3443" posz="6.7496" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">SPCPathBlock3</unit>
+		<unit variation="208" posx="-1.5774" posz="7.6012" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="123" posx="3.0412" posz="6.7807" orientx="0.7071" orienty="0.0000" orientz="-0.7071">SPCPathBlock3</unit>
+		<unit variation="123" posx="1.4319" posz="7.5539" orientx="1.0000" orienty="0.0000" orientz="-0.0000">SPCPathBlock3</unit>
+		<unit variation="9" posx="-1.7831" posz="7.1655" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="9" posx="2.7162" posz="6.3025" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="7" posx="-7.0349" posz="7.4439" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="13" posx="9.0751" posz="6.8914" orientx="0.7071" orienty="0.0000" orientz="0.7071">PropsNative</unit>
+		<unit variation="130" posx="-7.3196" posz="7.5611" orientx="0.0000" orienty="0.0000" orientz="-1.0000">SPCPathBlock3</unit>
+		<unit variation="164" posx="0.9220" posz="7.2637" orientx="-0.0743" orienty="0.0000" orientz="-0.9972">SMBuffaloMixerPoker</unit>
+		<unit variation="8" posx="-7.7368" posz="8.0757" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="84" posx="-4.2771" posz="9.6180" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeHouseNootka</unit>
+		<unit variation="58" posx="4.2133" posz="8.6942" orientx="-0.9981" orienty="0.0000" orientz="0.0615">SMBuffaloFence</unit>
+		<unit variation="123" posx="-1.5846" posz="8.9522" orientx="-0.0000" orienty="0.0000" orientz="-1.0000">SPCPathBlock3</unit>
+		<unit variation="8" posx="-8.0696" posz="11.5380" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="117" posx="-1.6226" posz="10.5828" orientx="0.0000" orienty="0.0000" orientz="-1.0000">SPCPathBlock3</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="Saguenay\ground4_sag">
+			<block startx="-4" startz="1" endx="-4" endz="3"></block>
+			<block startx="-3" startz="0" endx="-3" endz="4"></block>
+			<block startx="-2" startz="0" endx="-2" endz="4"></block>
+			<block startx="-1" startz="0" endx="-1" endz="3"></block>
+			<block startx="0" startz="-2" endx="0" endz="3"></block>
+			<block startx="1" startz="-3" endx="1" endz="3"></block>
+			<block startx="2" startz="-3" endx="2" endz="3"></block>
+			<block startx="3" startz="-2" endx="3" endz="2"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

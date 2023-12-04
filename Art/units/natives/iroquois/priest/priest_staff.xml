@@ -1,0 +1,4 @@
+<animfile>
+  <component>staff<assetreference type="GrannyModel"><file>units\natives\iroquois\priest\staff</file></assetreference></component>
+  <anim>Idle<component>staff</component></anim>
+</animfile>

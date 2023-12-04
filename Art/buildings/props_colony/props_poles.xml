@@ -1,0 +1,4 @@
+<animfile>
+  <component>props_poles<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\props_colony\lamp_a</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\props_colony\lamp_b</file></assetreference></data></logic></component>
+  <anim>Idle<assetreference type="GrannyAnim"></assetreference><component>props_poles</component></anim>
+</animfile>

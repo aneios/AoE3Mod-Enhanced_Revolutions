@@ -1,0 +1,7 @@
+<animfile>
+  <definebone>bone_flaming_stick</definebone>
+  <definebone>bone_stick_flame</definebone>
+  <attachment>fire<component>fire emitter<assetreference type="ParticleSystem"><file>effects\fire\fire_torch_b.particle</file></assetreference></component><anim>Idle<component>fire emitter</component></anim></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\attachments\stun_stars</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\attachments\stun_stars_anim</file></assetreference><component>ModelComp</component></anim>
+</animfile>

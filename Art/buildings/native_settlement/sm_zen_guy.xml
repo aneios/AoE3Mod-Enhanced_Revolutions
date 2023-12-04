@@ -1,0 +1,11 @@
+<animfile>
+  <attachment>zen_temple<include>buildings\native_settlement\zen_temple_guy.xml</include></attachment>
+  <component>cookpot<assetreference type="GrannyModel"><file>buildings\native_settlement\zen_guy_monk</file></assetreference><decal><effecttype>default</effecttype><texture>buildings\native_settlement\japan_decal_01</texture><selectedtexture>shadows_selections\selection_square_64x64</selectedtexture><width>4.00</width><height>4.00</height></decal><attach a="zen_temple" frombone="MASTER" tobone="MASTER" syncanims="0"></attach></component>
+  <anim>Mode1_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\zen_04_idle01</file></assetreference><component>cookpot</component></anim>
+  <anim>Mode1_Mode2<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_cookpot_tepee_tan</file></assetreference><component>cookpot</component></anim>
+  <anim>Mode2_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_cookpot_tan_idleA</file><weight>5</weight></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_cookpot_tan_idleB</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_cookpot_tan_idleC</file></assetreference><component>cookpot</component></anim>
+  <anim>Mode2_Mode1<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_cookpot_tan_tepee</file></assetreference><component>cookpot</component></anim>
+  <anim>Mode1_Mode3<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_cookpot_tepee_cookpot</file></assetreference><component>cookpot</component></anim>
+  <anim>Mode3_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_cookpot_cook_idleA</file><weight>5</weight></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_cookpot_cook_idleB</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_cookpot_cook_idleC</file></assetreference><component>cookpot</component></anim>
+  <anim>Mode3_Mode1<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_cookpot_cook_tepee</file></assetreference><component>cookpot</component></anim>
+</animfile>

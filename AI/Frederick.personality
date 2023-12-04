@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>34018</nameID>
+   <tooltipID>41722</tooltipID>
+   <forcedciv>germans</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>resources/images/icons/singleplayer/cpai_avatar_germans.png</icon>
+   <chatset>frederick</chatset>
+   <playerNames>
+      <nameID>34018<civ>germans</civ></nameID> 
+	</playerNames>
+</AI>

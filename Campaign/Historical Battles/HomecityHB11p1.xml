@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomeCity>
+	<Civ>DEMexicans</Civ>
+	<Name>$$112002$$</Name>
+	<HeroName>$$112003$$</HeroName>
+	<GatherPointUnit>HomeCityGatherFlag</GatherPointUnit>
+	<Visual>mexico\mexico_homecity.xml</Visual>
+	<WaterVisual>mexico\mexico_homecity_water.xml</WaterVisual>
+	<BackgroundVisual>mexico\mexico_background.xml</BackgroundVisual>
+	<PathData>mexico\pathable_area.gr2</PathData>
+	<Camera>mexico\mexico_homecity_camera.cam</Camera>
+	<WidescreenCamera>mexico\mexico_homecity_widescreencamera.cam</WidescreenCamera>
+	<TransportRoundtripTime>1</TransportRoundtripTime>
+	<TransportActivationTime>0</TransportActivationTime>
+	<Level>1</Level>
+	<MaxCardsPerDeck>20</MaxCardsPerDeck>
+	<skillpoints>9</skillpoints>
+	<LightSet>Mexico</LightSet>
+	<WaterType>Seville</WaterType>
+	<NumPropUnlocksEarned>0</NumPropUnlocksEarned>
+	<AmbientSounds>homecity\spanishambientsounds.xml</AmbientSounds>
+	<XSAI>generic_city</XSAI>
+	<heroprotounits>
+		<protounit>deGeneral</protounit>
+	</heroprotounits>
+	<Coffers>
+		<Current>
+			<Food>0</Food>
+			<Wood>0</Wood>
+			<Gold>0</Gold>
+			<Fame>0</Fame>
+			<Ships>0</Ships>
+			<SkillPoints>0</SkillPoints>
+			<XP>0</XP>
+		</Current>
+		<Maximum>
+			<Food>0</Food>
+			<Wood>0</Wood>
+			<Gold>0</Gold>
+			<Fame>0</Fame>
+			<Ships>0</Ships>
+			<SkillPoints>-1</SkillPoints>
+			<XP>-1</XP>
+		</Maximum>
+	</Coffers>
+	<Cards>
+		<Card>
+			<Name>HCAdvancedTradingPost</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCShipWoodCrates3</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>700</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>HCTeamWoodCrates</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech // NOTE: Originally this card is only availiable in Age 4. I decided to make it available in Fortress Age as a more powerful TEAM version of his original 1000 wood shipment. -->
+			<DisplayUnitCount>1000</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>HCShipSettlers1</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>2</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>HCShipSettlers3</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>3</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>HCShipSettlers4</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>5</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>HCShipCoveredWagons</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>1</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCShipSoldados1</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>5</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>HCUnlockFactory</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>3</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>1</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>HCXPShipCulverins2</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>3</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>4</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCSPCShipEmboscadorRepeat</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>3</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>9</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>HCRefrigeration</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCFencingSchool</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>DEHCQueensDragoonsTeam</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCArtilleryDamageOttoman</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>DEHCSPCGeneralCombatTeam</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>DEHCSPCDespertadorAmericano</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>DEHCSPCPeasantRally</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>20</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCSPCInsurgenteCombat</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>DEHCSPCLandRedistribution</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>3</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCRansack</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>DEHCCopperCanyon</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>DEHCMachetes</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+		</Card>
+		<Card>
+			<Name>DEHCGuerillaTactics</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+		</Card>
+		<Card>
+			<Name>DEHCShipInsurgente1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>10</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipInsurgente2</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>3</Age>
+			<DisplayUnitCount>33</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCReservistas</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>3</Age>
+		</Card>
+	</Cards>
+	<Decks>
+		<Deck>
+			<Cards>
+				<Card>DEHCMachetes</Card>
+				<Card>HCShipWoodCrates3</Card>
+				<Card>DEHCCopperCanyon</Card>
+				<Card>DEHCReservistas</Card>
+				<Card>HCXPShipCulverins2</Card>
+				<Card>HCShipSettlers4</Card>
+				<Card>DEHCGuerillaTactics</Card>
+				<Card>DEHCShipInsurgente1</Card>
+				<Card>DEHCShipInsurgente2</Card>
+				<Card>DEHCSPCShipEmboscadorRepeat</Card>
+				<Card>DEHCQueensDragoonsTeam</Card>
+				<Card>HCArtilleryDamageOttoman</Card>
+				<Card>HCFencingSchool</Card>
+				<Card>HCRefrigeration</Card>
+				<Card>HCUnlockFactory</Card>
+				<Card>DEHCSPCGeneralCombatTeam</Card>
+				<Card>DEHCSPCDespertadorAmericano</Card>
+				<Card>DEHCSPCPeasantRally</Card>
+				<Card>DEHCSPCInsurgenteCombat</Card>
+				<Card>DEHCSPCLandRedistribution</Card>
+			</Cards>
+		</Deck>
+	</Decks>
+	<Building>
+		<Name>Estate</Name>
+		<Visual>
+			<File>spanish\spanish estate.xml</File>
+			<Bone>bone_estate</Bone>
+		</Visual>
+		<UIX>150</UIX>
+		<UIY>200</UIY>
+		<Camera>spanish\spanish_homecity_estate_camera.cam</Camera>
+		<WidescreenCamera>spanish\spanish_homecity_estate_camera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\estate_icon</Portrait>
+		<DisplayNameStringID>24968</DisplayNameStringID>
+		<RolloverStringID>25537</RolloverStringID>
+		<ObtainableTechs/>
+		<ActiveTechs/>
+		<ValidUnits>
+		</ValidUnits>
+		<Units>
+		</Units>
+		<TrainBuilding>1</TrainBuilding>
+		<MercBuilding>1</MercBuilding>
+	</Building>
+	<Building>
+		<Name>Market</Name>
+		<Visual>
+			<File>mexico\mexico_plaza_del_zocalo.xml</File>
+			<Bone>bone_market</Bone>
+		</Visual>
+		<UIX>250</UIX>
+		<UIY>375</UIY>
+		<Camera>mexico\mexico_homecity_market_camera.cam</Camera>
+		<WidescreenCamera>mexico\mexico_homecity_market_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\market_icon</Portrait>
+		<DisplayNameStringID>113000</DisplayNameStringID>
+		<RolloverStringID>25536</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="1.0" y="1.0">HCShipSettlers1</Tech>
+			<Tech x="1.0" y="2.0">HCShipSettlers3</Tech>
+			<Tech x="1.0" y="3.0">HCShipSettlers4</Tech>
+			<Tech x="2.0" y="3.0">HCShipWoodCrates3</Tech>
+			<Tech x="2.0" y="4.0">HCTeamWoodCrates</Tech>
+			<Tech x="3.0" y="1.0">HCShipCoveredWagons</Tech>
+			<Tech x="3.0" y="2.0">DEHCCopperCanyon</Tech>
+			<Tech x="3.0" y="3.0">DEHCReservistas</Tech>
+			<Tech x="4.0" y="1.0">DEHCSPCGeneralCombatTeam</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="1.0" y="1.0">HCShipSettlers1</Tech>
+			<Tech x="1.0" y="2.0">HCShipSettlers3</Tech>
+			<Tech x="1.0" y="3.0">HCShipSettlers4</Tech>
+			<Tech x="2.0" y="3.0">HCShipWoodCrates3</Tech>
+			<Tech x="2.0" y="4.0">HCTeamWoodCrates</Tech>
+			<Tech x="3.0" y="1.0">HCShipCoveredWagons</Tech>
+			<Tech x="3.0" y="2.0">DEHCCopperCanyon</Tech>
+			<Tech x="3.0" y="3.0">DEHCReservistas</Tech>
+			<Tech x="4.0" y="1.0">DEHCSPCGeneralCombatTeam</Tech>
+		</ActiveTechs>
+		<ValidUnits/>
+		<Units/>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Academy</Name>
+		<Visual>
+			<File>mexico\mexico_national_palace.xml</File>
+			<Bone>bone_palace</Bone>
+		</Visual>
+		<UIX>460</UIX>
+		<UIY>125</UIY>
+		<Camera>mexico\mexico_homecity_academy_camera.cam</Camera>
+		<WidescreenCamera>mexico\mexico_homecity_academy_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\academy_icon</Portrait>
+		<DisplayNameStringID>113001</DisplayNameStringID>
+		<RolloverStringID>29002</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="1.0" y="1.0">HCXPShipCulverins2</Tech>
+			<Tech x="1.0" y="2.0">DEHCShipSoldados1</Tech>
+			<Tech x="1.0" y="3.0">DEHCGuerillaTactics</Tech>
+			<Tech x="1.0" y="4.0">DEHCMachetes</Tech>
+			<Tech x="2.0" y="1.0">DEHCSPCPeasantRally</Tech>
+			<Tech x="2.0" y="2.0">DEHCSPCInsurgenteCombat</Tech>
+			<Tech x="2.0" y="3.0">HCRansack</Tech>
+			<Tech x="3.0" y="1.0">DEHCSPCShipEmboscadorRepeat</Tech>
+			<Tech x="3.0" y="2.0">DEHCShipInsurgente1</Tech>
+			<Tech x="3.0" y="3.0">DEHCShipInsurgente2</Tech>
+			<Tech x="4.0" y="1.0">DEHCQueensDragoonsTeam</Tech>
+			<Tech x="4.0" y="2.0">HCArtilleryDamageOttoman</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="1.0" y="1.0">HCXPShipCulverins2</Tech>
+			<Tech x="1.0" y="2.0">DEHCShipSoldados1</Tech>
+			<Tech x="1.0" y="3.0">DEHCGuerillaTactics</Tech>
+			<Tech x="1.0" y="4.0">DEHCMachetes</Tech>
+			<Tech x="2.0" y="1.0">DEHCSPCPeasantRally</Tech>
+			<Tech x="2.0" y="2.0">DEHCSPCInsurgenteCombat</Tech>
+			<Tech x="2.0" y="3.0">HCRansack</Tech>
+			<Tech x="3.0" y="1.0">DEHCSPCShipEmboscadorRepeat</Tech>
+			<Tech x="3.0" y="2.0">DEHCShipInsurgente1</Tech>
+			<Tech x="3.0" y="3.0">DEHCShipInsurgente2</Tech>
+			<Tech x="4.0" y="1.0">DEHCQueensDragoonsTeam</Tech>
+			<Tech x="4.0" y="2.0">HCArtilleryDamageOttoman</Tech>
+		</ActiveTechs>
+		<ValidUnits>
+		</ValidUnits>
+		<Units/>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Cathedral</Name>
+		<Visual>
+			<File>mexico\mexico_metropolitan_cathedral.xml</File>
+			<Bone>bone_cathedral</Bone>
+		</Visual>
+		<UIX>80</UIX>
+		<UIY>475</UIY>
+		<Camera>mexico\mexico_homecity_cathedral_camera.cam</Camera>
+		<WidescreenCamera>mexico\mexico_homecity_cathedral_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\cathedral_icon</Portrait>
+		<DisplayNameStringID>113002</DisplayNameStringID>
+		<RolloverStringID>25538</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="1.0" y="1.0">HCFencingSchool</Tech>
+			<Tech x="1.0" y="2.0">HCUnlockFactory</Tech>
+			<Tech x="1.0" y="2.0">HCAdvancedTradingPost</Tech>
+			<Tech x="2.0" y="1.0">DEHCSPCDespertadorAmericano</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="1.0" y="1.0">HCFencingSchool</Tech>
+			<Tech x="1.0" y="2.0">HCUnlockFactory</Tech>
+			<Tech x="1.0" y="2.0">HCAdvancedTradingPost</Tech>
+			<Tech x="2.0" y="1.0">DEHCSPCDespertadorAmericano</Tech>
+		</ActiveTechs>
+		<ValidUnits/>
+		<Units/>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>ManufacturingPlant</Name>
+		<Visual>
+			<File>mexico\mexico_manufacturing_plant.xml</File>
+			<Bone>bone_hcbuilding_plant</Bone>
+		</Visual>
+		<UIX>450</UIX>
+		<UIY>275</UIY>
+		<Camera>mexico\mexico_homecity_manufacturing_plant_camera.cam</Camera>
+		<WidescreenCamera>mexico\mexico_homecity_plant_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\manufacturing_plant_icon</Portrait>
+		<DisplayNameStringID>24972</DisplayNameStringID>
+		<RolloverStringID>25535</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="3.0" y="1.0">HCRefrigeration</Tech>
+			<Tech x="5.0" y="1.0">DEHCSPCLandRedistribution</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="3.0" y="1.0">HCRefrigeration</Tech>
+			<Tech x="5.0" y="1.0">DEHCSPCLandRedistribution</Tech>
+		</ActiveTechs>
+		<ValidUnits/>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Dock</Name>
+		<Visual>
+			<File>mexico\mexico_harbor.xml</File>
+			<Bone>bone_harbour</Bone>
+		</Visual>
+		<UIX>200</UIX>
+		<UIY>250</UIY>
+		<Camera>mexico\mexico_homecity_dock_camera.cam</Camera>
+		<WidescreenCamera>mexico\mexico_homecity_dock_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\dock_icon</Portrait>
+		<DisplayNameStringID>35745</DisplayNameStringID>
+		<RolloverStringID>35746</RolloverStringID>
+		<ObtainableTechs>
+		</ObtainableTechs>
+		<ActiveTechs>	
+		</ActiveTechs>
+		<ValidUnits/>
+		<Units/>
+		<TrainBuilding>1</TrainBuilding>
+		<MercBuilding>1</MercBuilding>
+	</Building>
+	<Building>
+		<Name>Customization</Name>
+		<Camera>spanish\spanish_homecity_camera.cam</Camera>
+		<WidescreenCamera>spanish\spanish_homecity_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\dock_icon</Portrait>
+		<DisplayNameStringID>24966</DisplayNameStringID>
+		<RolloverStringID>25540</RolloverStringID>
+		<CustomizationBuilding>1</CustomizationBuilding>
+	</Building>
+	<Waypoints>
+		<Waypoint>
+			<Bone>bone_pathentry_01</Bone>
+			<Exit>1</Exit>		
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathentry_02</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>			
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathentry_03</Bone>
+			<Exit>1</Exit>		
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathentry_04</Bone>
+			<Exit>1</Exit>		
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathentry_05</Bone>
+			<Exit>1</Exit>		
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathentry_06</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>			
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathentry_07</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>			
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_01</Bone>
+			<PerformanceArea>1</PerformanceArea>		
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_02</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_03</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_04</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_05</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_06</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_07</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_08</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_09</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_10</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_11</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_12</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_13</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_14</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_15</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_16</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_17</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_18</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_19</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_20</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_fishing_01_special</Bone>
+			<FishingArea>1</FishingArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_fishing_02_special</Bone>
+			<FishingArea>1</FishingArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_fishing_03_special</Bone>
+			<FishingArea>1</FishingArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_shipment_start</Bone>
+			<ShipmentStart>1</ShipmentStart>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_shipment_end</Bone>
+			<ShipmentEnd>1</ShipmentEnd>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs_01_special</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs_02_special</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs_03_special</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor_01_special</Bone>
+			<VendorArea>1</VendorArea>>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor_02_special</Bone>
+			<VendorArea>1</VendorArea>>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor_03_special</Bone>
+			<VendorArea>1</VendorArea>>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor_04_special</Bone>
+			<VendorArea>1</VendorArea>>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework_01</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+<!--
+		<Waypoint>
+			<Bone>bone_pathnode_01</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_02</Bone>
+			<Exit>1</Exit>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_03</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_04</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_05</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_06</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_07</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_08</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_09</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_10</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_11</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_12</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_13</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_14</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_15</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_16</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_17</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_18</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_19</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_20</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_21</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_22</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_23</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_24</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_25</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_26</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_27</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_28</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_29</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_30</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_31</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_academy_doorway</Bone>
+			<Door>1</Door>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_plant_doorway</Bone>
+			<Door>1</Door>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_plant_side_doorway</Bone>
+			<Door>1</Door>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_small_church_doorway</Bone>
+			<Door>1</Door>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_cathedral_doorway</Bone>
+			<Door>1</Door>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_cathedral_side_doorway</Bone>
+			<Door>1</Door>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_fishing01</Bone>
+			<FishingArea>1</FishingArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_fishing02</Bone>
+			<FishingArea>1</FishingArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_fishing03</Bone>
+			<FishingArea>1</FishingArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_shipment_start</Bone>
+			<ShipmentStart>1</ShipmentStart>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_shipment_end</Bone>
+			<ShipmentEnd>1</ShipmentEnd>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs01</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs02</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs03</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs04</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs05</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs06</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor01</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor02</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor03</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor04</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor05</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor06</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor07</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor08</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_firework01</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework02</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework03</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework04</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework05</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework06</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		-->
+	</Waypoints>
+	<ObtainableProps>
+		<Prop>Torchy</Prop>
+		<Prop>Juggler</Prop>
+		<Prop>PeasantVendor</Prop>
+		<Prop>MiddleClassMusician</Prop>
+		<Prop>MiddleClassPreacher</Prop>
+		<Prop>PeasantPainter</Prop>
+		<Prop>Drunk</Prop>
+		<Prop>NiceLady</Prop>
+		<Prop>Thug</Prop>
+		<Prop>PeasantFisherman</Prop>
+		<Prop>UnitChats</Prop>
+		<!--<Prop Active="1">Spanish_LightSet1</Prop>-->
+		<Prop>Spanish_LightSet2</Prop>
+		<Prop>Spanish_AcadProp01</Prop>
+		<Prop>Spanish_AcadProp02</Prop>
+		<Prop>Spanish_AcadProp03</Prop>
+		<Prop>Spanish_AcadProp04</Prop>
+		<Prop>Church_RiderStatueProp</Prop>
+		<Prop>Spanish_CathProp01</Prop>
+		<Prop>Spanish_NWCTProp01</Prop>
+		<Prop>Spanish_NWCTProp02</Prop>
+		<Prop>Spanish_NWCTProp03</Prop>
+		<Prop>Spn_FactProp01</Prop>
+		<Prop>Spn_FactProp02</Prop>
+		<Prop>Spn_DockProp01</Prop>
+		<Prop>Spn_DockProp02</Prop>
+		<Prop>Spn_DockProp03</Prop>
+		<Prop>Spn_DockProp04</Prop>
+		<Prop>Spn_DockProp05</Prop>
+		<Prop Active="1">Spanish_NWTCTexture0</Prop>
+		<Prop>Spanish_NWTCTexture1</Prop>
+		<Prop>Spanish_NWTCTexture2</Prop>
+		<Prop>Spanish_NWTCTexture3</Prop>
+		<Prop>Spanish_NWTCTexture4</Prop>
+		<Prop>Spanish_NWTCTexture5</Prop>
+		<Prop>Spanish_NWTCTexture6</Prop>
+		<Prop>Spanish_NWTCTexture7</Prop>
+		<Prop Active="1">Spanish_AcademyTexture0</Prop>
+		<Prop>Spanish_AcademyTexture1</Prop>
+		<Prop>Spanish_AcademyTexture2</Prop>
+		<Prop>Spanish_AcademyTexture3</Prop>
+		<Prop Active="1">Spanish_ManuPlantTexture0</Prop>
+		<Prop>Spanish_ManuPlantTexture1</Prop>
+		<Prop>Spanish_ManuPlantTexture2</Prop>
+		<Prop>Spanish_ManuPlantTexture3</Prop>
+		<Prop>Spanish_ManuPlantTexture4</Prop>
+		<Prop>Spanish_ManuPlantTexture5</Prop>
+		<Prop>Spanish_ManuPlantTexture6</Prop>
+		<Prop>Spanish_ManuPlantTexture7</Prop>
+		<Prop Active="1">Spanish_CathedralTexture0</Prop>
+		<Prop>Spanish_CathedralTexture1</Prop>
+		<Prop>Spanish_CathedralTexture2</Prop>
+		<Prop>Spanish_CathedralTexture3</Prop>
+		<Prop Active="1">Spanish_DockTexture0</Prop>
+		<Prop>Spanish_DockTexture1</Prop>
+		<Prop>Spanish_DockTexture2</Prop>
+		<Prop>Spanish_DockTexture3</Prop>
+		<Prop>Spanish_DockTexture4</Prop>
+		<Prop>Spanish_DockTexture5</Prop>
+		<Prop>Spanish_DockTexture6</Prop>
+		<Prop>Spanish_DockTexture7</Prop>
+		<Prop Active="1">Mexico_TemploMayorTexture0</Prop>
+	</ObtainableProps>
+</HomeCity>

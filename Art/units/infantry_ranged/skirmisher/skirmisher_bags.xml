@@ -1,0 +1,4 @@
+<animfile>
+  <component>bags<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_3age_bag</file></assetreference></none><guardskirmishers><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_4age_bag</file></assetreference></guardskirmishers><rgvoltigeur><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_4age_bag</file></assetreference></rgvoltigeur></logic></component>
+  <anim>Idle<component>bags</component></anim>
+</animfile>

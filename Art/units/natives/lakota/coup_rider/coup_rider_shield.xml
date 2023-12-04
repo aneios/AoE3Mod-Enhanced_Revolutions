@@ -1,0 +1,5 @@
+<animfile>
+  <definebone>bone_shield</definebone>
+  <component>shield<assetreference type="GrannyModel"><file>units\natives\lakota\coup_rider\coup_rider_shield</file></assetreference></component>
+  <anim>Idle<component>shield</component></anim>
+</animfile>

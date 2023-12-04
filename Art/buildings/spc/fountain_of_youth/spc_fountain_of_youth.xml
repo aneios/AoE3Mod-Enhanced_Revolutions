@@ -1,0 +1,101 @@
+<animfile>
+  <definebone>bone_fallA_01</definebone>
+  <definebone>bone_fallA_02</definebone>
+  <definebone>bone_fallA_03</definebone>
+  <definebone>bone_fallA_04</definebone>
+  <definebone>bone_fallA_05</definebone>
+  <definebone>bone_fallB_01</definebone>
+  <definebone>bone_fallB_02</definebone>
+  <definebone>bone_fallC_01</definebone>
+  <definebone>bone_fallC_02</definebone>
+  <definebone>bone_fountainA_01</definebone>
+  <definebone>bone_debris_1a</definebone>
+  <definebone>bone_debris_1b</definebone>
+  <definebone>bone_debris_1c</definebone>
+  <definebone>bone_debris_1d</definebone>
+  <definebone>bone_debris_1e</definebone>
+  <definebone>bone_debris_1f</definebone>
+  <definebone>bone_debris_2a</definebone>
+  <definebone>bone_debris_2b</definebone>
+  <definebone>bone_debris_2c</definebone>
+  <definebone>bone_debris_2d</definebone>
+  <definebone>bone_debris_2e</definebone>
+  <definebone>bone_debris_3a</definebone>
+  <definebone>bone_debris_3b</definebone>
+  <definebone>bone_debris_3c</definebone>
+  <definebone>bone_debris_4a</definebone>
+  <definebone>bone_debris_4b</definebone>
+  <definebone>bone_debris_6a</definebone>
+  <definebone>bone_debris_6b</definebone>
+  <definebone>bone_debris_6c</definebone>
+  <definebone>bone_debris_6d</definebone>
+  <definebone>bone_debris_6e</definebone>
+  <definebone>bone_debris_7a</definebone>
+  <definebone>bone_debris_7b</definebone>
+  <definebone>bone_debris_7c</definebone>
+  <definebone>bone_debris_7d</definebone>
+  <definebone>bone_debris_7e</definebone>
+  <definebone>bone_debris_7f</definebone>
+  <definebone>bone_debris_7g</definebone>
+  <definebone>bone_debris_8a</definebone>
+  <definebone>bone_debris_8b</definebone>
+  <definebone>bone_debris_8c</definebone>
+  <definebone>bone_debris_8d</definebone>
+  <definebone>bone_debris_8f</definebone>
+  <definebone>bone_Object02</definebone>
+  <definebone>bone_Object03</definebone>
+  <definebone>bone_Object04</definebone>
+  <definebone>bone_Object05</definebone>
+  <definebone>bone_Object06</definebone>
+  <attachment>fountain<component>foy<assetreference type="popcornFx"><file>water_effects\fountain_of_youth.pkfx</file></assetreference></component><anim>Idle<component>foy</component></anim></attachment>
+  <attachment>base smoke<component>smoke base<assetreference type="ParticleSystem"><file>effects\smoke\collapsesmoke01.particle</file></assetreference></component><anim>Idle<component>smoke base</component></anim></attachment>
+  <attachment>base smoke2<component>smoke wave<assetreference type="ParticleSystem"><file>effects\smoke\collapse_smoke_wave.particle</file></assetreference></component><anim>Idle<component>smoke wave</component></anim></attachment>
+  <attachment>base smoke3<component>smoke wave center<assetreference type="ParticleSystem"><file>effects\smoke\collapse_smoke_fort.particle</file></assetreference></component><anim>Idle<component>smoke wave center</component></anim></attachment>
+  <attachment>collapse_smoke<component>collapse_smoke<assetreference type="ParticleSystem"><file>effects\smoke\collapse_smoke_a.particle</file></assetreference></component><anim>Idle<component>collapse_smoke</component></anim></attachment>
+  <attachment>towersmoke<component>smoke base<assetreference type="ParticleSystem"><file>effects\smoke\collapse_smoke_fort.particle</file></assetreference></component><anim>Idle<component>smoke base</component></anim></attachment>
+  <attachment>deathSteam<component>smoke base<assetreference type="ParticleSystem"><file>effects\water_effects\fountainDeathStream.particle</file></assetreference></component><anim>Idle<component>smoke base</component></anim></attachment>
+  <attachment>D1<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D2<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D01a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D01b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D02a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D02b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D03a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D03b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D04a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D04b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D05a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D05b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D06a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D06b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D07a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D07b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D08a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D08b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D09a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D09b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D10a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D10b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D11a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D11b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D12a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D12b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D13a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D13b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D14a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D14b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D15a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D15b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D16a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D16b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D17a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D17b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D18a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D18b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D19a<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foy.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <attachment>D19b<component>emitter<assetreference type="ParticleSystem"><file>effects\smoke\destructionsmoke_foydebris.particle</file></assetreference></component><anim>Idle<component>emitter</component></anim></attachment>
+  <component>spc_fountain_of_youth<logic type="Destruction"><p1><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D01a" frombone="ATTACHPOINT" tobone="bone_debris_1b" syncanims="0"></attach><attach a="D01b" frombone="ATTACHPOINT" tobone="bone_debris_1b" syncanims="0"></attach></p1><p5><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D02a" frombone="ATTACHPOINT" tobone="bone_debris_4a" syncanims="0"></attach><attach a="D02b" frombone="ATTACHPOINT" tobone="bone_debris_4a" syncanims="0"></attach></p5><p10><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D03a" frombone="ATTACHPOINT" tobone="bone_debris_1e" syncanims="0"></attach><attach a="D03b" frombone="ATTACHPOINT" tobone="bone_debris_1e" syncanims="0"></attach></p10><p15><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D04a" frombone="ATTACHPOINT" tobone="bone_debris_6e" syncanims="0"></attach><attach a="D04b" frombone="ATTACHPOINT" tobone="bone_debris_6e" syncanims="0"></attach></p15><p20><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D05a" frombone="ATTACHPOINT" tobone="bone_debris_2c" syncanims="0"></attach><attach a="D05b" frombone="ATTACHPOINT" tobone="bone_debris_2c" syncanims="0"></attach></p20><p25><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D06a" frombone="ATTACHPOINT" tobone="bone_debris_1b" syncanims="0"></attach><attach a="D06b" frombone="ATTACHPOINT" tobone="bone_debris_1b" syncanims="0"></attach></p25><p30><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D07a" frombone="ATTACHPOINT" tobone="bone_debris_4a" syncanims="0"></attach><attach a="D07b" frombone="ATTACHPOINT" tobone="bone_debris_4a" syncanims="0"></attach></p30><p35><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D08a" frombone="ATTACHPOINT" tobone="bone_debris_1e" syncanims="0"></attach><attach a="D08b" frombone="ATTACHPOINT" tobone="bone_debris_1e" syncanims="0"></attach></p35><p40><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D09a" frombone="ATTACHPOINT" tobone="bone_debris_2c" syncanims="0"></attach><attach a="D09b" frombone="ATTACHPOINT" tobone="bone_debris_2c" syncanims="0"></attach></p40><p45><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D10a" frombone="ATTACHPOINT" tobone="bone_debris_1b" syncanims="0"></attach><attach a="D10b" frombone="ATTACHPOINT" tobone="bone_debris_1b" syncanims="0"></attach></p45><p50><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D11a" frombone="ATTACHPOINT" tobone="bone_debris_3c" syncanims="0"></attach><attach a="D11b" frombone="ATTACHPOINT" tobone="bone_debris_3c" syncanims="0"></attach></p50><p55><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D12a" frombone="ATTACHPOINT" tobone="bone_debris_1e" syncanims="0"></attach><attach a="D12b" frombone="ATTACHPOINT" tobone="bone_debris_1e" syncanims="0"></attach></p55><p60><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D13a" frombone="ATTACHPOINT" tobone="bone_debris_2d" syncanims="0"></attach><attach a="D13b" frombone="ATTACHPOINT" tobone="bone_debris_2d" syncanims="0"></attach></p60><p65><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D14a" frombone="ATTACHPOINT" tobone="bone_debris_1b" syncanims="0"></attach><attach a="D14b" frombone="ATTACHPOINT" tobone="bone_debris_1b" syncanims="0"></attach></p65><p70><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D15a" frombone="ATTACHPOINT" tobone="bone_debris_6e" syncanims="0"></attach><attach a="D15b" frombone="ATTACHPOINT" tobone="bone_debris_6e" syncanims="0"></attach></p70><p75><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D16a" frombone="ATTACHPOINT" tobone="bone_debris_4a" syncanims="0"></attach><attach a="D16b" frombone="ATTACHPOINT" tobone="bone_debris_4a" syncanims="0"></attach></p75><p80><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D17a" frombone="ATTACHPOINT" tobone="bone_debris_2e" syncanims="0"></attach><attach a="D17b" frombone="ATTACHPOINT" tobone="bone_debris_2e" syncanims="0"></attach></p80><p85><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D18a" frombone="ATTACHPOINT" tobone="bone_debris_8d" syncanims="0"></attach><attach a="D18b" frombone="ATTACHPOINT" tobone="bone_debris_8d" syncanims="0"></attach></p85><p90><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D19a" frombone="ATTACHPOINT" tobone="bone_debris_1b" syncanims="0"></attach><attach a="D19b" frombone="ATTACHPOINT" tobone="bone_debris_1b" syncanims="0"></attach></p90><p95><assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference><attach a="D1" frombone="ATTACHPOINT" tobone="bone_debris_7b" syncanims="0"></attach><attach a="D2" frombone="ATTACHPOINT" tobone="bone_debris_7b" syncanims="0"></attach></p95><p99><assetreference type="CompositeModel" shape="spc_fountainofyouth"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth</file></assetreference></p99></logic></component>
+  <component>death<assetreference type="GrannyModel"><file>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</file></assetreference></component>
+  <anim>Idle<component>spc_fountain_of_youth</component><simskeleton><model>buildings\spc\fountain_of_youth\spc_fountain_of_youth_damaged</model></simskeleton><attach a="fountain" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach></anim>
+  <anim>Death<component>death</component><attach a="base smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach><attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach><attach a="base smoke3" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach><attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach><attach a="towersmoke" frombone="ATTACHPOINT" tobone="bone_Object02" syncanims="0"></attach><attach a="deathSteam" frombone="ATTACHPOINT" tobone="bone_Object05" syncanims="0"></attach></anim>
+</animfile>

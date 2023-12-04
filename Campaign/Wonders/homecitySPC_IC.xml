@@ -1,0 +1,1982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by Sean Bean (Big Huge Games) -->
+<HomeCity>
+  <Civ>SPCIndians</Civ>
+  <Name>$$60014$$</Name>
+  <HeroName>$$69984$$</HeroName>
+  <GatherPointUnit>HomeCityGatherFlag</GatherPointUnit>
+  <Visual>india\india_homecity.xml</Visual>
+  <WaterVisual>india\india_homecity_water.xml</WaterVisual>
+  <BackgroundVisual>india\india_background.xml</BackgroundVisual>
+  <PathData>india\pathable_area_object.gr2</PathData>
+  <Camera>india\india_homecity_camera.cam</Camera>
+  <WidescreenCamera>india\india_homecity_widescreencamera.cam</WidescreenCamera>
+  <TransportRoundtripTime>1</TransportRoundtripTime>
+  <TransportActivationTime>0</TransportActivationTime>
+  <Level>10</Level>
+  <skillpoints>9</skillpoints>
+  <LightSet>India</LightSet>
+  <WaterType>India_HC</WaterType>
+  <NumPropUnlocksEarned>0</NumPropUnlocksEarned>
+  <AmbientSounds>homecity\spanishambientsounds.xml</AmbientSounds>
+  <XSAI>generic_city</XSAI>
+  <Coffers>
+    <Current>
+      <Food>0</Food>
+      <Wood>0</Wood>
+      <Gold>0</Gold>
+      <Fame>0</Fame>
+      <Ships>0</Ships>
+      <SkillPoints>0</SkillPoints>
+      <XP>0</XP>
+    </Current>
+    <Maximum>
+      <Food>0</Food>
+      <Wood>0</Wood>
+      <Gold>0</Gold>
+      <Fame>0</Fame>
+      <Ships>0</Ships>
+      <SkillPoints>-1</SkillPoints>
+      <XP>-1</XP>
+    </Maximum>
+  </Coffers>
+  <Cards>
+    <!-- NEW WORLD TRADING CO -->
+    <Card>
+      <Name>YPHCShipFoodCrates1Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>300</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipFoodCrates2Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipFoodCrates1Indians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>600</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipFoodCrates3Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipFoodCrates2Indians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>700</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipFoodCrates4Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipFoodCrates3Indians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>1000</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipWoodCrates1Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>300</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipWoodCrates2Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipWoodCrates1Indians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>600</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipWoodCrates3Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipWoodCrates2Indians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>900</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipWoodCrates4Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipWoodCrates3Indians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>1000</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipWoodCrates5Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipWoodCrates4Indians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>1600</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipWoodCratesInf1Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipWoodCrates1Indians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>500</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipWoodCratesInf3Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipWoodCratesInf1Indians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>800</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipWoodCratesInf2Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipWoodCratesInf3Indians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>900</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipWoodCratesInf4Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipWoodCratesInf2Indians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>1300</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipCoinCrates1Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>300</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipCoinCrates2Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipCoinCrates1Indians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>600</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipCoinCrates3Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipCoinCrates2Indians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>700</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipCoinCrates4Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipCoinCrates3Indians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>1000</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCSacredFieldHealing</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipCoveredWagonsIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>1</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipCoveredWagons2Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipCoveredWagonsIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>2</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <!-- ACADEMY -->
+    <Card>
+      <Name>YPHCShipRajput1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>5</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipRajput2</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipRajput1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>11</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipRajput3</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipRajput2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>7</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipRajput4</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipRajput3</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>13</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMeleeDamageIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipRajput4</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipUrumi1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>7</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipUrumiRegiment</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipUrumi1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>10</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipUrumi2</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipUrumiRegiment</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>9</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipSepoy1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>5</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipSepoy2</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipSepoy1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>12</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipSepoy3</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipSepoy2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>9</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipSepoy4</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipSepoy3</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>14</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipIndianHandCavalry1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>4</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipIndianHandCavalry3</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipIndianHandCavalry1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>6</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipSowarRegiment</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipIndianHandCavalry3</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>9</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCCamelDamageIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipIndianHandCavalry3</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipIndianRangedCavalry1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>8</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipIndianRangedCavalry2</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipIndianRangedCavalry1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>12</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipIndianRangedCavalry3</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipIndianRangedCavalry1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>9</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipIndianRangedCavalry4</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipIndianRangedCavalry3</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>14</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipHowdah1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>2</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipHowdahRegiment</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipHowdah1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>2</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipHowdah2</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipHowdahRegiment</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>3</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCCamelFrightening</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipIndianRangedCavalry3</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipSiegeElephant1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>2</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipSiegeElephant2</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipSiegeElephant1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>3</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipMahout1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>2</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipMahout2</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipMahout1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>4</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipMahout3</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipMahout2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>3</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCElephantCombatIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipMahout3</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipFlailiphant1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>5</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipFlailiphant2</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipFlailiphant1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>3</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCElephantLimit</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCElephantTrampling</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCElephantLimit</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipGurkha1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>7</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipGurkha2</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipGurkha1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>12</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipGurkha3</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipGurkha2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>8</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipGurkha4</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipGurkha3</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>14</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <!-- CATHEDRAL -->
+    <Card>
+      <Name>YPHCNativeLearningIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCNativeIncorporationIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCNativeLearningIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCNativeHitpointsIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCNativeIncorporationIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCNativeTradeTaxIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCNativeIncorporationIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCExpandedTradingPostIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCNativeTradeTaxIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>1</DisplayUnitCount>
+    </Card>
+    <Card>
+      <Name>YPHCFencingSchoolIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCRidingSchoolIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCPioneersIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCTheRaj</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCPioneersIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipCastleWagons1Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>1</DisplayUnitCount>
+    </Card>
+    <Card>
+      <Name>YPHCExtensiveFortificationsIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipCastleWagons1Indians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipCastleWagons2Indians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCExtensiveFortificationsIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>1</DisplayUnitCount>
+    </Card>
+    <Card>
+      <Name>YPHCEnlistIrregularsIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCCallToArms1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCEnlistIrregularsIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCConscriptSepoys</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCBattlefieldConstruction</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCConscriptSepoys</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCSepoyRebellion</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCBattlefieldConstruction</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <!-- MFG PLANT -->
+    <Card>
+      <Name>YPHCShipGroveWagonIndians1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <DisplayUnitCount>1</DisplayUnitCount>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipGroveWagonIndians2</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipGroveWagonIndians1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <DisplayUnitCount>2</DisplayUnitCount>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCSawmillsIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCExoticHardwoodsIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCSawmillsIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCWoodcraftingIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCExoticHardwoodsIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCAgrarianism</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCSawmillsIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCForeignLogging</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCAgrarianism</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCIronmongerIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCRoyalMintIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCIronmongerIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCSilversmithIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCRoyalMintIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCFoodSilosIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCSustainableAgricultureIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCFoodSilosIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCFurTradeIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCSustainableAgricultureIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCRumDistilleryIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCFarmlandConservation</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCRumDistilleryIndians</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <!-- HARBOR -->
+    <Card>
+      <Name>YPHCMercsChakram1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>7</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMercsChakram2</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCMercsChakram1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>17</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMercsChakram3</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCMercsChakram2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>23</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMercsTigerClaw1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>10</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMercsTigerClaw2</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCMercsTigerClaw1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>25</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMercsWarElephant1</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCMercsJatLancer1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>8</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMercsJatLancer1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>8</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMercsArsonist1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>6</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMercsIndianArmy</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCMercsArsonist1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>12</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMercenaryLoyaltyIndians</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCMercsIndianArmy</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+  </Cards>
+  <Decks>
+    <Deck>
+      <!-- Customized subset of my active cards -->
+      <Name>$$41682$$</Name>
+      <Default/>
+      <Cards>
+        <Card>YPHCShipWoodCratesInf1Indians</Card>
+        <Card>YPHCShipCastleWagons1Indians</Card>
+        <Card>YPHCShipRajput2</Card>
+        <Card>YPHCShipUrumi1</Card>
+        <Card>YPHCShipUrumi2</Card>
+        <Card>YPHCShipSepoy1</Card>
+        <Card>YPHCShipSepoy2</Card>
+        <Card>YPHCShipSepoy3</Card>
+        <Card>YPHCShipSepoy4</Card>
+        <Card>YPHCShipIndianHandCavalry1</Card>
+        <Card>YPHCShipIndianHandCavalry3</Card>
+        <Card>YPHCRumDistilleryIndians</Card>
+        <Card>YPHCShipGroveWagonIndians1</Card>
+        <Card>YPHCShipFlailiphant1</Card>
+        <Card>YPHCShipSiegeElephant1</Card>
+      </Cards>
+    </Deck>
+    <RevoltDeck>
+      <Name>$$45518$$</Name>
+      <Cards>
+        <Card>HCREVShipGatlingGuns</Card>
+        <Card>HCREVShipColonialMilitia</Card>
+        <Card>HCREVShipIronclads</Card>
+        <Card>HCREVShipFortWagon</Card>
+      </Cards>
+    </RevoltDeck>
+  </Decks>
+  <Building>
+    <Name>Estate</Name>
+    <Visual>
+      <File>spanish\spanish estate.xml</File>
+      <Bone>bone_estate</Bone>
+    </Visual>
+    <UIX>150</UIX>
+    <UIY>200</UIY>
+    <Camera>india\india_homecity_estate_camera.cam</Camera>
+    <WidescreenCamera>india\india_homecity_estate_camera.cam</WidescreenCamera>
+    <UnlockLevel>0</UnlockLevel>
+    <Portrait>homecity\buildings_west\estate_icon</Portrait>
+    <DisplayNameStringID>24968</DisplayNameStringID>
+    <RolloverStringID>25537</RolloverStringID>
+    <ObtainableTechs/>
+    <ActiveTechs/>
+    <ValidUnits>
+		</ValidUnits>
+    <Units>
+		</Units>
+    <TrainBuilding>1</TrainBuilding>
+    <MercBuilding>1</MercBuilding>
+  </Building>
+  <Building>
+    <Name>Emperor's Treasury</Name>
+    <Visual>
+      <File>india\waterbuilding.xml</File>
+      <Bone>bone_waterbuilding</Bone>
+    </Visual>
+    <UIX>250</UIX>
+    <UIY>375</UIY>
+    <Camera>india\india_homecity_market_camera.cam</Camera>
+    <WidescreenCamera>india\india_homecity_market_widescreencamera.cam</WidescreenCamera>
+    <UnlockLevel>0</UnlockLevel>
+    <Portrait>homecity\buildings_west\market_icon</Portrait>
+    <DisplayNameStringID>63356</DisplayNameStringID>
+    <RolloverStringID>25536</RolloverStringID>
+    <ObtainableTechs>
+      <Tech x="0" y="1.0">YPHCShipFoodCrates1Indians</Tech>
+      <Tech x="0" y="2.0">YPHCShipFoodCrates2Indians</Tech>
+      <Tech x="0" y="3.0">YPHCShipFoodCrates3Indians</Tech>
+      <Tech x="0" y="4.0">YPHCShipFoodCrates4Indians</Tech>
+      <Tech x="1.5" y="1">YPHCShipWoodCrates1Indians</Tech>
+      <Tech x="1" y="2">YPHCShipWoodCrates2Indians</Tech>
+      <Tech x="1" y="3">YPHCShipWoodCrates3Indians</Tech>
+      <Tech x="1" y="4">YPHCShipWoodCrates4Indians</Tech>
+      <Tech x="1" y="5">YPHCShipWoodCrates5Indians</Tech>
+      <Tech x="2" y="2">YPHCShipWoodCratesInf1Indians</Tech>
+      <Tech x="2" y="3">YPHCShipWoodCratesInf3Indians</Tech>
+      <Tech x="2" y="4">YPHCShipWoodCratesInf2Indians</Tech>
+      <Tech x="2" y="5">YPHCShipWoodCratesInf4Indians</Tech>
+      <Tech x="3" y="1.0">YPHCShipCoinCrates1Indians</Tech>
+      <Tech x="3" y="2.0">YPHCShipCoinCrates2Indians</Tech>
+      <Tech x="3" y="3.0">YPHCShipCoinCrates3Indians</Tech>
+      <Tech x="3" y="4.0">YPHCShipCoinCrates4Indians</Tech>
+      <Tech x="4" y="2">YPHCSacredFieldHealing</Tech>
+      <Tech x="5" y="1.0">YPHCShipCoveredWagonsIndians</Tech>
+      <Tech x="5" y="3">YPHCShipCoveredWagons2Indians</Tech>
+    </ObtainableTechs>
+    <ActiveTechs>
+      <Tech>YPHCShipWoodCrates1Indians</Tech>
+      <Tech>YPHCShipWoodCratesInf1Indians</Tech>
+    </ActiveTechs>
+    <ValidUnits/>
+    <Units/>
+    <TrainBuilding>1</TrainBuilding>
+  </Building>
+  <Building>
+    <Name>Fortress</Name>
+    <Visual>
+      <File>india\towerbuilding.xml</File>
+      <Bone>bone_towerbuilding</Bone>
+    </Visual>
+    <UIX>460</UIX>
+    <UIY>125</UIY>
+    <Camera>india\india_homecity_academy_camera.cam</Camera>
+    <WidescreenCamera>india\india_homecity_academy_widescreencamera.cam</WidescreenCamera>
+    <UnlockLevel>0</UnlockLevel>
+    <Portrait>homecity\buildings_west\academy_icon</Portrait>
+    <DisplayNameStringID>63357</DisplayNameStringID>
+    <RolloverStringID>29002</RolloverStringID>
+    <ObtainableTechs>
+      <Tech x="0.0" y="1">YPHCShipRajput1</Tech>
+      <Tech x="0.0" y="2">YPHCShipRajput2</Tech>
+      <Tech x="0.0" y="3">YPHCShipRajput3</Tech>
+      <Tech x="0.0" y="4">YPHCShipRajput4</Tech>
+      <Tech x="0.0" y="6">YPHCMeleeDamageIndians</Tech>
+      <Tech x="0.7" y="1">YPHCShipGurkha1</Tech>
+      <Tech x="0.7" y="2">YPHCShipGurkha2</Tech>
+      <Tech x="0.7" y="3">YPHCShipGurkha3</Tech>
+      <Tech x="0.7" y="5">YPHCShipGurkha4</Tech>
+      <Tech x="1.4" y="1">YPHCShipSepoy1</Tech>
+      <Tech x="1.4" y="2">YPHCShipSepoy2</Tech>
+      <Tech x="1.4" y="3">YPHCShipSepoy3</Tech>
+      <Tech x="1.4" y="4">YPHCShipSepoy4</Tech>
+      <Tech x="2.2" y="1">YPHCShipIndianHandCavalry1</Tech>
+      <Tech x="2.2" y="3">YPHCShipIndianHandCavalry3</Tech>
+      <Tech x="2.7" y="4">YPHCCamelDamageIndians</Tech>
+      <Tech x="2.2" y="5">YPHCShipSowarRegiment</Tech>
+      <Tech x="3.3" y="1">YPHCShipIndianRangedCavalry1</Tech>
+      <Tech x="3.3" y="2">YPHCShipIndianRangedCavalry3</Tech>
+      <Tech x="3.7" y="3">YPHCCamelFrightening</Tech>
+      <Tech x="3.3" y="5">YPHCShipIndianRangedCavalry4</Tech>
+      <Tech x="4.5" y="1">YPHCShipHowdah1</Tech>
+      <Tech x="4.5" y="3">YPHCShipHowdahRegiment</Tech>
+      <Tech x="4.5" y="4">YPHCShipHowdah2</Tech>
+      <Tech x="5.3" y="1">YPHCShipMahout1</Tech>
+      <Tech x="5.3" y="2">YPHCShipMahout2</Tech>
+      <Tech x="5.3" y="3">YPHCShipMahout3</Tech>
+      <Tech x="5.3" y="5">YPHCElephantCombatIndians</Tech>
+      <Tech x="6.0" y="1">YPHCShipSiegeElephant1</Tech>
+      <Tech x="6.0" y="2">YPHCShipSiegeElephant2</Tech>
+      <Tech x="6.0" y="4">YPHCElephantLimit</Tech>
+      <Tech x="6.0" y="5">YPHCElephantTrampling</Tech>
+      <Tech x="6.8" y="1">YPHCShipFlailiphant1</Tech>
+      <Tech x="6.8" y="2">YPHCShipFlailiphant2</Tech>
+      <Tech x="7.6" y="1">YPHCShipUrumi1</Tech>
+      <Tech x="7.6" y="3">YPHCShipUrumiRegiment</Tech>
+      <Tech x="7.6" y="5">YPHCShipUrumi2</Tech>
+    </ObtainableTechs>
+    <ActiveTechs>
+      <Tech>YPHCShipRajput1</Tech>
+      <Tech>YPHCShipRajput2</Tech>
+      <Tech>YPHCShipUrumi1</Tech>
+      <Tech>YPHCShipUrumiRegiment</Tech>
+      <Tech>YPHCShipUrumi2</Tech>
+      <Tech>YPHCShipSepoy1</Tech>
+      <Tech>YPHCShipSepoy2</Tech>
+      <Tech>YPHCShipSepoy3</Tech>
+      <Tech>YPHCShipSepoy4</Tech>
+      <Tech>YPHCShipIndianRangedCavalry1</Tech>
+      <Tech>YPHCShipIndianHandCavalry1</Tech>
+      <Tech>YPHCShipIndianHandCavalry3</Tech>
+      <Tech>YPHCShipFlailiphant1</Tech>
+      <Tech>YPHCShipSiegeElephant1</Tech>
+    </ActiveTechs>
+    <ValidUnits>
+		</ValidUnits>
+    <Units/>
+    <TrainBuilding>1</TrainBuilding>
+  </Building>
+  <Building>
+    <Name>Imperial Court</Name>
+    <Visual>
+      <File>india\tajbuilding.xml</File>
+      <Bone>bone_tajbuilding</Bone>
+    </Visual>
+    <UIX>80</UIX>
+    <UIY>475</UIY>
+    <Camera>india\india_homecity_cathedral_camera.cam</Camera>
+    <WidescreenCamera>india\india_homecity_cathedral_widescreencamera.cam</WidescreenCamera>
+    <UnlockLevel>0</UnlockLevel>
+    <Portrait>homecity\buildings_west\cathedral_icon</Portrait>
+    <DisplayNameStringID>63358</DisplayNameStringID>
+    <RolloverStringID>25538</RolloverStringID>
+    <ObtainableTechs>
+      <Tech x="0" y="1">YPHCNativeLearningIndians</Tech>
+      <Tech x="0" y="2">YPHCNativeIncorporationIndians</Tech>
+      <Tech x="1" y="3">YPHCNativeHitpointsIndians</Tech>
+      <Tech x="0" y="3">YPHCNativeTradeTaxIndians</Tech>
+      <Tech x="0" y="5">YPHCExpandedTradingPostIndians</Tech>
+      <Tech x="2" y="2">YPHCFencingSchoolIndians</Tech>
+      <Tech x="2" y="3">YPHCRidingSchoolIndians</Tech>
+      <Tech x="4" y="1">YPHCPioneersIndians</Tech>
+      <Tech x="4" y="3">YPHCTheRaj</Tech>
+      <Tech x="5" y="1">YPHCShipCastleWagons1Indians</Tech>
+      <Tech x="5" y="2">YPHCExtensiveFortificationsIndians</Tech>
+      <Tech x="5" y="4">YPHCShipCastleWagons2Indians</Tech>
+      <Tech x="3" y="1">YPHCEnlistIrregularsIndians</Tech>
+      <Tech x="3" y="2">YPHCCallToArms1</Tech>
+      <Tech x="6" y="2">YPHCConscriptSepoys</Tech>
+      <Tech x="6" y="4">YPHCBattlefieldConstruction</Tech>
+      <Tech x="6" y="6">YPHCSepoyRebellion</Tech>
+    </ObtainableTechs>
+    <ActiveTechs>
+      <Tech>YPHCShipCastleWagons1Indians</Tech>
+    </ActiveTechs>
+    <ValidUnits/>
+    <Units/>
+    <TrainBuilding>1</TrainBuilding>
+  </Building>
+  <Building>
+    <Name>Merchant's Guild</Name>
+    <Visual>
+      <File>india\marketbuilding.xml</File>
+      <Bone>bone_marketbuilding</Bone>
+    </Visual>
+    <UIX>450</UIX>
+    <UIY>275</UIY>
+    <Camera>india\india_homecity_manufacturing_plant_camera.cam</Camera>
+    <WidescreenCamera>india\india_homecity_plant_widescreencamera.cam</WidescreenCamera>
+    <UnlockLevel>0</UnlockLevel>
+    <Portrait>homecity\buildings_west\manufacturing_plant_icon</Portrait>
+    <DisplayNameStringID>63359</DisplayNameStringID>
+    <RolloverStringID>25535</RolloverStringID>
+    <ObtainableTechs>
+      <Tech x="0.5" y="1">YPHCShipGroveWagonIndians1</Tech>
+      <Tech x="0.5" y="3">YPHCShipGroveWagonIndians2</Tech>
+      <Tech x="2" y="2">YPHCSawmillsIndians</Tech>
+      <Tech x="1.5" y="3">YPHCExoticHardwoodsIndians</Tech>
+      <Tech x="1.5" y="4">YPHCWoodcraftingIndians</Tech>
+      <Tech x="2.5" y="3">YPHCAgrarianism</Tech>
+      <Tech x="2.5" y="4">YPHCForeignLogging</Tech>
+      <Tech x="3.5" y="2">YPHCIronmongerIndians</Tech>
+      <Tech x="3.5" y="4">YPHCRoyalMintIndians</Tech>
+      <Tech x="3.5" y="6">YPHCSilversmithIndians</Tech>
+      <Tech x="4.5" y="1">YPHCFoodSilosIndians</Tech>
+      <Tech x="4.5" y="3">YPHCSustainableAgricultureIndians</Tech>
+      <Tech x="4.5" y="5">YPHCFurTradeIndians</Tech>
+      <Tech x="5.5" y="1">YPHCRumDistilleryIndians</Tech>
+      <Tech x="5.5" y="2">YPHCFarmlandConservation</Tech>
+    </ObtainableTechs>
+    <ActiveTechs>
+      <Tech>YPHCRumDistilleryIndians</Tech>
+      <Tech>YPHCShipGroveWagonIndians1</Tech>
+    </ActiveTechs>
+    <ValidUnits/>
+    <TrainBuilding>1</TrainBuilding>
+  </Building>
+  <Building>
+    <Name>Customs House</Name>
+    <Visual>
+      <File>india\squarebuilding.xml</File>
+      <Bone>bone_squarebuilding</Bone>
+    </Visual>
+    <UIX>200</UIX>
+    <UIY>250</UIY>
+    <Camera>india\india_homecity_dock_camera.cam</Camera>
+    <WidescreenCamera>india\india_homecity_dock_widescreencamera.cam</WidescreenCamera>
+    <UnlockLevel>0</UnlockLevel>
+    <Portrait>homecity\buildings_west\dock_icon</Portrait>
+    <DisplayNameStringID>63360</DisplayNameStringID>
+    <RolloverStringID>35746</RolloverStringID>
+    <ObtainableTechs>
+      <Tech x="1" y="1">YPHCMercsChakram1</Tech>
+      <Tech x="1" y="3">YPHCMercsChakram2</Tech>
+      <Tech x="1" y="5">YPHCMercsChakram3</Tech>
+      <Tech x="2.5" y="2">YPHCMercsTigerClaw1</Tech>
+      <Tech x="2.5" y="4">YPHCMercsTigerClaw2</Tech>
+      <Tech x="4" y="1">YPHCMercsJatLancer1</Tech>
+      <Tech x="4" y="5">YPHCMercsWarElephant1</Tech>
+      <Tech x="5.5" y="2">YPHCMercsArsonist1</Tech>
+      <Tech x="5.5" y="4">YPHCMercsIndianArmy</Tech>
+      <Tech x="5.5" y="6">YPHCMercenaryLoyaltyIndians</Tech>
+    </ObtainableTechs>
+    <ActiveTechs/>
+    <ValidUnits/>
+    <Units/>
+    <TrainBuilding>1</TrainBuilding>
+    <MercBuilding>1</MercBuilding>
+  </Building>
+  <Building>
+    <Name>Customization</Name>
+    <Camera>india\india_homecity_camera.cam</Camera>
+    <WidescreenCamera>india\india_homecity_widescreencamera.cam</WidescreenCamera>
+    <UnlockLevel>0</UnlockLevel>
+    <Portrait>homecity\buildings_west\dock_icon</Portrait>
+    <DisplayNameStringID>24966</DisplayNameStringID>
+    <RolloverStringID>25540</RolloverStringID>
+    <CustomizationBuilding>1</CustomizationBuilding>
+  </Building>
+  <Waypoints>
+    <Waypoint>
+      <Bone>bone_pathnode_01</Bone>
+      <PerformanceArea>1</PerformanceArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_02</Bone>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_03</Bone>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_04</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_05</Bone>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_06</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_07</Bone>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_08</Bone>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_09</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_10</Bone>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_11</Bone>
+      <PerformanceArea>1</PerformanceArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_12</Bone>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_13</Bone>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_14</Bone>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_15</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_16</Bone>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_17</Bone>
+      <PerformanceArea>1</PerformanceArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_18</Bone>
+      <PerformanceArea>1</PerformanceArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_19</Bone>
+      <PerformanceArea>1</PerformanceArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_20</Bone>
+      <PerformanceArea>1</PerformanceArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_21</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_22</Bone>
+      <PerformanceArea>1</PerformanceArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_23</Bone>
+      <PerformanceArea>1</PerformanceArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_24</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_25</Bone>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_26</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_27</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_28</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_29</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_30</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_31</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_academy_doorway</Bone>
+      <Door>1</Door>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_plant_doorway</Bone>
+      <Door>1</Door>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_plant_side_doorway</Bone>
+      <Door>1</Door>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_small_church_doorway</Bone>
+      <Door>1</Door>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_cathedral_doorway</Bone>
+      <Door>1</Door>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_cathedral_side_doorway</Bone>
+      <Door>1</Door>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_fishing01</Bone>
+      <FishingArea>1</FishingArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_fishing02</Bone>
+      <FishingArea>1</FishingArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_fishing03</Bone>
+      <FishingArea>1</FishingArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_shipment_start</Bone>
+      <ShipmentStart>1</ShipmentStart>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_shipment_end</Bone>
+      <ShipmentEnd>1</ShipmentEnd>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_dregs01</Bone>
+      <IllReputeArea>1</IllReputeArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_dregs02</Bone>
+      <IllReputeArea>1</IllReputeArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_dregs03</Bone>
+      <IllReputeArea>1</IllReputeArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_dregs04</Bone>
+      <IllReputeArea>1</IllReputeArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_dregs05</Bone>
+      <IllReputeArea>1</IllReputeArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_dregs06</Bone>
+      <IllReputeArea>1</IllReputeArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor01</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor02</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor03</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor04</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor05</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor06</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor07</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor08</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_firework01</Bone>
+      <Fireworks>1</Fireworks>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_firework02</Bone>
+      <Fireworks>1</Fireworks>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_firework03</Bone>
+      <Fireworks>1</Fireworks>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_firework04</Bone>
+      <Fireworks>1</Fireworks>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_firework05</Bone>
+      <Fireworks>1</Fireworks>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_firework06</Bone>
+      <Fireworks>1</Fireworks>
+    </Waypoint>
+  </Waypoints>
+  <ObtainableProps>
+    <Prop>Torchy</Prop>
+    <Prop>Juggler</Prop>
+    <Prop>PeasantVendor</Prop>
+    <Prop>MiddleClassMusician</Prop>
+    <Prop>MiddleClassPreacher</Prop>
+    <Prop>PeasantPainter</Prop>
+    <Prop>Drunk</Prop>
+    <Prop>NiceLady</Prop>
+    <Prop>Thug</Prop>
+    <Prop>PeasantFisherman</Prop>
+    <Prop>UnitChats</Prop>
+    <Prop>Spanish_LightSet1</Prop>
+    <Prop>Spanish_LightSet2</Prop>
+    <Prop>Spanish_AcadProp01</Prop>
+    <Prop>Spanish_AcadProp02</Prop>
+    <Prop>Spanish_AcadProp03</Prop>
+    <Prop>Spanish_AcadProp04</Prop>
+    <Prop>Church_RiderStatueProp</Prop>
+    <Prop>Spanish_CathProp01</Prop>
+    <Prop>Spanish_NWCTProp01</Prop>
+    <Prop>Spanish_NWCTProp02</Prop>
+    <Prop>Spanish_NWCTProp03</Prop>
+    <Prop>Spn_FactProp01</Prop>
+    <Prop>Spn_FactProp02</Prop>
+    <Prop>Spn_DockProp01</Prop>
+    <Prop>Spn_DockProp02</Prop>
+    <Prop>Spn_DockProp03</Prop>
+    <Prop>Spn_DockProp04</Prop>
+    <Prop>Spn_DockProp05</Prop>
+    <Prop Active="1">Spanish_NWTCTexture0</Prop>
+    <Prop>Spanish_NWTCTexture1</Prop>
+    <Prop>Spanish_NWTCTexture2</Prop>
+    <Prop>Spanish_NWTCTexture3</Prop>
+    <Prop>Spanish_NWTCTexture4</Prop>
+    <Prop>Spanish_NWTCTexture5</Prop>
+    <Prop>Spanish_NWTCTexture6</Prop>
+    <Prop>Spanish_NWTCTexture7</Prop>
+    <Prop Active="1">Spanish_AcademyTexture0</Prop>
+    <Prop>Spanish_AcademyTexture1</Prop>
+    <Prop>Spanish_AcademyTexture2</Prop>
+    <Prop>Spanish_AcademyTexture3</Prop>
+    <Prop Active="1">Spanish_ManuPlantTexture0</Prop>
+    <Prop>Spanish_ManuPlantTexture1</Prop>
+    <Prop>Spanish_ManuPlantTexture2</Prop>
+    <Prop>Spanish_ManuPlantTexture3</Prop>
+    <Prop>Spanish_ManuPlantTexture4</Prop>
+    <Prop>Spanish_ManuPlantTexture5</Prop>
+    <Prop>Spanish_ManuPlantTexture6</Prop>
+    <Prop>Spanish_ManuPlantTexture7</Prop>
+    <Prop Active="1">Spanish_CathedralTexture0</Prop>
+    <Prop>Spanish_CathedralTexture1</Prop>
+    <Prop>Spanish_CathedralTexture2</Prop>
+    <Prop>Spanish_CathedralTexture3</Prop>
+    <Prop Active="1">Spanish_DockTexture0</Prop>
+    <Prop>Spanish_DockTexture1</Prop>
+    <Prop>Spanish_DockTexture2</Prop>
+    <Prop>Spanish_DockTexture3</Prop>
+    <Prop>Spanish_DockTexture4</Prop>
+    <Prop>Spanish_DockTexture5</Prop>
+    <Prop>Spanish_DockTexture6</Prop>
+    <Prop>Spanish_DockTexture7</Prop>
+  </ObtainableProps>
+</HomeCity>

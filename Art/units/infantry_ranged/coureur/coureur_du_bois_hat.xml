@@ -1,0 +1,4 @@
+<animfile>
+  <component>hat<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\coureur\coureur_du_bois_hat_milice</file></assetreference></none><derevolutioncanadafrench><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_3age_hat</file></assetreference></derevolutioncanadafrench><dehcrevhuguenots><assetreference type="GrannyModel"><file>units\infantry_ranged\carolean\carolean_age2_hat</file></assetreference></dehcrevhuguenots></logic></component>
+  <anim>Idle<component>hat</component></anim>
+</animfile>

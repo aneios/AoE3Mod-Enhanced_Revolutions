@@ -1,0 +1,10 @@
+<animfile>
+  <definebone>bone_gun</definebone>
+  <definebone>Bip01 Prop1</definebone>
+  <attachment>gun<component>gun<assetreference type="GrannyModel"><file>units\mercenaries\jaeger\jaeger_gun</file></assetreference></component><anim>Idle<component>gun</component></anim></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\mercenaries\igcjaeger\igc_jaeger</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\shadow_hero_64x64</selectedtexture><width>1.0</width><height>1.0</height></decal><attach a="gun" frombone="bone_gun" tobone="Bip01 Prop1" syncanims="0"></attach></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\mercenaries\igcjaeger\idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\range\walk_crossbow_upper</file><file>animation_library\shared\walk_generic_lower</file><tag type="FootstepLeft" footprinttype="HumanLeft">0.14</tag><tag type="FootstepRight" footprinttype="HumanRight">0.61</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Jog<assetreference type="GrannyAnim"><file>animation_library\range\jog_rifleman_A</file><tag type="FootstepLeft" footprinttype="HumanLeft">0.04</tag><tag type="FootstepRight" footprinttype="HumanRight">0.54</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Run<assetreference type="GrannyAnim"><file>animation_library\range\run_rifleman_A</file><tag type="FootstepLeft" footprinttype="HumanLeft">0.13</tag><tag type="FootstepRight" footprinttype="HumanRight">0.60</tag></assetreference><component>ModelComp</component></anim>
+</animfile>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>fodio_pistol<assetreference type="GrannyModel"><file>units\africans\hausa\emir\fodio_pistol</file></assetreference></component>
+  <anim>Idle<component>fodio_pistol</component></anim>
+</animfile>

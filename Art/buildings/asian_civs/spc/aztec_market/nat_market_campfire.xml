@@ -1,0 +1,19 @@
+<animfile>
+  <definebone>bone_campfire</definebone>
+  <attachment>fire_attachment_A<component>fire_A<assetreference type="popcornfx"><file>fire\campfire_a.pkfx</file></assetreference></component><anim>Idle<component>fire_A</component></anim></attachment>
+  <attachment>fire_attachment_B<component>fire_B<assetreference type="ParticleSystem"><file>fire\campfire_b.pkfx</file></assetreference></component><anim>Idle<component>fire_B</component></anim></attachment>
+  <attachment>fire_attachment_C<component>fire_C<assetreference type="ParticleSystem"><file>fire\campfire_c.pkfx</file></assetreference></component><anim>Idle<component>fire_C</component></anim></attachment>
+  <attachment>ground_fire_attachment_A<component>ground_fire_A<assetreference type="ParticleSystem"><file>effects\fire\ground_fire_A.prt</file></assetreference></component><anim>Idle<component>ground_fire_A</component></anim></attachment>
+  <attachment>ground_fire_attachment_B<component>ground_fire_B<assetreference type="ParticleSystem"><file>effects\fire\ground_fire_B.prt</file></assetreference></component><anim>Idle<component>ground_fire_B</component></anim></attachment>
+  <attachment>ground_fire_attachment_C<component>ground_fire_C<assetreference type="ParticleSystem"><file>effects\fire\ground_fire_C.prt</file></assetreference></component><anim>Idle<component>ground_fire_C</component></anim></attachment>
+  <attachment>embers_attachment_A<component>embers_A<assetreference type="ParticleSystem"><file>effects\fire\embers_A.prt</file></assetreference></component><anim>Idle<component>embers_A</component></anim></attachment>
+  <attachment>embers_attachment_B<component>embers_B<assetreference type="ParticleSystem"><file>effects\fire\embers_B.prt</file></assetreference></component><anim>Idle<component>embers_B</component></anim></attachment>
+  <attachment>embers_attachment_C<component>embers_C<assetreference type="ParticleSystem"><file>effects\fire\embers_C.prt</file></assetreference></component><anim>Idle<component>embers_C</component></anim></attachment>
+  <attachment>smoke_attachment_A<component>smoke_A<assetreference type="ParticleSystem"><file>effects\smoke\white_smoke_A.prt</file></assetreference></component><anim>Idle<component>smoke_A</component></anim></attachment>
+  <attachment>smoke_attachment_B<component>smoke_B<assetreference type="ParticleSystem"><file>effects\smoke\white_smoke_B.prt</file></assetreference></component><anim>Idle<component>smoke_B</component></anim></attachment>
+  <attachment>smoke_attachment_C<component>smoke_C<assetreference type="ParticleSystem"><file>effects\smoke\white_smoke_C.prt</file></assetreference></component><anim>Idle<component>smoke_C</component></anim></attachment>
+  <attachment>campfire_ground<component>ground<assetreference type="GrannyModel"><file>buildings\native_settlement\xpk_campfire_ground_d</file></assetreference></component><anim>Idle<component>ground</component></anim></attachment>
+  <attachment>campfire_b<component>campfire_b<assetreference type="GrannyModel"><file>buildings\native_settlement\xpk_campfire_b</file></assetreference></component><anim>Idle<component>campfire_b</component></anim></attachment>
+  <component>campfire<assetreference type="GrannyModel"><file>buildings\native_settlement\xpk_campfire_c</file></assetreference><attach a="fire_attachment_A" frombone="ATTACHPOINT" tobone="bone_campfire" syncanims="0"></attach><attach a="campfire_ground" frombone="ATTACHPOINT" tobone="bone_campfire" syncanims="0"></attach></component>
+  <anim>Idle<component>campfire</component></anim>
+</animfile>

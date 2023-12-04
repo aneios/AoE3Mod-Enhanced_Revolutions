@@ -1,0 +1,64 @@
+<animfile>
+  <definebone>bone_flag_civ</definebone>
+  <definebone>bone_debris_1A</definebone>
+  <definebone>bone_debris_1B</definebone>
+  <definebone>bone_debris_1C</definebone>
+  <definebone>bone_debris_1D</definebone>
+  <definebone>bone_debris_1e</definebone>
+  <definebone>bone_debris_1f</definebone>
+  <definebone>bone_debris_1g</definebone>
+  <definebone>bone_debris_1h</definebone>
+  <definebone>bone_debris_1i</definebone>
+  <definebone>bone_debris_1j</definebone>
+  <definebone>bone_debris_1k</definebone>
+  <definebone>bone_debris_2a</definebone>
+  <definebone>bone_debris_2b</definebone>
+  <definebone>bone_debris_2c</definebone>
+  <definebone>bone_debris_2d</definebone>
+  <definebone>bone_debris_2e</definebone>
+  <definebone>bone_debris_2f</definebone>
+  <definebone>bone_debris_2g</definebone>
+  <definebone>bone_debris_2h</definebone>
+  <definebone>bone_debris_2i</definebone>
+  <definebone>bone_debris_3a</definebone>
+  <definebone>bone_debris_3b</definebone>
+  <definebone>bone_debris_3c</definebone>
+  <definebone>bone_debris_3d</definebone>
+  <definebone>bone_debris_3e</definebone>
+  <definebone>bone_debris_3f</definebone>
+  <definebone>bone_debris_3g</definebone>
+  <definebone>bone_debris_3h</definebone>
+  <definebone>bone_debris_4A</definebone>
+  <definebone>bone_debris_4B</definebone>
+  <definebone>bone_debris_4C</definebone>
+  <definebone>bone_debris_4D</definebone>
+  <definebone>bone_debris_4e</definebone>
+  <definebone>bone_debris_4f</definebone>
+  <definebone>bone_debris_4g</definebone>
+  <definebone>bone_debris_4h</definebone>
+  <definebone>bone_debris_4i</definebone>
+  <definebone>bone_debris_4j</definebone>
+  <definebone>bone_debris_4k</definebone>
+  <definebone>bone_debris_4l</definebone>
+  <definebone>bone_debris_4m</definebone>
+  <definebone>bone_debris_5A</definebone>
+  <definebone>bone_debris_5B</definebone>
+  <definebone>bone_debris_5C</definebone>
+  <definebone>bone_debris_5D</definebone>
+  <definebone>bone_debris_5e</definebone>
+  <definebone>bone_debris_5f</definebone>
+  <definebone>bone_debris_5g</definebone>
+  <definebone>bone_debris_5h</definebone>
+  <definebone>bone_debris_5i</definebone>
+  <definebone>bone_debris_3i</definebone>
+  <definebone>bone_debris_3j</definebone>
+  <attachment>FarmlandPlantsTop<component>FarmlandPlants<assetreference type="GrannyModel"><file>buildings\mill\FarmlandPlants</file></assetreference></component><anim>Idle<component>FarmlandPlants</component></anim></attachment>
+  <submodel>sub_construction_stage_01<component>construction_stage_01<assetreference type="GrannyModel"><file>buildings\constructions\2x2_stage1</file></assetreference><decal><effecttype>bump</effecttype><texture>buildings\mill\tilled_earth</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\mill\farmland_bump</bumptexture><width>16.00</width><height>16.00</height></decal></component><anim>Idle<component>construction_stage_01</component></anim></submodel>
+  <submodel>sub_construction_stage_02<component>construction_stage_02<assetreference type="GrannyModel"><file>buildings\constructions\2x2_stage2</file></assetreference><decal><effecttype>bump</effecttype><texture>buildings\mill\tilled_earth</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\mill\farmland_bump</bumptexture><width>16.00</width><height>16.00</height></decal></component><anim>Idle<component>construction_stage_02</component></anim></submodel>
+  <submodel>sub_construction_stage_03<component>construction_stage_03<assetreference type="GrannyModel"><file>buildings\constructions\con_small_3</file></assetreference><decal><effecttype>bump</effecttype><texture>buildings\mill\tilled_earth</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\mill\farmland_bump</bumptexture><width>16.00</width><height>16.00</height></decal></component><anim>Idle<component>construction_stage_03</component></anim></submodel>
+  <submodel>east_mill_age2<attachment>collapse_smoke<component>collapse_smoke<assetreference type="popcornFx"><file>smoke\collapse_smoke_4x4.pkfx</file></assetreference></component><anim>Idle<component>collapse_smoke</component></anim></attachment><attachment>FarmlandPlants<component>FarmlandPlants<assetreference type="GrannyModel"><file>buildings\mill\FarmlandPlants</file></assetreference></component><anim>Idle<component>FarmlandPlants</component></anim></attachment><component>Normal<logic type="LowPoly"><normal><logic type="Destruction"><p1><assetreference type="GrannyModel"><file>buildings\mill\EAST\AGE_2\east_mill_age2_damaged</file></assetreference></p1><p99><assetreference type="GrannyModel" shape="east_mill_age2"><file>buildings\mill\east_mill_age2</file></assetreference></p99></logic><attach a="FarmlandPlants" frombone="ROOT" tobone="ROOT" syncanims="0"></attach></normal><lowpoly><assetreference type="GrannyModel" shape="east_mill_age2"><file>buildings\mill\EAST\AGE_2\lp_east_mill_age2</file></assetreference></lowpoly></logic><decal><effecttype>bump</effecttype><texture>buildings\mill\farmland</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\mill\farmland_bump</bumptexture><width>16.00</width><height>16.00</height></decal></component><component>death model<logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>buildings\mill\east\age_2\east_mill_age2_damaged</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>buildings\mill\EAST\AGE_2\lp_east_mill_age2</file></assetreference></lowpoly></logic><decal><effecttype>bump</effecttype><texture>buildings\mill\farmland</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\mill\farmland_bump</bumptexture><width>16.00</width><height>16.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>buildings\mill\east_mill_age2_idle</file><tag type="SpecificSoundSet" checkvisible="1" set="AmbienceMill">0.10</tag><tag type="SpecificSoundSet" checkvisible="1" set="AmbienceMill">0.34</tag><tag type="SpecificSoundSet" checkvisible="1" set="AmbienceMill">0.62</tag><tag type="SpecificSoundSet" checkvisible="1" set="AmbienceMill">0.85</tag></assetreference><component>Normal</component><simskeleton><model>buildings\mill\EAST\AGE_2\east_mill_age2_damaged</model></simskeleton></anim><anim>Death<component>death model</component><attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach></anim></submodel>
+  <submodel>west_mill_age2<attachment>collapse_smoke<component>collapse_smoke<assetreference type="popcornFx"><file>smoke\collapse_smoke_4x4.pkfx</file></assetreference></component><anim>Idle<component>collapse_smoke</component></anim></attachment><attachment>FarmlandPlants<component>FarmlandPlants<assetreference type="GrannyModel"><file>buildings\mill\FarmlandPlants</file></assetreference></component><anim>Idle<component>FarmlandPlants</component></anim></attachment><component>Normal<logic type="LowPoly"><normal><logic type="Destruction"><p1><assetreference type="GrannyModel"><file>buildings\mill\WEST\AGE_2\west_mill_age2_damaged</file></assetreference></p1><p99><assetreference type="GrannyModel" shape="west_mill_age2"><file>buildings\mill\WEST\AGE_2\west_mill_age2</file></assetreference></p99></logic><attach a="FarmlandPlants" frombone="ROOT" tobone="ROOT" syncanims="0"></attach></normal><lowpoly><assetreference type="GrannyModel" shape="west_mill_age2"><file>buildings\mill\west\age_2\lp_west_mill_age2</file></assetreference></lowpoly></logic><decal><effecttype>bump</effecttype><texture>buildings\mill\farmland</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\mill\farmland_bump</bumptexture><width>16.00</width><height>16.00</height></decal></component><component>death model<logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>buildings\mill\west\age_2\west_mill_age2_damaged</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>buildings\mill\WEST\AGE_2\lp_west_mill_age2</file></assetreference></lowpoly></logic><decal><effecttype>bump</effecttype><texture>buildings\mill\farmland</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\mill\farmland_bump</bumptexture><width>16.00</width><height>16.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>buildings\mill\WEST\AGE_2\west_mill_age2_idle</file><tag type="SpecificSoundSet" checkvisible="1" set="AmbienceMill">0.10</tag><tag type="SpecificSoundSet" checkvisible="1" set="AmbienceMill">0.34</tag><tag type="SpecificSoundSet" checkvisible="1" set="AmbienceMill">0.62</tag><tag type="SpecificSoundSet" checkvisible="1" set="AmbienceMill">0.85</tag></assetreference><component>Normal</component><simskeleton><model>buildings\mill\WEST\AGE_2\west_mill_age2</model></simskeleton></anim><anim>Death<component>death model</component><attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach></anim></submodel>
+  <submodel>west_age2_con2<attachment>con<component>scaffolding<assetreference type="GrannyModel"><file>buildings\mill\WEST\AGE_2\west_mill_age2_con</file></assetreference></component><anim>Idle<component>scaffolding</component></anim></attachment><component>mill<assetreference type="GrannyModel"><file>buildings\constructions\2x2_stage3</file></assetreference><decal><effecttype>bump</effecttype><texture>buildings\mill\tilled_earth</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\mill\farmland_bump</bumptexture><width>16.00</width><height>16.00</height></decal><attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach></component><anim>Idle<component>mill</component></anim></submodel>
+  <submodel>east_age2_con2<attachment>con<component>scaffolding<assetreference type="GrannyModel"><file>buildings\mill\east_mill_age2_con</file></assetreference></component><anim>Idle<component>scaffolding</component></anim></attachment><component>mill<assetreference type="GrannyModel"><file>buildings\constructions\2x2_stage3</file></assetreference><decal><effecttype>bump</effecttype><texture>buildings\mill\tilled_earth</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\mill\farmland_bump</bumptexture><width>16.00</width><height>16.00</height></decal><attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach></component><anim>Idle<component>mill</component></anim></submodel>
+  <component>Mill_Model<logic type="Tech"><none><logic type="BuildingCompletion"><p0><submodelref ref="sub_construction_stage_01"></submodelref></p0><p33><submodelref ref="sub_construction_stage_02"></submodelref></p33><p66><submodelref ref="west_age2_con2"></submodelref></p66><p100><submodelref ref="west_mill_age2"></submodelref></p100></logic></none><despceasternvillages><logic type="BuildingCompletion"><p0><submodelref ref="sub_construction_stage_01"></submodelref></p0><p33><submodelref ref="sub_construction_stage_02"></submodelref></p33><p66><submodelref ref="east_age2_con2"></submodelref></p66><p100><submodelref ref="east_mill_age2"></submodelref></p100></logic></despceasternvillages></logic></component>
+</animfile>

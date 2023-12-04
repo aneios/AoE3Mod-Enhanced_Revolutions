@@ -1,0 +1,7 @@
+<animfile>
+  <definebone>bone_cargo</definebone>
+  <definebone>bone_cart_cargo</definebone>
+  <attachment>cargo_wood<component>cargo_wood<assetreference type="GrannyModel"><file>units\villagers\settler_wagon\settler_wagon_wood</file></assetreference></component><anim>Idle<component>cargo_wood</component></anim></attachment>
+  <component>donkey_gather_wood<assetreference type="GrannyModel"><file>units\villagers\settler_wagon\settler_wagon_donkey</file></assetreference><attach a="cargo_wood" frombone="bone_cargo" tobone="bone_cart_cargo" syncanims="0"></attach></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\villagers\settler_wagon\settler_wagon_donkey_idle</file></assetreference><component>donkey_gather_wood</component></anim>
+</animfile>

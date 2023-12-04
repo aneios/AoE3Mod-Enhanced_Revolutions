@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>10</width>
+	<height>10</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="231" posx="-5.2724" posz="-5.9643" orientx="0.7106" orienty="0.0000" orientz="-0.7036">UnderbrushForest</unit>
+		<unit variation="112" posx="2.0988" posz="-6.5524" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushForest</unit>
+		<unit variation="190" posx="0.8847" posz="-5.5477" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushRockies</unit>
+		<unit variation="231" posx="-6.8427" posz="-3.9887" orientx="0.3827" orienty="0.0000" orientz="0.9239">UnderbrushForest</unit>
+		<unit variation="231" posx="-8.1088" posz="-3.8210" orientx="0.9258" orienty="0.0000" orientz="-0.3780">UnderbrushForest</unit>
+		<unit variation="228" posx="7.3431" posz="-4.3515" orientx="1.0000" orienty="0.0000" orientz="0.0000">deNuggetAfricanTreasureHutSquareRubble</unit>
+		<unit variation="36" posx="-5.3163" posz="-3.0662" orientx="0.9262" orienty="0.0000" orientz="-0.3771">deUnderbrushFlowersJapan</unit>
+		<unit variation="231" posx="-8.3102" posz="-1.4430" orientx="0.7038" orienty="0.0000" orientz="0.7104">UnderbrushForest</unit>
+		<unit variation="27" posx="5.5581" posz="-1.0316" orientx="0.3827" orienty="0.0000" orientz="0.9239">PropsColony</unit>
+		<unit variation="15" posx="-2.4892" posz="-1.6514" orientx="0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushForest</unit>
+		<unit variation="237" posx="-5.4098" posz="-0.5806" orientx="0.9239" orienty="0.0000" orientz="0.3827">UnderbrushForest</unit>
+		<unit variation="231" posx="4.3539" posz="0.1773" orientx="-1.0000" orienty="0.0000" orientz="-0.0048">UnderbrushForest</unit>
+		<unit variation="62" posx="2.9503" posz="0.9939" orientx="-0.9194" orienty="0.0000" orientz="-0.3932">UnderbrushForest</unit>
+		<unit variation="118" posx="-2.1531" posz="1.2090" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">UnderbrushForest</unit>
+		<unit variation="62" posx="-2.6561" posz="0.7042" orientx="0.6992" orienty="0.0000" orientz="0.7149">UnderbrushForest</unit>
+		<unit variation="178" posx="7.0000" posz="1.0000" orientx="-0.6013" orienty="0.0000" orientz="-0.7990">deTreePoplar</unit>
+		<unit variation="62" posx="-4.9442" posz="2.4360" orientx="-0.7192" orienty="0.0000" orientz="0.6948">UnderbrushForest</unit>
+		<unit variation="231" posx="9.5493" posz="2.4854" orientx="0.0049" orienty="0.0000" orientz="-1.0000">UnderbrushForest</unit>
+		<unit variation="62" posx="2.8732" posz="4.0037" orientx="0.0178" orienty="0.0000" orientz="-0.9998">UnderbrushForest</unit>
+		<unit variation="11" posx="4.3799" posz="3.8979" orientx="1.0000" orienty="0.0000" orientz="0.0000">PropsColony</unit>
+		<unit variation="62" posx="0.2461" posz="4.7065" orientx="0.7153" orienty="0.0000" orientz="-0.6988">UnderbrushForest</unit>
+		<unit variation="141" posx="7.0000" posz="3.0000" orientx="-1.0000" orienty="-0.0000" orientz="-0.0001">BerryBush</unit>
+		<unit variation="62" posx="-4.9337" posz="6.8739" orientx="0.9217" orienty="0.0000" orientz="0.3880">UnderbrushForest</unit>
+		<unit variation="208" posx="-4.2080" posz="5.5683" orientx="0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushRockies</unit>
+		<unit variation="166" posx="0.5011" posz="6.0878" orientx="0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushForest</unit>
+		<unit variation="64" posx="1.4793" posz="6.4700" orientx="0.9239" orienty="0.0000" orientz="0.3827">PropsColony</unit>
+		<unit variation="62" posx="-2.8712" posz="6.3364" orientx="0.7111" orienty="0.0000" orientz="-0.7031">UnderbrushForest</unit>
+		<unit variation="166" posx="-1.8394" posz="6.6028" orientx="0.9240" orienty="0.0000" orientz="-0.3824">UnderbrushForest</unit>
+		<unit variation="198" posx="-3.1097" posz="6.5565" orientx="0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushForest</unit>
+		<unit variation="178" posx="5.0000" posz="7.0000" orientx="0.8014" orienty="0.0000" orientz="-0.5982">deTreePoplar</unit>
+		<unit variation="231" posx="-4.5009" posz="8.5588" orientx="0.3779" orienty="0.0000" orientz="0.9258">UnderbrushForest</unit>
+		<unit variation="196" posx="-6.2521" posz="7.6989" orientx="0.7071" orienty="0.0000" orientz="0.7071">deUnderbrushFlowersJapan</unit>
+		<unit variation="178" posx="-1.0000" posz="9.0000" orientx="0.7990" orienty="0.0000" orientz="-0.6013">deTreePoplar</unit>
+		<unit variation="141" posx="5.0000" posz="7.0000" orientx="-1.0000" orienty="-0.0000" orientz="-0.0001">BerryBush</unit>
+		<unit variation="141" posx="2.9506" posz="7.6600" orientx="-1.0000" orienty="-0.0000" orientz="-0.0053">BerryBush</unit>
+		<unit variation="141" posx="1.0000" posz="9.0000" orientx="-1.0000" orienty="-0.0000" orientz="-0.0001">BerryBush</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="great_plains\ground3_gp">
+			<block startx="-5" startz="-5" endx="-5" endz="-5"></block>
+			<block startx="-3" startz="-3" endx="-3" endz="-3"></block>
+			<block startx="-4" startz="3" endx="-4" endz="3"></block>
+			<block startx="-3" startz="4" endx="-3" endz="4"></block>
+			<block startx="-2" startz="-1" endx="-2" endz="-1"></block>
+			<block startx="-2" startz="4" endx="-2" endz="4"></block>
+			<block startx="-1" startz="4" endx="-1" endz="4"></block>
+			<block startx="1" startz="4" endx="1" endz="4"></block>
+			<block startx="2" startz="-1" endx="2" endz="-1"></block>
+			<block startx="2" startz="4" endx="2" endz="4"></block>
+			<block startx="3" startz="-1" endx="3" endz="0"></block>
+			<block startx="3" startz="2" endx="3" endz="3"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_lakes\ground_grass1_gls">
+			<block startx="-5" startz="-3" endx="-5" endz="-3"></block>
+			<block startx="-4" startz="-5" endx="-4" endz="-3"></block>
+			<block startx="-3" startz="-5" endx="-3" endz="-4"></block>
+			<block startx="-5" startz="3" endx="-5" endz="3"></block>
+			<block startx="-4" startz="4" endx="-4" endz="4"></block>
+			<block startx="-3" startz="0" endx="-3" endz="0"></block>
+			<block startx="-2" startz="0" endx="-2" endz="0"></block>
+			<block startx="-2" startz="3" endx="-2" endz="3"></block>
+			<block startx="-1" startz="3" endx="-1" endz="3"></block>
+			<block startx="0" startz="3" endx="0" endz="3"></block>
+			<block startx="1" startz="3" endx="1" endz="3"></block>
+			<block startx="2" startz="0" endx="2" endz="2"></block>
+			<block startx="4" startz="-2" endx="4" endz="1"></block>
+			<block startx="-1" startz="-5" endx="-1" endz="-5"></block>
+			<block startx="0" startz="-5" endx="0" endz="-5"></block>
+			<block startx="1" startz="-5" endx="1" endz="-4"></block>
+			<block startx="2" startz="-5" endx="2" endz="-5"></block>
+			<block startx="3" startz="-4" endx="3" endz="-3"></block>
+			<block startx="4" startz="-4" endx="4" endz="-3"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground12_ara">
+			<block startx="-5" startz="-4" endx="-5" endz="-4"></block>
+			<block startx="-5" startz="-2" endx="-5" endz="0"></block>
+			<block startx="-5" startz="4" endx="-5" endz="4"></block>
+			<block startx="-3" startz="3" endx="-3" endz="3"></block>
+			<block startx="3" startz="-2" endx="3" endz="-2"></block>
+			<block startx="3" startz="4" endx="3" endz="4"></block>
+			<block startx="4" startz="2" endx="4" endz="4"></block>
+			<block startx="-2" startz="-5" endx="-2" endz="-5"></block>
+			<block startx="1" startz="-3" endx="1" endz="-3"></block>
+			<block startx="3" startz="-5" endx="3" endz="-5"></block>
+			<block startx="4" startz="-5" endx="4" endz="-5"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground07_b_ara">
+			<block startx="1" startz="0" endx="1" endz="0"></block>
+			<block startx="1" startz="2" endx="1" endz="2"></block>
+			<block startx="-2" startz="-4" endx="-2" endz="-4"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground07_ara">
+			<block startx="-5" startz="1" endx="-5" endz="1"></block>
+			<block startx="-4" startz="1" endx="-4" endz="2"></block>
+			<block startx="-3" startz="2" endx="-3" endz="2"></block>
+			<block startx="-2" startz="1" endx="-2" endz="2"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="1"></block>
+			<block startx="0" startz="-1" endx="0" endz="1"></block>
+			<block startx="1" startz="-2" endx="1" endz="-1"></block>
+			<block startx="2" startz="-2" endx="2" endz="-2"></block>
+			<block startx="-2" startz="-3" endx="-2" endz="-3"></block>
+			<block startx="-1" startz="-4" endx="-1" endz="-3"></block>
+			<block startx="2" startz="-4" endx="2" endz="-3"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_lakes\ground_forest_gls">
+			<block startx="-5" startz="2" endx="-5" endz="2"></block>
+			<block startx="-4" startz="-2" endx="-4" endz="0"></block>
+			<block startx="-3" startz="-2" endx="-3" endz="-1"></block>
+			<block startx="-3" startz="1" endx="-3" endz="1"></block>
+			<block startx="-2" startz="-2" endx="-2" endz="-2"></block>
+			<block startx="-1" startz="2" endx="-1" endz="2"></block>
+			<block startx="0" startz="-2" endx="0" endz="-2"></block>
+			<block startx="0" startz="2" endx="0" endz="2"></block>
+			<block startx="1" startz="1" endx="1" endz="1"></block>
+			<block startx="0" startz="-4" endx="0" endz="-3"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_plains\ground7a_gp">
+			<block startx="0" startz="4" endx="0" endz="4"></block>
+			<block startx="2" startz="3" endx="2" endz="3"></block>
+			<block startx="3" startz="1" endx="3" endz="1"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

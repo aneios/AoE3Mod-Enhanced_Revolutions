@@ -1,0 +1,4 @@
+<animfile>
+  <component>treasure<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\props_colony\nat_food_crates_small_a</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\props_colony\nat_food_crates_small_b</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\props_colony\nat_food_crates_small_c</file></assetreference></data></logic><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>3.00</width><height>3.00</height></decal></component>
+  <anim>Idle<component>treasure</component></anim>
+</animfile>

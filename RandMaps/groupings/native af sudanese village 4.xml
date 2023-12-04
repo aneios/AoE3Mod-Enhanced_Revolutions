@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>12</width>
+	<height>15</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<workonassingleunit>1</workonassingleunit>
+	<units>
+		<unit variation="100" posx="-1.5327" posz="-12.9614" orientx="0.9239" orienty="0.0000" orientz="0.3827">deUnderbrushPlantsAfrica</unit>
+		<unit variation="217" posx="-1.6461" posz="-13.5524" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushJungle</unit>
+		<unit variation="21" posx="-5.8911" posz="-11.9034" orientx="0.7071" orienty="0.0000" orientz="0.7071">deUnderbrushSmallRocksAfrica</unit>
+		<unit variation="0" posx="-2.3521" posz="-13.0929" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="2" posx="-4.6105" posz="-12.1473" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="1" posx="-3.6711" posz="-12.7165" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="2" posx="-5.0730" posz="-11.9597" orientx="0.7071" orienty="0.0000" orientz="-0.7071">UnderbrushBlackhills</unit>
+		<unit variation="101" posx="-3.0832" posz="-9.8967" orientx="-0.9241" orienty="-0.0000" orientz="0.3822">deNativePropsSudanese</unit>
+		<unit variation="138" posx="-1.6287" posz="-9.4420" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="44" posx="5.0401" posz="-10.1010" orientx="-1.0000" orienty="0.0000" orientz="-0.0003">deSocketSudanese</unit>
+		<unit variation="19" posx="-4.2276" posz="-9.2304" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">NativeTownObstruction</unit>
+		<unit variation="150" posx="-6.9194" posz="-8.4113" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">NativeTownObstruction</unit>
+		<unit variation="104" posx="-9.3195" posz="-10.4957" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushJungle</unit>
+		<unit variation="1" posx="-6.6992" posz="-11.8597" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="154" posx="-0.4438" posz="-10.5410" orientx="0.9239" orienty="0.0000" orientz="-0.3827">deNativePropsAfrica</unit>
+		<unit variation="101" posx="-7.0360" posz="-8.7281" orientx="0.3822" orienty="-0.0000" orientz="0.9241">deNativePropsSudanese</unit>
+		<unit variation="2" posx="-7.5801" posz="-11.3563" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="252" posx="-10.1411" posz="-8.3270" orientx="0.9239" orienty="0.0000" orientz="0.3827">deUnderbrushPlantsAfrica</unit>
+		<unit variation="186" posx="-2.7941" posz="-7.8015" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">dePropsResourceCratesGold</unit>
+		<unit variation="14" posx="-9.8571" posz="-6.7870" orientx="-0.9236" orienty="0.0000" orientz="-0.3833">dePropsColonyAfrica</unit>
+		<unit variation="133" posx="-10.4223" posz="-7.1055" orientx="0.9239" orienty="0.0000" orientz="0.3827">deUnderbrushPlantsAfrica</unit>
+		<unit variation="27" posx="-8.0757" posz="-4.2025" orientx="1.0000" orienty="0.0000" orientz="0.0004">deNativePropsSudanese</unit>
+		<unit variation="106" posx="-9.2921" posz="-7.0566" orientx="-0.3820" orienty="-0.0000" orientz="-0.9242">UnderbrushJungle</unit>
+		<unit variation="100" posx="-7.8098" posz="-3.7637" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="176" posx="-9.5379" posz="-5.8506" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deUnderbrushSmallRocksAfrica</unit>
+		<unit variation="234" posx="-2.0807" posz="-4.4437" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deUnderbrushPlantsAfrica</unit>
+		<unit variation="99" posx="-2.4644" posz="-5.0970" orientx="-1.0000" orienty="0.0000" orientz="0.0000">deUnderbrushSmallRocksAfrica</unit>
+		<unit variation="0" posx="-3.8482" posz="-5.0137" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="2" posx="-1.6523" posz="-4.5814" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="246" posx="-3.6564" posz="-6.4043" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">deNativePropsCiviliansFemale</unit>
+		<unit variation="49" posx="5.1764" posz="-4.6328" orientx="0.9239" orienty="0.0000" orientz="-0.3827">deNativePropsAfrica</unit>
+		<unit variation="2" posx="6.0079" posz="-4.7231" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="216" posx="-0.0261" posz="-4.8457" orientx="-1.0000" orienty="0.0000" orientz="0.0000">deUnderbrushSmallRocksAfrica</unit>
+		<unit variation="24" posx="7.7060" posz="-4.5711" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">deUnderbrushSmallRocksAfrica</unit>
+		<unit variation="0" posx="8.3877" posz="-4.1731" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="76" posx="5.4919" posz="-1.6383" orientx="0.9239" orienty="0.0000" orientz="-0.3827">NativeTownObstruction</unit>
+		<unit variation="128" posx="-3.3819" posz="-4.2702" orientx="-0.7071" orienty="0.0000" orientz="0.7071">dePropsTreesAfrica</unit>
+		<unit variation="243" posx="-2.7974" posz="-3.2283" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deUnderbrushPlantsAfrica</unit>
+		<unit variation="224" posx="4.2768" posz="-3.9269" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deUnderbrushSmallRocksAfrica</unit>
+		<unit variation="15" posx="4.3071" posz="-4.2681" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">deNativePropsCivilianGuards</unit>
+		<unit variation="229" posx="3.7362" posz="-0.0174" orientx="-0.9240" orienty="0.0000" orientz="0.3824">deNativePropsSudanese</unit>
+		<unit variation="2" posx="9.3897" posz="-1.7979" orientx="-0.7071" orienty="-0.0000" orientz="-0.7071">UnderbrushBlackhills</unit>
+		<unit variation="156" posx="-7.6561" posz="0.1844" orientx="-1.0000" orienty="0.0000" orientz="-0.0000">NativeTownObstruction</unit>
+		<unit variation="14" posx="-10.1174" posz="-0.8049" orientx="-1.0000" orienty="0.0000" orientz="-0.0007">dePropsColonyAfrica</unit>
+		<unit variation="1" posx="-10.6934" posz="-1.2148" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="36" posx="-9.4911" posz="-1.0842" orientx="-0.9239" orienty="-0.0000" orientz="-0.3827">deNativePropsCivilianGuards</unit>
+		<unit variation="33" posx="-6.9607" posz="-0.6721" orientx="1.0000" orienty="0.0000" orientz="0.0000">deNativePropsAfrica</unit>
+		<unit variation="138" posx="-2.5099" posz="-1.2891" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">deNativePropsAfrica</unit>
+		<unit variation="155" posx="9.5475" posz="-1.3631" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">deUnderbrushSmallRocksAfrica</unit>
+		<unit variation="2" posx="9.8999" posz="-0.3597" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="106" posx="-10.3772" posz="-0.0090" orientx="0.7076" orienty="-0.0000" orientz="-0.7066">UnderbrushJungle</unit>
+		<unit variation="125" posx="-7.7952" posz="1.1437" orientx="-0.3823" orienty="-0.0000" orientz="-0.9240">deNativePropsSudanese</unit>
+		<unit variation="246" posx="3.0400" posz="4.5545" orientx="0.7071" orienty="0.0000" orientz="0.7071">NativeTownObstruction</unit>
+		<unit variation="0" posx="-9.9520" posz="1.9352" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="2" posx="-11.2314" posz="0.4060" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="84" posx="-7.6225" posz="-0.2729" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deNativePropsAfrica</unit>
+		<unit variation="185" posx="0.9973" posz="6.3715" orientx="-0.7071" orienty="-0.0000" orientz="-0.7071">NativeTownObstruction</unit>
+		<unit variation="220" posx="-8.8755" posz="3.3719" orientx="0.7071" orienty="0.0000" orientz="-0.7071">deNativePropsAfrica</unit>
+		<unit variation="13" posx="-9.1754" posz="2.6354" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">deNativePropsAfrica</unit>
+		<unit variation="40" posx="-5.6618" posz="2.7104" orientx="0.7071" orienty="0.0000" orientz="0.7071">deNativePropsAfrica</unit>
+		<unit variation="250" posx="-5.0332" posz="2.1300" orientx="0.9239" orienty="0.0000" orientz="-0.3827">deNativePropsAfrica</unit>
+		<unit variation="1" posx="-6.6577" posz="3.6150" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="241" posx="-0.5673" posz="3.4590" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">deNativePropsCiviliansMale</unit>
+		<unit variation="31" posx="-1.5824" posz="2.9275" orientx="0.7071" orienty="0.0000" orientz="0.7071">deNativePropsCivilianLeaders</unit>
+		<unit variation="1" posx="4.7816" posz="3.7584" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="14" posx="8.5592" posz="2.6406" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">dePropsColonyAfrica</unit>
+		<unit variation="20" posx="7.9823" posz="3.7827" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deUnderbrushPlantsAfrica</unit>
+		<unit variation="13" posx="8.5605" posz="2.0902" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deUnderbrushPlantsAfrica</unit>
+		<unit variation="54" posx="7.3899" posz="2.6459" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deUnderbrushPlantsAfrica</unit>
+		<unit variation="106" posx="7.9062" posz="3.7891" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushJungle</unit>
+		<unit variation="2" posx="7.3122" posz="2.6621" orientx="-0.7071" orienty="-0.0000" orientz="-0.7071">UnderbrushBlackhills</unit>
+		<unit variation="69" posx="-8.0806" posz="6.6180" orientx="0.9237" orienty="-0.0000" orientz="0.3830">deNativePropsSudanese</unit>
+		<unit variation="97" posx="-8.0780" posz="6.9371" orientx="0.3827" orienty="-0.0000" orientz="-0.9239">NativeTownObstruction</unit>
+		<unit variation="248" posx="-10.6643" posz="5.2115" orientx="-1.0000" orienty="-0.0000" orientz="0.0000">deNativePropsAfrica</unit>
+		<unit variation="22" posx="-9.3430" posz="3.7991" orientx="0.7071" orienty="0.0000" orientz="-0.7071">deNativePropsAfrica</unit>
+		<unit variation="128" posx="-5.7907" posz="4.8206" orientx="0.7071" orienty="0.0000" orientz="0.7071">dePropsAnimalsChicken</unit>
+		<unit variation="234" posx="-5.3884" posz="5.4013" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">deNativePropsAfrica</unit>
+		<unit variation="9" posx="4.8754" posz="5.2334" orientx="0.9239" orienty="0.0000" orientz="-0.3827">dePropsTreesAfrica</unit>
+		<unit variation="1" posx="5.5215" posz="5.0119" orientx="-0.9239" orienty="0.0000" orientz="0.3827">PropGrassShort</unit>
+		<unit variation="7" posx="3.2481" posz="5.8887" orientx="0.9239" orienty="0.0000" orientz="0.3827">deUnderbrushPlantsAfrica</unit>
+		<unit variation="213" posx="6.2766" posz="5.1200" orientx="0.0000" orienty="0.0000" orientz="-1.0000">deUnderbrushPlantsAfrica</unit>
+		<unit variation="250" posx="1.0985" posz="5.9949" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushJungle</unit>
+		<unit variation="186" posx="0.0454" posz="5.0829" orientx="-1.0000" orienty="-0.0000" orientz="0.0000">deNativePropsAfrica</unit>
+		<unit variation="193" posx="-1.1165" posz="5.9588" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">deUnderbrushSmallRocksAfrica</unit>
+		<unit variation="14" posx="7.0483" posz="4.9119" orientx="0.9237" orienty="0.0000" orientz="0.3832">dePropsColonyAfrica</unit>
+		<unit variation="2" posx="-7.5948" posz="4.0929" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="14" posx="5.2062" posz="6.6420" orientx="-0.3822" orienty="0.0000" orientz="-0.9241">dePropsColonyAfrica</unit>
+		<unit variation="2" posx="1.1220" posz="7.6655" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">PropGrassShort</unit>
+		<unit variation="185" posx="4.6434" posz="6.3319" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deUnderbrushPlantsAfrica</unit>
+		<unit variation="43" posx="4.6836" posz="7.1612" orientx="0.0000" orienty="0.0000" orientz="-1.0000">deUnderbrushPlantsAfrica</unit>
+		<unit variation="67" posx="-3.8837" posz="10.4180" orientx="0.3830" orienty="0.0000" orientz="-0.9237">deNativePropsSudanese</unit>
+		<unit variation="14" posx="2.6024" posz="7.7803" orientx="0.3821" orienty="0.0000" orientz="0.9241">dePropsColonyAfrica</unit>
+		<unit variation="72" posx="-0.4116" posz="7.5500" orientx="0.7071" orienty="0.0000" orientz="-0.7071">dePropsAnimalsChicken</unit>
+		<unit variation="0" posx="0.0005" posz="6.3635" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="2" posx="-4.1720" posz="10.3104" orientx="-0.3827" orienty="0.0000" orientz="0.9239">NativeTownObstruction</unit>
+		<unit variation="86" posx="-5.2679" posz="7.8845" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">dePropsAnimalsChicken</unit>
+		<unit variation="101" posx="-6.9086" posz="7.7128" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">deNativePropsAfrica</unit>
+		<unit variation="67" posx="-6.6113" posz="7.9328" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">deNativePropsAfrica</unit>
+		<unit variation="181" posx="-10.5920" posz="9.5482" orientx="0.9239" orienty="0.0000" orientz="0.3827">deUnderbrushPlantsAfrica</unit>
+		<unit variation="60" posx="-10.2144" posz="8.7098" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">deUnderbrushSmallRocksAfrica</unit>
+		<unit variation="14" posx="0.7567" posz="9.5220" orientx="-0.9236" orienty="0.0000" orientz="-0.3833">dePropsColonyAfrica</unit>
+		<unit variation="162" posx="-0.0978" posz="9.3436" orientx="0.7071" orienty="0.0000" orientz="-0.7071">dePropsAnimalsCattle</unit>
+		<unit variation="89" posx="-0.6645" posz="8.9322" orientx="-0.9241" orienty="0.0000" orientz="0.3820">deNativePropsAfrica</unit>
+		<unit variation="1" posx="-0.2663" posz="9.6301" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">dePropsColonyAfrica</unit>
+		<unit variation="19" posx="-1.5426" posz="8.9201" orientx="0.9239" orienty="0.0000" orientz="-0.3827">deNativePropsAfrica</unit>
+		<unit variation="68" posx="-1.5999" posz="8.4677" orientx="0.7071" orienty="0.0000" orientz="-0.7071">deNativePropsAfrica</unit>
+		<unit variation="49" posx="2.5381" posz="8.1582" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deUnderbrushPlantsAfrica</unit>
+		<unit variation="0" posx="-0.5406" posz="9.1987" orientx="0.3827" orienty="0.0000" orientz="0.9239">deNativePropsCiviliansMaleSitting</unit>
+		<unit variation="221" posx="-8.1605" posz="9.8097" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushJungle</unit>
+		<unit variation="207" posx="-8.3184" posz="9.6775" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">deUnderbrushSmallRocksAfrica</unit>
+		<unit variation="39" posx="-6.4817" posz="10.2310" orientx="-0.9239" orienty="-0.0000" orientz="-0.3827">deNativePropsAfrica</unit>
+		<unit variation="116" posx="-6.2482" posz="9.7230" orientx="-0.9239" orienty="-0.0000" orientz="-0.3827">deNativePropsAfrica</unit>
+		<unit variation="185" posx="-6.9300" posz="10.8821" orientx="-0.9239" orienty="-0.0000" orientz="-0.3827">deNativePropsAfrica</unit>
+		<unit variation="98" posx="-1.8555" posz="9.8571" orientx="-0.9239" orienty="0.0000" orientz="0.3827">deNativePropsAfrica</unit>
+		<unit variation="46" posx="-1.5717" posz="11.8679" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushJungle</unit>
+		<unit variation="236" posx="-1.5627" posz="10.9681" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">deUnderbrushSmallRocksAfrica</unit>
+		<unit variation="14" posx="-0.6964" posz="11.8517" orientx="0.7066" orienty="0.0000" orientz="0.7076">dePropsColonyAfrica</unit>
+		<unit variation="1" posx="-0.8302" posz="10.8802" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+		<unit variation="2" posx="-0.9826" posz="12.3012" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushBlackhills</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="">
+			<block startx="-5" startz="-4" endx="-5" endz="-3"></block>
+			<block startx="-5" startz="-1" endx="-5" endz="0"></block>
+			<block startx="-4" startz="-4" endx="-4" endz="0"></block>
+			<block startx="-3" startz="-4" endx="-3" endz="0"></block>
+			<block startx="-2" startz="-5" endx="-2" endz="-3"></block>
+			<block startx="-2" startz="-1" endx="-2" endz="0"></block>
+			<block startx="-1" startz="-4" endx="-1" endz="0"></block>
+			<block startx="0" startz="-5" endx="0" endz="-2"></block>
+			<block startx="1" startz="-5" endx="1" endz="-1"></block>
+			<block startx="2" startz="-7" endx="2" endz="-2"></block>
+			<block startx="3" startz="-6" endx="3" endz="-3"></block>
+			<block startx="-4" startz="3" endx="-4" endz="4"></block>
+			<block startx="-3" startz="1" endx="-3" endz="4"></block>
+			<block startx="-2" startz="1" endx="-2" endz="4"></block>
+			<block startx="-1" startz="1" endx="-1" endz="4"></block>
+			<block startx="0" startz="2" endx="0" endz="3"></block>
+			<block startx="4" startz="-6" endx="4" endz="-4"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="">
+			<block startx="-1" startz="-5" endx="-1" endz="-5"></block>
+			<block startx="0" startz="-1" endx="0" endz="0"></block>
+			<block startx="1" startz="-6" endx="1" endz="-6"></block>
+			<block startx="-2" startz="5" endx="-2" endz="5"></block>
+			<block startx="0" startz="1" endx="0" endz="1"></block>
+			<block startx="1" startz="2" endx="1" endz="3"></block>
+		</tilegroup>
+		<heights>
+			<tiles x="-6" z="-7">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-6" z="-6">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-6" z="-5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-6" z="-4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-6" z="-3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-6" z="-2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-6" z="-1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-6" z="0">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-6" z="1">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-6" z="2">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-6" z="3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-6" z="4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-6" z="5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-6" z="6">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-6" z="7">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+		</heights>
+	</tiles>
+</grouping>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>gun<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\janissary\jannisary_gun_standard</file></assetreference></none><veterancaroleans><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_3age_gun</file></assetreference></veterancaroleans><guardcaroleans><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_3age_gun</file></assetreference></guardcaroleans><imperialcaroleans><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_4age_gun</file></assetreference></imperialcaroleans></logic></component>
+  <anim>Idle<component>gun</component></anim>
+</animfile>

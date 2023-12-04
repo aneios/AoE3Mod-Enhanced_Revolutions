@@ -1,0 +1,6 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\spc\alain\spc_alain_magnan_sword</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>
+    <component>ModelComp</component>
+  </anim>
+</animfile>

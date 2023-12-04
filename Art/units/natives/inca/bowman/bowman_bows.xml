@@ -1,0 +1,4 @@
+<animfile>
+  <component>bows<logic type="Variation"><none><assetreference type="GrannyModel"><file>units\natives\inca\bowman\bowman_bow_age2</file></assetreference></none><deelitebowmen><assetreference type="GrannyModel"><file>units\natives\inca\bowman\bowman_bow_age3</file></assetreference></deelitebowmen><dechampionbowmen><assetreference type="GrannyModel"><file>units\natives\inca\bowman\bowman_bow_age4</file></assetreference></dechampionbowmen></logic></component>
+  <anim>Idle<component>bows</component></anim>
+</animfile>

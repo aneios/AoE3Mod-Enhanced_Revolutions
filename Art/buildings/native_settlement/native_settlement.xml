@@ -1,0 +1,4 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>buildings\native_settlement\tepee</file></assetreference></component>
+  <anim>Idle<component>ModelComp</component></anim>
+</animfile>

@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>16</width>
+	<height>12</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<workOnAsSingleUnit>1</workOnAsSingleUnit>
+	<units>
+		<unit variation="85" posx="-11.8488" posz="-9.6006" orientx="0.0000" orienty="0.0000" orientz="1.0000">FenceRock</unit>
+		<unit variation="33" posx="-8.9322" posz="-9.5701" orientx="0.0000" orienty="0.0000" orientz="1.0000">FenceRock</unit>
+		<unit variation="93" posx="12.2238" posz="-10.5077" orientx="0.0000" orienty="0.0000" orientz="1.0000">FenceRock</unit>
+		<unit variation="227" posx="16.0805" posz="-9.3384" orientx="-1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="92" posx="14.8604" posz="-10.4777" orientx="0.0000" orienty="0.0000" orientz="1.0000">FenceRock</unit>
+		<unit variation="219" posx="15.7782" posz="-8.9288" orientx="0.3827" orienty="0.0000" orientz="0.9239">UnderbrushRockies</unit>
+		<unit variation="5" posx="-5.1568" posz="-9.3040" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">PropsNative</unit>
+		<unit variation="130" posx="-14.1107" posz="-6.8855" orientx="0.9239" orienty="0.0000" orientz="0.3827">SPCPathBlock3</unit>
+		<unit variation="88" posx="1.7993" posz="-10.1090" orientx="-0.0000" orienty="0.0000" orientz="1.0000">SPCPathBlock3</unit>
+		<unit variation="76" posx="15.7448" posz="-6.6898" orientx="-1.0000" orienty="0.0000" orientz="-0.0000">SPCPathBlock3</unit>
+		<unit variation="238" posx="6.8661" posz="-7.0567" orientx="0.0000" orienty="0.0000" orientz="1.0000">NativeHouseInca</unit>
+		<unit variation="214" posx="12.7755" posz="-10.0282" orientx="-0.0000" orienty="0.0000" orientz="1.0000">SPCPathBlock3</unit>
+		<unit variation="41" posx="-3.2391" posz="-7.1021" orientx="0.0000" orienty="0.0000" orientz="1.0000">NativeHouseInca</unit>
+		<unit variation="238" posx="-9.4822" posz="-9.9769" orientx="-0.0000" orienty="0.0000" orientz="1.0000">SPCPathBlock3</unit>
+		<unit variation="215" posx="-13.5895" posz="-7.8708" orientx="-0.3827" orienty="0.0000" orientz="0.9239">PropsNative</unit>
+		<unit variation="116" posx="-10.4095" posz="-7.1503" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="220" posx="-15.0641" posz="-6.9759" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">FenceRock</unit>
+		<unit variation="212" posx="2.3072" posz="-7.0638" orientx="0.0001" orienty="0.0000" orientz="1.0000">UnderbrushRockies</unit>
+		<unit variation="10" posx="8.2121" posz="-7.1252" orientx="0.0000" orienty="0.0000" orientz="1.0000">PropsNative</unit>
+		<unit variation="9" posx="8.3729" posz="-7.0699" orientx="0.0000" orienty="0.0000" orientz="1.0000">PropsNative</unit>
+		<unit variation="6" posx="-2.2122" posz="-7.0691" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">PropsNative</unit>
+		<unit variation="11" posx="12.3814" posz="-8.6398" orientx="-0.2267" orienty="0.0000" orientz="0.9740">PropsNative</unit>
+		<unit variation="1" posx="-7.8426" posz="-5.6622" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="0" posx="-0.8322" posz="-5.2203" orientx="0.0000" orienty="0.0000" orientz="1.0000">PropsNative</unit>
+		<unit variation="10" posx="-2.4532" posz="-6.0167" orientx="-1.0000" orienty="0.0000" orientz="0.0000">PropsNative</unit>
+		<unit variation="6" posx="3.5215" posz="-4.7511" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">PropsNative</unit>
+		<unit variation="95" posx="16.0870" posz="-6.5891" orientx="1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="219" posx="1.1941" posz="-5.1774" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushRockies</unit>
+		<unit variation="6" posx="10.2182" posz="-6.0234" orientx="0.0000" orienty="0.0000" orientz="1.0000">PropsNative</unit>
+		<unit variation="11" posx="8.2331" posz="-5.3402" orientx="-0.9999" orienty="0.0000" orientz="-0.0142">SMNWStoryTelling</unit>
+		<unit variation="217" posx="-15.5287" posz="-4.3592" orientx="1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="187" posx="-8.5179" posz="-3.8624" orientx="0.0000" orienty="0.0000" orientz="1.0000">FenceRock</unit>
+		<unit variation="9" posx="-7.8951" posz="-4.7414" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="6" posx="-8.7174" posz="-4.4636" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="5" posx="3.7294" posz="-3.6326" orientx="-0.7071" orienty="0.0000" orientz="0.7071">PropsNative</unit>
+		<unit variation="227" posx="16.0585" posz="-3.6497" orientx="1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="199" posx="15.5784" posz="-2.9906" orientx="-0.9239" orienty="0.0000" orientz="0.3827">UnderbrushRockies</unit>
+		<unit variation="11" posx="14.6692" posz="-3.7207" orientx="0.1689" orienty="0.0000" orientz="-0.9856">PropsNative</unit>
+		<unit variation="207" posx="1.7752" posz="-4.5555" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushRockies</unit>
+		<unit variation="129" posx="1.2346" posz="-4.0201" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">UnderbrushRockies</unit>
+		<unit variation="37" posx="10.6747" posz="-3.5109" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushRockies</unit>
+		<unit variation="243" posx="-14.2835" posz="-3.2477" orientx="0.9893" orienty="0.0000" orientz="-0.1462">SMIncanCookpotWoman</unit>
+		<unit variation="206" posx="15.8641" posz="-0.7266" orientx="-1.0000" orienty="0.0000" orientz="-0.0000">SPCPathBlock3</unit>
+		<unit variation="30" posx="-15.6109" posz="0.2430" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCPathBlock3</unit>
+		<unit variation="150" posx="-15.8476" posz="2.9649" orientx="-1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="220" posx="15.9764" posz="2.6616" orientx="1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="171" posx="-9.7958" posz="4.2095" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="5" posx="7.6898" posz="5.2351" orientx="-0.7071" orienty="0.0000" orientz="0.7071">PropsNative</unit>
+		<unit variation="0" posx="-7.1664" posz="3.8798" orientx="-0.9239" orienty="-0.0000" orientz="-0.3827">PropsNative</unit>
+		<unit variation="124" posx="7.5267" posz="4.5599" orientx="0.8843" orienty="0.0000" orientz="-0.4670">SMIncanMixerPokerWoman</unit>
+		<unit variation="91" posx="-10.0233" posz="6.9370" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">NativeHouseInca</unit>
+		<unit variation="144" posx="-15.6161" posz="7.6521" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCPathBlock3</unit>
+		<unit variation="227" posx="-0.0340" posz="7.4987" orientx="0.0000" orienty="0.0000" orientz="1.0000">SocketInca</unit>
+		<unit variation="228" posx="5.2489" posz="7.0141" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCPathBlock3</unit>
+		<unit variation="137" posx="15.8488" posz="6.7562" orientx="-1.0000" orienty="0.0000" orientz="-0.0000">SPCPathBlock3</unit>
+		<unit variation="54" posx="9.1987" posz="7.0574" orientx="1.0000" orienty="0.0000" orientz="0.0000">NativeHouseInca</unit>
+		<unit variation="67" posx="-5.5284" posz="6.9568" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCPathBlock3</unit>
+		<unit variation="211" posx="-15.8330" posz="5.9821" orientx="1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="7" posx="-7.6330" posz="5.0676" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="213" posx="15.9015" posz="5.4843" orientx="-1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="0" posx="-13.4126" posz="6.3137" orientx="-0.7071" orienty="0.0000" orientz="0.7071">PropsNative</unit>
+		<unit variation="5" posx="-14.7370" posz="6.9016" orientx="-0.7071" orienty="-0.0000" orientz="-0.7071">PropsNative</unit>
+		<unit variation="212" posx="-14.9927" posz="6.2064" orientx="0.7072" orienty="0.0000" orientz="0.7070">UnderbrushRockies</unit>
+		<unit variation="167" posx="-14.8411" posz="7.7679" orientx="0.0000" orienty="0.0000" orientz="1.0000">FenceRock</unit>
+		<unit variation="1" posx="-9.1054" posz="8.9830" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="170" posx="-14.1260" posz="8.7197" orientx="0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushRockies</unit>
+		<unit variation="3" posx="7.5250" posz="8.2228" orientx="-0.3827" orienty="0.0000" orientz="0.9239">PropsNative</unit>
+		<unit variation="237" posx="8.0000" posz="8.0000" orientx="-0.8125" orienty="0.0000" orientz="-0.5830">AIStart</unit>
+		<unit variation="141" posx="8.0000" posz="8.0000" orientx="-0.0332" orienty="0.0000" orientz="0.9994">AIStart</unit>
+		<unit variation="79" posx="8.0000" posz="8.0000" orientx="-0.9546" orienty="0.0000" orientz="-0.2978">AIStart</unit>
+		<unit variation="235" posx="8.0000" posz="8.0000" orientx="0.8415" orienty="0.0000" orientz="0.5403">AIStart</unit>
+		<unit variation="225" posx="8.0000" posz="8.0000" orientx="-0.0931" orienty="0.0000" orientz="0.9957">AIStart</unit>
+		<unit variation="112" posx="8.0000" posz="8.0000" orientx="0.3523" orienty="0.0000" orientz="0.9359">AIStart</unit>
+		<unit variation="33" posx="8.0000" posz="8.0000" orientx="-0.0631" orienty="0.0000" orientz="0.9980">AIStart</unit>
+		<unit variation="12" posx="15.8479" posz="8.3009" orientx="-1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="193" posx="16.1263" posz="8.0648" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushRockies</unit>
+		<unit variation="0" posx="11.5195" posz="9.1332" orientx="-0.3827" orienty="0.0000" orientz="0.9239">PropsNative</unit>
+		<unit variation="191" posx="-10.1970" posz="8.4341" orientx="-0.3327" orienty="0.0000" orientz="-0.9430">SMIncanPickerWoman</unit>
+		<unit variation="114" posx="15.1445" posz="9.2952" orientx="0.0000" orienty="0.0000" orientz="-1.0000">UnderbrushRockies</unit>
+		<unit variation="32" posx="14.9594" posz="9.4601" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushTexas</unit>
+		<unit variation="27" posx="14.5888" posz="10.0236" orientx="0.0000" orienty="0.0000" orientz="-1.0000">FenceRock</unit>
+		<unit variation="88" posx="-6.0135" posz="10.6657" orientx="0.0000" orienty="0.0000" orientz="-1.0000">UnderbrushRockies</unit>
+		<unit variation="30" posx="-6.0790" posz="9.6628" orientx="0.0000" orienty="0.0000" orientz="-1.0000">UnderbrushRockies</unit>
+		<unit variation="196" posx="12.7495" posz="9.8204" orientx="0.0000" orienty="0.0000" orientz="-1.0000">SPCPathBlock3</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="andes\ground14_and">
+			<block startx="-8" startz="-3" endx="-8" endz="0"></block>
+			<block startx="-7" startz="-3" endx="-7" endz="-2"></block>
+			<block startx="-7" startz="0" endx="-7" endz="0"></block>
+			<block startx="-6" startz="-4" endx="-6" endz="-3"></block>
+			<block startx="-5" startz="-4" endx="-5" endz="-4"></block>
+			<block startx="-5" startz="-2" endx="-5" endz="-1"></block>
+			<block startx="-5" startz="1" endx="-5" endz="1"></block>
+			<block startx="-4" startz="-1" endx="-4" endz="0"></block>
+			<block startx="-3" startz="-2" endx="-3" endz="-2"></block>
+			<block startx="-2" startz="-2" endx="-2" endz="-2"></block>
+			<block startx="-2" startz="1" endx="-2" endz="1"></block>
+			<block startx="-1" startz="1" endx="-1" endz="1"></block>
+			<block startx="-6" startz="-5" endx="-6" endz="-5"></block>
+			<block startx="-5" startz="-5" endx="-5" endz="-5"></block>
+			<block startx="7" startz="4" endx="7" endz="4"></block>
+			<block startx="6" startz="-5" endx="6" endz="-5"></block>
+			<block startx="7" startz="-5" endx="7" endz="-5"></block>
+			<block startx="0" startz="1" endx="0" endz="1"></block>
+			<block startx="1" startz="-1" endx="1" endz="-1"></block>
+			<block startx="2" startz="-2" endx="2" endz="-2"></block>
+			<block startx="3" startz="-2" endx="3" endz="-2"></block>
+			<block startx="3" startz="0" endx="3" endz="0"></block>
+			<block startx="4" startz="0" endx="4" endz="0"></block>
+			<block startx="6" startz="-4" endx="6" endz="-1"></block>
+			<block startx="7" startz="-4" endx="7" endz="3"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="Amazon\ground5_ama">
+			<block startx="-7" startz="-4" endx="-7" endz="-4"></block>
+			<block startx="-6" startz="-2" endx="-6" endz="-2"></block>
+			<block startx="-1" startz="-1" endx="-1" endz="-1"></block>
+			<block startx="2" startz="-1" endx="2" endz="-1"></block>
+			<block startx="5" startz="0" endx="5" endz="0"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="Amazon\ground_road_ama">
+			<block startx="-7" startz="-1" endx="-7" endz="-1"></block>
+			<block startx="-6" startz="-1" endx="-6" endz="0"></block>
+			<block startx="-5" startz="0" endx="-5" endz="0"></block>
+			<block startx="-3" startz="-1" endx="-3" endz="0"></block>
+			<block startx="-2" startz="-1" endx="-2" endz="0"></block>
+			<block startx="-1" startz="0" endx="-1" endz="0"></block>
+			<block startx="0" startz="-1" endx="0" endz="0"></block>
+			<block startx="1" startz="0" endx="1" endz="0"></block>
+			<block startx="2" startz="0" endx="2" endz="0"></block>
+			<block startx="3" startz="-1" endx="3" endz="-1"></block>
+			<block startx="4" startz="-1" endx="4" endz="-1"></block>
+			<block startx="5" startz="-1" endx="5" endz="-1"></block>
+			<block startx="6" startz="0" endx="6" endz="0"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

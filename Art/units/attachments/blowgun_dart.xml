@@ -1,0 +1,4 @@
+<animfile>
+  <component>arrow<assetreference type="GrannyModel"><file>units\attachments\blowgun_dart</file></assetreference></component>
+  <anim>Idle<component>arrow</component></anim>
+</animfile>

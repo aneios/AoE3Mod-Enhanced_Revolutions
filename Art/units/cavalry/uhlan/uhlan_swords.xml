@@ -1,0 +1,4 @@
+<animfile>
+  <component>swords<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\cavalry\uhlan\uhlan_age02_sword</file></assetreference></none><veteranuhlans><assetreference type="GrannyModel"><file>units\cavalry\uhlan\uhlan_age03_sword</file></assetreference></veteranuhlans><guarduhlans><assetreference type="GrannyModel"><file>units\cavalry\uhlan\uhlan_age04_sword</file></assetreference></guarduhlans></logic></component>
+  <anim>Idle<component>swords</component></anim>
+</animfile>

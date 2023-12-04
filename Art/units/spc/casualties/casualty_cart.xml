@@ -1,0 +1,4 @@
+<animfile>
+  <component>casualty_cart<logic type="Variation"><v1><assetreference type="GrannyModel"><file>units\spc\casualties\meatwagon01</file></assetreference></v1></logic><decal><texture>shadows_selections\shadow_circle_128x128</texture><selectedtexture>shadows_selections\shadow_circle_128x128</selectedtexture><width>1.00</width><height>1.00</height></decal></component>
+  <anim>Idle<component>casualty_cart</component></anim>
+</animfile>

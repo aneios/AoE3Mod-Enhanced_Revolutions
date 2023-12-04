@@ -1,0 +1,29 @@
+<animfile>
+  <definebone>bone_hat</definebone>
+  <definebone>Bip02 Head</definebone>
+  <attachment>hat2<component>hat2<assetreference type="GrannyModel"><file>units\asians\chinese\chu_ko_nu\chokonu_age2_hat</file></assetreference></component><anim>Idle<component>hat2</component></anim></attachment>
+  <component>guy_B<logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_0</file></assetreference><attach a="hat2" frombone="bone_hat" tobone="Bip02 Head" syncanims="0"></attach></normal><lowpoly><assetreference type="GrannyModel"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_0</file></assetreference><attach a="hat2" frombone="bone_hat" tobone="Bip02 Head" syncanims="0"></attach></lowpoly></logic></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_idle00</file></assetreference><component>guy_B</component></anim>
+  <anim>Jog<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_walk00</file></assetreference><component>guy_B</component></anim>
+  <anim>Run<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_walk00</file></assetreference><component>guy_B</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_walk00</file></assetreference><component>guy_B</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_idle00</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_bored01</file></assetreference><component>guy_B</component></anim>
+  <anim>Death_by_melee<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_death00</file></assetreference><component>guy_B</component></anim>
+  <anim>Death_by_range<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_death00</file></assetreference><component>guy_B</component></anim>
+  <anim>Cheer<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_cheer00</file></assetreference><component>guy_B</component></anim>
+  <anim>Limber<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_limber00</file></assetreference><component>guy_B</component></anim>
+  <anim>Unlimber<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_unlimber00</file></assetreference><component>guy_B</component></anim>
+  <anim>Bombard_ranged_idle<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_bombardIdle00</file></assetreference><component>guy_B</component></anim>
+  <anim>Bombard_ranged_attack<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_attackRanged00</file></assetreference><component>guy_B</component></anim>
+  <anim>Bombard_aim<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_bombardIdle00</file></assetreference><component>guy_B</component></anim>
+  <anim>Bombard_bored<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_bombardBored00</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_bombardIdle00</file></assetreference><component>guy_B</component></anim>
+  <anim>Bombard_walk<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_walk00</file></assetreference><component>guy_B</component></anim>
+  <anim>Bombard_jog<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_walk00</file></assetreference><component>guy_B</component></anim>
+  <anim>Bombard_run<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_walk00</file></assetreference><component>guy_B</component></anim>
+  <anim>Bombard_cheer<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_cheer00</file></assetreference><component>guy_B</component></anim>
+  <anim>Bombard_limber<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_limber00</file></assetreference><component>guy_B</component></anim>
+  <anim>Bombard_unlimber<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_unlimber00</file></assetreference><component>guy_B</component></anim>
+  <anim>Bombard_Recoil<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_bombardIdle00</file></assetreference><component>guy_B</component></anim>
+  <anim>Bombard_death<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_death00</file></assetreference><component>guy_B</component></anim>
+  <anim>Bombard_reload<assetreference type="GrannyAnim"><file>units\asians\chinese\flying_crow\flyingCrow_guyB_reload00</file></assetreference><component>guy_B</component></anim>
+</animfile>

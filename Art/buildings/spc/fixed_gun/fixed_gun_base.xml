@@ -1,0 +1,5 @@
+<animfile>
+  <definebone>bone_flag</definebone>
+  <component>fixed gun base<assetreference type="GrannyModel"><file>buildings\spc\fixed_gun\fixed_gun_base</file></assetreference></component>
+  <anim>Idle<component>fixed gun base</component></anim>
+</animfile>

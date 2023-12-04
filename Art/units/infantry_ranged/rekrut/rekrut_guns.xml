@@ -1,0 +1,4 @@
+<animfile>
+  <component>gun<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_2age_gun</file></assetreference></none><deveteranrussianmusketeers><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_3age_gun</file></assetreference></deveteranrussianmusketeers><deguardrussianmusketeers><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_3age_gun</file></assetreference></deguardrussianmusketeers><deimperialrussianmusketeers><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_4age_gun</file></assetreference></deimperialrussianmusketeers></logic></component>
+  <anim>Idle<component>gun</component></anim>
+</animfile>

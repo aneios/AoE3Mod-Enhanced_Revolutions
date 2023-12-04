@@ -1,0 +1,4 @@
+<animfile>
+  <component>sling<assetreference type="GrannyModel"><file>units\natives\aztec\macehuatlin\macehuatlin_sling_03</file></assetreference></component>
+  <anim>Idle<component>sling</component></anim>
+</animfile>

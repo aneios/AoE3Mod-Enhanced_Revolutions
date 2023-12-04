@@ -1,0 +1,17 @@
+<animfile>
+  <definebone>bone_right_cannon_01</definebone>
+  <definebone>bone_right_cannon_02</definebone>
+  <definebone>bone_right_cannon_03</definebone>
+  <definebone>bone_right_cannon_04</definebone>
+  <definebone>bone_left_cannon_01</definebone>
+  <definebone>bone_left_cannon_02</definebone>
+  <definebone>bone_left_cannon_03</definebone>
+  <definebone>bone_left_cannon_04</definebone>
+  <definebone>bone_f1</definebone>
+  <attachment>boat flag<component>l<assetreference type="ClothFlag"><flag><blending>alphatest_color</blending><specialtexture></specialtexture><width>2.00</width><height>1.00</height></flag></assetreference></component><anim>Idle<component>l</component></anim></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\naval\colony_ship\colony_ship</file></assetreference><decal><effecttype>default</effecttype><texture>shadows_selections\shadow_circle_128x128</texture><selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture><width>1.0</width><height>1.0</height></decal><watersplash><texture>units\naval\colony_ship\colony_ship_hullmask</texture><width>17.5</width><height>17.5</height></watersplash></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\naval\colony_ship\colony ship_idle</file></assetreference><component>ModelComp</component><simskeleton><model>units\naval\colony_ship\colony_ship</model></simskeleton><attach a="boat flag" frombone="bone_f1" tobone="bone_f1" syncanims="0"></attach></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\naval\colony_ship\colony ship_walk</file></assetreference><component>ModelComp</component><simskeleton><model>units\naval\colony_ship\colony_ship</model></simskeleton><attach a="boat flag" frombone="bone_f1" tobone="bone_f1" syncanims="0"></attach></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>units\naval\colony_ship\colony ship_idle</file><tag type="Attack">0.45</tag></assetreference><component>ModelComp</component><simskeleton><model>units\naval\colony_ship\colony_ship</model></simskeleton><attach a="boat flag" frombone="bone_f1" tobone="bone_f1" syncanims="0"></attach></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\naval\naval_death_generic_A</file><tag type="Attack">0.45</tag></assetreference><component>ModelComp</component><simskeleton><model>units\naval\colony_ship\colony_ship</model></simskeleton></anim>
+</animfile>

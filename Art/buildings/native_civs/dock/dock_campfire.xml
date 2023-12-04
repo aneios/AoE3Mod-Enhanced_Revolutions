@@ -1,0 +1,8 @@
+<animfile>
+  <attachment>fire_attachment_A<component>fire_A<assetreference type="ParticleSystem"><file>effects\fire\fire_A.prt</file></assetreference></component><anim>Idle<component>fire_A</component></anim></attachment>
+  <attachment>ground_fire_attachment_A<component>ground_fire_A<assetreference type="ParticleSystem"><file>effects\fire\ground_fire_A.prt</file></assetreference></component><anim>Idle<component>ground_fire_A</component></anim></attachment>
+  <attachment>embers_attachment_A<component>embers_A<assetreference type="ParticleSystem"><file>effects\fire\embers_A.prt</file></assetreference></component><anim>Idle<component>embers_A</component></anim></attachment>
+  <attachment>smoke_attachment_A<component>smoke_A<assetreference type="ParticleSystem"><file>effects\smoke\white_smoke_A.prt</file></assetreference></component><anim>Idle<component>smoke_A</component></anim></attachment>
+  <component>campfire<assetreference type="GrannyModel"><file>buildings\native_settlement\campfire_A</file></assetreference><decal><effecttype>default</effecttype><texture>buildings\native_settlement\campfire_ground</texture><selectedtexture>shadows_selections\selection_square_64x64</selectedtexture><width>2.0</width><height>2.0</height></decal><attach a="fire_attachment_A" frombone="attachpoint" tobone="attachpoint" syncanims="0"></attach><attach a="ground_fire_attachment_A" frombone="attachpoint" tobone="attachpoint" syncanims="0"></attach><attach a="embers_attachment_A" frombone="attachpoint" tobone="attachpoint" syncanims="0"></attach><attach a="smoke_attachment_A" frombone="attachpoint" tobone="attachpoint" syncanims="0"></attach></component>
+  <anim>Idle<component>campfire</component></anim>
+</animfile>

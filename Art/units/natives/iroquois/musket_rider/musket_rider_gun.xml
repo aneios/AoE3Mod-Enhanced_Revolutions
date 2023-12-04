@@ -1,0 +1,4 @@
+<animfile>
+  <component>musket_rider_gun<assetreference type="GrannyModel"><file>units\natives\iroquois\musket_rider\rifle</file></assetreference></component>
+  <anim>Idle<component>musket_rider_gun</component></anim>
+</animfile>

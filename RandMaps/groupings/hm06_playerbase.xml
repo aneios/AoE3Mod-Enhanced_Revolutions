@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>23</width>
+	<height>20</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+<!--	<unit variation="41" posx="0.6256" posz="-1.4915" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCommandPost</unit>-->
+		<unit variation="5" posx="6.6316" posz="-14.5074" orientx="-1.0000" orienty="0.0000" orientz="0.0000">SPCDamagedCannons</unit>
+		<unit variation="6" posx="9.4742" posz="-16.2676" orientx="1.0000" orienty="0.0000" orientz="0.0000">PropsColony</unit>
+		<unit variation="146" posx="11.1770" posz="-14.7336" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">SPCTent</unit>
+		<unit variation="2" posx="-7.5437" posz="-13.2366" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">PropsColony</unit>
+		<unit variation="0" posx="9.1576" posz="-13.5603" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlagKevin</unit>
+		<unit variation="0" posx="9.1576" posz="-13.5603" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="1" posx="-7.5063" posz="-12.2838" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">PropsColony</unit>
+		<unit variation="10" posx="11.2445" posz="-12.0897" orientx="0.9239" orienty="0.0000" orientz="-0.3827">PropsColony</unit>
+		<unit variation="60" posx="9.8479" posz="-12.1198" orientx="1.0000" orienty="0.0000" orientz="0.0000">Campfire</unit>
+		<unit variation="169" posx="-14.9973" posz="-10.7914" orientx="0.3827" orienty="0.0000" orientz="0.9239">SPCTent</unit>
+		<unit variation="176" posx="-9.6631" posz="-12.3291" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">SPCTent</unit>
+		<unit variation="0" posx="-12.1828" posz="-9.7682" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlagKevin</unit>
+		<unit variation="0" posx="-12.1828" posz="-9.7682" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="60" posx="-9.8203" posz="-8.7132" orientx="0.9239" orienty="0.0000" orientz="0.3827">Campfire</unit>
+		<unit variation="1" posx="-10.3660" posz="-7.0119" orientx="0.9239" orienty="0.0000" orientz="-0.3827">PropsColony</unit>
+		<unit variation="177" posx="-16.8152" posz="-6.1781" orientx="-0.7071" orienty="-0.0000" orientz="-0.7071">SPCDamagedCannons</unit>
+		<unit variation="146" posx="-12.9640" posz="-6.6485" orientx="0.3827" orienty="0.0000" orientz="0.9239">SPCTent</unit>
+		<unit variation="7" posx="16.4016" posz="6.4454" orientx="1.0000" orienty="0.0000" orientz="0.0000">PropsColony</unit>
+		<unit variation="7" posx="13.2993" posz="9.0010" orientx="0.7071" orienty="0.0000" orientz="0.7071">PropsColony</unit>
+		<unit variation="146" posx="15.7498" posz="8.4056" orientx="0.3827" orienty="0.0000" orientz="-0.9239">SPCTent</unit>
+		<unit variation="241" posx="-9.5433" posz="9.8716" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">Campfire</unit>
+		<unit variation="157" posx="11.7796" posz="9.5106" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">Campfire</unit>
+		<unit variation="7" posx="-11.4859" posz="10.7902" orientx="0.9239" orienty="0.0000" orientz="-0.3827">PropsColony</unit>
+		<unit variation="53" posx="-1.0642" posz="11.2751" orientx="-0.3827" orienty="0.0000" orientz="0.9239">SPCCasualtyCart</unit>
+		<unit variation="0" posx="15.3294" posz="11.1078" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlagKevin</unit>
+		<unit variation="0" posx="15.3294" posz="11.1078" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="2" posx="-10.8795" posz="11.4999" orientx="0.7071" orienty="0.0000" orientz="-0.7071">PropsColony</unit>
+		<unit variation="70" posx="13.1151" posz="12.6278" orientx="0.0000" orienty="0.0000" orientz="-1.0000">SPCTent</unit>
+		<unit variation="176" posx="-4.7560" posz="11.9867" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCTent</unit>
+		<unit variation="0" posx="-7.4632" posz="13.3204" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCFlagKevin</unit>
+		<unit variation="0" posx="-7.4632" posz="13.3204" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">NativeTownObstruction</unit>
+		<unit variation="1" posx="11.7471" posz="13.7154" orientx="1.0000" orienty="0.0000" orientz="0.0000">PropsColony</unit>
+		<unit variation="169" posx="-8.0034" posz="15.3307" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">SPCTent</unit>
+		<unit variation="3" posx="-4.5565" posz="17.2839" orientx="0.3827" orienty="0.0000" orientz="-0.9239">PropsColony</unit>
+		<unit variation="170" posx="12.8412" posz="16.6231" orientx="-1.0000" orienty="0.0000" orientz="0.0000">SPCDamagedCannons</unit>
+		<unit variation="114" posx="-2.9033" posz="15.7941" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCTent</unit>
+	</units>
+</grouping>

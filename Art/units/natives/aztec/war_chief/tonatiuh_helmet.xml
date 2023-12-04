@@ -1,0 +1,10 @@
+<animfile>
+  <definebone>firebone1</definebone>
+  <definebone>firebone2</definebone>
+  <definebone>firebone3</definebone>
+  <definebone>firebone4</definebone>
+  <definebone>firebone5</definebone>
+  <attachment>fire<component>fire emitter<assetreference type="popcornFx"><file>fire\fire_torch_b.pkfx</file></assetreference></component><anim>Idle<component>fire emitter</component></anim></attachment>
+  <component>helmet<assetreference type="GrannyModel"><file>units\natives\aztec\war_chief\tonatiuh_helmet</file></assetreference><attach a="fire" frombone="helmetbone" tobone="firebone1" syncanims="0"></attach><attach a="fire" frombone="helmetbone" tobone="firebone2" syncanims="0"></attach><attach a="fire" frombone="helmetbone" tobone="firebone3" syncanims="0"></attach><attach a="fire" frombone="helmetbone" tobone="firebone4" syncanims="0"></attach><attach a="fire" frombone="helmetbone" tobone="firebone5" syncanims="0"></attach></component>
+  <anim>Idle<component>helmet</component></anim>
+</animfile>

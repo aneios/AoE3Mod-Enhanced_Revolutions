@@ -1,0 +1,4 @@
+<animfile>
+  <component>axe<assetreference type="GrannyModel"><file>units\natives\iroquois\axe_rider\axe_rider_3_axe</file></assetreference></component>
+  <anim>Idle<component>axe</component></anim>
+</animfile>

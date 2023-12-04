@@ -1,0 +1,4 @@
+<animfile>
+  <component>shields<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\natives\inca\runner\runner_shield_age2</file></assetreference></none><deeliterunners><assetreference type="GrannyModel"><file>units\natives\inca\runner\runner_shield_age3</file></assetreference></deeliterunners><dechampionrunners><assetreference type="GrannyModel"><file>units\natives\inca\runner\runner_shield_age4</file></assetreference></dechampionrunners></logic></component>
+  <anim>Idle<component>shields</component></anim>
+</animfile>

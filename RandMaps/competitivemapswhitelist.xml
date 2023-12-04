@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompetitiveMaps>
+  <MapName>competitiverandom</MapName>
+  <MapName>standardmaps</MapName>
+  <MapName>teamrandom</MapName>
+  <MapName>euAcropolis</MapName>
+  <MapName>euAlps</MapName>
+  <MapName>euAnatolia</MapName>
+  <MapName>euArena</MapName>
+  <MapName>euBalkans</MapName>
+  <MapName>euBaltic</MapName>
+  <MapName>euBohemia</MapName>
+  <MapName>euCarpathians</MapName>
+  <MapName>euCaucasus</MapName>
+  <MapName>euCourland</MapName>
+  <MapName>euDanishStrait</MapName>
+  <MapName>euDnieperBasin</MapName>
+  <MapName>euEngland</MapName>
+  <MapName>euFinland</MapName>
+  <MapName>euFrance</MapName>
+  <MapName>euHungarianPlains</MapName>
+  <MapName>euIberia</MapName>
+  <MapName>euIreland</MapName>
+  <MapName>euItaly</MapName>
+  <MapName>euKarelian</MapName>
+  <MapName>euLithuania</MapName>
+  <MapName>euLowCountries</MapName>
+  <MapName>euMuscovy</MapName>
+  <MapName>euPomerania</MapName>
+  <MapName>euPortugal</MapName>
+  <MapName>euPripetMarshes</MapName>
+  <MapName>euPyrenees</MapName>
+  <MapName>euRhine</MapName>
+  <MapName>euSaxony</MapName>
+  <MapName>euScandinavia</MapName>
+  <MapName>euScotland</MapName>
+  <MapName>euVistulaBasin</MapName>
+  <MapName>euWales</MapName>
+  <MapName>euWallachia</MapName>
+  <MapName>afAtlas</MapName>
+  <MapName>afArabia</MapName>
+  <MapName>afDarfur</MapName>
+  <MapName>afDunes</MapName>
+  <MapName>afGold Coast</MapName>
+  <MapName>afGreat Rift</MapName>
+  <MapName>afHighlands</MapName>
+  <MapName>afHorn</MapName>
+  <MapName>afIvoryCoast</MapName>
+  <MapName>afLakeChad</MapName>
+  <MapName>afLakeVictoria</MapName>
+  <MapName>afNiger Delta</MapName>
+  <MapName>afNile Valley</MapName>
+  <MapName>afPepperCoast</MapName>
+  <MapName>afSahel</MapName>
+  <MapName>afSavanna</MapName>
+  <MapName>afSiwaOasis</MapName>
+  <MapName>afSudd</MapName>
+  <MapName>afTassili</MapName>
+  <MapName>afTransSahara</MapName>
+  <MapName>afTripolitania</MapName>
+  <MapName>Alaska</MapName>
+  <MapName>Andes Upper</MapName>
+  <MapName>Araucania</MapName>
+  <MapName>Arctic Territories</MapName>
+  <MapName>Bahia</MapName>
+  <MapName>Baja California</MapName>
+  <MapName>Bayou</MapName>
+  <MapName>California</MapName>
+  <MapName>Carolina</MapName>
+  <MapName>Cascade Range</MapName>
+  <MapName>Colorado</MapName>
+  <MapName>Dakota</MapName>
+  <MapName>Florida</MapName>
+  <MapName>Gran Chaco</MapName>
+  <MapName>Great Lakes</MapName>
+  <MapName>Great Plains</MapName>
+  <MapName>Guianas</MapName>
+  <MapName>Mexico</MapName>
+  <MapName>MinasGerais</MapName>
+  <MapName>New England</MapName>
+  <MapName>Northwest Territory</MapName>
+  <MapName>Ozarks</MapName>
+  <MapName>Orinoco</MapName>
+  <MapName>Painted Desert</MapName>
+  <MapName>Pampas</MapName>
+  <MapName>Pampas Sierras</MapName>
+  <MapName>Panama</MapName>
+  <MapName>Patagonia</MapName>
+  <MapName>Rockies</MapName>
+  <MapName>Saguenay</MapName>
+  <MapName>Sonora</MapName>
+  <MapName>Texas</MapName>
+  <MapName>Yucatan</MapName>
+  <MapName>Yukon</MapName>  
+  <MapName>Bengal</MapName>
+  <MapName>borneo</MapName>
+  <MapName>CentralAsia</MapName>
+  <MapName>Central Plain</MapName>
+  <MapName>Deccan</MapName>
+  <MapName>Fertile Crescent</MapName>
+  <MapName>Himalayas</MapName>
+  <MapName>himalayasUpper</MapName>
+  <MapName>Hokkaido</MapName>
+  <MapName>indochina</MapName>
+  <MapName>Indonesia</MapName>
+  <MapName>Kamchatka</MapName>
+  <MapName>Korea</MapName>
+  <MapName>Malaysia</MapName>
+  <MapName>Manchuria</MapName>
+  <MapName>Mongolia</MapName>
+  <MapName>Parallel Rivers</MapName>
+  <MapName>Punjab</MapName>
+  <MapName>siberia</MapName>
+  <MapName>yellow riverDry</MapName>
+</CompetitiveMaps>

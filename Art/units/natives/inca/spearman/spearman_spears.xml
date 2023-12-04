@@ -1,0 +1,4 @@
+<animfile>
+  <component>spear<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\natives\inca\spearman\spearman_spear_age2</file></assetreference></none><deelitespearmen><assetreference type="GrannyModel"><file>units\natives\inca\spearman\spearman_spear_age3</file></assetreference></deelitespearmen><dechampionspearmen><assetreference type="GrannyModel"><file>units\natives\inca\spearman\spearman_spear_age4</file></assetreference></dechampionspearmen></logic></component>
+  <anim>Idle<component>spear</component></anim>
+</animfile>

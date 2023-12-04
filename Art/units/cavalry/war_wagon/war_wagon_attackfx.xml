@@ -1,0 +1,42 @@
+<particlesetdef>
+  <particleset name="warwagonshotfr">
+    <particle filename="effects\weapon_fire\generic\gun_flash" bone="bone_gun_frnt_right" xoff="0.7000" yoff="0.0000" zoff="0.4000">
+    </particle>
+    <particle filename="effects\weapon_fire\generic\gun_muzzleFire" bone="bone_gun_frnt_right" xoff="0.7000" yoff="0.0000" zoff="0.1900">
+    </particle>
+    <particle filename="effects\weapon_fire\generic\gun_smoke" bone="bone_gun_frnt_right" xoff="0.7000" yoff="0.0000" zoff="0.5000">
+    </particle>
+    <particle filename="effects\weapon_fire\generic\gun_spark" bone="bone_gun_frnt_right" xoff="0.7000" yoff="0.0000" zoff="0.1900">
+    </particle>
+  </particleset>
+  <particleset name="warwagonshotfl">
+    <particle filename="effects\weapon_fire\generic\gun_flash" bone="bone_gun_frnt_left" xoff="-0.8000" yoff="0.0000" zoff="0.3000">
+    </particle>
+    <particle filename="effects\weapon_fire\generic\gun_muzzleFire" bone="bone_gun_frnt_left" xoff="-0.8000" yoff="0.0000" zoff="0.0000">
+    </particle>
+    <particle filename="effects\weapon_fire\generic\gun_smoke" bone="bone_gun_frnt_left" xoff="-0.8000" yoff="0.0000" zoff="0.5000">
+    </particle>
+    <particle filename="effects\weapon_fire\generic\gun_spark" bone="bone_gun_frnt_left" xoff="-0.8000" yoff="0.0000" zoff="0.0000">
+    </particle>
+  </particleset>
+  <particleset name="warwagonshotrr">
+    <particle filename="effects\weapon_fire\generic\gun_flash" bone="bone_gun_back_right" xoff="0.7000" yoff="0.0000" zoff="0.3000">
+    </particle>
+    <particle filename="effects\weapon_fire\generic\gun_muzzleFire" bone="bone_gun_back_right" xoff="0.7000" yoff="0.0000" zoff="0.0000">
+    </particle>
+    <particle filename="effects\weapon_fire\generic\gun_smoke" bone="bone_gun_back_right" xoff="0.7000" yoff="0.0000" zoff="0.5000">
+    </particle>
+    <particle filename="effects\weapon_fire\generic\gun_spark" bone="bone_gun_back_right" xoff="0.7000" yoff="0.0000" zoff="0.0000">
+    </particle>
+  </particleset>
+  <particleset name="warwagonshotlr">
+    <particle filename="effects\weapon_fire\generic\gun_flash" bone="bone_gun_back_left" xoff="-0.8000" yoff="0.0000" zoff="0.3000">
+    </particle>
+    <particle filename="effects\weapon_fire\generic\gun_muzzleFire" bone="bone_gun_back_left" xoff="-0.8000" yoff="0.0000" zoff="0.1000">
+    </particle>
+    <particle filename="effects\weapon_fire\generic\gun_smoke" bone="bone_gun_back_left" xoff="-0.8000" yoff="0.0000" zoff="0.5000">
+    </particle>
+    <particle filename="effects\weapon_fire\generic\gun_spark" bone="bone_gun_back_left" xoff="-0.8000" yoff="0.0000" zoff="0.1000">
+    </particle>
+  </particleset>
+</particlesetdef>

@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>14</width>
+	<height>11</height>
+	<ignoreplacementrules>1</ignoreplacementrules>
+	<selectassingleunit>1</selectassingleunit>
+	<workOnAsSingleUnit>1</workOnAsSingleUnit>
+	<units>
+		<unit variation="60" posx="-10.0802" posz="-5.9588" orientx="1.0000" orienty="0.0000" orientz="0.0000">NativeHouseInca</unit>
+		<unit variation="0" posx="-8.9357" posz="-8.9773" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCPathBlock3</unit>
+		<unit variation="110" posx="9.0717" posz="-6.1620" orientx="-1.0000" orienty="0.0000" orientz="0.0000">NativeHouseInca</unit>
+		<unit variation="0" posx="7.9547" posz="-9.1493" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCPathBlock3</unit>
+		<unit variation="150" posx="-0.6718" posz="-6.2244" orientx="0.0008" orienty="0.0000" orientz="-1.0000">SocketInca</unit>
+		<unit variation="84" posx="-9.6902" posz="-6.6991" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">Fire</unit>
+		<unit variation="183" posx="5.5875" posz="-0.2119" orientx="-0.9641" orienty="0.0000" orientz="-0.2655">SMIncanCookpotWoman</unit>
+		<unit variation="55" posx="-7.3600" posz="4.1250" orientx="0.3827" orienty="-0.0000" orientz="-0.9239">NativeHouseInca</unit>
+		<unit variation="0" posx="-12.0737" posz="1.8608" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCPathBlock3</unit>
+		<unit variation="116" posx="10.8368" posz="1.5683" orientx="0.0000" orienty="0.0000" orientz="-1.0000">NativeHouseInca</unit>
+		<unit variation="2" posx="-2.5897" posz="2.1156" orientx="0.9239" orienty="0.0000" orientz="-0.3827">PropsNative</unit>
+		<unit variation="231" posx="-11.4903" posz="2.3653" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushRockies</unit>
+		<unit variation="0" posx="-1.9917" posz="3.1167" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">PropsNative</unit>
+		<unit variation="212" posx="6.0471" posz="3.0970" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushRockies</unit>
+		<unit variation="169" posx="0.6071" posz="1.7323" orientx="1.0000" orienty="0.0000" orientz="0.0000">Campfire</unit>
+		<unit variation="33" posx="3.2925" posz="7.7163" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">NativeHouseInca</unit>
+		<unit variation="129" posx="3.5566" posz="6.1768" orientx="-0.2795" orienty="0.0000" orientz="-0.9601">SMIncanStoryTelling</unit>
+		<unit variation="0" posx="-3.5374" posz="8.9712" orientx="0.3827" orienty="0.0000" orientz="-0.9239">SPCPathBlock3</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="Amazon\ground4_ama">
+			<block startx="-7" startz="-5" endx="-7" endz="-5"></block>
+			<block startx="-7" startz="1" endx="-7" endz="2"></block>
+			<block startx="-4" startz="0" endx="-4" endz="0"></block>
+			<block startx="-2" startz="1" endx="-2" endz="1"></block>
+			<block startx="-1" startz="-1" endx="-1" endz="-1"></block>
+			<block startx="-3" startz="-5" endx="-3" endz="-5"></block>
+			<block startx="1" startz="-5" endx="1" endz="-5"></block>
+			<block startx="6" startz="-5" endx="6" endz="-5"></block>
+			<block startx="2" startz="1" endx="2" endz="1"></block>
+			<block startx="6" startz="-3" endx="6" endz="-2"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="Amazon\path_ama">
+			<block startx="1" startz="-3" endx="1" endz="0"></block>
+			<block startx="-5" startz="-5" endx="-5" endz="-5"></block>
+			<block startx="1" startz="-4" endx="1" endz="-4"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="Amazon\ground3_ama">
+			<block startx="-4" startz="-5" endx="-4" endz="-5"></block>
+			<block startx="-1" startz="5" endx="-1" endz="5"></block>
+			<block startx="4" startz="5" endx="4" endz="5"></block>
+			<block startx="5" startz="5" endx="5" endz="5"></block>
+			<block startx="6" startz="5" endx="6" endz="5"></block>
+			<block startx="3" startz="-5" endx="3" endz="-5"></block>
+			<block startx="4" startz="-5" endx="4" endz="-5"></block>
+			<block startx="5" startz="-5" endx="5" endz="-5"></block>
+			<block startx="2" startz="-1" endx="2" endz="-1"></block>
+			<block startx="4" startz="4" endx="4" endz="4"></block>
+			<block startx="5" startz="3" endx="5" endz="4"></block>
+			<block startx="6" startz="3" endx="6" endz="4"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="Amazon\ground_road_ama">
+			<block startx="-7" startz="-1" endx="-7" endz="0"></block>
+			<block startx="-6" startz="-1" endx="-6" endz="1"></block>
+			<block startx="-5" startz="-1" endx="-5" endz="1"></block>
+			<block startx="-4" startz="-2" endx="-4" endz="-1"></block>
+			<block startx="-4" startz="1" endx="-4" endz="1"></block>
+			<block startx="-3" startz="-3" endx="-3" endz="1"></block>
+			<block startx="-2" startz="-3" endx="-2" endz="-3"></block>
+			<block startx="-2" startz="-1" endx="-2" endz="0"></block>
+			<block startx="-2" startz="2" endx="-2" endz="2"></block>
+			<block startx="-1" startz="-3" endx="-1" endz="-2"></block>
+			<block startx="-1" startz="0" endx="-1" endz="2"></block>
+			<block startx="0" startz="-3" endx="0" endz="2"></block>
+			<block startx="1" startz="1" endx="1" endz="2"></block>
+			<block startx="-3" startz="-4" endx="-3" endz="-4"></block>
+			<block startx="-2" startz="-5" endx="-2" endz="-4"></block>
+			<block startx="-1" startz="-5" endx="-1" endz="-5"></block>
+			<block startx="0" startz="-5" endx="0" endz="-4"></block>
+			<block startx="3" startz="-4" endx="3" endz="-4"></block>
+			<block startx="4" startz="-4" endx="4" endz="-4"></block>
+			<block startx="2" startz="-3" endx="2" endz="-2"></block>
+			<block startx="2" startz="0" endx="2" endz="0"></block>
+			<block startx="2" startz="2" endx="2" endz="2"></block>
+			<block startx="3" startz="-2" endx="3" endz="2"></block>
+			<block startx="4" startz="-3" endx="4" endz="1"></block>
+		</tilegroup>
+		<tilegroup type="Shoreline" subtype="Amazon\river2_am">
+			<block startx="-2" startz="-2" endx="-2" endz="-2"></block>
+			<block startx="-1" startz="-4" endx="-1" endz="-4"></block>
+			<block startx="2" startz="-5" endx="2" endz="-4"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="Amazon\ground5_ama">
+			<block startx="-7" startz="5" endx="-7" endz="5"></block>
+			<block startx="-6" startz="5" endx="-6" endz="5"></block>
+			<block startx="-5" startz="5" endx="-5" endz="5"></block>
+			<block startx="6" startz="-4" endx="6" endz="-4"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="sonora\ground6_son">
+			<block startx="-4" startz="2" endx="-4" endz="2"></block>
+			<block startx="-3" startz="2" endx="-3" endz="2"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

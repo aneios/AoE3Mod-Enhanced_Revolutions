@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry\insurgente\insurgente_hat_age2</file></assetreference></none><deveteraninsurgentes><assetreference type="GrannyModel"><file>units\infantry\insurgente\insurgente_hat_age3</file></assetreference></deveteraninsurgentes></logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

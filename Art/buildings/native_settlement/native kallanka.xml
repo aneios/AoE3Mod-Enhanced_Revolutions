@@ -1,0 +1,8 @@
+<animfile>
+  <definebone>bone_fire</definebone>
+  <definebone>bone_fire1</definebone>
+  <attachment>kallanka_fire<component>emitter<assetreference type="ParticleSystem"><file>effects\fire\fire_torch_a.particle</file></assetreference></component><anim>idle<component>emitter</component></anim></attachment>
+  <attachment>kallanka_smoke<component>smoke<assetreference type="ParticleSystem"><file>effects\smoke\smolder_small_v1.particle</file></assetreference></component><anim>idle<component>smoke</component></anim></attachment>
+  <component>kallanka<assetreference type="GrannyModel"><file>buildings\native_civs\kallanka\kallanka_age3</file></assetreference><decal><effecttype>bump</effecttype><texture>buildings\native_civs\kallanka\inca_kallanka_ground_age3</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><width>13</width><height>13</height></decal><attach a="kallanka_fire" frombone="ATTACHPOINT" tobone="bone_fire" syncanims="0"></attach><attach a="kallanka_fire" frombone="ATTACHPOINT" tobone="bone_fire1" syncanims="0"></attach><attach a="kallanka_smoke" frombone="ATTACHPOINT" tobone="bone_fire" syncanims="0"></attach><attach a="kallanka_smoke" frombone="ATTACHPOINT" tobone="bone_fire1" syncanims="0"></attach></component>
+  <anim>Idle<component>kallanka</component></anim>
+</animfile>

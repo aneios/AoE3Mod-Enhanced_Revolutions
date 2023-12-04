@@ -1,0 +1,4 @@
+<animfile>
+  <component>gun<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\cavalry\reiter\reiter_gun_age3</file></assetreference></none><guardruyters><assetreference type="GrannyModel"><file>units\cavalry\us_cavalry\us_cavalry_gun</file></assetreference></guardruyters></logic></component>
+  <anim>Idle<component>gun</component></anim>
+</animfile>

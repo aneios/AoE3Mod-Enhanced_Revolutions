@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "106218" displayNameID = "106216" loadDetails="106217" largeMapName = "unknownLOSTLarge" multiplayerOnly = ""
+    imagepath = "ui\random_map\unknown\unknown_lost_mini" cannotReplace = "" loadBackground="ui\random_map\unknown\unknown_map">
+   <loadss>ui\random_map\unknown\unknown_lost_ss_01</loadss>
+   <loadss>ui\random_map\unknown\unknown_lost_ss_02</loadss>
+   <loadss>ui\random_map\unknown\unknown_lost_ss_03</loadss>
+   <loadss>ui\random_map\unknown\unknown_lost_ss_04</loadss>
+</mapinfo>

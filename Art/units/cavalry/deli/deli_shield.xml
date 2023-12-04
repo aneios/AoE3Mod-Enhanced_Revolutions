@@ -1,0 +1,4 @@
+<animfile>
+  <component>shield<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\cavalry\deli\deli_shield_lvl1</file></assetreference></none><veterandelis><assetreference type="GrannyModel"><file>units\cavalry\deli\deli_shield_lvl2</file></assetreference></veterandelis><rumeliots><assetreference type="GrannyModel"><file>units\cavalry\deli\deli_shield_lvl3</file></assetreference></rumeliots></logic></component>
+  <anim>Idle<component>shield</component></anim>
+</animfile>

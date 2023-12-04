@@ -1,0 +1,5 @@
+<animfile>
+  <component>manowar<assetreference type="GrannyModel"><file>units\naval\man_o_war\manowar</file></assetreference></component>
+  <anim>Idle<component>manowar</component><assetreference type="GrannyAnim"></assetreference></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>animation_library\naval\naval_idle_generic_A</file><tag type="Attack">0.45</tag></assetreference><component>manowar</component></anim>
+</animfile>

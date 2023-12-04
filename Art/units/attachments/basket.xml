@@ -1,0 +1,6 @@
+<animfile>
+  <definebone>
+  </definebone>
+  <component>Basket<assetreference type="GrannyModel"><file>units\attachments\basket</file></assetreference></component>
+  <anim>Idle<component>Basket</component></anim>
+</animfile>

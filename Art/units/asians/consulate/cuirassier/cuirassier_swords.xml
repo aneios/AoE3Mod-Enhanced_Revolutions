@@ -1,0 +1,4 @@
+<animfile>
+  <component>swords<assetreference type="GrannyModel"><file>units\cavalry\cuirassier\cuirassier_4age_sword</file></assetreference></component>
+  <anim>Idle<component>swords</component></anim>
+</animfile>

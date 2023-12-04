@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="105996" imagepath="ui\random_map\european_maps" helpTextID="105997" cannotReplace="">
+  <map>euAcropolis</map>
+  <map>euAlps</map>
+  <map>euAnatolia</map>
+  <map>euArchipelago</map>
+  <map>euBalkans</map>
+  <map>euBaltic</map>
+  <map>euBlackForest</map>
+  <map>euBohemia</map>
+  <map>euBudapest</map>
+  <map>euCarpathians</map>
+  <map>euCaucasus</map>
+  <map>euCourland</map>
+  <map>euDanishStrait</map>
+  <map>euDnieperBasin</map>
+  <map>euEngland</map>
+  <map>euFinland</map>
+  <map>euFrance</map>
+  <map>euHungarianPlains</map>
+  <map>euIberia</map>
+  <map>euIreland</map>
+  <map>euItaly</map>
+  <map>euKarelian</map>
+  <map>euLithuania</map>
+  <map>euLowCountries</map>
+  <map>euMuscovy</map>
+  <map>euMediterranean</map>
+  <map>euPomerania</map>
+  <map>euPortugal</map>
+  <map>euPripetMarshes</map>
+  <map>euPyrenees</map>
+  <map>euRhine</map>
+  <map>euSardiniaCorsica</map>
+  <map>euSaxony</map>
+  <map>euScandinavia</map>
+  <map>euScotland</map>
+  <map>euSteppe</map>
+  <map>euVistulaBasin</map>
+  <map>euWales</map>
+  <map>euWallachia</map>
+</randomMaps>

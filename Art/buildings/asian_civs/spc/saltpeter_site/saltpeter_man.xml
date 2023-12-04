@@ -1,0 +1,4 @@
+<animfile>
+  <component>man<assetreference type="GrannyModel"><file>buildings\asian_civs\spc\saltpeter_site\SaltPeter_man</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_square_64x64</selectedtexture><width>10.00</width><height>10.00</height></decal></component>
+  <anim>Mode1_Idle<assetreference type="GrannyAnim"><file>buildings\asian_civs\spc\saltpeter_site\SaltPeter_man_idle01</file><weight>40</weight></assetreference><assetreference type="GrannyAnim"><file>buildings\asian_civs\spc\saltpeter_site\SaltPeter_man_idle_swatting</file><weight>15</weight></assetreference><assetreference type="GrannyAnim"><file>buildings\asian_civs\spc\saltpeter_site\SaltPeter_man_idle_lookaround</file><weight>5</weight></assetreference><component>man</component></anim>
+</animfile>

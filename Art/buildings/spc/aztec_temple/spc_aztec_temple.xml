@@ -1,0 +1,34 @@
+<animfile>
+  <definebone>bone_lamp_01</definebone>
+  <definebone>bone_lamp_02</definebone>
+  <definebone>bone_lamp_03</definebone>
+  <definebone>bone_lamp_04</definebone>
+  <definebone>bone_debris_1a</definebone>
+  <definebone>bone_debris_1b</definebone>
+  <definebone>bone_debris_1c</definebone>
+  <definebone>bone_debris_2a</definebone>
+  <definebone>bone_debris_2b</definebone>
+  <definebone>bone_debris_3a</definebone>
+  <definebone>bone_debris_3b</definebone>
+  <definebone>bone_debris_3c</definebone>
+  <definebone>bone_debris_4a</definebone>
+  <definebone>bone_debris_4b</definebone>
+  <definebone>bone_debris_5a</definebone>
+  <definebone>bone_debris_5b</definebone>
+  <definebone>bone_debris_5c</definebone>
+  <definebone>bone_debris_5d</definebone>
+  <definebone>bone_debris_6a</definebone>
+  <definebone>bone_debris_6b</definebone>
+  <definebone>bone_debris_6c</definebone>
+  <definebone>bone_debris_6d</definebone>
+  <definebone>bone_debris_7a</definebone>
+  <definebone>bone_debris_7b</definebone>
+  <definebone>bone_debris_7c</definebone>
+  <attachment>torch1<component>torch<logic type="Destruction"><p0><assetreference type="ParticleSystem"></assetreference></p0><p99><assetreference type="popcornFx"><file>fire\fire_torch_a.pkfx</file></assetreference></p99></logic></component><anim>None<component>torch</component></anim></attachment>
+  <attachment>collapse_smoke<component>collapse_smoke<assetreference type="popcornFx"><file>smoke\collapse_smoke_6x6.pkfx</file></assetreference></component><anim>Idle<component>collapse_smoke</component></anim></attachment>
+  <attachment>collapse_smoke2<component>collapse_smoke<assetreference type="popcornFx"><file>smoke\collapse_smoke_3x3.pkfx</file></assetreference></component><anim>Idle<component>collapse_smoke</component></anim></attachment>
+  <component>secrets<logic type="LowPoly"><normal><logic type="Destruction"><p1><assetreference type="GrannyModel"><file>buildings\spc\aztec_temple\spc_aztec_temple_damaged</file></assetreference></p1><p99><assetreference type="GrannyModel" shape="spc_aztecTemple"><file>buildings\spc\aztec_temple\spc_aztec_temple</file></assetreference></p99></logic></normal><lowpoly><assetreference type="GrannyModel" shape="spc_aztecTemple"><file>buildings\spc\aztec_temple\lp_spc_aztec_temple</file></assetreference></lowpoly></logic><decal><effecttype>bump</effecttype><texture>buildings\spc\aztec_temple\aztec_temple_ground</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\spc\aztec_temple\aztec_temple_ground_bumpmap</bumptexture><width>14.50</width><height>14.50</height></decal></component>
+  <component>death<logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>buildings\spc\aztec_temple\spc_aztec_temple_damaged</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>buildings\spc\aztec_temple\lp_spc_aztec_temple</file></assetreference></lowpoly></logic><decal><effecttype>bump</effecttype><texture>buildings\spc\aztec_temple\aztec_temple_ground</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\spc\aztec_temple\aztec_temple_ground_bumpmap</bumptexture><width>14.50</width><height>14.50</height></decal></component>
+  <anim>Idle<component>secrets</component><simskeleton><model>buildings\spc\aztec_temple\spc_aztec_temple_damaged</model></simskeleton><attach a="torch1" frombone="ATTACHPOINT" tobone="bone_lamp_01" syncanims="0"></attach><attach a="torch1" frombone="ATTACHPOINT" tobone="bone_lamp_02" syncanims="0"></attach><attach a="torch1" frombone="ATTACHPOINT" tobone="bone_lamp_03" syncanims="0"></attach><attach a="torch1" frombone="ATTACHPOINT" tobone="bone_lamp_04" syncanims="0"></attach></anim>
+  <anim>Death<component>death</component><attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach><attach a="collapse_smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach></anim>
+</animfile>

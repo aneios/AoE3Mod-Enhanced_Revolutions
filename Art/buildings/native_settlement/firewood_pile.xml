@@ -1,0 +1,4 @@
+<animfile>
+  <component>firewood<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\native_settlement\firewood_A</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\firewood_B</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\firewood_C</file></assetreference></data></logic></component>
+  <anim>Idle<component>firewood</component></anim>
+</animfile>

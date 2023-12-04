@@ -1,0 +1,4 @@
+<animfile>
+  <component>bows<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\natives\aztec\arrow_knight\ak_bow</file></assetreference></none><championarrowknight><assetreference type="GrannyModel"><file>units\natives\aztec\arrow_knight\ak_bow</file></assetreference></championarrowknight></logic></component>
+  <anim>Idle<component>bows</component></anim>
+</animfile>

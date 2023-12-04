@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry\pikeman\pikeman_2age_hat</file></assetreference></none><veteranpikemen><assetreference type="GrannyModel"><file>units\infantry\pikeman\pikeman_3age_hat</file></assetreference></veteranpikemen><guardpikemen><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_2age_hat</file></assetreference></guardpikemen><rgdalkarl><assetreference type="GrannyModel"><file></file></assetreference></rgdalkarl><rgtercio><assetreference type="GrannyModel"><file></file></assetreference></rgtercio><dehcrevpickets><assetreference type="GrannyModel"><file>units\explorers\g_explorer_hat</file></assetreference></dehcrevpickets></logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

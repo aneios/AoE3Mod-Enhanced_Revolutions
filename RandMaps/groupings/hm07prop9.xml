@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>12</width>
+	<height>11</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="154" posx="5.1447" posz="-7.6354" orientx="0.9239" orienty="0.0000" orientz="-0.3827">SPCDamagedCannons</unit>
+		<unit variation="0" posx="-0.0359" posz="-6.9621" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCDamagedProps</unit>
+		<unit variation="1" posx="-4.5972" posz="-3.9295" orientx="-0.9239" orienty="-0.0000" orientz="-0.3827">SPCDamagedProps</unit>
+		<unit variation="19" posx="-0.2711" posz="-4.0485" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">Rubble</unit>
+		<unit variation="27" posx="4.7091" posz="-3.8426" orientx="0.0000" orienty="0.0000" orientz="-1.0000">Rubble</unit>
+		<unit variation="2" posx="-4.5460" posz="-2.9123" orientx="-0.9239" orienty="-0.0000" orientz="-0.3827">SPCDamagedProps</unit>
+		<unit variation="17" posx="-1.3264" posz="-1.4565" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">SPCDamagedProps</unit>
+		<unit variation="153" posx="-7.0531" posz="6.8603" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCDamagedCannons</unit>
+		<unit variation="4" posx="6.1851" posz="5.1137" orientx="0.0000" orienty="0.0000" orientz="1.0000">SPCDamagedProps</unit>
+		<unit variation="25" posx="2.3938" posz="5.6670" orientx="0.0000" orienty="0.0000" orientz="-1.0000">Rubble</unit>
+		<unit variation="26" posx="-3.8305" posz="6.2839" orientx="0.0000" orienty="0.0000" orientz="-1.0000">Rubble</unit>
+		<unit variation="20" posx="6.1313" posz="7.7368" orientx="0.9993" orienty="0.0000" orientz="-0.0367">TreeGreatLakes</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="araucania\ground_dirt1_ara">
+			<block startx="-5" startz="-1" endx="-5" endz="-1"></block>
+			<block startx="-5" startz="2" endx="-5" endz="4"></block>
+			<block startx="-4" startz="-3" endx="-4" endz="-1"></block>
+			<block startx="-4" startz="3" endx="-4" endz="4"></block>
+			<block startx="-3" startz="-3" endx="-3" endz="-3"></block>
+			<block startx="-3" startz="4" endx="-3" endz="4"></block>
+			<block startx="-2" startz="4" endx="-2" endz="4"></block>
+			<block startx="1" startz="4" endx="1" endz="4"></block>
+			<block startx="2" startz="4" endx="2" endz="4"></block>
+			<block startx="3" startz="-3" endx="3" endz="-3"></block>
+			<block startx="3" startz="3" endx="3" endz="4"></block>
+			<block startx="-3" startz="-4" endx="-3" endz="-4"></block>
+			<block startx="-2" startz="-4" endx="-2" endz="-4"></block>
+			<block startx="-1" startz="-5" endx="-1" endz="-4"></block>
+			<block startx="0" startz="-5" endx="0" endz="-5"></block>
+			<block startx="1" startz="-5" endx="1" endz="-4"></block>
+			<block startx="2" startz="-4" endx="2" endz="-4"></block>
+			<block startx="3" startz="-4" endx="3" endz="-4"></block>
+			<block startx="-4" startz="5" endx="-4" endz="5"></block>
+			<block startx="-3" startz="5" endx="-3" endz="5"></block>
+			<block startx="-2" startz="5" endx="-2" endz="5"></block>
+			<block startx="-1" startz="5" endx="-1" endz="5"></block>
+			<block startx="0" startz="5" endx="0" endz="5"></block>
+			<block startx="1" startz="5" endx="1" endz="5"></block>
+			<block startx="4" startz="-3" endx="4" endz="-1"></block>
+			<block startx="4" startz="2" endx="4" endz="3"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground_dirt2_ara">
+			<block startx="-4" startz="0" endx="-4" endz="0"></block>
+			<block startx="-4" startz="2" endx="-4" endz="2"></block>
+			<block startx="-3" startz="-2" endx="-3" endz="-1"></block>
+			<block startx="-3" startz="2" endx="-3" endz="2"></block>
+			<block startx="-2" startz="-3" endx="-2" endz="-1"></block>
+			<block startx="-2" startz="2" endx="-2" endz="2"></block>
+			<block startx="-1" startz="-3" endx="-1" endz="-1"></block>
+			<block startx="-1" startz="2" endx="-1" endz="4"></block>
+			<block startx="0" startz="-3" endx="0" endz="-3"></block>
+			<block startx="0" startz="-1" endx="0" endz="-1"></block>
+			<block startx="0" startz="3" endx="0" endz="4"></block>
+			<block startx="1" startz="-3" endx="1" endz="-2"></block>
+			<block startx="1" startz="2" endx="1" endz="3"></block>
+			<block startx="2" startz="-3" endx="2" endz="-1"></block>
+			<block startx="2" startz="2" endx="2" endz="3"></block>
+			<block startx="3" startz="-2" endx="3" endz="-1"></block>
+			<block startx="3" startz="2" endx="3" endz="2"></block>
+			<block startx="0" startz="-4" endx="0" endz="-4"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground07_ara">
+			<block startx="-5" startz="0" endx="-5" endz="1"></block>
+			<block startx="-4" startz="1" endx="-4" endz="1"></block>
+			<block startx="-3" startz="0" endx="-3" endz="1"></block>
+			<block startx="-2" startz="0" endx="-2" endz="1"></block>
+			<block startx="-1" startz="0" endx="-1" endz="1"></block>
+			<block startx="0" startz="0" endx="0" endz="1"></block>
+			<block startx="1" startz="0" endx="1" endz="1"></block>
+			<block startx="2" startz="0" endx="2" endz="1"></block>
+			<block startx="3" startz="1" endx="3" endz="1"></block>
+			<block startx="4" startz="1" endx="4" endz="1"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

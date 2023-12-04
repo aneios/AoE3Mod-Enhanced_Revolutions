@@ -1,0 +1,4 @@
+<animfile>
+  <component>shield<assetreference type="GrannyModel"><file>units\asians\natives\qizilbash\qizilbash_shield</file></assetreference></component>
+  <anim>Idle<component>shield</component></anim>
+</animfile>

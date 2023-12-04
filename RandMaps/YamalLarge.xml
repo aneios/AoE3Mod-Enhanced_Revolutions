@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapinfo details="106182"  displayNameID="106183" loadDetails="106181" isLargeMap = ""
+    imagepath="ui\random_map\yamal\yamal_mini" cannotReplace="" loadBackground="ui\random_map\yamal\yamal_map">
+	<loadss>ui\random_map\yamal\yamal_ss_01</loadss>
+	<loadss>ui\random_map\yamal\yamal_ss_02</loadss>
+	<loadss>ui\random_map\yamal\yamal_ss_03</loadss>
+	<loadss>ui\random_map\yamal\yamal_ss_04</loadss>
+</mapinfo>

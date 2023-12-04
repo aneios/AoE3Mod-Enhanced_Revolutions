@@ -1,0 +1,4 @@
+<animfile>
+  <component>bows<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\longbow\longbow_2age_bow</file></assetreference></none><veteranlongbowmen><assetreference type="GrannyModel"><file>units\infantry_ranged\longbow\longbow_3age_bow</file></assetreference></veteranlongbowmen><guardlongbowmen><assetreference type="GrannyModel"><file>units\infantry_ranged\longbow\longbow_4age_bow</file></assetreference></guardlongbowmen></logic></component>
+  <anim>Idle<component>bows</component></anim>
+</animfile>

@@ -1,0 +1,8 @@
+<animfile>
+  <definebone>bip01_attach_rt</definebone>
+  <component>attachment_atlatl<assetreference type="GrannyModel"><file>units\natives\attachment_atlatl</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file></file></assetreference><component>attachment_atlatl</component></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file></file></assetreference><component>attachment_atlatl</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file></file></assetreference><component>attachment_atlatl</component></anim>
+  <anim>HandAttack<assetreference type="GrannyAnim"><file></file></assetreference><component>attachment_atlatl</component></anim>
+</animfile>

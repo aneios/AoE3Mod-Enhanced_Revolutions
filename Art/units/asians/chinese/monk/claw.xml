@@ -1,0 +1,5 @@
+<animfile>
+  <definebone>bip01_attach_rt</definebone>
+  <component>claw<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\asians\chinese\monk\SMaster_Claw</file></assetreference></none></logic></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\explorer\idle_explorer_A</file></assetreference><component>claw</component></anim>
+</animfile>

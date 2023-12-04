@@ -1,0 +1,4 @@
+<animfile>
+  <component>banners<logic type="Tech"><none></none><championarrowknight><assetreference type="GrannyModel"><file>units\asians\spc\arrow_knight\ak_banner</file></assetreference></championarrowknight></logic></component>
+  <anim>Idle<component>banners</component></anim>
+</animfile>

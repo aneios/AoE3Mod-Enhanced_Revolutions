@@ -1,0 +1,4 @@
+<animfile>
+  <component>musket<logic type="Civ"><germans><assetreference type="GrannyModel"><file>units\explorers\g_musket</file></assetreference></germans></logic></component>
+  <anim>Idle<component>musket</component></anim>
+</animfile>

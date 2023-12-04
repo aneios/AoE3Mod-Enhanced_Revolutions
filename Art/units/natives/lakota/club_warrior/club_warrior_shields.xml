@@ -1,0 +1,4 @@
+<animfile>
+  <component>quivers<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\natives\lakota\club_warrior\club_warrior_1_shield</file></assetreference></none><elitewarclubs><assetreference type="GrannyModel"><file>units\natives\lakota\club_warrior\club_warrior_2_shield</file></assetreference></elitewarclubs><championwarclubs><assetreference type="GrannyModel"><file>units\natives\lakota\club_warrior\club_warrior_3_shield</file></assetreference></championwarclubs></logic></component>
+  <anim>Idle<component>quivers</component></anim>
+</animfile>

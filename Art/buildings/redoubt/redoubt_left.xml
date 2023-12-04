@@ -1,0 +1,4 @@
+<animfile>
+  <component>redoubt_left<assetreference type="GrannyModel"><file>buildings\redoubt\redoubt_left</file></assetreference><decal><effecttype>default</effecttype><width>10.00</width><height>18.00</height><xoffset>0.00</xoffset><zoffset>0.00</zoffset></decal></component>
+  <anim>Idle<component>redoubt_left</component></anim>
+</animfile>

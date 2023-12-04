@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>8</width>
+	<height>8</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="210" posx="-0.7798" posz="-5.5659" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">FenceRock</unit>
+		<unit variation="121" posx="-3.4751" posz="-5.0038" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">FenceRock</unit>
+		<unit variation="10" posx="0.2897" posz="-6.2913" orientx="0.0000" orienty="0.0000" orientz="1.0000">SPCDamagedProps</unit>
+		<unit variation="11" posx="-0.3315" posz="-6.1526" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">SPCDamagedProps</unit>
+		<unit variation="11" posx="-3.6623" posz="-4.0660" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">PropsColony</unit>
+		<unit variation="11" posx="0.8331" posz="-1.2662" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">SPCDamagedProps</unit>
+		<unit variation="118" posx="-0.8158" posz="0.0436" orientx="0.7068" orienty="-0.0000" orientz="-0.7074">UnderbrushCalifornia</unit>
+		<unit variation="107" posx="2.1990" posz="-0.5674" orientx="-0.3817" orienty="0.0000" orientz="0.9243">UnderbrushNewEngland</unit>
+		<unit variation="107" posx="-1.8934" posz="0.8494" orientx="-0.9233" orienty="0.0000" orientz="0.3841">UnderbrushNewEngland</unit>
+		<unit variation="168" posx="0.6809" posz="0.2328" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCCasualtyCart</unit>
+		<unit variation="159" posx="3.3124" posz="1.4857" orientx="0.3827" orienty="0.0021" orientz="-0.9239">SPCCasualties</unit>
+		<unit variation="157" posx="0.5900" posz="1.8843" orientx="-0.9239" orienty="0.0051" orientz="-0.3827">SPCCasualties</unit>
+		<unit variation="1" posx="0.5332" posz="4.8573" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">PropsColony</unit>
+		<unit variation="2" posx="-0.2819" posz="4.8011" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCDamagedProps</unit>
+		<unit variation="11" posx="0.3718" posz="4.4460" orientx="-0.0000" orienty="0.0000" orientz="-1.0000">SPCDamagedProps</unit>
+		<unit variation="1" posx="-4.4629" posz="4.8858" orientx="-1.0000" orienty="0.0000" orientz="0.0000">SPCDamagedProps</unit>
+		<unit variation="84" posx="-3.1132" posz="5.4175" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">FenceRock</unit>
+		<unit variation="240" posx="-0.1217" posz="5.4819" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">FenceRock</unit>
+		<unit variation="11" posx="-4.8259" posz="5.2695" orientx="-1.0000" orienty="0.0000" orientz="0.0000">SPCDamagedProps</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="california\desert4_cal">
+			<block startx="-3" startz="-2" endx="-3" endz="-2"></block>
+			<block startx="-2" startz="-3" endx="-2" endz="-3"></block>
+			<block startx="-1" startz="-3" endx="-1" endz="-3"></block>
+			<block startx="-4" startz="1" endx="-4" endz="2"></block>
+			<block startx="-3" startz="1" endx="-3" endz="1"></block>
+			<block startx="-3" startz="3" endx="-3" endz="3"></block>
+			<block startx="-2" startz="2" endx="-2" endz="2"></block>
+			<block startx="-1" startz="2" endx="-1" endz="2"></block>
+			<block startx="1" startz="2" endx="1" endz="2"></block>
+			<block startx="2" startz="0" endx="2" endz="2"></block>
+			<block startx="3" startz="1" endx="3" endz="1"></block>
+			<block startx="0" startz="-3" endx="0" endz="-3"></block>
+			<block startx="2" startz="-2" endx="2" endz="-2"></block>
+			<block startx="3" startz="-1" endx="3" endz="-1"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="california\desert3_cal">
+			<block startx="-3" startz="-1" endx="-3" endz="-1"></block>
+			<block startx="-2" startz="-2" endx="-2" endz="-1"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="-2"></block>
+			<block startx="-4" startz="0" endx="-4" endz="0"></block>
+			<block startx="-3" startz="0" endx="-3" endz="0"></block>
+			<block startx="-3" startz="2" endx="-3" endz="2"></block>
+			<block startx="-2" startz="0" endx="-2" endz="1"></block>
+			<block startx="-1" startz="1" endx="-1" endz="1"></block>
+			<block startx="0" startz="1" endx="0" endz="2"></block>
+			<block startx="1" startz="1" endx="1" endz="1"></block>
+			<block startx="0" startz="-2" endx="0" endz="-2"></block>
+			<block startx="1" startz="-3" endx="1" endz="-1"></block>
+			<block startx="2" startz="-1" endx="2" endz="-1"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="california\desert6_cal">
+			<block startx="-1" startz="-1" endx="-1" endz="-1"></block>
+			<block startx="-1" startz="0" endx="-1" endz="0"></block>
+			<block startx="0" startz="0" endx="0" endz="0"></block>
+			<block startx="1" startz="0" endx="1" endz="0"></block>
+			<block startx="0" startz="-1" endx="0" endz="-1"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

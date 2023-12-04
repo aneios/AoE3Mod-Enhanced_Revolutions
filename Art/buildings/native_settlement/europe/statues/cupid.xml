@@ -1,0 +1,4 @@
+<animfile>
+  <component>cupid<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\statues\cupid01</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\statues\cupid02</file></assetreference></data></logic></component>
+  <anim>Idle<component>cupid</component></anim>
+</animfile>

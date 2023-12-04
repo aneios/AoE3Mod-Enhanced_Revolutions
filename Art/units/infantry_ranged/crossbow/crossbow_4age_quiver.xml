@@ -1,0 +1,4 @@
+<animfile>
+  <component>quiver<assetreference type="GrannyModel"><file>units\infantry_ranged\crossbow\crossbow_4age_quiver</file></assetreference></component>
+  <anim>Idle<component>quiver</component></anim>
+</animfile>

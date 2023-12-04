@@ -1,0 +1,6 @@
+<animfile>
+  <definebone>bip01_attach_rt</definebone>
+  <component>attachment_bola<assetreference type="GrannyModel"><file>units\natives\attachment_bola</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\natives\attachment_idle_bolas_a</file></assetreference><component>attachment_bola</component></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>units\natives\attachment_attack_bolas_a</file></assetreference><component>attachment_bola</component></anim>
+</animfile>

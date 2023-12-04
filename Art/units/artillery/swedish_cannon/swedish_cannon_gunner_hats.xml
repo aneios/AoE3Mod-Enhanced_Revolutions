@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\artillery\swedish_cannon\swedish_cannon_age2_hat</file></assetreference></none><deinfantryguns><assetreference type="GrannyModel"><file>units\artillery\swedish_cannon\swedish_cannon_age4_hat</file></assetreference></deinfantryguns></logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

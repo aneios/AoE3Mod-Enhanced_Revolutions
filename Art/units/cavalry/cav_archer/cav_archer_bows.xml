@@ -1,0 +1,4 @@
+<animfile>
+  <component>bows<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\cavalry\cav_archer\cav_archer_1age_bow</file></assetreference></none><guardcavalryarchers><assetreference type="GrannyModel"><file>units\cavalry\cav_archer\cav_archer_2age_bow</file></assetreference></guardcavalryarchers><derevolutionromania><assetreference type="GrannyModel"><file>units\cavalry\cav_archer\cav_archer_1age_bow</file></assetreference></derevolutionromania></logic></component>
+  <anim>Idle<component>bows</component></anim>
+</animfile>

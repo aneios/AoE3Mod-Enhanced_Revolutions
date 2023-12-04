@@ -1,0 +1,4 @@
+<animfile>
+  <component>bows<assetreference type="GrannyModel"><file>units\natives\iroquois\alarm_warrior\alarm_warrior_bow</file></assetreference></component>
+  <anim>Idle<component>bows</component></anim>
+</animfile>

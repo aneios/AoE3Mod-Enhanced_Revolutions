@@ -1,0 +1,4 @@
+<animfile>
+  <component>shield<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\africans\ethiopians\neftenya\neftenya_age3_shield</file></assetreference></none><dechampioninfantryethiopian><assetreference type="GrannyModel"><file>units\africans\ethiopians\neftenya\neftenya_age5_shield</file></assetreference></dechampioninfantryethiopian></logic></component>
+  <anim>Idle<component>shield</component></anim>
+</animfile>

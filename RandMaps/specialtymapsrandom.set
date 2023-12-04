@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="106208" imagepath="ui\random_map\special_maps" helpTextID="106209" cannotReplace="">
+  <map>euArena</map>
+  <map>euBlackForest</map>
+  <map>euBudapest</map>
+  <map>euCitizenClash</map>
+  <map>euEngland</map>
+  <map>euForestNothing</map>
+  <map>euFrance</map>
+  <map>euItaly</map>
+  <map>euSteppe</map>
+  <map>euSteppe</map>
+  <map>euSteppeLOST</map>
+  <map>afCongoBasin</map>
+  <map>afEyeoftheSahara</map>
+  <map>afLOSTSahara</map>
+  <map>afNiger River</map>
+  <map>afSwahiliCoast</map>
+  <map>afTransSahara</map>
+  <map>honshuRegicide</map>
+  <map>TexasFrontier</map>
+  <map>silkRoad</map>
+  <map>Unknown</map>
+  <map>Unknown</map>
+  <map>Unknown</map>
+  <map>Unknown</map>
+  <map>UnknownLOST</map>
+  <map>UnknownSM</map>
+</randomMaps>

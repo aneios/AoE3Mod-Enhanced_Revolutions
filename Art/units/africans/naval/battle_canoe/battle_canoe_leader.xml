@@ -1,0 +1,24 @@
+<animfile>
+  <definebone>Bip01_AttachLt</definebone>
+  <definebone>Bip01_AttachRt</definebone>
+  <definebone>bip01 Prop1</definebone>
+  <definebone>bip01 Prop2</definebone>
+  <definebone>bone_hat</definebone>
+  <definebone>Bip01 Head</definebone>
+  <definebone>bone_backpack</definebone>
+  <definebone>bone_fur</definebone>
+  <definebone>bone_gun</definebone>
+  <definebone>HITPOINTBAR</definebone>
+  <definebone>bone_chief_aura</definebone>
+  <definebone>bone_fuse</definebone>
+  <attachment>torch<include>effects\projectiles\torch.xml</include></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\africans\natives\akan\akan_musketeer</file></assetreference><attach a="hat" frombone="bone_hat" tobone="HEAD" syncanims="0"></attach></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>nuggets\outlaw_kidnap\kidnap_outlawa_idlea</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>nuggets\outlaw_kidnap\kidnap_outlawa_idlea</file></assetreference><component>ModelComp</component></anim>
+  <anim>GatherFish<assetreference type="GrannyAnim"><file>nuggets\outlaw_kidnap\kidnap_outlawa_idlea</file></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\range\death_kneeling_rifleman_a</file></assetreference><component>ModelComp</component></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>nuggets\outlaw_kidnap\kidnap_outlawa_idlea</file></assetreference><component>ModelComp</component></anim>
+  <anim>Raze_Attack<assetreference type="GrannyAnim"><file>nuggets\outlaw_kidnap\kidnap_outlawa_idlea</file></assetreference><component>ModelComp</component></anim>
+  <anim>Raze_Idle<assetreference type="GrannyAnim"><file>nuggets\outlaw_kidnap\kidnap_outlawa_idlea</file></assetreference><component>ModelComp</component></anim>
+  <anim>Reload<assetreference type="GrannyAnim"><file>nuggets\outlaw_kidnap\kidnap_outlawa_idlea</file></assetreference><component>ModelComp</component></anim>
+</animfile>

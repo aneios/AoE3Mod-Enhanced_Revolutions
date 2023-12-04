@@ -1,0 +1,4 @@
+<animfile>
+  <component>Shaolin Temple<logic type="Variation"><data><logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>buildings\native_settlement\shaolin_floor_01</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>buildings\native_settlement\shaolin_floor_01</file></assetreference></lowpoly></logic><decal><effecttype>default</effecttype><texture>buildings\native_settlement\shaolin_decal</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><width>10.00</width><height>10.00</height><xoffset>0.00</xoffset><zoffset>0.00</zoffset></decal></data></logic></component>
+  <anim>Idle<component>Shaolin Temple</component></anim>
+</animfile>

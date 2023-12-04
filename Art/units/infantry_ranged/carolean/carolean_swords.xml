@@ -1,0 +1,4 @@
+<animfile>
+  <component>swords<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\attachments\rapier</file></assetreference></none><veterancaroleans><assetreference type="GrannyModel"><file>units\attachments\rapier</file></assetreference></veterancaroleans><guardcaroleans><assetreference type="GrannyModel"><file>units\mercenaries\fusilier\fusilier_sword</file></assetreference></guardcaroleans><imperialcaroleans><assetreference type="GrannyModel"><file>units\mercenaries\fusilier\fusilier_sword</file></assetreference></imperialcaroleans></logic></component>
+  <anim>Idle<component>swords</component></anim>
+</animfile>

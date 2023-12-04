@@ -1,0 +1,4 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\attachments\chain_shot\chain_shot</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>effects\projectiles\bola_spin</file></assetreference><component>ModelComp</component></anim>
+</animfile>

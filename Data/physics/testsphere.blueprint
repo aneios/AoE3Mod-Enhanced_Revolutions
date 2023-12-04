@@ -1,0 +1,8 @@
+<blueprint>
+  <mass>25.0</mass>
+  <friction>0.1</friction>
+  <restitution>0.03</restitution>
+  <centerofmassoffset>0,0,0</centerofmassoffset>
+  <angulardampening>0.2</angulardampening>
+  <shape>testsphere</shape>
+</blueprint>

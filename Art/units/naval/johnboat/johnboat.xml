@@ -1,0 +1,8 @@
+<animfile>
+  <attachment>fishing_net<component>fishing_net<assetreference type="GrannyModel"><file>units\attachments\fishing_net</file></assetreference></component><anim>Idle<assetreference type="GrannyAnim"><file>units\attachments\fishing_net_fishingboat</file></assetreference><component>fishing_net</component></anim></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\naval\johnboat\johnboat</file></assetreference><decal><effecttype>default</effecttype><texture>shadows_selections\shadow_circle_128x128</texture><selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture><width>1.0</width><height>1.0</height></decal><watersplash><texture>units\naval\johnboat\johnboat_hullmask</texture><width>6.5</width><height>6.5</height></watersplash></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\naval\johnboat\johnboat_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\naval\johnboat\johnboat_walk</file></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\naval\caravel_death</file><tag type="Attack">0.45</tag></assetreference><component>ModelComp</component></anim>
+  <anim>GatherFish<assetreference type="GrannyAnim"><file>units\naval\johnboat\johnboat_idle</file></assetreference><component>ModelComp</component><attach a="fishing_net" frombone="" tobone="" syncanims="0"></attach></anim>
+</animfile>

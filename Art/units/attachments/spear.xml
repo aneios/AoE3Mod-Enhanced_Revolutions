@@ -1,0 +1,4 @@
+<animfile>
+  <component>spear<assetreference type="GrannyModel"><file>units\asians\indians\sowar\sowar_spear2</file></assetreference></component>
+  <anim>Idle<component>spear</component></anim>
+</animfile>

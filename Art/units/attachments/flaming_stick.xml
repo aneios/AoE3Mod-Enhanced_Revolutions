@@ -1,0 +1,7 @@
+<animfile>
+  <definebone>bone_flaming_stick</definebone>
+  <definebone>bone_stick_flame</definebone>
+  <attachment>fire<component>fire emitter<assetreference type="popcornFx"><file>fire\fire_torch_b.pkfx</file></assetreference></component><anim>Idle<component>fire emitter</component></anim></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\attachments\flaming_stick</file></assetreference><attach a="fire" frombone="bone_stick_flame" tobone="bone_stick_flame" syncanims="0"></attach></component>
+  <anim>Idle<component>ModelComp</component></anim>
+</animfile>

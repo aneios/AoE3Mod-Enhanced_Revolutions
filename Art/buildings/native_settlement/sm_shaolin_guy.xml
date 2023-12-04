@@ -1,0 +1,6 @@
+<animfile>
+  <attachment>shaolin_temple<include>buildings\native_settlement\shaolin_temple_guy.xml</include></attachment>
+  <attachment>claw<include>units\asians\chinese\monk\claw.xml</include></attachment>
+  <component>man<assetreference type="GrannyModel"><file>buildings\native_settlement\shaolin_master_0</file></assetreference><decal><effecttype>default</effecttype><texture>buildings\native_settlement\shaolin_decal</texture><selectedtexture>shadows_selections\selection_square_64x64</selectedtexture><width>10.00</width><height>10.00</height></decal><attach a="shaolin_temple" frombone="MASTER" tobone="MASTER" syncanims="0"></attach></component>
+  <anim>Mode1_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\shaolin_master_idle01</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\shaolin_master_idle00</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\shaolin_master_idle02</file></assetreference><component>man</component></anim>
+</animfile>

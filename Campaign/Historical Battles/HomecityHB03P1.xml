@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomeCity>
+	<Civ>British</Civ>
+	<Name>$$36883$$</Name>
+	<HeroName>$$43030$$</HeroName>
+	<GatherPointUnit>HomeCityGatherFlag</GatherPointUnit>
+	<Visual>british\british_homecity.xml</Visual>
+	<WaterVisual>british\british_homecity_water.xml</WaterVisual>
+	<BackgroundVisual>british\british_background.xml</BackgroundVisual>
+	<PathData>british\pathable_area_object.gr2</PathData>
+	<Camera>british\british_homecity_camera.cam</Camera>
+	<WidescreenCamera>british\british_homecity_widescreencamera.cam</WidescreenCamera>
+	<TransportRoundtripTime>1</TransportRoundtripTime>
+	<TransportActivationTime>0</TransportActivationTime>
+	<Level>1</Level>
+	<skillpoints>9</skillpoints>
+	<LightSet>London</LightSet>
+	<WaterType>London</WaterType>
+	<xppercentage>0.217209</xppercentage>
+	<NumPropUnlocksEarned>0</NumPropUnlocksEarned>
+	<AmbientSounds>homecity\britishambientsounds.xml</AmbientSounds>
+	<XSAI>generic_city</XSAI>
+	<Coffers>
+		<Current>
+			<Food>0</Food>
+			<Wood>0</Wood>
+			<Gold>0</Gold>
+			<Fame>0</Fame>
+			<Ships>0</Ships>
+			<SkillPoints>0</SkillPoints>
+			<XP>0</XP>
+		</Current>
+		<Maximum>
+			<Food>0</Food>
+			<Wood>0</Wood>
+			<Gold>0</Gold>
+			<Fame>0</Fame>
+			<Ships>0</Ships>
+			<SkillPoints>-1</SkillPoints>
+			<XP>-1</XP>
+		</Maximum>
+	</Coffers>
+	<Cards>
+		<Card>
+			<Name>DEHCFoodExchange</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>40</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>DEHCWoodExchange</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>40</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCImprovedLongbows</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>25</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipLongbowmen4</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCMusketeerGrenadierDamageBritish</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipMusketeers2</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCMusketeerGrenadierCombatBritish</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>25</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCMusketeerGrenadierHitpointsBritishTeam</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCXPImprovedGrenades</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>40</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCMusketeerGrenadierCombatBritish</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCAdvancedDock</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCCheapDocksTeam</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCFishMarketTeam</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCXPWhaleOil</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>40</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCSchooners</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCShipCaravels1</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>1</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipCaravels2</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipCaravels1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>2</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipGalleons</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipCaravels1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>1</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipFrigates</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipGalleons</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>1</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCNavalCombat</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipFrigates</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCNavalGunners</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>25</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCAdmirality</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCXPOffshoreSupport</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>40</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipMonitors2</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCPrivateers</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>2</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCPrivateers2</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCPrivateers</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>4</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCRangedInfantryDamageFrenchTeam</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCNavigationSchool</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCArmada</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+		</Card>
+	</Cards>
+	<Decks>
+		<Deck>
+			<Cards>
+			<!-- EXPLORATION AGE -->
+				<Card>DEHCFoodExchange</Card>
+				<Card>DEHCWoodExchange</Card>
+				<Card>HCShipCaravels1</Card>
+				<!-- <Card>HCAdvancedDock</Card> -->
+				<!-- <Card>HCXPWhaleOil</Card> -->
+				<Card>HCFishMarketTeam</Card>
+			<!-- COMMERCE AGE -->
+				<Card>HCImprovedLongbows</Card>
+				<Card>HCMusketeerGrenadierDamageBritish</Card>
+				<Card>HCRangedInfantryDamageFrenchTeam</Card>
+				<Card>HCShipCaravels2</Card>
+				<Card>HCShipGalleons</Card>
+				<Card>HCNavalCombat</Card>
+				<Card>HCXPOffshoreSupport</Card>
+				<!-- <Card>HCNavigationSchool</Card> -->
+				<Card>HCPrivateers</Card>
+			<!-- FORTRESS AGE -->
+				<Card>HCMusketeerGrenadierCombatBritish</Card>
+				<Card>HCXPImprovedGrenades</Card>
+				<Card>HCShipFrigates</Card>
+				<Card>HCNavalGunners</Card>
+				<Card>HCPrivateers2</Card>
+				<Card>HCArmada</Card>
+			</Cards>
+		</Deck>
+	</Decks>
+	<Building>
+		<Name>Mansion</Name>
+		<Visual>
+			<File>british\british estate.xml</File>
+			<Bone>bone_estate</Bone>
+		</Visual>
+		<UIX>150</UIX>
+		<UIY>200</UIY>
+		<Camera>british\british_homecity_estate_camera.cam</Camera>
+		<WidescreenCamera>british\british_homecity_estate_camera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\tower_of_london_icon</Portrait>
+		<DisplayNameStringID>28993</DisplayNameStringID>
+		<RolloverStringID>28994</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="1.0" y="1.0">DEHCFoodExchange</Tech>
+			<Tech x="2.0" y="1.0">DEHCWoodExchange</Tech>
+      </ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="1.0" y="1.0">DEHCFoodExchange</Tech>
+			<Tech x="2.0" y="1.0">DEHCWoodExchange</Tech>
+      </ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<MercBuilding>1</MercBuilding>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Market</Name>
+		<Visual>
+			<File>british\british_nwtc.xml</File>
+			<Bone>bone_market</Bone>
+		</Visual>
+		<UIX>250</UIX>
+		<UIY>375</UIY>
+		<Camera>british\british_homecity_market_camera.cam</Camera>
+		<WidescreenCamera>british\british_homecity_market_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\nw_trading_company_icon</Portrait>
+		<DisplayNameStringID>24970</DisplayNameStringID>
+		<RolloverStringID>25536</RolloverStringID>
+		<ObtainableTechs>
+		</ObtainableTechs>
+		<ActiveTechs>
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Academy</Name>
+		<Visual>
+			<File>buildings_west\academy.xml</File>
+			<Bone>bone_academy</Bone>
+		</Visual>
+		<UIX>460</UIX>
+		<UIY>125</UIY>
+		<Camera>british\british_homecity_academy_camera.cam</Camera>
+		<WidescreenCamera>british\british_homecity_academy_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\military_academy_icon</Portrait>
+		<DisplayNameStringID>24965</DisplayNameStringID>
+		<RolloverStringID>25533</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="0.0" y="1.0">HCRangedInfantryDamageFrenchTeam</Tech>
+			<Tech x="0.0" y="5.0">HCImprovedLongbows</Tech>
+			<Tech x="2.4" y="3.0">HCMusketeerGrenadierDamageBritish</Tech>
+			<Tech x="2.4" y="5.0">HCMusketeerGrenadierCombatBritish</Tech>
+			<Tech x="2.4" y="7.0">HCXPImprovedGrenades</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="0.0" y="1.0">HCRangedInfantryDamageFrenchTeam</Tech>
+			<Tech x="0.0" y="5.0">HCImprovedLongbows</Tech>
+			<Tech x="2.4" y="3.0">HCMusketeerGrenadierDamageBritish</Tech>
+			<Tech x="2.4" y="5.0">HCMusketeerGrenadierCombatBritish</Tech>
+			<Tech x="2.4" y="7.0">HCXPImprovedGrenades</Tech>
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Cathedral</Name>
+		<Visual>
+			<File>british\british_cathedral.xml</File>
+			<Bone>bone_cathedral</Bone>
+		</Visual>
+		<UIX>80</UIX>
+		<UIY>475</UIY>
+		<Camera>british\british_homecity_cathedral_camera.cam</Camera>
+		<WidescreenCamera>british\british_homecity_cathedral_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\cathedral_icon</Portrait>
+		<DisplayNameStringID>24969</DisplayNameStringID>
+		<RolloverStringID>25538</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="6.7" y="4.0">HCAdvancedDock</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="6.7" y="4.0">HCAdvancedDock</Tech>
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+	  </Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>ManufacturingPlant</Name>
+		<Visual>
+			<File>british\british_manufacturing_plant.xml</File>
+			<Bone>bone_plant</Bone>
+		</Visual>
+		<UIX>450</UIX>
+		<UIY>275</UIY>
+		<Camera>british\british_homecity_manufacturing_plant_camera.cam</Camera>
+		<WidescreenCamera>british\british_homecity_plant_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\manufacturing_plant_icon</Portrait>
+		<DisplayNameStringID>24972</DisplayNameStringID>
+		<RolloverStringID>25535</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="1.3" y="1.0">HCFishMarketTeam</Tech>
+			<Tech x="1.6" y="7.0">HCXPWhaleOil</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>         
+			<Tech x="1.3" y="1.0">HCFishMarketTeam</Tech>
+			<Tech x="1.6" y="7.0">HCXPWhaleOil</Tech>
+      </ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Dock</Name>
+		<Visual>
+			<File>british\british_dock.xml</File>
+			<Bone>bone_dock</Bone>
+		</Visual>
+		<UIX>200</UIX>
+		<UIY>250</UIY>
+		<Camera>british\british_homecity_dock_camera.cam</Camera>
+		<WidescreenCamera>british\british_homecity_dock_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\harbor_icon</Portrait>
+		<DisplayNameStringID>35745</DisplayNameStringID>
+		<RolloverStringID>35746</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="1.0" y="3.0">HCNavigationSchool</Tech>
+			<Tech x="1.0" y="4.0">HCArmada</Tech>
+			<Tech x="1.3" y="1.0">HCShipCaravels1</Tech>
+			<Tech x="1.0" y="2.0">HCShipCaravels2</Tech>
+			<Tech x="1.7" y="2.0">HCShipGalleons</Tech>
+			<Tech x="1.7" y="3.0">HCShipFrigates</Tech>
+			<Tech x="1.0" y="4.0">HCNavalCombat</Tech>
+			<Tech x="1.7" y="7.0">HCXPOffshoreSupport</Tech>
+			<Tech x="3.1" y="5.0">HCNavalGunners</Tech>
+			<Tech x="7.0" y="1.0">HCPrivateers</Tech>
+			<Tech x="7.0" y="3.0">HCPrivateers2</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="1.0" y="3.0">HCNavigationSchool</Tech>
+			<Tech x="1.0" y="4.0">HCArmada</Tech>
+			<Tech x="1.3" y="1.0">HCShipCaravels1</Tech>
+			<Tech x="1.0" y="2.0">HCShipCaravels2</Tech>
+			<Tech x="1.7" y="2.0">HCShipGalleons</Tech>
+			<Tech x="1.7" y="3.0">HCShipFrigates</Tech>
+			<Tech x="1.0" y="4.0">HCNavalCombat</Tech>
+			<Tech x="1.7" y="7.0">HCXPOffshoreSupport</Tech>
+			<Tech x="3.1" y="5.0">HCNavalGunners</Tech>
+			<Tech x="7.0" y="1.0">HCPrivateers</Tech>
+			<Tech x="7.0" y="3.0">HCPrivateers2</Tech>
+      </ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Customization</Name>
+		<Camera>british\british_homecity_camera.cam</Camera>
+		<WidescreenCamera>british\british_homecity_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\dock_icon</Portrait>
+		<DisplayNameStringID>24966</DisplayNameStringID>
+		<RolloverStringID>25540</RolloverStringID>
+		<CustomizationBuilding>1</CustomizationBuilding>
+	</Building>
+	<Waypoints>
+		<Waypoint>
+			<Bone>bone_pathnode_01</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_02</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_03</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_04</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_05</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_06</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_07</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_08</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_09</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_10</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_11</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_12</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_13</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_14</Bone>
+			<Dock>1</Dock>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_15</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_16</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_17</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_18</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_19</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_20</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_21</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_GuardArea01</Bone>
+			<GuardArea>1</GuardArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_GuardArea02</Bone>
+			<GuardArea>1</GuardArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_GuardArea03</Bone>
+			<GuardArea>1</GuardArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_fishing</Bone>
+			<FishingArea>1</FishingArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_shipment_start</Bone>
+			<ShipmentStart>1</ShipmentStart>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_shipment_end</Bone>
+			<ShipmentEnd>1</ShipmentEnd>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs01</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs02</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs03</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs04</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs05</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs06</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor01</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor02</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor03</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor04</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor05</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor06</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor07</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor08</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_firework01</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework02</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework03</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework04</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework05</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework06</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+	</Waypoints>
+	<ObtainableProps>
+		<Prop>MiddleClassBeefeater</Prop>
+		<Prop>JackTheRipper</Prop>
+		<Prop>StageCoachRoyal</Prop>
+		<Prop>Torchy</Prop>
+		<Prop>Juggler</Prop>
+		<Prop>PeasantVendor</Prop>
+		<Prop>MiddleClassMusician</Prop>
+		<Prop>MiddleClassPreacher</Prop>
+		<Prop>PeasantPainter</Prop>
+		<Prop>Drunk</Prop>
+		<Prop>NiceLady</Prop>
+		<Prop>PeasantFisherman</Prop>
+		<Prop>Thug</Prop>
+		<Prop>UnitChats</Prop>
+		<Prop Active="1">British_LightSet1</Prop>
+		<Prop>British_LightSet2</Prop>
+		<Prop>British_AcadProp01</Prop>
+		<Prop>British_AcadProp02</Prop>
+		<Prop>British_AcadProp03</Prop>
+		<Prop>British_AcadProp04</Prop>
+		<Prop>British_NWTCProp01</Prop>
+		<Prop>British_NWTCProp02</Prop>
+		<Prop>British_NWTCProp03</Prop>
+		<Prop>British_NWTCProp04</Prop>
+		<Prop>British_NWTCProp05</Prop>
+		<Prop>British_NWTCProp06</Prop>
+		<Prop>British_CathProp01</Prop>
+		<Prop>British_CathProp02</Prop>
+		<Prop>British_CathProp03</Prop>
+		<Prop>British_PlantProp01</Prop>
+		<Prop>British_PlantProp02</Prop>
+		<Prop>British_PlantProp03</Prop>
+		<Prop>British_PlantProp04</Prop>
+		<Prop>British_PlantProp05</Prop>
+		<Prop>British_PlantProp06</Prop>
+		<Prop>British_PlantProp07</Prop>
+		<Prop>British_PlantProp08</Prop>
+		<Prop>British_DockProp01</Prop>
+		<Prop>British_DockProp02</Prop>
+		<Prop>British_DockProp03</Prop>
+		<Prop>British_DockProp04</Prop>
+		<Prop Active="1">British_AcademyTexture0</Prop>
+		<Prop>British_AcademyTexture1</Prop>
+		<Prop>British_AcademyTexture2</Prop>
+		<Prop>British_AcademyTexture3</Prop>
+		<Prop Active="1">British_CathedralTexture0</Prop>
+		<Prop>British_CathedralTexture1</Prop>
+		<Prop>British_CathedralTexture2</Prop>
+		<Prop>British_CathedralTexture3</Prop>
+		<Prop Active="1">British_DockTexture0</Prop>
+		<Prop>British_DockTexture1</Prop>
+		<Prop>British_DockTexture2</Prop>
+		<Prop>British_DockTexture3</Prop>
+		<Prop>British_DockTexture4</Prop>
+		<Prop>British_DockTexture5</Prop>
+		<Prop>British_DockTexture6</Prop>
+		<Prop>British_DockTexture7</Prop>
+		<Prop Active="1">British_NWTCTexture0</Prop>
+		<Prop>British_NWTCTexture1</Prop>
+		<Prop>British_NWTCTexture2</Prop>
+		<Prop>British_NWTCTexture3</Prop>
+		<Prop>British_NWTCTexture4</Prop>
+		<Prop>British_NWTCTexture5</Prop>
+		<Prop>British_NWTCTexture6</Prop>
+		<Prop>British_NWTCTexture7</Prop>
+		<Prop Active="1">British_ManuPlantTexture0</Prop>
+		<Prop>British_ManuPlantTexture1</Prop>
+		<Prop>British_ManuPlantTexture2</Prop>
+		<Prop>British_ManuPlantTexture3</Prop>
+		<Prop>British_ManuPlantTexture4</Prop>
+		<Prop>British_ManuPlantTexture5</Prop>
+		<Prop>British_ManuPlantTexture6</Prop>
+		<Prop>British_ManuPlantTexture7</Prop>
+	</ObtainableProps>
+</HomeCity>

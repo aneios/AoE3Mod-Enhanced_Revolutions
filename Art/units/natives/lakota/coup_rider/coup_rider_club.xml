@@ -1,0 +1,4 @@
+<animfile>
+  <component>club<assetreference type="GrannyModel"><file>units\natives\lakota\coup_rider\coup_rider_club</file></assetreference></component>
+  <anim>Idle<component>club</component></anim>
+</animfile>

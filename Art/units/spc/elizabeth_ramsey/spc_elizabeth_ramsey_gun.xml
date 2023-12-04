@@ -1,0 +1,4 @@
+<animfile>
+  <component>gun<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\SPC\elizabeth_ramsey\spc_elizabeth_ramsey_gun</file></assetreference></none></logic></component>
+  <anim>Idle<component>gun</component></anim>
+</animfile>

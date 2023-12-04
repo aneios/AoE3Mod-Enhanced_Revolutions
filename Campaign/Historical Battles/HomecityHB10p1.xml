@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomeCity>
+	<Civ>DEAmericans</Civ>
+	<Name>$$110002$$</Name>
+	<HeroName>$$110003$$</HeroName>
+	<GatherPointUnit>HomeCityGatherFlag</GatherPointUnit>
+	<Visual>american\american_homecity.xml</Visual>
+	<WaterVisual>american\american_water.xml</WaterVisual>
+	<BackgroundVisual>american\american_background.xml</BackgroundVisual>
+	<PathData>american\american_pathable_area.gr2</PathData>
+	<Camera>american\american_homecity_camera.cam</Camera>
+	<WidescreenCamera>american\american_homecity_widescreencamera.cam</WidescreenCamera>
+	<TransportRoundtripTime>1</TransportRoundtripTime>
+	<TransportActivationTime>0</TransportActivationTime>
+	<Level>1</Level>
+	<MaxCardsPerDeck>20</MaxCardsPerDeck>
+	<skillpoints>9</skillpoints>
+	<LightSet>American_Homecity</LightSet>
+	<WaterType>London</WaterType>
+	<NumPropUnlocksEarned>0</NumPropUnlocksEarned>
+	<AmbientSounds>homecity\britishambientsounds.xml</AmbientSounds>
+	<XSAI>generic_city</XSAI>
+	<heroprotounits>
+		<protounit>deGeneral</protounit>
+	</heroprotounits>
+	<Coffers>
+		<Current>
+			<Food>0</Food>
+			<Wood>0</Wood>
+			<Gold>0</Gold>
+			<Fame>0</Fame>
+			<Ships>0</Ships>
+			<SkillPoints>0</SkillPoints>
+			<XP>0</XP>
+		</Current>
+		<Maximum>
+			<Food>0</Food>
+			<Wood>0</Wood>
+			<Gold>0</Gold>
+			<Fame>0</Fame>
+			<Ships>0</Ships>
+			<SkillPoints>-1</SkillPoints>
+			<XP>-1</XP>
+		</Maximum>
+	</Coffers>
+	<Cards>
+		<Card>
+			<Name>DEHCSPCShipRowboat1Repeat</Name>
+			<MaxCount>-1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>1</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCSPCShipRowboat2</Name>
+			<MaxCount>2</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>3</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCSPCMarines1</Name>
+			<MaxCount>2</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>6</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCSPCRegulars1</Name>
+			<MaxCount>2</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>5</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+			<OverrideIconTech>DEHCSPCRegular2XIcon</OverrideIconTech>
+		</Card>
+		<Card>
+			<Name>DEHCLongRifles</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+		</Card>
+		<Card>
+			<Name>DEHCSPCWeaponShipments</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+		</Card>
+		<Card>
+			<Name>DEHCSPCImprovedOars</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+		</Card>
+		<Card>
+			<Name>HCXPShipMixedCrates1</Name>
+			<MaxCount>3</MaxCount>
+			<Level>0</Level>
+			<Age>1</Age>
+			<DisplayUnitCount>100</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+			<OverrideIconTech>DEHCSPCMixedCrates2XIcon</OverrideIconTech>
+		</Card>
+		<Card>
+			<Name>DEHCShipSloops1</Name>
+			<MaxCount>2</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>2</DisplayUnitCount>
+			<OverrideIconTech>DEHCSPCSloop2XIcon</OverrideIconTech>
+		</Card>
+		<Card>
+			<Name>DEHCShipRegulars2</Name>
+			<MaxCount>2</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>8</DisplayUnitCount>
+			<OverrideIconTech>DEHCSPCRegular2XIcon</OverrideIconTech>
+		</Card>
+		<Card>
+			<Name>DEHCShipRiflemen1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>7</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCTeamMinutemenCompanies</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+		</Card>
+		<Card>
+			<Name>DEHCSPCMarineVolunteers</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+		</Card>
+		<Card>
+			<Name>DEHCSPCNavalTraining</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+		</Card>
+		<Card>
+			<Name>DEHCSPCRowboatAttack</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+		</Card>
+		<Card>
+			<Name>HCXPShipMixedCrates3</Name>
+			<MaxCount>2</MaxCount>
+			<Level>0</Level>
+			<Age>2</Age>
+			<DisplayUnitCount>300</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+			<OverrideIconTech>DEHCSPCMixedCrates2XIcon</OverrideIconTech>
+		</Card>
+		<Card>
+			<Name>DEHCFedOysterPirates</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+		</Card>
+
+	</Cards>
+	<Decks>
+		<Deck>
+			<Cards>
+				<card>DEHCSPCShipRowboat1Repeat</card>
+				<card>DEHCSPCShipRowboat2</card>
+				<card>DEHCSPCMarines1</card>
+				<card>DEHCSPCRegulars1</card>
+				<card>DEHCLongRifles</card>
+				<card>DEHCSPCWeaponShipments</card>
+				<card>DEHCSPCImprovedOars</card>
+				<card>DEHCShipSloops1</card>
+				<card>DEHCShipRegulars2</card>
+				<card>DEHCShipRiflemen1</card>
+				<card>DEHCSPCMarineVolunteers</card>
+				<card>DEHCSPCNavalTraining</card>
+				<card>DEHCSPCRowboatAttack</card>
+			</Cards>
+		</Deck>
+	</Decks>
+	<Building>
+		<Name>Mansion</Name>
+		<Visual>
+			<!-- <File>british\british estate.xml</File> -->
+			<File>american\american_white_house.xml</File>
+			<Bone>bone_estate</Bone>
+		</Visual>
+		<UIX>150</UIX>
+		<UIY>200</UIY>
+		<Camera>american\american_homecity_estate_camera.cam</Camera>
+		<WidescreenCamera>american\american_homecity_estate_camera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\tower_of_london_icon</Portrait>
+		<DisplayNameStringID>28993</DisplayNameStringID>
+		<RolloverStringID>28994</RolloverStringID>
+		<ObtainableTechs>
+      </ObtainableTechs>
+		<ActiveTechs>
+      </ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<MercBuilding>1</MercBuilding>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Market</Name>
+		<Visual>
+			<File>american\american_white_house.xml</File>
+			<Bone>bone_market</Bone>
+		</Visual>
+		<UIX>250</UIX>
+		<UIY>375</UIY>
+		<Camera>american\american_homecity_market_camera.cam</Camera>
+		<WidescreenCamera>american\american_homecity_market_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\nw_trading_company_icon</Portrait>
+		<DisplayNameStringID>49181</DisplayNameStringID>
+		<RolloverStringID>25536</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="1.9" y="1.0">HCShipFoodCrates1</Tech>
+			<Tech x="2.6" y="1.0">HCShipWoodCrates1</Tech>
+			<Tech x="3.3" y="1.0">HCShipCoinCrates1</Tech>
+			<Tech x="1.9" y="2.0">HCShipFoodCrates2</Tech>
+			<Tech x="2.6" y="2.0">HCShipWoodCrates2</Tech>
+			<Tech x="3.3" y="2.0">HCShipCoinCrates2</Tech>
+			<Tech x="1.9" y="3.0">HCShipFoodCrates3</Tech>
+			<Tech x="2.6" y="3.0">HCShipWoodCrates3</Tech>
+			<Tech x="3.3" y="3.0">HCShipCoinCrates3</Tech>
+			<Tech x="1.9" y="4.0">HCShipFoodCrates4</Tech>
+			<Tech x="2.6" y="4.0">HCShipWoodCrates4</Tech>
+			<Tech x="3.3" y="4.0">HCShipCoinCrates4</Tech>
+			<!-- <Tech x="3.3" y="4.0">HCShipFoodCrates5</Tech> -->
+			<!-- <Tech x="3.3" y="4.0">HCShipWoodCrates5</Tech> -->
+			<Tech x="3.3" y="4.0">HCShipCoinCrates5</Tech>
+			<Tech x="4.3" y="2.0">HCShipSheep1</Tech>
+			<Tech x="4.3" y="2.0">HCShipSheep2</Tech>
+			<Tech x="5.0" y="2.0">HCShipCows</Tech>
+			<Tech x="6.0" y="1.0">HCShipCoveredWagons</Tech>
+			<Tech x="6.0" y="1.0">HCShipCoveredWagons2</Tech>
+			<Tech x="6.0" y="3.0">HCShipSurgeons</Tech>
+			<Tech x="6.0" y="4.0">HCXPShipSurgeons2</Tech>
+			<Tech x="6.0" y="7.0">HCXPCapitalism</Tech>
+			<Tech x="7.0" y="1.0">DEHCGeneralAmericans</Tech>
+			<Tech x="7.0" y="5.0">HCXPAdvancedBalloon</Tech>
+			<Tech x="7.0" y="5.0">HCShipBalloons</Tech>
+			<Tech x="7.0" y="5.0">HCXPShipMixedCrates1</Tech>
+			<Tech x="7.0" y="5.0">HCXPShipMixedCrates3</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="1.9" y="1.0">HCShipFoodCrates1</Tech>
+			<Tech x="2.6" y="1.0">HCShipWoodCrates1</Tech>
+			<Tech x="3.3" y="1.0">HCShipCoinCrates1</Tech>
+			<Tech x="1.9" y="2.0">HCShipFoodCrates2</Tech>
+			<Tech x="2.6" y="2.0">HCShipWoodCrates2</Tech>
+			<Tech x="3.3" y="2.0">HCShipCoinCrates2</Tech>
+			<Tech x="1.9" y="3.0">HCShipFoodCrates3</Tech>
+			<Tech x="2.6" y="3.0">HCShipWoodCrates3</Tech>
+			<Tech x="3.3" y="3.0">HCShipCoinCrates3</Tech>
+			<Tech x="1.9" y="4.0">HCShipFoodCrates4</Tech>
+			<Tech x="2.6" y="4.0">HCShipWoodCrates4</Tech>
+			<Tech x="3.3" y="4.0">HCShipCoinCrates4</Tech>
+			<!-- <Tech x="3.3" y="4.0">HCShipFoodCrates5</Tech> -->
+			<!-- <Tech x="3.3" y="4.0">HCShipWoodCrates5</Tech> -->
+			<Tech x="3.3" y="4.0">HCShipCoinCrates5</Tech>
+			<Tech x="4.3" y="2.0">HCShipSheep1</Tech>
+			<Tech x="4.3" y="2.0">HCShipSheep2</Tech>
+			<Tech x="5.0" y="2.0">HCShipCows</Tech>
+			<Tech x="6.0" y="1.0">HCShipCoveredWagons</Tech>
+			<Tech x="6.0" y="1.0">HCShipCoveredWagons2</Tech>
+			<Tech x="6.0" y="3.0">HCShipSurgeons</Tech>
+			<Tech x="6.0" y="4.0">HCXPShipSurgeons2</Tech>
+			<Tech x="6.0" y="7.0">HCXPCapitalism</Tech>
+			<Tech x="7.0" y="1.0">DEHCGeneralAmericans</Tech>
+			<Tech x="7.0" y="5.0">HCXPAdvancedBalloon</Tech>
+			<Tech x="7.0" y="5.0">HCShipBalloons</Tech>
+			<Tech x="7.0" y="5.0">HCXPShipMixedCrates1</Tech>
+			<Tech x="7.0" y="5.0">HCXPShipMixedCrates3</Tech>
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Academy</Name>
+		<Visual>
+			<File>american\american_academy.xml</File>
+			<Bone>bone_academy</Bone>
+		</Visual>
+		<UIX>460</UIX>
+		<UIY>125</UIY>
+		<Camera>american\american_homecity_academy_camera.cam</Camera>
+		<WidescreenCamera>american\american_homecity_academy_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\military_academy_icon</Portrait>
+		<DisplayNameStringID>24965</DisplayNameStringID>
+		<RolloverStringID>25533</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="0.7" y="1.0">DEHCShipStateMilitia1</Tech>
+			<Tech x="0.7" y="2.0">DEHCShipStateMilitia2</Tech>
+			<Tech x="0.7" y="3.0">DEHCShipStateMilitia3</Tech>
+			<Tech x="0.7" y="4.0">DEHCShipStateMilitiaRepeat1</Tech>
+			<Tech x="1.2" y="7.0">DEHCShipCarbineCav1</Tech>
+			<Tech x="2.0" y="1.0">DEHCShipRegulars1</Tech>
+			<Tech x="2.0" y="2.0">DEHCShipRegulars3</Tech>
+			<Tech x="1.7" y="4.0">DEHCShipRegulars2</Tech>
+			<Tech x="1.7" y="5.0">DEHCShipRegulars4</Tech>
+			<Tech x="1.7" y="5.0">DEHCRegularCombat</Tech>
+			<Tech x="3.4" y="4.0">DEHCMichiganSharpshooters</Tech>
+			<Tech x="5.1" y="1.0">DEHCShipRiflemen1</Tech>
+			<Tech x="5.1" y="2.0">DEHCShipRiflemen2</Tech>
+			<Tech x="5.1" y="3.0">DEHCShipRiflemen3</Tech>
+			<Tech x="5.1" y="3.0">DEHCMassachusettsVolunteers</Tech>
+			<Tech x="5.8" y="1.0">DEHCShipGatlingsTeam1</Tech>
+			<Tech x="5.8" y="2.0">DEHCShipGatlings1</Tech>
+			<Tech x="5.8" y="3.0">DEHCShipGatlingsRepeat1</Tech>
+			<Tech x="5.8" y="3.0">DEHCCoffeeMillGun</Tech>
+			<Tech x="5.8" y="7.0">HCXPShipHorseArtillery2</Tech>
+			<Tech x="5.8" y="7.0">DEHCShipHorseArtilleryRepeat1</Tech>
+			<Tech x="5.8" y="7.0">DEHCShipCapturedRockets</Tech>
+			<Tech x="5.8" y="7.0">DEHCShipQuakerGunsTeam</Tech>
+			<Tech x="5.8" y="7.0">DEHCShipCulverineMortar</Tech>
+			<Tech x="6.5" y="1.0">HCAdvancedArtillery</Tech>
+			<Tech x="6.5" y="2.0">HCShipMortars1</Tech>
+			<Tech x="6.5" y="3.0">HCShipMortars2</Tech>
+			<Tech x="7.2" y="3.0">HCShipCulverins1</Tech>
+			<Tech x="7.2" y="5.0">HCShipCannons1</Tech>
+			<Tech x="7.2" y="7.0">HCXPShipCulverins2</Tech>
+			<Tech x="7.2" y="7.0">DEHCLongRifles</Tech>
+			<Tech x="7.2" y="7.0">DEHCContinentalRangers</Tech>
+			<Tech x="7.2" y="7.0">DEHCBuffaloSoldiers</Tech>
+			<Tech x="7.2" y="7.0">DEHCUSMarines</Tech>
+			<Tech x="7.2" y="7.0">DEHCSPCMarines1</Tech>
+			<Tech x="7.2" y="7.0">DEHCSPCRegulars1</Tech>
+			<Tech x="7.2" y="7.0">DEHCSPCMarineVolunteers</Tech>
+			<Tech x="7.2" y="7.0">DEHCSPCWeaponShipments</Tech>
+			<Tech x="7.2" y="7.0">DEHCShipRegulars2</Tech>
+			<Tech x="7.2" y="7.0">DEHCShipRiflemen1</Tech>
+			<Tech x="7.2" y="7.0">DEHCSPCNavalTraining</Tech>
+			<Tech x="7.2" y="7.0">DEHCTeamMinutemenCompanies</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="0.7" y="1.0">DEHCShipStateMilitia1</Tech>
+			<Tech x="0.7" y="2.0">DEHCShipStateMilitia2</Tech>
+			<Tech x="0.7" y="3.0">DEHCShipStateMilitia3</Tech>
+			<Tech x="0.7" y="4.0">DEHCShipStateMilitiaRepeat1</Tech>
+			<Tech x="1.2" y="7.0">DEHCShipCarbineCav1</Tech>
+			<Tech x="2.0" y="1.0">DEHCShipRegulars1</Tech>
+			<Tech x="2.0" y="2.0">DEHCShipRegulars3</Tech>
+			<Tech x="1.7" y="4.0">DEHCShipRegulars2</Tech>
+			<Tech x="1.7" y="5.0">DEHCShipRegulars4</Tech>
+			<Tech x="1.7" y="5.0">DEHCRegularCombat</Tech>
+			<Tech x="3.4" y="4.0">DEHCMichiganSharpshooters</Tech>
+			<Tech x="5.1" y="1.0">DEHCShipRiflemen1</Tech>
+			<Tech x="5.1" y="2.0">DEHCShipRiflemen2</Tech>
+			<Tech x="5.1" y="3.0">DEHCShipRiflemen3</Tech>
+			<Tech x="5.1" y="3.0">DEHCMassachusettsVolunteers</Tech>
+			<Tech x="5.8" y="1.0">DEHCShipGatlingsTeam1</Tech>
+			<Tech x="5.8" y="2.0">DEHCShipGatlings1</Tech>
+			<Tech x="5.8" y="3.0">DEHCShipGatlingsRepeat1</Tech>
+			<Tech x="5.8" y="3.0">DEHCCoffeeMillGun</Tech>
+			<Tech x="5.8" y="7.0">HCXPShipHorseArtillery2</Tech>
+			<Tech x="5.8" y="7.0">DEHCShipHorseArtilleryRepeat1</Tech>
+			<Tech x="5.8" y="7.0">DEHCShipCapturedRockets</Tech>
+			<Tech x="5.8" y="7.0">DEHCShipQuakerGunsTeam</Tech>
+			<Tech x="5.8" y="7.0">DEHCShipCulverineMortar</Tech>
+			<Tech x="6.5" y="1.0">HCAdvancedArtillery</Tech>
+			<Tech x="6.5" y="2.0">HCShipMortars1</Tech>
+			<Tech x="6.5" y="3.0">HCShipMortars2</Tech>
+			<Tech x="7.2" y="3.0">HCShipCulverins1</Tech>
+			<Tech x="7.2" y="5.0">HCShipCannons1</Tech>
+			<Tech x="7.2" y="7.0">HCXPShipCulverins2</Tech>
+			<Tech x="7.2" y="7.0">DEHCLongRifles</Tech>
+			<Tech x="7.2" y="7.0">DEHCContinentalRangers</Tech>
+			<Tech x="7.2" y="7.0">DEHCBuffaloSoldiers</Tech>
+			<Tech x="7.2" y="7.0">DEHCUSMarines</Tech>
+			<Tech x="7.2" y="7.0">DEHCSPCMarines1</Tech>
+			<Tech x="7.2" y="7.0">DEHCSPCRegulars1</Tech>
+			<Tech x="7.2" y="7.0">DEHCSPCMarineVolunteers</Tech>
+			<Tech x="7.2" y="7.0">DEHCSPCWeaponShipments</Tech>
+			<Tech x="7.2" y="7.0">DEHCShipRegulars2</Tech>
+			<Tech x="7.2" y="7.0">DEHCShipRiflemen1</Tech>
+			<Tech x="7.2" y="7.0">DEHCSPCNavalTraining</Tech>
+			<Tech x="7.2" y="7.0">DEHCTeamMinutemenCompanies</Tech>
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Capitol</Name>
+		<Visual>
+			<File>american\american_capitol.xml</File>
+			<Bone>bone_cathedral</Bone>
+		</Visual>
+		<UIX>80</UIX>
+		<UIY>475</UIY>
+		<Camera>american\american_homecity_cathedral_camera.cam</Camera>
+		<WidescreenCamera>american\american_homecity_cathedral_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\cathedral_icon</Portrait>
+		<DisplayNameStringID>30241</DisplayNameStringID>
+		<RolloverStringID>25538</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="7.0" y="3.0">DEHCHamiltonianEconomics</Tech>
+			<Tech x="7.0" y="5.0">DEHCUSExpedition</Tech>
+			<Tech x="0.0" y="1.0">HCNativeLore</Tech>
+			<Tech x="0.0" y="2.0">DEHCIndianFriendship</Tech>
+			<Tech x="0.0" y="3.0">HCXPBloodBrothers</Tech>
+			<Tech x="0.7" y="1.0">HCXPRanching</Tech>
+			<Tech x="2.4" y="2.0">DEHCTrainTimeUS</Tech>
+			<Tech x="2.0" y="1.0">HCFrontierDefenses</Tech>
+			<Tech x="4.1" y="3.0">HCNativeTreaties</Tech>
+			<Tech x="1.7" y="2.0">HCPioneers</Tech>
+			<Tech x="3.1" y="1.0">HCUnlockFort</Tech>
+			<Tech x="3.1" y="2.0">DEHCExtensiveFortificationsEuropean</Tech>
+			<Tech x="3.1" y="3.0">HCImprovedBuildings</Tech>
+			<Tech x="2.4" y="5.0">DEHCKosciuszkoFortifications</Tech>
+			<Tech x="3.1" y="5.0">HCHeavyFortifications</Tech>
+			<Tech x="6.0" y="1.0">DEHCShipMilitaryWagonsTeam</Tech>
+			<Tech x="3.8" y="1.0">DEHCKnoxArtilleryTrain</Tech>
+			<Tech x="3.8" y="4.0">HCFrontierDefenses2</Tech>
+			<Tech x="5.3" y="1.0">HCXPShipSpies1</Tech>
+			<Tech x="5.3" y="3.0">HCXPShipSpies2</Tech>
+			<Tech x="5.3" y="7.0">HCXPAgents</Tech>
+			<Tech x="6.0" y="5.0">HCAdvancedPlantations</Tech>
+			<Tech x="6.7" y="4.0">HCAdvancedDock</Tech>
+			<Tech x="6.7" y="4.0">DEHCAdvancedSaloon</Tech>
+			<Tech x="6.7" y="4.0">DEHCShotgunMessengers</Tech>
+			<Tech x="4.6" y="1.0">DEHCArkansasPost</Tech>
+			<Tech x="4.6" y="1.0">DEHCShipHomesteadWagons1</Tech>
+			<!-- <Tech x="7.4" y="1.0">HCXPIndustrialRevolution</Tech> -->
+			<!-- <Tech x="7.4" y="3.0">HCRobberBarons</Tech> -->
+			<Tech x="7.2" y="7.0">DEHCSpringfieldArmory</Tech>
+			<Tech x="1.7" y="3.0">DEHCMinutemenCompanies</Tech>
+			<Tech x="4.1" y="3.0">DEHCLouisianaPurchase</Tech>
+			<Tech x="4.1" y="3.0">DEHCAlaskaPurchase</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="7.0" y="3.0">DEHCHamiltonianEconomics</Tech>
+			<Tech x="7.0" y="5.0">DEHCUSExpedition</Tech>
+			<Tech x="0.0" y="1.0">HCNativeLore</Tech>
+			<Tech x="0.0" y="2.0">DEHCIndianFriendship</Tech>
+			<Tech x="0.0" y="5.0">HCXPBloodBrothers</Tech>
+			<Tech x="0.7" y="1.0">HCXPRanching</Tech>
+			<Tech x="2.4" y="2.0">DEHCTrainTimeUS</Tech>
+			<Tech x="2.0" y="1.0">HCFrontierDefenses</Tech>
+			<Tech x="4.1" y="3.0">HCNativeTreaties</Tech>
+			<Tech x="1.7" y="2.0">HCPioneers</Tech>
+			<Tech x="3.1" y="1.0">HCUnlockFort</Tech>
+			<Tech x="3.1" y="2.0">DEHCExtensiveFortificationsEuropean</Tech>
+			<Tech x="3.1" y="3.0">HCImprovedBuildings</Tech>
+			<Tech x="2.4" y="5.0">DEHCKosciuszkoFortifications</Tech>
+			<Tech x="3.1" y="5.0">HCHeavyFortifications</Tech>
+			<Tech x="6.0" y="1.0">DEHCShipMilitaryWagonsTeam</Tech>
+			<Tech x="3.8" y="1.0">DEHCKnoxArtilleryTrain</Tech>
+			<Tech x="3.8" y="4.0">HCFrontierDefenses2</Tech>
+			<Tech x="5.3" y="1.0">HCXPShipSpies1</Tech>
+			<Tech x="5.3" y="3.0">HCXPShipSpies2</Tech>
+			<Tech x="5.3" y="7.0">HCXPAgents</Tech>
+			<Tech x="6.7" y="4.0">HCAdvancedDock</Tech>
+			<Tech x="6.7" y="4.0">DEHCAdvancedSaloon</Tech>
+			<Tech x="6.7" y="4.0">DEHCShotgunMessengers</Tech>
+			<Tech x="4.6" y="1.0">DEHCArkansasPost</Tech>
+			<Tech x="4.6" y="1.0">DEHCShipHomesteadWagons1</Tech>
+			<!-- <Tech x="7.4" y="1.0">HCXPIndustrialRevolution</Tech> -->
+			<!-- <Tech x="7.4" y="3.0">HCRobberBarons</Tech> -->
+			<Tech x="7.2" y="7.0">DEHCSpringfieldArmory</Tech>
+			<Tech x="1.7" y="3.0">DEHCMinutemenCompanies</Tech>
+			<Tech x="4.1" y="3.0">DEHCLouisianaPurchase</Tech>
+			<Tech x="4.1" y="3.0">DEHCAlaskaPurchase</Tech>
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+	  </Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>ManufacturingPlant</Name>
+		<Visual>
+			<File>american\american_manufacturing_plant.xml</File>
+			<Bone>bone_plant</Bone>
+		</Visual>
+		<UIX>450</UIX>
+		<UIY>275</UIY>
+		<Camera>american\american_homecity_manufacturing_plant_camera.cam</Camera>
+		<WidescreenCamera>american\american_homecity_manufacturing_plant_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\manufacturing_plant_icon</Portrait>
+		<DisplayNameStringID>24972</DisplayNameStringID>
+		<RolloverStringID>25535</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="0.0" y="3.0">HCStonemasons</Tech>
+			<Tech x="0.0" y="5.0">HCXPLandGrab</Tech>
+			<Tech x="1.3" y="1.0">HCFishMarket</Tech>
+			<Tech x="0.9" y="3.0">HCRenderingPlant</Tech>
+			<!-- <Tech x="1.6" y="3.0">HCSchooners</Tech> -->
+			<Tech x="1.6" y="7.0">HCXPWhaleOil</Tech>
+			<Tech x="3.4" y="7.0">HCFurrier</Tech>
+			<Tech x="2.5" y="3.0">HCSawmills</Tech>
+			<Tech x="2.5" y="5.0">HCExoticHardwoods</Tech>
+			<Tech x="3.4" y="1.0">HCIronmonger</Tech>
+			<Tech x="3.4" y="3.0">HCSilversmith</Tech>
+			<Tech x="4.3" y="5.0">HCRefrigeration</Tech>
+			<Tech x="5.2" y="1.0">HCStockyards</Tech>
+			<!-- <Tech x="5.2" y="2.0">HCFullingMills</Tech> -->
+			<Tech x="6.1" y="3.0">HCSpiceTrade</Tech>
+			<Tech x="6.1" y="5.0">HCMedicine</Tech>
+			<Tech x="7.0" y="1.0">HCRumDistillery</Tech>
+			<Tech x="7.0" y="2.0">HCCigarRoller</Tech>
+			<Tech x="7.0" y="3.0">HCTextileMills</Tech>
+			<Tech x="7.0" y="3.0">DEHCLumberMills</Tech>
+			<Tech x="7.0" y="3.0">DEHCMinneapolisMills</Tech>
+			<Tech x="7.0" y="3.0">DEHCFedNewJerseySeaports2</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>         
+			<Tech x="0.0" y="3.0">HCStonemasons</Tech>
+			<Tech x="0.0" y="5.0">HCXPLandGrab</Tech>
+			<Tech x="1.3" y="1.0">HCFishMarket</Tech>
+			<Tech x="0.9" y="3.0">HCRenderingPlant</Tech>
+			<!-- <Tech x="1.6" y="3.0">HCSchooners</Tech> -->
+			<Tech x="1.6" y="7.0">HCXPWhaleOil</Tech>
+			<Tech x="3.4" y="7.0">HCFurrier</Tech>
+			<Tech x="2.5" y="3.0">HCSawmills</Tech>
+			<Tech x="2.5" y="5.0">HCExoticHardwoods</Tech>
+			<Tech x="3.4" y="1.0">HCIronmonger</Tech>
+			<Tech x="3.4" y="3.0">HCSilversmith</Tech>
+			<Tech x="4.3" y="5.0">HCRefrigeration</Tech>
+			<Tech x="5.2" y="1.0">HCStockyards</Tech>
+			<!-- <Tech x="5.2" y="2.0">HCFullingMills</Tech> -->
+			<Tech x="6.1" y="3.0">HCSpiceTrade</Tech>
+			<Tech x="6.1" y="5.0">HCMedicine</Tech>
+			<Tech x="7.0" y="1.0">HCRumDistillery</Tech>
+			<Tech x="7.0" y="2.0">HCCigarRoller</Tech>
+			<Tech x="7.0" y="3.0">HCTextileMills</Tech>
+			<Tech x="7.0" y="3.0">DEHCLumberMills</Tech>
+			<Tech x="7.0" y="3.0">DEHCMinneapolisMills</Tech>
+			<Tech x="7.0" y="3.0">DEHCFedNewJerseySeaports2</Tech>
+      </ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Dock</Name>
+		<Visual>
+			<File>american\american_harbor.xml</File>
+			<Bone>bone_dock</Bone>
+		</Visual>
+		<UIX>200</UIX>
+		<UIY>250</UIY>
+		<Camera>american\american_homecity_dock_camera.cam</Camera>
+		<WidescreenCamera>american\american_homecity_dock_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\harbor_icon</Portrait>
+		<DisplayNameStringID>35745</DisplayNameStringID>
+		<RolloverStringID>35746</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="1.3" y="1.0">DEHCShipSloopsRepeat1</Tech>
+			<Tech x="1.3" y="1.0">DEHCSPCShipRowboat1Repeat</Tech>
+			<Tech x="1.3" y="1.0">DEHCSPCShipRowboat2</Tech>
+			<Tech x="1.0" y="2.0">DEHCShipSloops1</Tech>
+			<Tech x="1.7" y="2.0">DEHCShipSteamers2</Tech>
+			<Tech x="1.7" y="2.0">DEHCShipSteamersRepeat1</Tech>
+			<Tech x="1.7" y="3.0">HCShipFrigates</Tech>
+			<!-- <Tech x="1.0" y="4.0">HCNavalCombat</Tech> -->
+			<Tech x="1.7" y="4.0">DEHCShipIroncladsRepeat1</Tech>
+			<Tech x="1.7" y="5.0">DEHCShipIroncladsSteamers1</Tech>
+			<Tech x="3.1" y="1.0">HCAdmirality</Tech>
+			<Tech x="3.1" y="1.0">DEHCMississippiSteamers</Tech>
+			<Tech x="3.1" y="1.0">DEHCVirginiaOak</Tech>
+			<Tech x="3.1" y="1.0">DEHCHulks</Tech>
+			<Tech x="3.1" y="5.0">HCNavalGunners</Tech>
+			<Tech x="4.1" y="4.0">HCMercsHighlanders</Tech>
+			<Tech x="5.5" y="6.0">DEHCRenoGang</Tech>
+			<Tech x="5.5" y="6.0">DEHCPoker</Tech>
+			<Tech x="6.3" y="1.0">HCXPDanceHall</Tech>
+			<Tech x="6.3" y="1.0">DEHCBlackMesa</Tech>
+			<Tech x="6.3" y="1.0">DEHCHireManilamen</Tech>
+			<Tech x="6.3" y="1.0">DEHCHireManilamenFleet</Tech>
+			<Tech x="6.3" y="7.0">DEHCSeminoleScouts</Tech>
+			<Tech x="6.3" y="7.0">DEHCApacheScouts</Tech>
+			<Tech x="6.3" y="7.0">DEHCNavajoScouts</Tech>
+			<Tech x="7.2" y="7.0">DEHCLegionLee</Tech>
+			<Tech x="3.4" y="4.0">DEHCLegionWashington</Tech>
+			<Tech x="0.9" y="1.0">DEHCImmigrantsDutch</Tech>
+			<Tech x="0.9" y="3.0">DEHCImmigrantsGerman</Tech>
+			<Tech x="0.9" y="4.0">DEHCImmigrantsRussian</Tech>
+			<Tech x="0.9" y="5.0">DEHCImmigrantsSpanish</Tech>
+			<Tech x="0.9" y="7.0">DEHCImmigrantsBritish</Tech>
+			<Tech x="0.9" y="2.0">DEHCImmigrantsFrench</Tech>
+			<Tech x="2.5" y="6.0">DEHCImmigrantsIrish</Tech>
+			<Tech x="3.8" y="3.0">DEHCImmigrantsSwedish</Tech>
+			<Tech x="6.7" y="3.0">DEHCImmigrantsChinese</Tech>
+			<Tech x="3.8" y="1.0">DEHCLegionFrench</Tech>
+			<Tech x="3.4" y="3.0">DEHCLegionHungarian</Tech>
+			<Tech x="3.4" y="4.0">DEHCLegionPolish</Tech>
+			<Tech x="3.4" y="4.0">DEHCSPCImprovedOars</Tech>
+			<Tech x="3.4" y="4.0">DEHCSPCRowboatAttack</Tech>
+			<Tech x="3.4" y="4.0">DEHCFedOysterPirates</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="1.3" y="1.0">DEHCShipSloopsRepeat1</Tech>
+			<Tech x="1.3" y="1.0">DEHCSPCShipRowboat1Repeat</Tech>
+			<Tech x="1.3" y="1.0">DEHCSPCShipRowboat2</Tech>
+			<Tech x="1.0" y="2.0">DEHCShipSloops1</Tech>
+			<Tech x="1.7" y="2.0">DEHCShipSteamers2</Tech>
+			<Tech x="1.7" y="2.0">DEHCShipSteamersRepeat1</Tech>
+			<Tech x="1.7" y="3.0">HCShipFrigates</Tech>
+			<!-- <Tech x="1.0" y="4.0">HCNavalCombat</Tech> -->
+			<Tech x="1.7" y="4.0">DEHCShipIroncladsRepeat1</Tech>
+			<Tech x="1.7" y="5.0">DEHCShipIroncladsSteamers1</Tech>
+			<Tech x="3.1" y="1.0">HCAdmirality</Tech>
+			<Tech x="3.1" y="1.0">DEHCMississippiSteamers</Tech>
+			<Tech x="3.1" y="1.0">DEHCVirginiaOak</Tech>
+			<Tech x="3.1" y="1.0">DEHCHulks</Tech>
+			<Tech x="3.1" y="5.0">HCNavalGunners</Tech>
+			<Tech x="4.1" y="4.0">HCMercsHighlanders</Tech>
+			<Tech x="5.5" y="6.0">DEHCRenoGang</Tech>
+			<Tech x="5.5" y="6.0">DEHCPoker</Tech>
+			<Tech x="6.3" y="1.0">HCXPDanceHall</Tech>
+			<Tech x="6.3" y="1.0">DEHCBlackMesa</Tech>
+			<Tech x="6.3" y="1.0">DEHCHireManilamen</Tech>
+			<Tech x="6.3" y="1.0">DEHCHireManilamenFleet</Tech>
+			<Tech x="6.3" y="7.0">DEHCSeminoleScouts</Tech>
+			<Tech x="6.3" y="7.0">DEHCApacheScouts</Tech>
+			<Tech x="6.3" y="7.0">DEHCNavajoScouts</Tech>
+			<Tech x="7.2" y="7.0">DEHCLegionLee</Tech>
+			<Tech x="3.4" y="4.0">DEHCLegionWashington</Tech>
+			<Tech x="0.9" y="1.0">DEHCImmigrantsDutch</Tech>
+			<Tech x="0.9" y="3.0">DEHCImmigrantsGerman</Tech>
+			<Tech x="0.9" y="4.0">DEHCImmigrantsRussian</Tech>
+			<Tech x="0.9" y="5.0">DEHCImmigrantsSpanish</Tech>
+			<Tech x="0.9" y="7.0">DEHCImmigrantsBritish</Tech>
+			<Tech x="0.9" y="2.0">DEHCImmigrantsFrench</Tech>
+			<Tech x="2.5" y="6.0">DEHCImmigrantsIrish</Tech>
+			<Tech x="3.8" y="3.0">DEHCImmigrantsSwedish</Tech>
+			<Tech x="6.7" y="3.0">DEHCImmigrantsChinese</Tech>
+			<Tech x="3.8" y="1.0">DEHCLegionFrench</Tech>
+			<Tech x="3.4" y="3.0">DEHCLegionHungarian</Tech>
+			<Tech x="3.4" y="4.0">DEHCLegionPolish</Tech>
+			<Tech x="3.4" y="4.0">DEHCSPCImprovedOars</Tech>
+			<Tech x="3.4" y="4.0">DEHCSPCRowboatAttack</Tech>
+			<Tech x="3.4" y="4.0">DEHCFedOysterPirates</Tech>
+      </ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Customization</Name>
+		<Camera>american\american_homecity_camera.cam</Camera>
+		<WidescreenCamera>american\american_homecity_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\dock_icon</Portrait>
+		<DisplayNameStringID>24966</DisplayNameStringID>
+		<RolloverStringID>25540</RolloverStringID>
+		<CustomizationBuilding>1</CustomizationBuilding>
+	</Building>
+	<Waypoints>
+		<Waypoint>
+			<Bone>bone_pathnode_01</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_02</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_03</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_04</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_05</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_06</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_07</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_08</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_09</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_10</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_11</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_12</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_13</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_14</Bone>
+			<Dock>1</Dock>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_15</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_16</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_17</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_18</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_19</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_20</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_21</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_22</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_23</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_24</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_25</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_26</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_27</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_28</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_29</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_30</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_31</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_32</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_33</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_34</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_35</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_36</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_37</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_38</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_39</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_40</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode_41</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_GuardArea01</Bone>
+			<GuardArea>1</GuardArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_GuardArea02</Bone>
+			<GuardArea>1</GuardArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_GuardArea03</Bone>
+			<GuardArea>1</GuardArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_fishing_03</Bone>
+			<FishingArea>1</FishingArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_fishing_01</Bone>
+			<FishingArea>1</FishingArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_fishing_02</Bone>
+			<FishingArea>1</FishingArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_shipment_start</Bone>
+			<ShipmentStart>1</ShipmentStart>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_shipment_end</Bone>
+			<ShipmentEnd>1</ShipmentEnd>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs01</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs02</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs03</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs04</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs05</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs06</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor01</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor02</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor03</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor04</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor05</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor06</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor07</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor08</Bone>
+			<VendorArea>1</VendorArea>>
+      </Waypoint>
+		<Waypoint>
+			<Bone>bone_firework01</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework02</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework03</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework04</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework05</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework06</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+	</Waypoints>
+	<ObtainableProps>
+		<Prop Active="1">American_LightSetDay</Prop>
+		<Prop>American_LightSetEvening</Prop>
+		<Prop>American_LightSetNightNoFireworks</Prop>
+		<Prop>American_LightSetNight</Prop>
+		
+
+		<Prop Active="1">American_HFlag01</Prop>
+		<Prop>American_HFlag02</Prop>
+		<Prop>American_HFlag03</Prop>
+
+		<Prop>American_FloatingCrates</Prop>
+		<Prop>American_BuntingFlags01</Prop>
+		<Prop>American_BuntingFlags02</Prop>
+		<Prop>American_BuntingFlags03</Prop>
+		<Prop>American_BuntingFlags04</Prop>
+		<Prop>American_BuntingFlags05</Prop>
+		<Prop>American_CapitolCannons</Prop>
+		<Prop>American_Cranes</Prop>
+		<Prop Active="1">American_Obelisk</Prop>
+		<Prop>American_ExplorerStatue</Prop>
+		<Prop>American_NateStatue</Prop>
+		<Prop>American_DockBoats01</Prop>
+		<Prop>American_CherryTrees</Prop>
+		<Prop>Ameircan_MarketStalls</Prop>
+		<Prop>American_ManufacturingCannons</Prop>
+
+		<Prop>StagecoachRoyal</Prop>
+		<Prop>AmericanHotdogMan</Prop>
+		<Prop>American_Eagle</Prop>
+		<Prop>AmericanAcademyGuards</Prop>
+		<Prop>NiceLady</Prop>
+		<Prop>AmericanPainter</Prop>
+		<Prop>AmericanPreacher</Prop>
+		<Prop>AmericanMime</Prop>
+
+		<Prop Active="1">American_CapitolTexture0</Prop>
+		<Prop>American_CapitolTexture1</Prop>
+
+		<Prop Active="1">American_ManufacturingTexture0</Prop>
+		<Prop>American_ManufacturingTexture1</Prop>
+		<Prop>American_ManufacturingTexture2</Prop>
+		<Prop>American_ManufacturingTexture3</Prop>
+
+		<Prop Active="1">American_AcademyTexture0</Prop>
+		<Prop>American_AcademyTexture1</Prop>
+		<Prop>American_AcademyTexture2</Prop>
+
+	</ObtainableProps>
+</HomeCity>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>7</width>
+	<height>7</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="95" posx="2.0700" posz="-1.1303" orientx="0.7071" orienty="0.0000" orientz="-0.7071">UnderbrushForest</unit>
+		<unit variation="60" posx="2.4382" posz="0.0531" orientx="0.9239" orienty="0.0000" orientz="0.3827">UnderbrushForest</unit>
+		<unit variation="209" posx="-2.2731" posz="0.5267" orientx="1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="163" posx="-0.0464" posz="0.8351" orientx="1.0000" orienty="0.0000" orientz="0.0000">UnderbrushForest</unit>
+		<unit variation="182" posx="-3.0684" posz="0.7279" orientx="0.7071" orienty="0.0000" orientz="-0.7071">UnderbrushForest</unit>
+		<unit variation="169" posx="1.2947" posz="1.8319" orientx="0.7071" orienty="0.0000" orientz="0.7071">FenceRock</unit>
+		<unit variation="205" posx="-1.0378" posz="2.4459" orientx="0.3827" orienty="-0.0000" orientz="-0.9239">FenceRock</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="araucania\ground12_ara">
+			<block startx="-3" startz="-3" endx="-3" endz="-3"></block>
+			<block startx="-2" startz="-3" endx="-2" endz="-3"></block>
+			<block startx="-1" startz="-1" endx="-1" endz="0"></block>
+			<block startx="-2" startz="3" endx="-2" endz="3"></block>
+			<block startx="-1" startz="3" endx="-1" endz="3"></block>
+			<block startx="0" startz="1" endx="0" endz="1"></block>
+			<block startx="3" startz="0" endx="3" endz="0"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="new_england\ground2_ne">
+			<block startx="-3" startz="-1" endx="-3" endz="0"></block>
+			<block startx="-2" startz="-2" endx="-2" endz="-2"></block>
+			<block startx="-2" startz="0" endx="-2" endz="0"></block>
+			<block startx="-1" startz="-3" endx="-1" endz="-3"></block>
+			<block startx="0" startz="-3" endx="0" endz="-3"></block>
+			<block startx="-3" startz="1" endx="-3" endz="2"></block>
+			<block startx="-1" startz="1" endx="-1" endz="1"></block>
+			<block startx="0" startz="3" endx="0" endz="3"></block>
+			<block startx="1" startz="1" endx="1" endz="3"></block>
+			<block startx="2" startz="1" endx="2" endz="1"></block>
+			<block startx="1" startz="-3" endx="1" endz="-3"></block>
+			<block startx="1" startz="0" endx="1" endz="0"></block>
+			<block startx="2" startz="-2" endx="2" endz="-1"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_lakes\ground_grass1_gls">
+			<block startx="-3" startz="-2" endx="-3" endz="-2"></block>
+			<block startx="0" startz="-1" endx="0" endz="0"></block>
+			<block startx="-3" startz="3" endx="-3" endz="3"></block>
+			<block startx="2" startz="3" endx="2" endz="3"></block>
+			<block startx="3" startz="1" endx="3" endz="3"></block>
+			<block startx="2" startz="-3" endx="2" endz="-3"></block>
+			<block startx="3" startz="-3" endx="3" endz="-1"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="new_england\ground4_ne">
+			<block startx="-2" startz="-1" endx="-2" endz="-1"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="-2"></block>
+			<block startx="0" startz="-2" endx="0" endz="-2"></block>
+			<block startx="-2" startz="1" endx="-2" endz="2"></block>
+			<block startx="-1" startz="2" endx="-1" endz="2"></block>
+			<block startx="0" startz="2" endx="0" endz="2"></block>
+			<block startx="1" startz="-2" endx="1" endz="-1"></block>
+			<block startx="2" startz="0" endx="2" endz="0"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_plains\ground3_gp">
+			<block startx="2" startz="2" endx="2" endz="2"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

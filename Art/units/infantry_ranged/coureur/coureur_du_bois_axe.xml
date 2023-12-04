@@ -1,0 +1,4 @@
+<animfile>
+  <component>axe<assetreference type="GrannyModel"><file>units\infantry_ranged\coureur\coureur_du_bois_axe</file></assetreference></component>
+  <anim>Idle<component>axe</component></anim>
+</animfile>

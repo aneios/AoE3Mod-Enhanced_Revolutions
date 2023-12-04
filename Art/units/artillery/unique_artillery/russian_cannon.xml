@@ -1,0 +1,7 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\spc\russian_cannon\russian_cannon</file></assetreference><decal><texture>shadows_selections\shadow_circle_128x128</texture><selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\artillery\artillery_idle_cannon</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\artillery\artillery_walk_cannon</file><tag type="FootstepLeft">0.30</tag><tag type="FootstepRight">0.80</tag></assetreference><component>ModelComp</component></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>animation_library\artillery\artillery_attack_cannon</file><tag type="Attack">0.00</tag><tag type="SpecificSoundSet" checkvisible="1" set="CannonShoot">0.00</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\artillery\artillery_death_cannon</file></assetreference><component>ModelComp</component></anim>
+</animfile>

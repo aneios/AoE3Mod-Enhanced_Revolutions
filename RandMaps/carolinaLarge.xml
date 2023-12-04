@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "26984" displayNameID = "43407" loadDetails="35940" isLargeMap=""
+    imagepath = "ui\random_map\carolina\carolina_lrg_mini" cannotReplace = "" loadBackground="ui\random_map\carolina\carolina_map">
+   <loadss>ui\random_map\carolina\carolina_ss_01</loadss>
+   <loadss>ui\random_map\carolina\carolina_ss_02</loadss>
+   <loadss>ui\random_map\carolina\carolina_ss_03</loadss>
+</mapinfo>

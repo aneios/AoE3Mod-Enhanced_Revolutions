@@ -1,0 +1,4 @@
+<animfile>
+  <component>gun<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\cavalry\hakkapelit\hakkapelit_gun</file></assetreference></none><veteranfinnishriders><assetreference type="GrannyModel"><file>units\cavalry\hakkapelit\hakkapelit_gun</file></assetreference></veteranfinnishriders><rgdrabants><assetreference type="GrannyModel"><file>units\spc\outlaws\outlaw_shotgun_gun</file></assetreference></rgdrabants><imperialdrabants><assetreference type="GrannyModel"><file>units\spc\outlaws\outlaw_shotgun_gun</file></assetreference></imperialdrabants></logic></component>
+  <anim>Idle<component>gun</component></anim>
+</animfile>

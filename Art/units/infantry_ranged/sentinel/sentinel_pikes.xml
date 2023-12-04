@@ -1,0 +1,4 @@
+<animfile>
+  <component>pikes<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\sentinel\sentinel_age1_pike</file></assetreference></none><deveteransentinels><assetreference type="GrannyModel"><file>units\infantry_ranged\sentinel\sentinel_age2_pike</file></assetreference></deveteransentinels><deguardsentinels><assetreference type="GrannyModel"><file>units\infantry_ranged\sentinel\sentinel_age3_pike</file></assetreference></deguardsentinels><deimperialsentinels><assetreference type="GrannyModel"><file>units\infantry_ranged\sentinel\sentinel_age3_pike</file></assetreference></deimperialsentinels></logic></component>
+  <anim>Idle<component>pikes</component></anim>
+</animfile>

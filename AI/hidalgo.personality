@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>112004</nameID>
+   <tooltipID>112005</tooltipID>
+   <forcedciv>demexicans</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>resources/images/icons/singleplayer/cpai_avatar_mexicans.png</icon>
+   <chatset>hidalgo</chatset>
+   <playerNames>
+      <nameID>112004<civ>demexicans</civ></nameID> 
+	</playerNames>
+</AI>

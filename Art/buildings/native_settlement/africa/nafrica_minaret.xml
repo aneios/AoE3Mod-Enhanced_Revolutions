@@ -1,0 +1,4 @@
+<animfile>
+  <component>Berber Buildings<logic type="Variation"><data><logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>buildings\native_settlement\africa\nafrica_minaret</file></assetreference></normal></logic></data></logic></component>
+  <anim>Idle<component>Berber Buildings</component></anim>
+</animfile>

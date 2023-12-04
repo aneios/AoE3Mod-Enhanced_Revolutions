@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>4</width>
+	<height>6</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="47" posx="1.0281" posz="-4.1017" orientx="0.0000" orienty="0.0000" orientz="1.0000">PropsNative</unit>
+		<unit variation="101" posx="-3.0000" posz="-5.0000" orientx="-0.2612" orienty="-0.0000" orientz="-0.9653">deTreeCypress</unit>
+		<unit variation="101" posx="3.0000" posz="-5.0000" orientx="-0.2612" orienty="-0.0000" orientz="-0.9653">deTreeCypress</unit>
+		<unit variation="81" posx="-0.5656" posz="-3.6181" orientx="0.0000" orienty="0.0000" orientz="-1.0000">SPCPathBlock2</unit>
+		<unit variation="47" posx="-3.2437" posz="-1.9210" orientx="1.0000" orienty="0.0000" orientz="0.0001">PropsNative</unit>
+		<unit variation="86" posx="-3.0000" posz="-3.0000" orientx="0.7071" orienty="0.0000" orientz="0.7071">BerryBush</unit>
+		<unit variation="86" posx="3.0000" posz="-3.0000" orientx="-0.9239" orienty="0.0000" orientz="0.3826">BerryBush</unit>
+		<unit variation="101" posx="3.0000" posz="-1.0000" orientx="-0.2612" orienty="-0.0000" orientz="-0.9653">deTreeCypress</unit>
+		<unit variation="47" posx="2.7780" posz="0.0501" orientx="-1.0000" orienty="0.0000" orientz="0.0000">PropsNative</unit>
+		<unit variation="101" posx="-3.0000" posz="1.0000" orientx="0.2611" orienty="0.0000" orientz="0.9653">deTreeCypress</unit>
+		<unit variation="68" posx="2.6662" posz="1.3598" orientx="0.3827" orienty="0.0000" orientz="-0.9239">SPCDamagedProps</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="araucania\ground12_ara">
+			<block startx="-2" startz="-3" endx="-2" endz="1"></block>
+			<block startx="-1" startz="-3" endx="-1" endz="-3"></block>
+			<block startx="0" startz="-3" endx="0" endz="-2"></block>
+			<block startx="1" startz="-2" endx="1" endz="-1"></block>
+			<block startx="-2" startz="2" endx="-2" endz="2"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_lakes\ground_grass1_gls">
+			<block startx="-1" startz="-2" endx="-1" endz="-2"></block>
+			<block startx="1" startz="-3" endx="1" endz="-3"></block>
+			<block startx="1" startz="0" endx="1" endz="1"></block>
+			<block startx="1" startz="2" endx="1" endz="2"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="new_england\ground4_ne">
+			<block startx="-1" startz="-1" endx="-1" endz="1"></block>
+			<block startx="0" startz="-1" endx="0" endz="1"></block>
+			<block startx="-1" startz="2" endx="-1" endz="2"></block>
+			<block startx="0" startz="2" endx="0" endz="2"></block>
+		</tilegroup>
+		<heights>
+			<tiles x="-2" z="-3">-1.065 0.424 1.597 -0.997 </tiles>
+			<tiles x="-2" z="-2">2.260 2.077 0.727 1.737 </tiles>
+			<tiles x="-2" z="-1">0.309 0.504 0.765 0.871 </tiles>
+			<tiles x="-2" z="0">-0.310 1.043 0.545 0.810 </tiles>
+			<tiles x="-2" z="1">1.254 -0.140 0.029 1.024 </tiles>
+			<tiles x="-2" z="2">-1.065 -0.482 -0.076 -0.912 </tiles>
+		</heights>
+	</tiles>
+</grouping>

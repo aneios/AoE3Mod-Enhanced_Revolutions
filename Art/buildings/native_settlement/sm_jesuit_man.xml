@@ -1,0 +1,8 @@
+<animfile>
+  <attachment>bhakti_temple<include>buildings\native_settlement\jesuit_temple.xml</include></attachment>
+  <component>man<assetreference type="GrannyModel"><file>buildings\native_settlement\jesuit_0</file></assetreference><decal><effecttype>default</effecttype><texture>buildings\native_settlement\japan_decal_01</texture><selectedtexture>shadows_selections\selection_square_64x64</selectedtexture><width>10.00</width><height>10.00</height></decal><attach a="bhakti_temple" frombone="MASTER" tobone="MASTER" syncanims="0"></attach></component>
+  <anim>Mode1_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\jesuit_upIdle00</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\jesuit_upIdle01</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\jesuit_upIdle02</file></assetreference><component>man</component></anim>
+  <anim>Mode1_Mode2<assetreference type="GrannyAnim"><file>buildings\native_settlement\jesuit_walkDown00</file></assetreference><component>man</component></anim>
+  <anim>Mode2_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\jesuit_downIdle00</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\jesuit_downIdle01</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\jesuit_downIdle02</file></assetreference><component>man</component></anim>
+  <anim>Mode2_Mode1<assetreference type="GrannyAnim"><file>buildings\native_settlement\jesuit_walkUp00</file></assetreference><component>man</component></anim>
+</animfile>

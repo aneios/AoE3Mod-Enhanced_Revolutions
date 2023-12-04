@@ -1,0 +1,9 @@
+<animfile>
+  <definebone>bone_attach_horse_a</definebone>
+  <definebone>bone_attach_horse_b</definebone>
+  <definebone>HS Bone Master</definebone>
+  <attachment>horse<component>horse</component><include>units\villagers\covered_wagon\covered_wagon_horse.xml</include></attachment>
+  <component>yoke<assetreference type="GrannyModel"><file>units\villagers\covered_wagon\covered_wagon_yoke</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\villagers\covered_wagon\covered_wagon_yoke_idle</file></assetreference><component>yoke</component><attach a="horse" frombone="HS Bone Master" tobone="bone_attach_horse_a" syncanims="1"></attach><attach a="horse" frombone="HS Bone Master" tobone="bone_attach_horse_b" syncanims="1"></attach></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\villagers\covered_wagon\covered_wagon_yoke_walk</file></assetreference><component>yoke</component><attach a="horse" frombone="HS Bone Master" tobone="bone_attach_horse_b" syncanims="1"></attach><attach a="horse" frombone="HS Bone Master" tobone="bone_attach_horse_a" syncanims="1"></attach></anim>
+</animfile>

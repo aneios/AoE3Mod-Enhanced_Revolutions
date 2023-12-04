@@ -1,0 +1,4 @@
+<animfile>
+  <component>african_props<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\native_settlement\africa\west_ashanti_pot_a</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\africa\west_ashanti_pot_b</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\africa\west_ashanti_pot_c</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\africa\west_ashanti_rug</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\africa\west_ashanti_lamp</file></assetreference></data></logic></component>
+  <anim>Idle<assetreference type="GrannyAnim"></assetreference><component>african_props</component></anim>
+</animfile>

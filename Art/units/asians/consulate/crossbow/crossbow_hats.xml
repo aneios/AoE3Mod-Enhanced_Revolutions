@@ -1,0 +1,6 @@
+<animfile>
+  <assetreference type="GrannyModel">
+    <file>units\infantry_ranged\crossbow\crossbow_4age_hat</file>
+  </assetreference>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

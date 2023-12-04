@@ -1,0 +1,4 @@
+<animfile>
+  <component>gun<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\coureur\coureur_du_bois_gun</file></assetreference></none><derevolutioncanadafrench><assetreference type="GrannyModel"><file>units\infantry_ranged\coureur\coureur_du_bois_gun_milice</file></assetreference></derevolutioncanadafrench></logic></component>
+  <anim>Idle<component>gun</component></anim>
+</animfile>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>wing<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\wings\wing</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\wings\wing_curved</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\wings\wing_rounded</file></assetreference></data></logic></component>
+  <anim>Idle<component>wing</component></anim>
+</animfile>

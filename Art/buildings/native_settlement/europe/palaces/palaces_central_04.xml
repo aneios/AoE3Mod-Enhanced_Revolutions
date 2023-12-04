@@ -1,0 +1,4 @@
+<animfile>
+  <component>Palaces<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\palaces\roof_fr02_wall_fr03</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\palaces\roof_fr03_wall_fr02</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\palaces\roof_fr02_wall_fr01b</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\palaces\roof_fr02_wall_fr02</file></assetreference></data></logic></component>
+  <anim>Idle<component>Palaces</component></anim>
+</animfile>

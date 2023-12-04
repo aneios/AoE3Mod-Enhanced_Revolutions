@@ -1,0 +1,1301 @@
+﻿<Page x:Class="aoe3wpfg.pages.uitechtree.techtree_americans"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:aoe3wpfg"
+      mc:Ignorable="d" 
+      d:DesignHeight="1030" d:DesignWidth="23625">
+
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="WondersText">
+            <Setter Property="FontFamily" Value="Trajan Pro" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="FontSize" Value="100" />
+            <Setter Property="Width" Value="110"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="Foreground" Value="{StaticResource TitleGradient}" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect BlurRadius="3" Color="Black" Direction="-90" ShadowDepth="3" RenderingBias="Quality" />
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid Height="1030" Width="23625">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+            </Grid.ColumnDefinitions>
+
+            <!--TownCenter-->
+            <!--Black BG-->
+            <Line Grid.Row="0" Grid.Column="1" Grid.RowSpan="10" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="7" Grid.RowSpan="2" X1="40" Y1="100" X2="419" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="0" Grid.Column="6" Grid.RowSpan="3" X1="40" Y1="50" X2="40" Y2="120" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="0" Grid.Column="1" Grid.RowSpan="10" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="7" Grid.RowSpan="2" X1="40" Y1="100" X2="417" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="0" Grid.Column="6" Grid.RowSpan="3" X1="40" Y1="50" X2="40" Y2="120" Stroke="White" StrokeThickness="4"/>
+                       
+            <!--Artillery Foundary-->
+            <!--Black BG-->
+            <Line Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="100" X2="1167" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="1" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="3" Grid.Column="6" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="250" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="11" Grid.RowSpan="10" X1="40" Y1="100" X2="40" Y2="250" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="16" Grid.RowSpan="10" X1="40" Y1="100" X2="40" Y2="250" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="100" X2="1167" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="1" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="3" Grid.Column="6" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="250" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="11" Grid.RowSpan="10" X1="40" Y1="100" X2="40" Y2="250" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="16" Grid.RowSpan="10" X1="40" Y1="100" X2="40" Y2="250" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="1" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="450" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <Line Grid.Row="4" Grid.Column="6" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="450" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <Line Grid.Row="5" Grid.Column="11" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="350" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <Line Grid.Row="5" Grid.Column="16" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="350" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+
+            <!--Market-->
+            <!--Black BG-->
+            <Line Grid.Row="0" Grid.Column="11" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="0" Grid.Column="11" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="100" X2="794" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="0" Grid.Column="16" Grid.RowSpan="3" X1="40" Y1="50" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="0" Grid.Column="21" Grid.RowSpan="3" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="0" Grid.Column="11" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="0" Grid.Column="11" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="100" X2="792" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="0" Grid.Column="16" Grid.RowSpan="3" X1="40" Y1="50" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="0" Grid.Column="21" Grid.RowSpan="3" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="0" Grid.Column="11" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="450" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <Line Grid.Row="0" Grid.Column="16" Grid.RowSpan="3" X1="40" Y1="150" X2="40" Y2="250" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <Line Grid.Row="0" Grid.Column="21" Grid.RowSpan="3" X1="40" Y1="150" X2="40" Y2="250" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+
+            <!--Docks-->
+            <!--Black BG-->
+            <Line Grid.Row="0" Grid.Column="27" Grid.RowSpan="10" X1="40" Y1="80" X2="40" Y2="554" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="0" Grid.Column="33" Grid.RowSpan="10" X1="40" Y1="100" X2="40" Y2="652" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="0" Grid.Column="27" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="100" X2="494" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="1" Grid.Column="27" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="3" Grid.Column="27" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="5" Grid.Column="27" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="1" Grid.Column="33" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="33" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="3" Grid.Column="33" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="33" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="33" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="0" Grid.Column="27" Grid.RowSpan="10" X1="40" Y1="80" X2="40" Y2="552" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="0" Grid.Column="33" Grid.RowSpan="10" X1="40" Y1="100" X2="40" Y2="652" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="0" Grid.Column="27" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="100" X2="492" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="1" Grid.Column="27" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="3" Grid.Column="27" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="5" Grid.Column="27" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="1" Grid.Column="33" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="33" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="3" Grid.Column="33" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="33" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="33" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="0" Grid.Column="28" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="250" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <Line Grid.Row="2" Grid.Column="28" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="250" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <Line Grid.Row="0" Grid.Column="34" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="250" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <Line Grid.Row="2" Grid.Column="34" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="250" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <Line Grid.Row="5" Grid.Column="34" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="350" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <Line Grid.Row="4" Grid.Column="28" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="450" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+
+            <!--Outpost-->
+            <!--Black BG-->
+            <Line Grid.Row="0" Grid.Column="40" Grid.RowSpan="5" X1="40" Y1="50" X2="40" Y2="450" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="1" Grid.Column="40" Grid.ColumnSpan="10" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="40" Grid.ColumnSpan="10" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="0" Grid.Column="40" Grid.RowSpan="5" X1="40" Y1="50" X2="40" Y2="452" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="1" Grid.Column="40" Grid.ColumnSpan="10" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="40" Grid.ColumnSpan="10" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="3" Grid.Column="41" Grid.RowSpan="5" X1="40" Y1="150" X2="40" Y2="350" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <!--Trading Post-->
+            <!--Black BG-->
+            <Line Grid.Row="0" Grid.Column="47" Grid.RowSpan="5" X1="40" Y1="50" X2="40" Y2="250" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="0" Grid.Column="47" Grid.RowSpan="5" X1="40" Y1="50" X2="40" Y2="250" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="1" Grid.Column="47" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="550" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <!--Mill-->
+            <!--Black BG-->
+            <Line Grid.Row="0" Grid.Column="53" Grid.RowSpan="5" X1="40" Y1="50" X2="40" Y2="250" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="0" Grid.Column="53" Grid.RowSpan="5" X1="40" Y1="50" X2="40" Y2="250" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="1" Grid.Column="53" Grid.RowSpan="5" X1="40" Y1="150" X2="40" Y2="350" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <!--Wall-->
+            <!--Black BG-->
+            <Line Grid.Row="0" Grid.Column="59" Grid.RowSpan="5" X1="40" Y1="50" X2="40" Y2="450" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="0" Grid.Column="59" Grid.RowSpan="5" X1="40" Y1="50" X2="40" Y2="450" Stroke="White" StrokeThickness="4"/>
+
+            <!--Livestock Pen-->
+            <!--Black BG-->
+            <Line Grid.Row="0" Grid.Column="65" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="120" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="0" Grid.Column="65" Grid.ColumnSpan="16" Grid.RowSpan="2" X1="40" Y1="100" X2="418" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="0" Grid.Column="70" Grid.RowSpan="3" X1="40" Y1="100" X2="40" Y2="120" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="0" Grid.Column="65" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="120" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="0" Grid.Column="65" Grid.ColumnSpan="16" Grid.RowSpan="2" X1="40" Y1="100" X2="417" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="0" Grid.Column="70" Grid.RowSpan="3" X1="40" Y1="100" X2="40" Y2="120" Stroke="White" StrokeThickness="4"/>
+            <!--Meeting house-->
+            <!--Black BG-->
+            <Line Grid.Row="2" Grid.Column="64" Grid.RowSpan="7" X1="40" Y1="46" X2="40" Y2="354" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="65" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="100" X2="1169" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="64" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="5" Grid.Column="64" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="494" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="65" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="70" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="75" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="80" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="65" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="250" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="5" Grid.Column="70" Grid.RowSpan="7" X1="40" Y1="50" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="2" Grid.Column="64" Grid.RowSpan="7" X1="40" Y1="48" X2="40" Y2="352" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="65" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="100" X2="1167" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="64" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="5" Grid.Column="64" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="50" X2="492" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="65" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="70" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="75" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="80" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="65" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="250" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="5" Grid.Column="70" Grid.RowSpan="7" X1="40" Y1="50" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--Plantation-->
+            <!--White BG-->
+            <Line Grid.Row="3" Grid.Column="80" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="450" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            
+            <!--Barracks-->
+            <!--Black BG-->
+            <Line Grid.Row="2" Grid.Column="86" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="120" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="86" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="100" X2="792" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="91" Grid.RowSpan="3" X1="40" Y1="100" X2="40" Y2="120" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="96" Grid.RowSpan="3" X1="40" Y1="98" X2="40" Y2="250" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="2" Grid.Column="86" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="120" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="86" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="100" X2="792" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="91" Grid.RowSpan="3" X1="40" Y1="100" X2="40" Y2="120" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="96" Grid.RowSpan="3" X1="40" Y1="98" X2="40" Y2="250" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="86" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="650" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <Line Grid.Row="2" Grid.Column="91" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="650" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <Line Grid.Row="2" Grid.Column="96" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="650" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+
+            <!--Stables-->
+            <!--Black BG-->
+            <Line Grid.Row="2" Grid.Column="102" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="120" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="102" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="107" Grid.RowSpan="3" X1="40" Y1="100" X2="40" Y2="250" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="2" Grid.Column="102" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="120" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="102" Grid.ColumnSpan="21" Grid.RowSpan="2" X1="40" Y1="100" X2="417" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="107" Grid.RowSpan="3" X1="40" Y1="100" X2="40" Y2="250" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="102" Grid.RowSpan="10" X1="40" Y1="150" X2="40" Y2="650" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+            <Line Grid.Row="2" Grid.Column="107" Grid.RowSpan="10" X1="40" Y1="250" X2="40" Y2="650" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+
+            <!--Saloon-->
+            <!--Black BG-->
+            <Line Grid.Row="2" Grid.Column="113" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="504" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="113" Grid.ColumnSpan="30" Grid.RowSpan="2" X1="40" Y1="100" X2="1994" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="113" Grid.ColumnSpan="50" Grid.RowSpan="2" X1="40" Y1="100" X2="2740" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="113" Grid.ColumnSpan="30" Grid.RowSpan="2" X1="40" Y1="100" X2="1244" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="114" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="119" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="124" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="129" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="134" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="139" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="114" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="119" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="124" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="129" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="134" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="139" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="144" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="149" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="114" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="119" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="124" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="129" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <!--White FG-->
+            <Line Grid.Row="2" Grid.Column="113" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="502" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="113" Grid.ColumnSpan="30" Grid.RowSpan="2" X1="40" Y1="100" X2="1992" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="113" Grid.ColumnSpan="50" Grid.RowSpan="2" X1="40" Y1="100" X2="2738" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="113" Grid.ColumnSpan="30" Grid.RowSpan="2" X1="40" Y1="100" X2="1242" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="114" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="119" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="124" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="129" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="134" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="139" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="114" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="119" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="124" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="129" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="134" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="139" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="144" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="149" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="114" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="119" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="124" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="129" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="100" Stroke="White" StrokeThickness="4"/>
+
+            <!--Arsenal-->
+            <!--Black BG-->
+            <Line Grid.Row="4" Grid.Column="155" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="2290" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="155" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="160" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="165" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="170" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="175" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="180" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="185" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="4" Grid.Column="155" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="2290" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="155" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="160" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="165" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="170" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="175" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="180" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="185" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+
+            <!--State Capitol-->
+            <!--Black BG-->
+            <Line Grid.Row="4" Grid.Column="191" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="1544" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="7" Grid.Column="191" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="50" X2="500" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="191" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="1504" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="210" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="72" Y1="50" X2="150" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="191" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="504" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="196" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="201" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="206" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="211" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="196" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="201" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="206" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="211" Grid.RowSpan="7" X1="0" Y1="50" X2="0" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="4" Grid.Column="191" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="1542" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="7" Grid.Column="191" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="50" X2="500" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="191" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="1502" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="210" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="73" Y1="50" X2="150" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="191" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="502" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="196" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="201" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="206" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="211" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="196" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="201" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="206" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="211" Grid.RowSpan="7" X1="0" Y1="50" X2="0" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="7" Grid.Column="211" Grid.RowSpan="3" X1="40" Y1="150" X2="40" Y2="250" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+
+            <!--Factory-->
+            <!--Black BG-->
+            <Line Grid.Row="4" Grid.Column="217" Grid.ColumnSpan="18" Grid.RowSpan="2" X1="40" Y1="100" X2="1094" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="217" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="222" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="227" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="231" Grid.ColumnSpan="18" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="231" Grid.RowSpan="7" X1="40" Y1="46" X2="40" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <!--White FG-->
+            <Line Grid.Row="4" Grid.Column="217" Grid.ColumnSpan="18" Grid.RowSpan="2" X1="40" Y1="100" X2="1092" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="217" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="222" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="227" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="231" Grid.ColumnSpan="18" Grid.RowSpan="2" X1="40" Y1="50" X2="100" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="231" Grid.RowSpan="7" X1="40" Y1="48" X2="40" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="3" Grid.Column="232" Grid.RowSpan="3" X1="40" Y1="150" X2="40" Y2="250" Stroke="White" StrokeThickness="4"  StrokeDashArray="4 2"/>
+
+            <!--Fort-->
+            <!--Black BG-->
+            <Line Grid.Row="4" Grid.Column="238" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="1542" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="238" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="50" X2="120" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="7" Grid.Column="238" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="50" X2="120" Y2="50" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="238" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="354" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="243" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="248" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="253" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="258" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="4" Grid.Column="238" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="1542" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="238" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="50" X2="120" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="7" Grid.Column="238" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="50" X2="120" Y2="50" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="238" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="352" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="243" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="248" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="253" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="258" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="100" Stroke="White" StrokeThickness="4"/>
+
+
+            <Grid Grid.Row="0" Grid.Column="261" Grid.RowSpan="10" Grid.ColumnSpan="75">
+                <Rectangle Grid.Row="0" Margin="225,0,0,0" Fill="{StaticResource us_pattern}" Opacity="0.75"/>
+                <Rectangle Grid.Row="0" Width="210" HorizontalAlignment="Left" Margin="0,0,200,0" Opacity="1">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="pack://siteoforigin:,,,/resources/chdivider_shadow.png"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle Grid.Row="0" Width="210" HorizontalAlignment="Left" Margin="450,0,0,0" Opacity="1">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="pack://siteoforigin:,,,/resources/chdivider_shadow.png"/>
+                    </Rectangle.Fill>
+                    <Rectangle.RenderTransform>
+                        <ScaleTransform ScaleX="-1"/>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle Fill="{StaticResource us_divider}" Width="55" Height="1000" HorizontalAlignment="Left" Margin="200,0,0,0"></Rectangle>
+                <TextBlock Name="WondersTextbox" HorizontalAlignment="Left" VerticalAlignment="Center" Style="{StaticResource WondersText}" Width="23" Margin="215,0" Text="$$110266$$Federal State" FontSize="25"/>
+            </Grid>
+
+            <!--Age up Federal State-->
+            <!--Massachusetts-->
+            <!--Black BG-->
+            <Line Grid.Row="2" Grid.Column="265" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="265" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="270" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="2" Grid.Column="265" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="265" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="270" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--Indiana-->
+            <!--Black BG-->
+            <Line Grid.Row="4" Grid.Column="265" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="265" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="270" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="4" Grid.Column="265" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="265" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="270" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--South Carolina-->
+            <!--Black BG-->
+            <Line Grid.Row="6" Grid.Column="265" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="265" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="270" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="6" Grid.Column="265" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="265" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="270" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--Illinois-->
+            <!--Black BG-->
+            <Line Grid.Row="8" Grid.Column="265" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="265" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="270" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="8" Grid.Column="265" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="265" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="270" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+
+            <!--Virginia-->
+            <!--Black BG-->
+            <Line Grid.Row="2" Grid.Column="275" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="275" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="280" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="2" Grid.Column="275" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="275" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="280" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--New Hampshire-->
+            <!--Black BG-->
+            <Line Grid.Row="4" Grid.Column="275" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="275" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="280" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="4" Grid.Column="275" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="275" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="280" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--Vermont-->
+            <!--Black BG-->
+            <Line Grid.Row="6" Grid.Column="275" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="275" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="280" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="6" Grid.Column="275" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="275" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="280" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--Connecticut-->
+            <!--Black BG-->
+            <Line Grid.Row="8" Grid.Column="275" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="275" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="280" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="8" Grid.Column="275" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="275" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="280" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+
+            <!--Delaware-->
+            <!--Black BG-->
+            <Line Grid.Row="2" Grid.Column="285" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="285" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="290" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="2" Grid.Column="285" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="285" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="290" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--Maryland-->
+            <!--Black BG-->
+            <Line Grid.Row="4" Grid.Column="285" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="285" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="290" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="4" Grid.Column="285" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="285" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="290" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--Calirofnria-->
+            <!--Black BG-->
+            <Line Grid.Row="6" Grid.Column="285" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="285" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="290" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="6" Grid.Column="285" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="285" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="290" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--New York-->
+            <!--Black BG-->
+            <Line Grid.Row="8" Grid.Column="285" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="285" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="290" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="8" Grid.Column="285" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="285" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="290" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+
+            <!--Pennsylvania-->
+            <!--Black BG-->
+            <Line Grid.Row="2" Grid.Column="295" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="295" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="300" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="2" Grid.Column="295" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="295" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="300" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--Tennessee-->
+            <!--Black BG-->
+            <Line Grid.Row="4" Grid.Column="295" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="295" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="300" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="4" Grid.Column="295" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="295" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="300" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--New Jersey-->
+            <!--Black BG-->
+            <Line Grid.Row="6" Grid.Column="295" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="295" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="300" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="6" Grid.Column="295" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="295" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="300" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--Texas-->
+            <!--Black BG-->
+            <Line Grid.Row="8" Grid.Column="295" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="295" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="300" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="8" Grid.Column="295" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="295" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="300" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+
+            <!--Rhode Island-->
+            <!--Black BG-->
+            <Line Grid.Row="2" Grid.Column="305" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="305" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="2" Grid.Column="310" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="2" Grid.Column="305" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="305" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="2" Grid.Column="310" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--Kentucky-->
+            <!--Black BG-->
+            <Line Grid.Row="4" Grid.Column="305" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="305" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="4" Grid.Column="310" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="4" Grid.Column="305" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="305" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="4" Grid.Column="310" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--Ohio-->
+            <!--Black BG-->
+            <Line Grid.Row="6" Grid.Column="305" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="305" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="6" Grid.Column="310" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="6" Grid.Column="305" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="305" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="6" Grid.Column="310" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <!--Florida-->
+            <!--Black BG-->
+            <Line Grid.Row="8" Grid.Column="305" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="305" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <Line Grid.Row="8" Grid.Column="310" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="Black" StrokeThickness="8"/>
+            <!--White BG-->
+            <Line Grid.Row="8" Grid.Column="305" Grid.ColumnSpan="40" Grid.RowSpan="2" X1="40" Y1="100" X2="416" Y2="100" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="305" Grid.RowSpan="7" X1="40" Y1="80" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+            <Line Grid.Row="8" Grid.Column="310" Grid.RowSpan="7" X1="40" Y1="100" X2="40" Y2="150" Stroke="White" StrokeThickness="4"/>
+
+        </Grid>
+
+        <ItemsControl Name="tech_list">
+
+            <ItemsControl.Template>
+                <ControlTemplate TargetType="ItemsControl">
+                    <ItemsPresenter />
+                </ControlTemplate>
+            </ItemsControl.Template>
+
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <local:Age3KeyboardFocusBorder>
+                        <ContentControl Template="{StaticResource TechTreeItem}" />
+                    </local:Age3KeyboardFocusBorder>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+
+            <ItemsControl.ItemContainerStyle>
+                <Style TargetType="ContentPresenter">
+                    <Setter Property="Grid.Column" Value="{Binding Column}"/>
+                    <Setter Property="Grid.Row" Value="{Binding Row}"/>
+                    <Setter Property="Grid.ColumnSpan" Value="6"/>
+                    <Setter Property="Margin" Value="5,0,0,0"/>
+                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                </Style>
+            </ItemsControl.ItemContainerStyle>
+
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="30"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="75"/>
+                        </Grid.ColumnDefinitions>
+
+                    </Grid>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+        </ItemsControl>
+    </Grid>
+</Page>

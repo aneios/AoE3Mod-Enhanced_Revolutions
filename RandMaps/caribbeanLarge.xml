@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "28833" displayNameID = "105089" loadDetails="35939" isLargeMap=""
+    imagepath = "ui\random_map\caribbean\caribbean_mini" cannotReplace = "" loadBackground="ui\random_map\caribbean\caribbean_map">
+   <loadss>ui\random_map\caribbean\caribbean_ss_01</loadss>
+   <loadss>ui\random_map\caribbean\caribbean_ss_02</loadss>
+   <loadss>ui\random_map\caribbean\caribbean_ss_03</loadss>
+</mapinfo>

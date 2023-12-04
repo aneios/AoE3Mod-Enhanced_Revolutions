@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>4</width>
+	<height>4</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="65" posx="0.1556" posz="-0.2251" orientx="0.3827" orienty="0.0000" orientz="-0.9239">SPCDamagedCannons</unit>
+		<unit variation="224" posx="-2.8658" posz="0.0208" orientx="1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="69" posx="-2.0200" posz="-0.6340" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCDamagedProps</unit>
+		<unit variation="23" posx="3.6538" posz="0.3165" orientx="0.7071" orienty="0.0000" orientz="-0.7071">SPCDamagedProps</unit>
+		<unit variation="124" posx="2.4532" posz="1.1078" orientx="-0.9239" orienty="0.0000" orientz="0.3827">SPCRailwayProps</unit>
+		<unit variation="18" posx="-0.0641" posz="0.1373" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">Fire</unit>
+		<unit variation="244" posx="-0.2592" posz="-0.0338" orientx="0.9239" orienty="0.0000" orientz="-0.3827">SPCDamagedProps</unit>
+		<unit variation="75" posx="-1.9612" posz="2.5097" orientx="0.7071" orienty="0.0000" orientz="-0.7071">FenceRock</unit>
+		<unit variation="115" posx="3.1180" posz="2.5217" orientx="0.7071" orienty="0.0000" orientz="0.7071">FenceRock</unit>
+		<unit variation="244" posx="2.8158" posz="1.5534" orientx="0.3823" orienty="0.0000" orientz="0.9240">SPCDamagedProps</unit>
+		<unit variation="241" posx="0.6330" posz="3.4967" orientx="0.0000" orienty="0.0000" orientz="-1.0000">FenceRock</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="great_lakes\ground_grass1_gls">
+			<block startx="-2" startz="-2" endx="-2" endz="-2"></block>
+			<block startx="-2" startz="1" endx="-2" endz="1"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="-1"></block>
+			<block startx="0" startz="-2" endx="0" endz="-2"></block>
+			<block startx="1" startz="-2" endx="1" endz="-1"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground12_ara">
+			<block startx="-2" startz="-1" endx="-2" endz="0"></block>
+			<block startx="-1" startz="0" endx="-1" endz="1"></block>
+			<block startx="0" startz="-1" endx="0" endz="1"></block>
+			<block startx="1" startz="0" endx="1" endz="1"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

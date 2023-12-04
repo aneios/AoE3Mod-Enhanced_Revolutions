@@ -1,0 +1,571 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>33</width>
+	<height>30</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="33" posx="12.7959" posz="-21.2458" orientx="0.3827" orienty="0.0000" orientz="-0.9239">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="100" posx="21.2422" posz="-21.6522" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="151" posx="17.1660" posz="-21.3061" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCityStateWall4Prop</unit>
+		<unit variation="171" posx="22.9661" posz="-19.1921" orientx="0.8474" orienty="0.0000" orientz="-0.5309">deSPCCityStateWall3Prop</unit>
+		<unit variation="73" posx="11.0082" posz="-19.6867" orientx="-0.7071" orienty="-0.0000" orientz="-0.7071">deSPCCityStateWall2Prop</unit>
+		<unit variation="225" posx="-18.1203" posz="-17.2714" orientx="-1.0000" orienty="0.0000" orientz="0.0000">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="225" posx="-11.4438" posz="-17.4054" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="133" posx="-0.5931" posz="-17.7134" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="171" posx="-15.0906" posz="-17.4208" orientx="-0.0423" orienty="0.0000" orientz="-0.9991">deSPCCityStateWall3Prop</unit>
+		<unit variation="31" posx="4.4387" posz="-17.7961" orientx="0.0000" orienty="0.0000" orientz="-1.0000">deSPCCityStateWall5Prop</unit>
+		<unit variation="33" posx="9.3230" posz="-17.8886" orientx="0.0000" orienty="0.0000" orientz="-1.0000">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="245" posx="-5.7834" posz="-17.7385" orientx="0.0000" orienty="0.0000" orientz="-1.0000">deSPCCityStateWall5Prop</unit>
+		<unit variation="5" posx="11.2587" posz="-16.3067" orientx="0.3827" orienty="0.0000" orientz="0.9239">PropsColony</unit>
+		<unit variation="234" posx="2.4427" posz="-14.2366" orientx="0.0000" orienty="0.0000" orientz="-1.0000">deSPCCityStateHouseProp</unit>
+		<unit variation="117" posx="17.1542" posz="-13.6165" orientx="0.0000" orienty="0.0000" orientz="1.0000">deSPCSocketCityTower</unit>
+		<unit variation="188" posx="-21.2494" posz="-14.3714" orientx="-0.7071" orienty="-0.0000" orientz="-0.7071">deSPCCityStateWall4Prop</unit>
+		<unit variation="68" posx="7.4301" posz="-14.4481" orientx="0.0000" orienty="0.0000" orientz="1.0000">deSPCCityStateHouseProp</unit>
+		<unit variation="73" posx="24.8551" posz="-16.1566" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="7" posx="10.0925" posz="-13.5861" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsColony</unit>
+		<unit variation="3" posx="10.4945" posz="-14.6839" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsColony</unit>
+		<unit variation="238" posx="-16.5535" posz="-14.6628" orientx="-0.2665" orienty="0.0000" orientz="-0.9638">deSPCTreeCypressProp</unit>
+		<unit variation="2" posx="-18.1169" posz="-12.1691" orientx="-0.3827" orienty="0.0000" orientz="0.9239">PropsColony</unit>
+		<unit variation="2" posx="1.6906" posz="-11.2677" orientx="-0.3827" orienty="0.0000" orientz="0.9239">PropsColony</unit>
+		<unit variation="83" posx="-24.1661" posz="-10.9874" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="15" posx="-10.2169" posz="-11.0123" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">CinematicRevealer</unit>
+		<unit variation="5" posx="-18.1617" posz="-9.5866" orientx="0.0000" orienty="0.0000" orientz="-1.0000">PropsColony</unit>
+		<unit variation="242" posx="-17.7822" posz="-10.1438" orientx="0.9271" orienty="0.0000" orientz="0.3749">ypSMJesuitAccessory</unit>
+		<unit variation="58" posx="-16.4064" posz="-10.5994" orientx="0.5790" orienty="0.0000" orientz="-0.8153">ypSMJesuitAccessory</unit>
+		<unit variation="57" posx="-19.8951" posz="-10.7631" orientx="-0.3534" orienty="0.0000" orientz="-0.9355">ypSMJesuitAccessory</unit>
+		<unit variation="66" posx="-15.3651" posz="-10.8921" orientx="0.9363" orienty="0.0000" orientz="0.3512">ypSMJesuitAccessory</unit>
+		<unit variation="193" posx="-24.4494" posz="-5.3133" orientx="1.0000" orienty="0.0000" orientz="0.0000">deSPCCityStateWall5Prop</unit>
+		<unit variation="2" posx="-13.6635" posz="-8.7469" orientx="-1.0000" orienty="0.0000" orientz="0.0000">PropsColony</unit>
+		<unit variation="1" posx="-13.6051" posz="-7.9789" orientx="-0.3827" orienty="0.0000" orientz="0.9239">PropsColony</unit>
+		<unit variation="27" posx="5.8304" posz="-8.0539" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">CinematicRevealer</unit>
+		<unit variation="218" posx="15.4104" posz="-8.0339" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">CinematicRevealer</unit>
+		<unit variation="13" posx="25.4097" posz="-8.3846" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">CinematicRevealer</unit>
+		<unit variation="165" posx="-18.7528" posz="-4.4424" orientx="1.0000" orienty="0.0000" orientz="0.0000">deSPCCityStateBarracksProp</unit>
+		<unit variation="40" posx="6.1588" posz="-5.4456" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">FenceRock</unit>
+		<unit variation="40" posx="14.9938" posz="-5.1525" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">FenceRock</unit>
+		<unit variation="152" posx="20.5199" posz="-4.9749" orientx="0.3827" orienty="0.0000" orientz="-0.9239">FenceRock</unit>
+		<unit variation="42" posx="17.7348" posz="-5.6268" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">FenceRock</unit>
+		<unit variation="42" posx="9.1057" posz="-4.7632" orientx="0.3827" orienty="0.0000" orientz="-0.9239">FenceRock</unit>
+		<unit variation="118" posx="-4.1228" posz="-2.4633" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCSocketCityState</unit>
+		<unit variation="42" posx="3.8454" posz="-4.4510" orientx="0.7071" orienty="0.0000" orientz="0.7071">FenceRock</unit>
+		<unit variation="2" posx="18.9563" posz="-4.5140" orientx="0.3827" orienty="0.0000" orientz="-0.9239">PropsColony</unit>
+		<unit variation="0" posx="19.8158" posz="-4.3786" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">PropsColony</unit>
+		<unit variation="110" posx="6.4340" posz="-4.5346" orientx="0.8295" orienty="0.0000" orientz="0.5585">deSPCTreeCypressProp</unit>
+		<unit variation="1" posx="1.3217" posz="-2.5160" orientx="0.0000" orienty="0.0000" orientz="1.0000">CinematicBlockCube</unit>
+		<unit variation="191" posx="23.7383" posz="-2.9096" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="0" posx="15.4085" posz="-1.6106" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCPathBlock3</unit>
+		<unit variation="84" posx="23.6688" posz="2.2957" orientx="1.0000" orienty="0.0000" orientz="0.0000">deSPCCityStateWall5Prop</unit>
+		<unit variation="91" posx="12.5274" posz="4.5936" orientx="-1.0000" orienty="0.0000" orientz="0.0000">deSPCPapalEmbassy</unit>
+		<unit variation="0" posx="7.6790" posz="-1.6245" orientx="0.0000" orienty="0.0000" orientz="-1.0000">SPCPathBlock3</unit>
+		<unit variation="171" posx="20.8192" posz="-1.6593" orientx="-1.0000" orienty="0.0000" orientz="0.0000">deSPCCityStateHouseProp</unit>
+		<unit variation="0" posx="20.5358" posz="0.6547" orientx="0.7071" orienty="0.0000" orientz="-0.7071">SPCPathBlock3</unit>
+		<unit variation="136" posx="-24.3908" posz="-0.1263" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="0" posx="4.9919" posz="3.1172" orientx="-1.0000" orienty="0.0000" orientz="0.0000">SPCPathBlock3</unit>
+		<unit variation="0" posx="19.6611" posz="2.0604" orientx="0.7071" orienty="0.0000" orientz="-0.7071">SPCPathBlock3</unit>
+		<unit variation="73" posx="-23.4169" posz="1.9069" orientx="-0.9239" orienty="0.0000" orientz="0.3827">deSPCCityStateWall2Prop</unit>
+		<unit variation="0" posx="9.0320" posz="-0.1908" orientx="0.0000" orienty="0.0000" orientz="1.0000">SPCPathBlock3</unit>
+		<unit variation="59" posx="1.2064" posz="0.9413" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">CinematicRevealer</unit>
+		<unit variation="239" posx="22.0909" posz="3.0139" orientx="-0.9768" orienty="0.0000" orientz="0.2143">deSPCTreeCypressProp</unit>
+		<unit variation="0" posx="22.5928" posz="4.3218" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCPathBlock3</unit>
+		<unit variation="131" posx="17.7340" posz="3.7881" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">CinematicRevealer</unit>
+		<unit variation="0" posx="20.9977" posz="5.6393" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCPathBlock2</unit>
+		<unit variation="136" posx="-22.3274" posz="4.3668" orientx="-0.9239" orienty="-0.0000" orientz="-0.3827">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="1" posx="-3.5268" posz="4.5814" orientx="0.0000" orienty="0.0000" orientz="-1.0000">CinematicBlock</unit>
+		<unit variation="23" posx="7.2546" posz="4.3406" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">CinematicRevealer</unit>
+		<unit variation="0" posx="18.3118" posz="9.4178" orientx="0.7071" orienty="0.0000" orientz="0.7071">SPCPathBlock3</unit>
+		<unit variation="153" posx="-19.0461" posz="7.4446" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">CinematicRevealer</unit>
+		<unit variation="94" posx="-5.4535" posz="6.4597" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">CinematicRevealer</unit>
+		<unit variation="0" posx="4.9720" posz="8.1592" orientx="-1.0000" orienty="0.0000" orientz="0.0000">SPCPathBlock2</unit>
+		<unit variation="209" posx="23.4688" posz="7.6553" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="0" posx="19.7100" posz="10.4160" orientx="0.7071" orienty="0.0000" orientz="0.7071">SPCPathBlock3</unit>
+		<unit variation="42" posx="20.1872" posz="11.0945" orientx="0.7071" orienty="0.0000" orientz="0.7071">deSPCCityStateWall4Prop</unit>
+		<unit variation="0" posx="13.7660" posz="11.0224" orientx="0.7071" orienty="0.0000" orientz="-0.7071">SPCPathBlock3</unit>
+		<unit variation="150" posx="4.8900" posz="10.5210" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">FenceRock</unit>
+		<unit variation="0" posx="9.1171" posz="9.1784" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCPathBlock3</unit>
+		<unit variation="0" posx="7.8296" posz="9.9031" orientx="0.0000" orienty="0.0000" orientz="1.0000">SPCPathBlock3</unit>
+		<unit variation="241" posx="-6.1403" posz="12.6396" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCSocketCityTower</unit>
+		<unit variation="0" posx="13.3581" posz="12.8799" orientx="0.7071" orienty="0.0000" orientz="-0.7071">SPCPathBlock3</unit>
+		<unit variation="149" posx="3.0455" posz="11.9647" orientx="0.9239" orienty="0.0000" orientz="0.3827">FenceRock</unit>
+		<unit variation="160" posx="9.4228" posz="13.7967" orientx="-1.0000" orienty="0.0000" orientz="0.0000">deSPCCityStateHouseProp</unit>
+		<unit variation="85" posx="-0.3408" posz="13.3179" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">CinematicRevealer</unit>
+		<unit variation="185" posx="13.5145" posz="13.6902" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">CinematicRevealer</unit>
+		<unit variation="7" posx="-12.0713" posz="15.2659" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">SPCRailwayProps</unit>
+		<unit variation="98" posx="-15.4727" posz="14.6161" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="151" posx="17.0715" posz="14.0676" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="42" posx="13.9388" posz="17.3264" orientx="0.7071" orienty="0.0000" orientz="0.7071">deSPCCityStateWall4Prop</unit>
+		<unit variation="0" posx="-11.2121" posz="15.9028" orientx="0.3827" orienty="0.0000" orientz="0.9239">PropsColony</unit>
+		<unit variation="8" posx="-0.0031" posz="17.2527" orientx="0.3827" orienty="0.0000" orientz="-0.9239">PropsColony</unit>
+		<unit variation="176" posx="-13.0400" posz="16.1273" orientx="-0.3910" orienty="0.0000" orientz="0.9204">ypSMJesuitAccessory</unit>
+		<unit variation="42" posx="-12.1735" posz="17.9043" orientx="0.7071" orienty="0.0000" orientz="-0.7071">deSPCCityStateWall4Prop</unit>
+		<unit variation="11" posx="-4.0533" posz="17.9771" orientx="0.3827" orienty="0.0000" orientz="0.9239">PropsColony</unit>
+		<unit variation="100" posx="-2.4416" posz="19.0131" orientx="-1.0000" orienty="0.0000" orientz="0.0000">UnderbrushCarolinasForest</unit>
+		<unit variation="148" posx="1.5689" posz="17.2316" orientx="-1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="161" posx="-8.8093" posz="17.8472" orientx="-0.1835" orienty="0.0000" orientz="0.9830">ypSMJesuitAccessory</unit>
+		<unit variation="176" posx="-0.0339" posz="18.6784" orientx="-0.2066" orienty="0.0000" orientz="0.9784">ypSMJesuitAccessory</unit>
+		<unit variation="176" posx="-4.6799" posz="18.9348" orientx="-0.5653" orienty="0.0000" orientz="0.8249">ypSMJesuitAccessory</unit>
+		<unit variation="161" posx="5.1156" posz="17.8846" orientx="0.5653" orienty="0.0000" orientz="0.8249">ypSMJesuitAccessory</unit>
+		<unit variation="238" posx="7.5336" posz="18.1048" orientx="-0.7042" orienty="0.0000" orientz="0.7101">deSPCTreeCypressProp</unit>
+		<unit variation="167" posx="1.2914" posz="18.9173" orientx="0.3984" orienty="0.0000" orientz="-0.9172">deSPCTreeCypressProp</unit>
+		<unit variation="102" posx="10.7698" posz="20.5313" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="196" posx="1.2547" posz="20.9145" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="42" posx="6.1264" posz="20.7072" orientx="0.0000" orienty="0.0000" orientz="1.0000">deSPCCityStateWall4Prop</unit>
+		<unit variation="238" posx="-6.0231" posz="19.1451" orientx="-0.4932" orienty="0.0000" orientz="0.8699">deSPCTreeCypressProp</unit>
+		<unit variation="184" posx="-8.6831" posz="21.0720" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">deSPCCityStateWallConnectorProp</unit>
+		<unit variation="19" posx="-3.6005" posz="21.1462" orientx="0.0000" orienty="0.0000" orientz="1.0000">deSPCCityStateWall5Prop</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="">
+			<block startx="-16" startz="-14" endx="-16" endz="-9"></block>
+			<block startx="-15" startz="-14" endx="-15" endz="-11"></block>
+			<block startx="-14" startz="-14" endx="-14" endz="-12"></block>
+			<block startx="-13" startz="-14" endx="-13" endz="-13"></block>
+			<block startx="-12" startz="-14" endx="-12" endz="-13"></block>
+			<block startx="-11" startz="-14" endx="-11" endz="-14"></block>
+			<block startx="-16" startz="-15" endx="-16" endz="-15"></block>
+			<block startx="-15" startz="-15" endx="-15" endz="-15"></block>
+			<block startx="-14" startz="-15" endx="-14" endz="-15"></block>
+			<block startx="-13" startz="-15" endx="-13" endz="-15"></block>
+			<block startx="-12" startz="-15" endx="-12" endz="-15"></block>
+			<block startx="-11" startz="-15" endx="-11" endz="-15"></block>
+			<block startx="-10" startz="-15" endx="-10" endz="-15"></block>
+			<block startx="-9" startz="-15" endx="-9" endz="-15"></block>
+			<block startx="-8" startz="-15" endx="-8" endz="-15"></block>
+			<block startx="-7" startz="-15" endx="-7" endz="-15"></block>
+			<block startx="-6" startz="-15" endx="-6" endz="-15"></block>
+			<block startx="-5" startz="-15" endx="-5" endz="-15"></block>
+			<block startx="-4" startz="-15" endx="-4" endz="-15"></block>
+			<block startx="-3" startz="-15" endx="-3" endz="-15"></block>
+			<block startx="-2" startz="-15" endx="-2" endz="-15"></block>
+			<block startx="-16" startz="3" endx="-16" endz="9"></block>
+			<block startx="-15" startz="5" endx="-15" endz="9"></block>
+			<block startx="-14" startz="6" endx="-14" endz="9"></block>
+			<block startx="-13" startz="7" endx="-13" endz="9"></block>
+			<block startx="-12" startz="8" endx="-12" endz="9"></block>
+			<block startx="-16" startz="10" endx="-16" endz="14"></block>
+			<block startx="-15" startz="10" endx="-15" endz="14"></block>
+			<block startx="-14" startz="10" endx="-14" endz="14"></block>
+			<block startx="-13" startz="10" endx="-13" endz="14"></block>
+			<block startx="-12" startz="10" endx="-12" endz="14"></block>
+			<block startx="-11" startz="10" endx="-11" endz="14"></block>
+			<block startx="-10" startz="11" endx="-10" endz="14"></block>
+			<block startx="-9" startz="12" endx="-9" endz="14"></block>
+			<block startx="-8" startz="13" endx="-8" endz="14"></block>
+			<block startx="-7" startz="14" endx="-7" endz="14"></block>
+			<block startx="-6" startz="14" endx="-6" endz="14"></block>
+			<block startx="6" startz="14" endx="6" endz="14"></block>
+			<block startx="7" startz="14" endx="7" endz="14"></block>
+			<block startx="8" startz="14" endx="8" endz="14"></block>
+			<block startx="9" startz="13" endx="9" endz="14"></block>
+			<block startx="10" startz="12" endx="10" endz="14"></block>
+			<block startx="11" startz="12" endx="11" endz="14"></block>
+			<block startx="12" startz="11" endx="12" endz="14"></block>
+			<block startx="13" startz="10" endx="13" endz="14"></block>
+			<block startx="14" startz="10" endx="14" endz="14"></block>
+			<block startx="14" startz="9" endx="14" endz="9"></block>
+			<block startx="15" startz="7" endx="15" endz="9"></block>
+			<block startx="16" startz="4" endx="16" endz="9"></block>
+			<block startx="15" startz="10" endx="15" endz="14"></block>
+			<block startx="16" startz="10" endx="16" endz="14"></block>
+			<block startx="-1" startz="-15" endx="-1" endz="-15"></block>
+			<block startx="0" startz="-15" endx="0" endz="-15"></block>
+			<block startx="1" startz="-15" endx="1" endz="-15"></block>
+			<block startx="2" startz="-15" endx="2" endz="-15"></block>
+			<block startx="14" startz="-15" endx="14" endz="-15"></block>
+			<block startx="15" startz="-14" endx="15" endz="-14"></block>
+			<block startx="16" startz="-14" endx="16" endz="-13"></block>
+			<block startx="15" startz="-15" endx="15" endz="-15"></block>
+			<block startx="16" startz="-15" endx="16" endz="-15"></block>
+		</tilegroup>
+		<tilegroup type="Ice" subtype="city\ground1_city_street_ground">
+			<block startx="-16" startz="-8" endx="-16" endz="-7"></block>
+			<block startx="-15" startz="-10" endx="-15" endz="-7"></block>
+			<block startx="-14" startz="-11" endx="-14" endz="-7"></block>
+			<block startx="-13" startz="-12" endx="-13" endz="-9"></block>
+			<block startx="-12" startz="-12" endx="-12" endz="-9"></block>
+			<block startx="-11" startz="-13" endx="-11" endz="-11"></block>
+			<block startx="-10" startz="-14" endx="-10" endz="-12"></block>
+			<block startx="-16" startz="-6" endx="-16" endz="1"></block>
+			<block startx="-15" startz="-6" endx="-15" endz="1"></block>
+			<block startx="-14" startz="-6" endx="-14" endz="1"></block>
+			<block startx="-6" startz="-4" endx="-6" endz="1"></block>
+			<block startx="-9" startz="-14" endx="-9" endz="-12"></block>
+			<block startx="-8" startz="-14" endx="-8" endz="-12"></block>
+			<block startx="-7" startz="-14" endx="-7" endz="-12"></block>
+			<block startx="-6" startz="-14" endx="-6" endz="-12"></block>
+			<block startx="-5" startz="-14" endx="-5" endz="-12"></block>
+			<block startx="-4" startz="-14" endx="-4" endz="-12"></block>
+			<block startx="-3" startz="-14" endx="-3" endz="-12"></block>
+			<block startx="-2" startz="-14" endx="-2" endz="-12"></block>
+			<block startx="-16" startz="2" endx="-16" endz="2"></block>
+			<block startx="-15" startz="2" endx="-15" endz="4"></block>
+			<block startx="-14" startz="2" endx="-14" endz="5"></block>
+			<block startx="-13" startz="3" endx="-13" endz="6"></block>
+			<block startx="-12" startz="3" endx="-12" endz="7"></block>
+			<block startx="-11" startz="4" endx="-11" endz="9"></block>
+			<block startx="-10" startz="4" endx="-10" endz="9"></block>
+			<block startx="-10" startz="10" endx="-10" endz="10"></block>
+			<block startx="-9" startz="10" endx="-9" endz="11"></block>
+			<block startx="-8" startz="10" endx="-8" endz="12"></block>
+			<block startx="-7" startz="11" endx="-7" endz="13"></block>
+			<block startx="-6" startz="12" endx="-6" endz="13"></block>
+			<block startx="-5" startz="10" endx="-5" endz="10"></block>
+			<block startx="-5" startz="12" endx="-5" endz="14"></block>
+			<block startx="-4" startz="12" endx="-4" endz="14"></block>
+			<block startx="-3" startz="12" endx="-3" endz="14"></block>
+			<block startx="-2" startz="12" endx="-2" endz="14"></block>
+			<block startx="-9" startz="6" endx="-9" endz="7"></block>
+			<block startx="-9" startz="9" endx="-9" endz="9"></block>
+			<block startx="0" startz="6" endx="0" endz="6"></block>
+			<block startx="-1" startz="12" endx="-1" endz="14"></block>
+			<block startx="0" startz="12" endx="0" endz="14"></block>
+			<block startx="1" startz="12" endx="1" endz="14"></block>
+			<block startx="2" startz="12" endx="2" endz="14"></block>
+			<block startx="3" startz="12" endx="3" endz="14"></block>
+			<block startx="4" startz="12" endx="4" endz="14"></block>
+			<block startx="5" startz="12" endx="5" endz="14"></block>
+			<block startx="6" startz="10" endx="6" endz="10"></block>
+			<block startx="6" startz="12" endx="6" endz="13"></block>
+			<block startx="7" startz="11" endx="7" endz="13"></block>
+			<block startx="8" startz="10" endx="8" endz="13"></block>
+			<block startx="9" startz="10" endx="9" endz="12"></block>
+			<block startx="10" startz="10" endx="10" endz="11"></block>
+			<block startx="11" startz="10" endx="11" endz="11"></block>
+			<block startx="12" startz="10" endx="12" endz="10"></block>
+			<block startx="9" startz="9" endx="9" endz="9"></block>
+			<block startx="10" startz="8" endx="10" endz="9"></block>
+			<block startx="11" startz="6" endx="11" endz="9"></block>
+			<block startx="12" startz="6" endx="12" endz="9"></block>
+			<block startx="13" startz="2" endx="13" endz="2"></block>
+			<block startx="13" startz="5" endx="13" endz="9"></block>
+			<block startx="14" startz="2" endx="14" endz="8"></block>
+			<block startx="15" startz="2" endx="15" endz="6"></block>
+			<block startx="16" startz="2" endx="16" endz="3"></block>
+			<block startx="3" startz="-15" endx="3" endz="-15"></block>
+			<block startx="4" startz="-15" endx="4" endz="-15"></block>
+			<block startx="5" startz="-15" endx="5" endz="-15"></block>
+			<block startx="6" startz="-15" endx="6" endz="-15"></block>
+			<block startx="7" startz="-15" endx="7" endz="-15"></block>
+			<block startx="8" startz="-15" endx="8" endz="-15"></block>
+			<block startx="9" startz="-15" endx="9" endz="-15"></block>
+			<block startx="10" startz="-15" endx="10" endz="-15"></block>
+			<block startx="11" startz="-15" endx="11" endz="-15"></block>
+			<block startx="12" startz="-15" endx="12" endz="-15"></block>
+			<block startx="13" startz="-15" endx="13" endz="-15"></block>
+			<block startx="-1" startz="-14" endx="-1" endz="-12"></block>
+			<block startx="0" startz="-14" endx="0" endz="-12"></block>
+			<block startx="1" startz="-14" endx="1" endz="-12"></block>
+			<block startx="2" startz="-14" endx="2" endz="-12"></block>
+			<block startx="3" startz="-14" endx="3" endz="-12"></block>
+			<block startx="4" startz="-14" endx="4" endz="-13"></block>
+			<block startx="5" startz="-14" endx="5" endz="-13"></block>
+			<block startx="6" startz="-14" endx="6" endz="-13"></block>
+			<block startx="14" startz="-6" endx="14" endz="-6"></block>
+			<block startx="14" startz="-3" endx="14" endz="1"></block>
+			<block startx="7" startz="-14" endx="7" endz="-13"></block>
+			<block startx="8" startz="-14" endx="8" endz="-13"></block>
+			<block startx="9" startz="-14" endx="9" endz="-13"></block>
+			<block startx="10" startz="-14" endx="10" endz="-13"></block>
+			<block startx="11" startz="-14" endx="11" endz="-13"></block>
+			<block startx="12" startz="-14" endx="12" endz="-13"></block>
+			<block startx="13" startz="-14" endx="13" endz="-10"></block>
+			<block startx="14" startz="-14" endx="14" endz="-7"></block>
+			<block startx="15" startz="-13" endx="15" endz="-7"></block>
+			<block startx="16" startz="-12" endx="16" endz="-7"></block>
+			<block startx="15" startz="-6" endx="15" endz="1"></block>
+			<block startx="16" startz="-6" endx="16" endz="1"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_plains\ground7a_gp">
+			<block startx="-13" startz="-8" endx="-13" endz="-8"></block>
+			<block startx="-11" startz="-10" endx="-11" endz="-10"></block>
+			<block startx="-10" startz="-11" endx="-10" endz="-11"></block>
+			<block startx="-13" startz="-6" endx="-13" endz="-5"></block>
+			<block startx="-13" startz="-1" endx="-13" endz="1"></block>
+			<block startx="-12" startz="-4" endx="-12" endz="0"></block>
+			<block startx="-11" startz="-6" endx="-11" endz="1"></block>
+			<block startx="-10" startz="-6" endx="-10" endz="1"></block>
+			<block startx="-9" startz="-6" endx="-9" endz="1"></block>
+			<block startx="-8" startz="-6" endx="-8" endz="0"></block>
+			<block startx="-7" startz="-6" endx="-7" endz="-1"></block>
+			<block startx="-5" startz="-4" endx="-5" endz="0"></block>
+			<block startx="-4" startz="-2" endx="-4" endz="0"></block>
+			<block startx="-3" startz="-4" endx="-3" endz="-3"></block>
+			<block startx="-3" startz="-1" endx="-3" endz="0"></block>
+			<block startx="-2" startz="-4" endx="-2" endz="-2"></block>
+			<block startx="-2" startz="0" endx="-2" endz="1"></block>
+			<block startx="-9" startz="-11" endx="-9" endz="-10"></block>
+			<block startx="-8" startz="-11" endx="-8" endz="-11"></block>
+			<block startx="-7" startz="-11" endx="-7" endz="-11"></block>
+			<block startx="-6" startz="-10" endx="-6" endz="-9"></block>
+			<block startx="-5" startz="-11" endx="-5" endz="-11"></block>
+			<block startx="-5" startz="-9" endx="-5" endz="-9"></block>
+			<block startx="-2" startz="-11" endx="-2" endz="-11"></block>
+			<block startx="-11" startz="2" endx="-11" endz="3"></block>
+			<block startx="-10" startz="2" endx="-10" endz="2"></block>
+			<block startx="-7" startz="10" endx="-7" endz="10"></block>
+			<block startx="-6" startz="11" endx="-6" endz="11"></block>
+			<block startx="-5" startz="11" endx="-5" endz="11"></block>
+			<block startx="-4" startz="10" endx="-4" endz="11"></block>
+			<block startx="-9" startz="5" endx="-9" endz="5"></block>
+			<block startx="-9" startz="8" endx="-9" endz="8"></block>
+			<block startx="-8" startz="5" endx="-8" endz="5"></block>
+			<block startx="-8" startz="9" endx="-8" endz="9"></block>
+			<block startx="-7" startz="6" endx="-7" endz="6"></block>
+			<block startx="-3" startz="5" endx="-3" endz="5"></block>
+			<block startx="0" startz="4" endx="0" endz="5"></block>
+			<block startx="1" startz="4" endx="1" endz="6"></block>
+			<block startx="1" startz="9" endx="1" endz="9"></block>
+			<block startx="2" startz="6" endx="2" endz="6"></block>
+			<block startx="4" startz="7" endx="4" endz="7"></block>
+			<block startx="5" startz="8" endx="5" endz="8"></block>
+			<block startx="0" startz="10" endx="0" endz="10"></block>
+			<block startx="1" startz="10" endx="1" endz="10"></block>
+			<block startx="4" startz="11" endx="4" endz="11"></block>
+			<block startx="5" startz="11" endx="5" endz="11"></block>
+			<block startx="6" startz="11" endx="6" endz="11"></block>
+			<block startx="7" startz="8" endx="7" endz="8"></block>
+			<block startx="8" startz="8" endx="8" endz="8"></block>
+			<block startx="9" startz="6" endx="9" endz="6"></block>
+			<block startx="10" startz="5" endx="10" endz="5"></block>
+			<block startx="10" startz="7" endx="10" endz="7"></block>
+			<block startx="11" startz="4" endx="11" endz="4"></block>
+			<block startx="12" startz="2" endx="12" endz="5"></block>
+			<block startx="13" startz="3" endx="13" endz="4"></block>
+			<block startx="-1" startz="-9" endx="-1" endz="-9"></block>
+			<block startx="0" startz="-9" endx="0" endz="-7"></block>
+			<block startx="1" startz="-11" endx="1" endz="-11"></block>
+			<block startx="1" startz="-9" endx="1" endz="-7"></block>
+			<block startx="2" startz="-9" endx="2" endz="-7"></block>
+			<block startx="3" startz="-8" endx="3" endz="-7"></block>
+			<block startx="4" startz="-12" endx="4" endz="-12"></block>
+			<block startx="4" startz="-9" endx="4" endz="-7"></block>
+			<block startx="5" startz="-12" endx="5" endz="-7"></block>
+			<block startx="6" startz="-12" endx="6" endz="-7"></block>
+			<block startx="1" startz="-3" endx="1" endz="-2"></block>
+			<block startx="2" startz="-6" endx="2" endz="-6"></block>
+			<block startx="2" startz="-3" endx="2" endz="-3"></block>
+			<block startx="3" startz="-6" endx="3" endz="-6"></block>
+			<block startx="3" startz="-3" endx="3" endz="-3"></block>
+			<block startx="4" startz="-6" endx="4" endz="-6"></block>
+			<block startx="4" startz="-4" endx="4" endz="-3"></block>
+			<block startx="5" startz="-6" endx="5" endz="-5"></block>
+			<block startx="5" startz="-3" endx="5" endz="-3"></block>
+			<block startx="6" startz="-6" endx="6" endz="-5"></block>
+			<block startx="6" startz="-3" endx="6" endz="-3"></block>
+			<block startx="7" startz="-6" endx="7" endz="-5"></block>
+			<block startx="7" startz="-3" endx="7" endz="-3"></block>
+			<block startx="8" startz="-6" endx="8" endz="-5"></block>
+			<block startx="8" startz="-3" endx="8" endz="-3"></block>
+			<block startx="9" startz="-6" endx="9" endz="-5"></block>
+			<block startx="9" startz="-3" endx="9" endz="-3"></block>
+			<block startx="10" startz="-6" endx="10" endz="-5"></block>
+			<block startx="10" startz="-3" endx="10" endz="-2"></block>
+			<block startx="11" startz="-6" endx="11" endz="-5"></block>
+			<block startx="11" startz="-3" endx="11" endz="-2"></block>
+			<block startx="12" startz="-6" endx="12" endz="-5"></block>
+			<block startx="12" startz="-3" endx="12" endz="-3"></block>
+			<block startx="12" startz="-1" endx="12" endz="1"></block>
+			<block startx="13" startz="-6" endx="13" endz="-6"></block>
+			<block startx="13" startz="-3" endx="13" endz="-3"></block>
+			<block startx="13" startz="-1" endx="13" endz="-1"></block>
+			<block startx="7" startz="-12" endx="7" endz="-7"></block>
+			<block startx="8" startz="-12" endx="8" endz="-7"></block>
+			<block startx="9" startz="-12" endx="9" endz="-9"></block>
+			<block startx="9" startz="-7" endx="9" endz="-7"></block>
+			<block startx="10" startz="-12" endx="10" endz="-7"></block>
+			<block startx="11" startz="-12" endx="11" endz="-7"></block>
+			<block startx="12" startz="-12" endx="12" endz="-12"></block>
+			<block startx="12" startz="-10" endx="12" endz="-7"></block>
+			<block startx="13" startz="-9" endx="13" endz="-9"></block>
+			<block startx="13" startz="-7" endx="13" endz="-7"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground12_ara">
+			<block startx="-13" startz="-7" endx="-13" endz="-7"></block>
+			<block startx="-12" startz="-8" endx="-12" endz="-8"></block>
+			<block startx="-11" startz="-9" endx="-11" endz="-9"></block>
+			<block startx="-10" startz="-10" endx="-10" endz="-9"></block>
+			<block startx="-13" startz="-4" endx="-13" endz="-2"></block>
+			<block startx="-9" startz="-9" endx="-9" endz="-8"></block>
+			<block startx="-8" startz="-9" endx="-8" endz="-8"></block>
+			<block startx="-6" startz="-11" endx="-6" endz="-11"></block>
+			<block startx="-4" startz="-11" endx="-4" endz="-11"></block>
+			<block startx="-3" startz="-11" endx="-3" endz="-11"></block>
+			<block startx="-2" startz="-10" endx="-2" endz="-10"></block>
+			<block startx="-13" startz="2" endx="-13" endz="2"></block>
+			<block startx="-6" startz="10" endx="-6" endz="10"></block>
+			<block startx="-3" startz="11" endx="-3" endz="11"></block>
+			<block startx="-2" startz="11" endx="-2" endz="11"></block>
+			<block startx="-8" startz="6" endx="-8" endz="8"></block>
+			<block startx="-7" startz="7" endx="-7" endz="9"></block>
+			<block startx="-6" startz="8" endx="-6" endz="9"></block>
+			<block startx="-4" startz="9" endx="-4" endz="9"></block>
+			<block startx="4" startz="9" endx="4" endz="9"></block>
+			<block startx="5" startz="9" endx="5" endz="9"></block>
+			<block startx="-1" startz="11" endx="-1" endz="11"></block>
+			<block startx="0" startz="11" endx="0" endz="11"></block>
+			<block startx="2" startz="11" endx="2" endz="11"></block>
+			<block startx="3" startz="11" endx="3" endz="11"></block>
+			<block startx="7" startz="10" endx="7" endz="10"></block>
+			<block startx="7" startz="9" endx="7" endz="9"></block>
+			<block startx="8" startz="9" endx="8" endz="9"></block>
+			<block startx="9" startz="7" endx="9" endz="8"></block>
+			<block startx="10" startz="6" endx="10" endz="6"></block>
+			<block startx="11" startz="5" endx="11" endz="5"></block>
+			<block startx="-1" startz="-11" endx="-1" endz="-10"></block>
+			<block startx="0" startz="-11" endx="0" endz="-10"></block>
+			<block startx="2" startz="-11" endx="2" endz="-10"></block>
+			<block startx="3" startz="-11" endx="3" endz="-10"></block>
+			<block startx="4" startz="-11" endx="4" endz="-10"></block>
+			<block startx="13" startz="-2" endx="13" endz="-2"></block>
+			<block startx="13" startz="0" endx="13" endz="1"></block>
+			<block startx="12" startz="-11" endx="12" endz="-11"></block>
+			<block startx="13" startz="-8" endx="13" endz="-8"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_plains\ground3_gp">
+			<block startx="-11" startz="-7" endx="-11" endz="-7"></block>
+			<block startx="-10" startz="-8" endx="-10" endz="-8"></block>
+			<block startx="-8" startz="-10" endx="-8" endz="-10"></block>
+			<block startx="-7" startz="-10" endx="-7" endz="-10"></block>
+			<block startx="-5" startz="9" endx="-5" endz="9"></block>
+			<block startx="-3" startz="9" endx="-3" endz="9"></block>
+			<block startx="2" startz="9" endx="2" endz="9"></block>
+			<block startx="3" startz="9" endx="3" endz="9"></block>
+			<block startx="-1" startz="10" endx="-1" endz="10"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_lakes\ground_grass1_gls">
+			<block startx="-12" startz="-7" endx="-12" endz="-7"></block>
+			<block startx="-11" startz="-8" endx="-11" endz="-8"></block>
+			<block startx="-12" startz="-6" endx="-12" endz="-5"></block>
+			<block startx="-12" startz="1" endx="-12" endz="1"></block>
+			<block startx="-5" startz="-10" endx="-5" endz="-10"></block>
+			<block startx="-4" startz="-10" endx="-4" endz="-10"></block>
+			<block startx="-3" startz="-10" endx="-3" endz="-10"></block>
+			<block startx="-12" startz="2" endx="-12" endz="2"></block>
+			<block startx="-3" startz="10" endx="-3" endz="10"></block>
+			<block startx="-2" startz="10" endx="-2" endz="10"></block>
+			<block startx="0" startz="9" endx="0" endz="9"></block>
+			<block startx="2" startz="4" endx="2" endz="5"></block>
+			<block startx="3" startz="3" endx="3" endz="5"></block>
+			<block startx="3" startz="8" endx="3" endz="8"></block>
+			<block startx="4" startz="2" endx="4" endz="6"></block>
+			<block startx="4" startz="8" endx="4" endz="8"></block>
+			<block startx="5" startz="2" endx="5" endz="7"></block>
+			<block startx="6" startz="2" endx="6" endz="9"></block>
+			<block startx="2" startz="10" endx="2" endz="10"></block>
+			<block startx="3" startz="10" endx="3" endz="10"></block>
+			<block startx="4" startz="10" endx="4" endz="10"></block>
+			<block startx="5" startz="10" endx="5" endz="10"></block>
+			<block startx="7" startz="2" endx="7" endz="7"></block>
+			<block startx="8" startz="2" endx="8" endz="7"></block>
+			<block startx="9" startz="2" endx="9" endz="5"></block>
+			<block startx="10" startz="2" endx="10" endz="4"></block>
+			<block startx="11" startz="2" endx="11" endz="3"></block>
+			<block startx="1" startz="-10" endx="1" endz="-10"></block>
+			<block startx="3" startz="-9" endx="3" endz="-9"></block>
+			<block startx="4" startz="-2" endx="4" endz="-2"></block>
+			<block startx="5" startz="-2" endx="5" endz="-2"></block>
+			<block startx="5" startz="1" endx="5" endz="1"></block>
+			<block startx="6" startz="-2" endx="6" endz="-2"></block>
+			<block startx="6" startz="1" endx="6" endz="1"></block>
+			<block startx="7" startz="-2" endx="7" endz="1"></block>
+			<block startx="8" startz="-2" endx="8" endz="1"></block>
+			<block startx="9" startz="-2" endx="9" endz="1"></block>
+			<block startx="10" startz="-1" endx="10" endz="1"></block>
+			<block startx="11" startz="-1" endx="11" endz="1"></block>
+			<block startx="12" startz="-2" endx="12" endz="-2"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_plains\ground7_gp">
+			<block startx="-10" startz="-7" endx="-10" endz="-7"></block>
+			<block startx="-5" startz="-6" endx="-5" endz="-5"></block>
+			<block startx="-5" startz="1" endx="-5" endz="1"></block>
+			<block startx="-4" startz="-5" endx="-4" endz="-3"></block>
+			<block startx="-4" startz="1" endx="-4" endz="1"></block>
+			<block startx="-3" startz="-5" endx="-3" endz="-5"></block>
+			<block startx="-3" startz="-2" endx="-3" endz="-2"></block>
+			<block startx="-3" startz="1" endx="-3" endz="1"></block>
+			<block startx="-2" startz="-5" endx="-2" endz="-5"></block>
+			<block startx="-2" startz="-1" endx="-2" endz="-1"></block>
+			<block startx="-9" startz="-7" endx="-9" endz="-7"></block>
+			<block startx="-8" startz="-7" endx="-8" endz="-7"></block>
+			<block startx="-7" startz="-9" endx="-7" endz="-7"></block>
+			<block startx="-6" startz="-8" endx="-6" endz="-7"></block>
+			<block startx="-5" startz="-8" endx="-5" endz="-7"></block>
+			<block startx="-4" startz="-9" endx="-4" endz="-7"></block>
+			<block startx="-3" startz="-9" endx="-3" endz="-7"></block>
+			<block startx="-2" startz="-9" endx="-2" endz="-7"></block>
+			<block startx="-8" startz="4" endx="-8" endz="4"></block>
+			<block startx="-7" startz="4" endx="-7" endz="5"></block>
+			<block startx="-6" startz="3" endx="-6" endz="7"></block>
+			<block startx="-5" startz="2" endx="-5" endz="7"></block>
+			<block startx="-4" startz="2" endx="-4" endz="8"></block>
+			<block startx="-3" startz="2" endx="-3" endz="4"></block>
+			<block startx="-3" startz="6" endx="-3" endz="8"></block>
+			<block startx="-2" startz="2" endx="-2" endz="8"></block>
+			<block startx="-1" startz="2" endx="-1" endz="7"></block>
+			<block startx="0" startz="2" endx="0" endz="3"></block>
+			<block startx="0" startz="7" endx="0" endz="8"></block>
+			<block startx="1" startz="2" endx="1" endz="3"></block>
+			<block startx="2" startz="2" endx="2" endz="3"></block>
+			<block startx="3" startz="2" endx="3" endz="2"></block>
+			<block startx="1" startz="11" endx="1" endz="11"></block>
+			<block startx="-1" startz="-8" endx="-1" endz="-7"></block>
+			<block startx="-1" startz="-5" endx="-1" endz="1"></block>
+			<block startx="0" startz="-5" endx="0" endz="1"></block>
+			<block startx="1" startz="-4" endx="1" endz="-4"></block>
+			<block startx="1" startz="-1" endx="1" endz="1"></block>
+			<block startx="2" startz="-2" endx="2" endz="1"></block>
+			<block startx="3" startz="-2" endx="3" endz="1"></block>
+			<block startx="4" startz="-1" endx="4" endz="1"></block>
+			<block startx="5" startz="-1" endx="5" endz="0"></block>
+			<block startx="6" startz="-1" endx="6" endz="0"></block>
+			<block startx="9" startz="-8" endx="9" endz="-8"></block>
+		</tilegroup>
+		<tilegroup type="Ice" subtype="city\ground1_city_street_90_ground">
+			<block startx="-8" startz="1" endx="-8" endz="1"></block>
+			<block startx="-7" startz="0" endx="-7" endz="1"></block>
+			<block startx="-6" startz="-6" endx="-6" endz="-5"></block>
+			<block startx="-4" startz="-6" endx="-4" endz="-6"></block>
+			<block startx="-3" startz="-6" endx="-3" endz="-6"></block>
+			<block startx="-2" startz="-6" endx="-2" endz="-6"></block>
+			<block startx="-10" startz="3" endx="-10" endz="3"></block>
+			<block startx="-9" startz="2" endx="-9" endz="4"></block>
+			<block startx="-8" startz="2" endx="-8" endz="3"></block>
+			<block startx="-7" startz="2" endx="-7" endz="3"></block>
+			<block startx="-6" startz="2" endx="-6" endz="2"></block>
+			<block startx="1" startz="7" endx="1" endz="7"></block>
+			<block startx="2" startz="7" endx="2" endz="7"></block>
+			<block startx="3" startz="7" endx="3" endz="7"></block>
+			<block startx="-1" startz="-6" endx="-1" endz="-6"></block>
+			<block startx="0" startz="-6" endx="0" endz="-6"></block>
+			<block startx="1" startz="-6" endx="1" endz="-5"></block>
+			<block startx="2" startz="-5" endx="2" endz="-4"></block>
+			<block startx="3" startz="-5" endx="3" endz="-4"></block>
+			<block startx="4" startz="-5" endx="4" endz="-5"></block>
+			<block startx="5" startz="-4" endx="5" endz="-4"></block>
+			<block startx="6" startz="-4" endx="6" endz="-4"></block>
+			<block startx="7" startz="-4" endx="7" endz="-4"></block>
+			<block startx="8" startz="-4" endx="8" endz="-4"></block>
+			<block startx="9" startz="-4" endx="9" endz="-4"></block>
+			<block startx="10" startz="-4" endx="10" endz="-4"></block>
+			<block startx="11" startz="-4" endx="11" endz="-4"></block>
+			<block startx="12" startz="-4" endx="12" endz="-4"></block>
+			<block startx="13" startz="-5" endx="13" endz="-4"></block>
+			<block startx="14" startz="-5" endx="14" endz="-4"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="carolinas\ground_grass5_car">
+			<block startx="3" startz="6" endx="3" endz="6"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="carolinas\ground_grass6_car">
+			<block startx="-5" startz="8" endx="-5" endz="8"></block>
+			<block startx="-2" startz="9" endx="-2" endz="9"></block>
+			<block startx="-1" startz="9" endx="-1" endz="9"></block>
+			<block startx="1" startz="8" endx="1" endz="8"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="carolinas\ground_grass4_car">
+			<block startx="-1" startz="8" endx="-1" endz="8"></block>
+			<block startx="2" startz="8" endx="2" endz="8"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

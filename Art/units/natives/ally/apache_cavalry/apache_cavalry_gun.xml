@@ -1,0 +1,4 @@
+<animfile>
+  <component>apache_cavalry_gun<assetreference type="GrannyModel"><file>units\natives\ally\apache_cavalry\apache_cavalry_gun</file></assetreference></component>
+  <anim>Idle<component>apache_cavalry_gun</component></anim>
+</animfile>

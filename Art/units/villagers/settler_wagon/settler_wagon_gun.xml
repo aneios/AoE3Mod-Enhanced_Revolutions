@@ -1,0 +1,4 @@
+<animfile>
+  <component>hat<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\attachments\blunderbuss_villager</file></assetreference></none><dehcfedovermountainsettlers><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_3age_gun</file></assetreference></dehcfedovermountainsettlers></logic></component>
+  <anim>Idle<component>hat</component></anim>
+</animfile>

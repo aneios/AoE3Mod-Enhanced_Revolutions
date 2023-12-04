@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>10</width>
+	<height>10</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="3" posx="0.9379" posz="-3.0346" orientx="-0.3827" orienty="0.0000" orientz="0.9239">SPCDamagedProps</unit>
+		<unit variation="154" posx="2.0720" posz="-1.4521" orientx="-1.0000" orienty="-0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="1" posx="1.2419" posz="-1.3242" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCDamagedProps</unit>
+		<unit variation="208" posx="5.8322" posz="-1.1603" orientx="0.3827" orienty="-0.0000" orientz="-0.9239">Campfire</unit>
+		<unit variation="110" posx="7.1412" posz="-2.2991" orientx="-0.9239" orienty="0.0000" orientz="0.3827">FenceRock</unit>
+		<unit variation="120" posx="-0.2491" posz="-0.7867" orientx="-0.0000" orienty="0.0000" orientz="1.0000">SPCDamagedCannons</unit>
+		<unit variation="107" posx="-0.1676" posz="-2.5219" orientx="0.0007" orienty="0.0000" orientz="1.0000">UnderbrushNewEngland</unit>
+		<unit variation="17" posx="-6.1196" posz="-0.5269" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">FenceRock</unit>
+		<unit variation="69" posx="7.0589" posz="0.3793" orientx="-0.9239" orienty="-0.0000" orientz="-0.3827">FenceRock</unit>
+		<unit variation="54" posx="-5.9522" posz="2.3993" orientx="-0.9239" orienty="0.0000" orientz="0.3827">FenceRock</unit>
+		<unit variation="107" posx="1.7465" posz="2.0254" orientx="-0.7078" orienty="0.0000" orientz="-0.7064">UnderbrushNewEngland</unit>
+		<unit variation="2" posx="-1.2936" posz="1.8706" orientx="0.3827" orienty="0.0000" orientz="0.9239">SPCDamagedProps</unit>
+		<unit variation="107" posx="-0.0098" posz="2.7668" orientx="-0.3817" orienty="0.0000" orientz="0.9243">UnderbrushNewEngland</unit>
+		<unit variation="118" posx="0.2506" posz="1.1255" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushCalifornia</unit>
+		<unit variation="20" posx="-4.4651" posz="4.7605" orientx="-0.7071" orienty="0.0000" orientz="0.7071">FenceRock</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="california\desert4_cal">
+			<block startx="-4" startz="0" endx="-4" endz="0"></block>
+			<block startx="-3" startz="0" endx="-3" endz="1"></block>
+			<block startx="-2" startz="-2" endx="-2" endz="-2"></block>
+			<block startx="-2" startz="2" endx="-2" endz="2"></block>
+			<block startx="-1" startz="2" endx="-1" endz="2"></block>
+			<block startx="0" startz="2" endx="0" endz="2"></block>
+			<block startx="1" startz="-2" endx="1" endz="-2"></block>
+			<block startx="2" startz="-2" endx="2" endz="-2"></block>
+			<block startx="2" startz="1" endx="2" endz="1"></block>
+			<block startx="3" startz="-1" endx="3" endz="0"></block>
+			<block startx="-2" startz="-3" endx="-2" endz="-3"></block>
+			<block startx="-1" startz="-3" endx="-1" endz="-3"></block>
+			<block startx="1" startz="-3" endx="1" endz="-3"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="california\desert3_cal">
+			<block startx="-3" startz="-1" endx="-3" endz="-1"></block>
+			<block startx="-2" startz="-1" endx="-2" endz="1"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="-2"></block>
+			<block startx="0" startz="-2" endx="0" endz="-2"></block>
+			<block startx="1" startz="-1" endx="1" endz="2"></block>
+			<block startx="2" startz="-1" endx="2" endz="0"></block>
+			<block startx="0" startz="-3" endx="0" endz="-3"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="california\desert6_cal">
+			<block startx="-1" startz="-1" endx="-1" endz="1"></block>
+			<block startx="0" startz="-1" endx="0" endz="1"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

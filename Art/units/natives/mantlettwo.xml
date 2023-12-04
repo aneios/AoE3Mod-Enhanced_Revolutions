@@ -1,0 +1,8 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\natives\mantlettwo</file></assetreference><decal><texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\endomorph\endomorph_idlea</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\endomorph\endomorph_boreda</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\endomorph\endomorph_walka</file><tag type="FootstepLeft">0.30</tag><tag type="FootstepRight">0.80</tag></assetreference><component>ModelComp</component></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>animation_library\endomorph\enodomorph_attacka</file><tag type="Attack">0.45</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\endomorph\endomorph_deatha</file></assetreference><component>ModelComp</component></anim>
+</animfile>

@@ -1,0 +1,18 @@
+<animfile>
+  <definebone>bone_bag</definebone>
+  <definebone>bone_gun</definebone>
+  <definebone>bone_hat</definebone>
+  <definebone>BIP01 PROP1</definebone>
+  <attachment>guns<include>units\infantry_ranged\skirmisher\skirmisher_guns.xml</include></attachment>
+  <attachment>bags<include>units\infantry_ranged\skirmisher\skirmisher_bags.xml</include></attachment>
+  <attachment>hats<include>units\infantry_ranged\skirmisher\skirmisher_hats.xml</include></attachment>
+  <component>ModelComp<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_1age</file></assetreference></none><veteranskirmishers><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_2age</file></assetreference></veteranskirmishers><eliteskirmishers><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_3age</file></assetreference></eliteskirmishers><guardskirmishers><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_4age</file></assetreference></guardskirmishers></logic><decal><effecttype>default</effecttype><texture>shadows_selections\shadow_hero_64x64</texture><selectedtexture>shadows_selections\selection_hero_64x64</selectedtexture><width>1.50</width><height>1.50</height></decal><attach a="guns" frombone="bone_gun" tobone="BIP01 PROP1" syncanims="0"></attach><attach a="bags" frombone="bone_bag" tobone="PELVIS" syncanims="0"></attach><attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"></attach></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\2_leg_idle\human_idle_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\2_leg_bored\human_bored_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\2_leg_walk\human_jog_rifle_a</file><tag type="FootstepLeft" footprinttype="HumanLeft">0.20</tag><tag type="FootstepRight" footprinttype="HumanRight">0.50</tag></assetreference><component>ModelComp</component></anim>
+  <anim>HandAttack<assetreference type="GrannyAnim"><file>animation_library\2_leg_attack\human_musket_buttattack_A</file><tag type="Attack">0.45</tag></assetreference><component>ModelComp</component></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>animation_library\2_leg_attack\human_attack_musket_a</file><tag type="Attack">0.70</tag><tag type="SpecificSoundSet" checkvisible="1" set="RifleShot">0.48</tag></assetreference><component>ModelComp</component></anim>
+  <anim>GatherMine<assetreference type="GrannyAnim"><file>animation_library\2_leg_task\human_mine_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>GatherHunt<assetreference type="GrannyAnim"><file>animation_library\2_leg_task\human_slice_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\2_leg_death\human_death_generic_A</file></assetreference><component>ModelComp</component></anim>
+</animfile>

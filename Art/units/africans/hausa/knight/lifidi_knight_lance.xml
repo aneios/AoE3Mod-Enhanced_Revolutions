@@ -1,0 +1,4 @@
+<animfile>
+  <component>spear<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\africans\hausa\knight\knight_age2_lance</file></assetreference></none><deeliteheavycavalryhausa><assetreference type="GrannyModel"><file>units\africans\hausa\knight\knight_age3_lance</file></assetreference></deeliteheavycavalryhausa><dechampionheavycavalryhausa><assetreference type="GrannyModel"><file>units\africans\hausa\knight\knight_age4_lance</file></assetreference></dechampionheavycavalryhausa></logic></component>
+  <anim>Idle<component>spear</component></anim>
+</animfile>

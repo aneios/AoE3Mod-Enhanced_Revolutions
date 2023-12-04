@@ -1,0 +1,4 @@
+<animfile>
+  <component>gun<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\natives\lakota\rifle_rider\rifle_rider_1_gun</file></assetreference></none><championrifleriders><assetreference type="GrannyModel"><file>units\natives\lakota\rifle_rider\rifle_rider_2_gun</file></assetreference></championrifleriders></logic></component>
+  <anim>Idle<component>gun</component></anim>
+</animfile>

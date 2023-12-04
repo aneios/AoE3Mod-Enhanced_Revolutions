@@ -1,0 +1,4 @@
+<animfile>
+  <component>props_colony<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\props_colony\influence_crate_large_a</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\props_colony\influence_crate_large_b</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\props_colony\influence_crate_large_c</file></assetreference></data></logic><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>4.00</width><height>4.00</height></decal></component>
+  <anim>Idle<component>props_colony</component></anim>
+</animfile>

@@ -1,0 +1,51 @@
+<animfile>
+  <definebone>bone_smoke</definebone>
+  <definebone>bone_debris_1a</definebone>
+  <definebone>bone_debris_1b</definebone>
+  <definebone>bone_debris_1c</definebone>
+  <definebone>bone_debris_1d</definebone>
+  <definebone>bone_debris_1e</definebone>
+  <definebone>bone_debris_1f</definebone>
+  <definebone>bone_debris_1g</definebone>
+  <definebone>bone_debris_1h</definebone>
+  <definebone>bone_debris_1i</definebone>
+  <definebone>bone_debris_1j</definebone>
+  <definebone>bone_debris_1k</definebone>
+  <definebone>bone_debris_1l</definebone>
+  <definebone>bone_debris_1m</definebone>
+  <definebone>bone_debris_2a</definebone>
+  <definebone>bone_debris_2b</definebone>
+  <definebone>bone_debris_2c</definebone>
+  <definebone>bone_debris_2d</definebone>
+  <definebone>bone_debris_2e</definebone>
+  <definebone>bone_debris_2f</definebone>
+  <definebone>bone_debris_2g</definebone>
+  <definebone>bone_debris_2h</definebone>
+  <definebone>bone_debris_2i</definebone>
+  <definebone>bone_debris_2j</definebone>
+  <definebone>bone_debris_2k</definebone>
+  <definebone>bone_debris_2l</definebone>
+  <definebone>bone_debris_2m</definebone>
+  <definebone>bone_debris_3a</definebone>
+  <definebone>bone_debris_3b</definebone>
+  <definebone>bone_debris_3c</definebone>
+  <definebone>bone_debris_3d</definebone>
+  <definebone>bone_debris_3e</definebone>
+  <definebone>bone_debris_3f</definebone>
+  <definebone>bone_debris_3g</definebone>
+  <definebone>bone_debris_3h</definebone>
+  <definebone>bone_debris_3i</definebone>
+  <definebone>bone_debris_3j</definebone>
+  <definebone>bone_debris_4a</definebone>
+  <definebone>bone_debris_4b</definebone>
+  <definebone>bone_debris_4c</definebone>
+  <definebone>bone_debris_4d</definebone>
+  <definebone>bone_debris_4e</definebone>
+  <definebone>bone_debris_4f</definebone>
+  <definebone>bone_debris_4g</definebone>
+  <definebone>bone_main</definebone>
+  <component>trade post<assetreference type="GrannyModel"><file>buildings\trading_post\trading_post_asian_silkroad</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>buildings\trading_post\trading_post_asian_silkroad_anim</file></assetreference><component>trade post</component><simskeleton><model>buildings\trading_post\trading_post_asian_damaged</model><damagetemplate>buildings\trading_post\trading_post_asian.dmg</damagetemplate></simskeleton></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>animation_library\building\ranged_attack</file><tag type="Attack">0.45</tag><tag type="SpecificSoundSet" checkvisible="1" set="RifleShot">0.46</tag></assetreference><component>trade post</component><simskeleton><model>buildings\trading_post\trading_post_asian_damaged</model><damagetemplate>buildings\trading_post\trading_post_asian.dmg</damagetemplate></simskeleton></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>buildings\trading_post\trading_post_asian_deathanime</file></assetreference><component>trade post</component></anim>
+</animfile>

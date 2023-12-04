@@ -1,0 +1,21 @@
+<animfile>
+  <definebone>bone_right_cannon_01</definebone>
+  <definebone>bone_right_cannon_02</definebone>
+  <definebone>bone_left_cannon_01</definebone>
+  <definebone>bone_left_cannon_02</definebone>
+  <definebone>Bone_front_wake</definebone>
+  <definebone>bone_main</definebone>
+  <definebone>bone_f1</definebone>
+  <attachment>IdleWaterFoam<component>Idlefoam<assetreference type="popcornFx"><file>water_effects\idle_waterFoam_medium.pkfx</file></assetreference></component><anim>None<component>Idlefoam</component></anim></attachment>
+  <attachment>MoveWaterFoam<component>Movefoam<assetreference type="popcornFx"><file>water_effects\move_waterFoam_medium.pkfx</file></assetreference></component><anim>None<component>Movefoam</component></anim></attachment>
+  <attachment>attachment_boat_wake_front<component>boat_wake_front<assetreference type="ParticleSystem"><file>units\naval\caravel_ship\boat_wake_front.particle</file></assetreference></component><anim>Idle<component>boat_wake_front</component></anim></attachment>
+  <attachment>attachment_boat_ripple<component>boat_ripple<assetreference type="ParticleSystem"><file>units\naval\caravel_ship\boat_ripple.particle</file></assetreference></component><anim>Idle<component>boat_ripple</component></anim></attachment>
+  <attachment>attachment_boat_foam<component>boat_foam<assetreference type="ParticleSystem"><file>effects\water_wakes\boat_foam_large.particle</file></assetreference></component><anim>Idle<component>boat_foam</component></anim></attachment>
+  <attachment>boat flag<component>l<assetreference type="ClothFlag"><flag><blending>alphatest_color</blending><specialtexture></specialtexture><width>2.00</width><height>1.00</height></flag></assetreference></component><anim>Idle<component>l</component></anim></attachment>
+  <component>ModelComp<logic type="Variation"><v1><assetreference type="GrannyModel"><file>units\naval\fire_ship\fire_ship1</file></assetreference></v1><v2><assetreference type="GrannyModel"><file>units\naval\fire_ship\fire_ship2</file></assetreference></v2><v3><assetreference type="GrannyModel"><file>units\naval\fire_ship\fire_ship3</file></assetreference></v3></logic><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture><width>9.00</width><height>15.00</height></decal><watersplash><texture>units\naval\colony_ship\colony_ship_hullmask</texture><width>10.0</width><height>10.0</height></watersplash></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\naval\fire_ship\fire_ship_idle</file></assetreference><component>ModelComp</component><attach a="attachment_boat_ripple" frombone="ATTACHPOINT" tobone="bone_main" syncanims="0"></attach><attach a="boat flag" frombone="bone_f1" tobone="bone_f1" syncanims="0"></attach><attach a="IdleWaterFoam" frombone="ATTACHPOINT" tobone="bone_main" syncanims="0"></attach></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\naval\fire_ship\fire_ship_walk</file></assetreference><component>ModelComp</component><attach a="attachment_boat_wake_front" frombone="ATTACHPOINT" tobone="Bone_front_wake" syncanims="0"></attach><attach a="attachment_boat_foam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach><attach a="boat flag" frombone="bone_f1" tobone="bone_f1" syncanims="0"></attach><attach a="MoveWaterFoam" frombone="ATTACHPOINT" tobone="bone_main" syncanims="0"></attach></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>units\naval\fire_ship\fire_ship_idle</file><tag type="Attack">0.45</tag></assetreference><component>ModelComp</component><attach a="boat flag" frombone="bone_f1" tobone="bone_f1" syncanims="0"></attach></anim>
+  <anim>GatherFish<assetreference type="GrannyAnim"><file>units\naval\fire_ship\fire_ship_idle</file></assetreference><component>ModelComp</component><attach a="boat flag" frombone="bone_f1" tobone="bone_f1" syncanims="0"></attach></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\naval\caravel_death</file><tag type="Attack">0.45</tag></assetreference><component>ModelComp</component></anim>
+</animfile>

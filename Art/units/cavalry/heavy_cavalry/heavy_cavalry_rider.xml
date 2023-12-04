@@ -1,0 +1,12 @@
+<animfile>
+  <component>ModelComp<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\cavalry\heavy_cavalry\heavy_cavalry_age1_rider</file></assetreference></none><eliteuhlans><assetreference type="GrannyModel"><file>units\cavalry\heavy_cavalry\heavy_cavalry_age2_rider</file></assetreference></eliteuhlans><guarduhlans><assetreference type="GrannyModel"><file>units\cavalry\heavy_cavalry\heavy_cavalry_age3_rider</file></assetreference></guarduhlans></logic><decal><texture>shadows_selections\shadow_circle_128x128</texture><selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\rider_idle_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\rider_bored_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\cavalry\rider_canter_generic_A</file><tag type="FootstepLeft">0.30</tag><tag type="FootstepRight">0.80</tag></assetreference><component>ModelComp</component></anim>
+  <anim>HandAttack<assetreference type="GrannyAnim"><file>animation_library\cavalry\rider_attack_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\cavalry\rider_death_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Run<assetreference type="GrannyAnim"><file>animation_library\cavalry\rider_run_generic_a</file></assetreference><component>ModelComp</component></anim>
+  <anim>Jog<assetreference type="GrannyAnim"><file>animation_library\cavalry\rider_jog_generic_a</file></assetreference><component>ModelComp</component></anim>
+  <anim>StartWalk<assetreference type="GrannyAnim"><file>animation_library\cavalry\rider_canter_generic_a_start</file></assetreference><component>ModelComp</component></anim>
+  <anim>StopWalk<assetreference type="GrannyAnim"><file>animation_library\cavalry\rider_canter_generic_a_stop</file></assetreference><component>ModelComp</component></anim>
+</animfile>

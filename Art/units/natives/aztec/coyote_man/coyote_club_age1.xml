@@ -1,0 +1,4 @@
+<animfile>
+  <component>club<assetreference type="GrannyModel"><file>units\natives\aztec\coyote_man\coyote_club_age1</file></assetreference></component>
+  <anim>Idle<component>club</component></anim>
+</animfile>

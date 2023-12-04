@@ -1,0 +1,9 @@
+<animfile>
+  <definebone>Bone_attachpointA</definebone>
+  <definebone>Bone_attachpointB</definebone>
+  <definebone>Bone_attachpointC</definebone>
+  <definebone>Bone_attachpointD</definebone>
+  <definebone>Bone_attachpointE</definebone>
+  <component>model<assetreference type="GrannyModel"><file>buildings\native_settlement\lakotachief_story_attachpoints</file></assetreference><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<component>model</component></anim>
+</animfile>

@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomeCity>
+	<Civ>French</Civ>
+	<Name>$$36885$$</Name>
+	<HeroName>$$43031$$</HeroName>
+	<GatherPointUnit>HomeCityGatherFlag</GatherPointUnit>
+	<Visual>french\french_homecity.xml</Visual>
+	<WaterVisual>french\french_homecity_water.xml</WaterVisual>
+	<BackgroundVisual>french\french_background.xml</BackgroundVisual>
+	<PathData>french\pathable_area_object.gr2</PathData>
+	<Camera>french\french_homecity_camera.cam</Camera>
+	<WidescreenCamera>french\french_homecity_widescreencamera.cam</WidescreenCamera>
+	<TransportRoundtripTime>1</TransportRoundtripTime>
+	<TransportActivationTime>0</TransportActivationTime>
+	<Level>1</Level>
+	<skillpoints>9</skillpoints>
+	<LightSet>Paris</LightSet>
+	<WaterType>Paris</WaterType>
+	<NumPropUnlocksEarned>0</NumPropUnlocksEarned>
+	<AmbientSounds>homecity\FrenchAmbientSounds.xml</AmbientSounds>
+	<XSAI>generic_city</XSAI>
+	<Cards>
+		<!-- ACADEMY -->
+		<Card>
+			<Name>HCShipCrossbowmen1</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>8</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipPikemen1</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>8</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipSkirmishers1</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>7</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipSkirmishers2</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>9</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipMusketeers1</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>6</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipHussars1</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>3</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipHussars2</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>4</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipDragoons1</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>4</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipHalberdiers1</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>7</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+	</Cards>
+	
+	<Decks>
+		<Deck>
+			<!-- Customized subset of my active cards -->
+			<Cards>
+				<Card>HCShipPikemen1</Card>
+				<Card>HCShipCrossbowmen1</Card>
+				<Card>HCShipHussars1</Card>
+				<Card>HCShipMusketeers1</Card>
+				<Card>HCShipSkirmishers2</Card>
+				<Card>HCShipDragoons1</Card>
+				<Card>HCShipHalberdiers1</Card>
+			</Cards>
+		</Deck>
+	</Decks>
+	
+	<Building>
+		<Name>Estate</Name>
+		<Visual>
+			<File>french\french estate.xml</File>
+			<Bone>bone_estate</Bone>
+		</Visual>
+		<UIX>150</UIX>
+		<UIY>200</UIY>
+		<Camera>french\french_homecity_estate_camera.cam</Camera>
+		<WidescreenCamera>french\french_homecity_estate_camera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\tower_of_london_icon</Portrait>
+		<DisplayNameStringID>24968</DisplayNameStringID>
+		<RolloverStringID>25537</RolloverStringID>
+		<ObtainableTechs>
+      </ObtainableTechs>
+		<ActiveTechs>
+      </ActiveTechs>
+		<ValidUnits>
+	  </ValidUnits>
+		<Units>
+ 	  </Units>
+		<MercBuilding>1</MercBuilding>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Market</Name>
+		<Visual>
+			<File>buildings_west\french_market.xml</File>
+			<Bone>bone_market</Bone>
+		</Visual>
+		<UIX>250</UIX>
+		<UIY>375</UIY>
+		<Camera>french\french_homecity_market_camera.cam</Camera>
+		<WidescreenCamera>french\french_homecity_market_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\nw_trading_company_icon</Portrait>
+		<DisplayNameStringID>24970</DisplayNameStringID>
+		<RolloverStringID>25536</RolloverStringID>
+		<ObtainableTechs>
+		</ObtainableTechs>
+		<ActiveTechs>
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Academy</Name>
+		<Visual>
+			<File>buildings_west\french_academy.xml</File>
+			<Bone>bone_academy</Bone>
+		</Visual>
+		<UIX>460</UIX>
+		<UIY>125</UIY>
+		<Camera>french\french_homecity_academy_camera.cam</Camera>
+		<WidescreenCamera>french\french_homecity_academy_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\military_academy_icon</Portrait>
+		<DisplayNameStringID>24965</DisplayNameStringID>
+		<RolloverStringID>25533</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="0.0" y="2.0">HCShipPikemen1</Tech>
+			<Tech x="0.7" y="1.0">HCShipCrossbowmen1</Tech>
+			<Tech x="3.8" y="1.0">HCShipHussars1</Tech>
+			<Tech x="3.8" y="2.0">HCShipHussars2</Tech>
+			<Tech x="3.8" y="2.0">HCShipMusketeers1</Tech>
+			<Tech x="1.8" y="1.0">HCShipSkirmishers1</Tech>
+			<Tech x="1.8" y="2.0">HCShipSkirmishers2</Tech>
+			<Tech x="3.1" y="1.0">HCShipDragoons1</Tech>
+			<Tech x="3.1" y="2.0">HCShipHalberdiers1</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="0.0" y="2.0">HCShipPikemen1</Tech>
+			<Tech x="0.7" y="1.0">HCShipCrossbowmen1</Tech>
+			<Tech x="3.8" y="1.0">HCShipHussars1</Tech>
+			<Tech x="3.8" y="2.0">HCShipHussars2</Tech>
+			<Tech x="3.8" y="2.0">HCShipMusketeers1</Tech>
+			<Tech x="1.8" y="1.0">HCShipSkirmishers1</Tech>
+			<Tech x="1.8" y="2.0">HCShipSkirmishers2</Tech>
+			<Tech x="3.1" y="1.0">HCShipDragoons1</Tech>
+			<Tech x="3.1" y="2.0">HCShipHalberdiers1</Tech>
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+   	</Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Cathedral</Name>
+		<Visual>
+			<File>buildings_west\french_notredame.xml</File>
+			<Bone>bone_cathedral</Bone>
+		</Visual>
+		<UIX>80</UIX>
+		<UIY>475</UIY>
+		<Camera>french\french_homecity_cathedral_camera.cam</Camera>
+		<WidescreenCamera>french\french_homecity_cathedral_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\cathedral_icon</Portrait>
+		<DisplayNameStringID>28987</DisplayNameStringID>
+		<RolloverStringID>25538</RolloverStringID>
+		<ObtainableTechs>
+		</ObtainableTechs>
+		<ActiveTechs>
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>ManufacturingPlant</Name>
+		<Visual>
+			<File>buildings_west\french_manufacturing_plant.xml</File>
+			<Bone>bone_plant</Bone>
+		</Visual>
+		<UIX>450</UIX>
+		<UIY>275</UIY>
+		<Camera>french\french_homecity_manufacturing_plant_camera.cam</Camera>
+		<WidescreenCamera>french\french_homecity_plant_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\manufacturing_plant_icon</Portrait>
+		<DisplayNameStringID>24972</DisplayNameStringID>
+		<RolloverStringID>25535</RolloverStringID>
+		<ObtainableTechs>
+		</ObtainableTechs>
+		<ActiveTechs>
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Dock</Name>
+		<Visual>
+			<File>buildings_west\french_dock.xml</File>
+			<Bone>bone_dock</Bone>
+		</Visual>
+		<UIX>200</UIX>
+		<UIY>250</UIY>
+		<Camera>french\french_homecity_dock_camera.cam</Camera>
+		<WidescreenCamera>french\french_homecity_dock_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>ui\home_city\harbor_icon</Portrait>
+		<DisplayNameStringID>35745</DisplayNameStringID>
+		<RolloverStringID>35746</RolloverStringID>
+		<ObtainableTechs>
+		</ObtainableTechs>
+		<ActiveTechs>		
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Customization</Name>
+		<Camera>french\french_homecity_camera.cam</Camera>
+		<WidescreenCamera>french\french_homecity_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\dock_icon</Portrait>
+		<DisplayNameStringID>24966</DisplayNameStringID>
+		<RolloverStringID>25540</RolloverStringID>
+		<CustomizationBuilding>1</CustomizationBuilding>
+	</Building>
+	<Waypoints>
+		<Waypoint>
+			<Bone>bone_vendor01</Bone>
+			<VendorArea>1</VendorArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor02</Bone>
+			<VendorArea>1</VendorArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor03</Bone>
+			<VendorArea>1</VendorArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor04</Bone>
+			<VendorArea>1</VendorArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor05</Bone>
+			<VendorArea>1</VendorArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor06</Bone>
+			<VendorArea>1</VendorArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor07</Bone>
+			<VendorArea>1</VendorArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor08</Bone>
+			<VendorArea>1</VendorArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode00</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode01</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode02</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode03</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode04</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode05</Bone>
+			<Exit>1</Exit>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode06</Bone>
+			<Exit>1</Exit>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode07</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode08</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode09</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode10</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode11</Bone>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode12</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode13</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode14</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode15</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode16</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode17</Bone>
+			<PerformanceArea>1</PerformanceArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode18</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode19</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode20</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode21</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode22</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode23</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode24</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode25</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode26</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode27</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework01</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework02</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework03</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework04</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework05</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_firework06</Bone>
+			<Fireworks>1</Fireworks>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_fishing</Bone>
+			<FishingArea>1</FishingArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_fishing01</Bone>
+			<FishingArea>1</FishingArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_shipment_start</Bone>
+			<ShipmentStart>1</ShipmentStart>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_shipment_end</Bone>
+			<ShipmentEnd>1</ShipmentEnd>
+		</Waypoint>
+	</Waypoints>
+	<ObtainableProps>
+		<Prop>NobleClassFrenchMale</Prop>
+		<Prop>NobleClassFrenchFemale</Prop>
+		<Prop>StagecoachRoyal</Prop>
+		<Prop>PeasantMime</Prop>
+		<Prop>Hunchback</Prop>
+		<Prop>Torchy</Prop>
+		<Prop>Juggler</Prop>
+		<Prop>PeasantVendor</Prop>
+		<Prop>MiddleClassMusician</Prop>
+		<Prop>MiddleClassPreacher</Prop>
+		<Prop>PeasantPainter</Prop>
+		<Prop>Drunk</Prop>
+		<Prop>NiceLady</Prop>
+		<Prop>PeasantFisherman</Prop>
+		<Prop>Thug</Prop>
+		<Prop>UnitChats</Prop>
+		<Prop Active="1">French_LightSet1</Prop>
+		<Prop>French_LightSet2</Prop>
+		<Prop>French_AcadProp01</Prop>
+		<Prop>Acad_fountain00</Prop>
+		<Prop>French_KingStatueProp</Prop>
+		<Prop>French_MarketProp01</Prop>
+		<Prop>French_MarketProp02</Prop>
+		<Prop>French_PlantProp01</Prop>
+		<Prop>French_PlantProp03</Prop>
+		<Prop>French_PlantProp04</Prop>
+		<Prop>French_PlantProp05</Prop>
+		<Prop>French_PlantProp06</Prop>
+		<Prop>French_CathProp01</Prop>
+		<Prop>French_RiderStatue</Prop>
+		<Prop>Cath_fountain01</Prop>
+		<Prop>French_DockProp01</Prop>
+		<Prop>French_DockProp02</Prop>
+		<Prop Active="1">French_AcademyTexture0</Prop>
+		<Prop>French_AcademyTexture1</Prop>
+		<Prop>French_AcademyTexture2</Prop>
+		<Prop>French_AcademyTexture3</Prop>
+		<Prop>French_AcademyTexture4</Prop>
+		<Prop>French_AcademyTexture5</Prop>
+		<Prop>French_AcademyTexture6</Prop>
+		<Prop>French_AcademyTexture7</Prop>
+		<Prop Active="1">French_CathedralTexture0</Prop>
+		<Prop>French_CathedralTexture1</Prop>
+		<Prop>French_CathedralTexture2</Prop>
+		<Prop>French_CathedralTexture3</Prop>
+		<Prop Active="1">French_DockTexture0</Prop>
+		<Prop>French_DockTexture1</Prop>
+		<Prop>French_DockTexture2</Prop>
+		<Prop>French_DockTexture3</Prop>
+		<Prop>French_DockTexture4</Prop>
+		<Prop>French_DockTexture5</Prop>
+		<Prop>French_DockTexture6</Prop>
+		<Prop>French_DockTexture7</Prop>
+		<Prop Active="1">French_MarketTexture0</Prop>
+		<Prop>French_MarketTexture1</Prop>
+		<Prop>French_MarketTexture2</Prop>
+		<Prop>French_MarketTexture3</Prop>
+		<Prop>French_MarketTexture4</Prop>
+		<Prop>French_MarketTexture5</Prop>
+		<Prop>French_MarketTexture6</Prop>
+		<Prop>French_MarketTexture7</Prop>
+		<Prop Active="1">French_ManuPlantTexture0</Prop>
+		<Prop>French_ManuPlantTexture1</Prop>
+		<Prop>French_ManuPlantTexture2</Prop>
+		<Prop>French_ManuPlantTexture3</Prop>
+		<Prop>French_ManuPlantTexture4</Prop>
+		<Prop>French_ManuPlantTexture5</Prop>
+		<Prop>French_ManuPlantTexture6</Prop>
+		<Prop>French_ManuPlantTexture7</Prop>
+	</ObtainableProps>
+</HomeCity>

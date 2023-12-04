@@ -1,0 +1,4 @@
+<animfile>
+  <component>spear<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\mercenaries\balkan_stradiot\balkan_stradiot_spear</file></assetreference></none></logic></component>
+  <anim>Idle<component>spear</component></anim>
+</animfile>

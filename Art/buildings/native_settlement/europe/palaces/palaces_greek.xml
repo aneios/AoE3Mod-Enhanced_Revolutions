@@ -1,0 +1,4 @@
+<animfile>
+  <component>Palaces<logic type="SubCiv"><oldenburg><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\palaces\roof_gr01_wall_gr01</file></assetreference></oldenburg><phanar><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\palaces\roof_gr01_wall_gr01</file><materialvariant index="1"></materialvariant></assetreference></phanar><hanover><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\palaces\roof_gr01_wall_gr01</file><materialvariant index="2"></materialvariant></assetreference></hanover><wittelsbach><assetreference type="GrannyModel"><file>buildings\native_settlement\europe\palaces\roof_gr01_wall_gr01</file><materialvariant index="3"></materialvariant></assetreference></wittelsbach></logic></component>
+  <anim>Idle<component>Palaces</component></anim>
+</animfile>

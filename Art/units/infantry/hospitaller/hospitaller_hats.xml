@@ -1,0 +1,4 @@
+<animfile>
+  <component>hat<logic type="Tech"><none><assetreference type="GrannyModel"><file></file></assetreference></none><deveteranhospitallers><assetreference type="GrannyModel"><file></file></assetreference></deveteranhospitallers><dehcdignitaries><assetreference type="GrannyModel"><file>units\infantry\hospitaller\hospitaller_hat_02</file></assetreference></dehcdignitaries><dechurchteutonicknights><assetreference type="GrannyModel"><file>units\infantry\hospitaller\hospitaller_helmet</file></assetreference></dechurchteutonicknights></logic></component>
+  <anim>Idle<component>hat</component></anim>
+</animfile>

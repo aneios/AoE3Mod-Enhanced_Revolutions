@@ -1,0 +1,4 @@
+<animfile>
+  <component>swords<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\mercenaries\fusilier\fusilier_sword</file></assetreference></none><despcmercfusiliers><assetreference type="GrannyModel"><file>units\mercenaries\fusilier\fusilier_sword</file></assetreference></despcmercfusiliers></logic></component>
+  <anim>Idle<component>swords</component></anim>
+</animfile>

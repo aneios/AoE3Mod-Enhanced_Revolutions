@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130019" displayNameID = "105131" loadDetails="130020" isLargeMap=""
+    imagepath = "ui\random_map\plymouth\plymouth_mini" cannotReplace = "" loadBackground="ui\random_map\plymouth\plymouth_map">
+   <loadss>ui\random_map\plymouth\plymouth_ss_01</loadss>
+   <loadss>ui\random_map\plymouth\plymouth_ss_02</loadss>
+   <loadss>ui\random_map\plymouth\plymouth_ss_03</loadss>
+</mapinfo>

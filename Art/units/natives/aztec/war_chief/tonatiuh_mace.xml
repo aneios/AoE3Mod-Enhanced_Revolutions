@@ -1,0 +1,18 @@
+<animfile>
+  <definebone>firebone1</definebone>
+  <definebone>firebone2</definebone>
+  <definebone>firebone3</definebone>
+  <definebone>firebone4</definebone>
+  <definebone>firebone5</definebone>
+  <definebone>firebone6</definebone>
+  <definebone>firebone7</definebone>
+  <definebone>firebone8</definebone>
+  <definebone>firebone9</definebone>
+  <definebone>firebone10</definebone>
+  <definebone>firebone11</definebone>
+  <definebone>firebone12</definebone>
+  <definebone>firebone13</definebone>
+  <attachment>fire<component>fire emitter<assetreference type="popcornFx"><file>fire\fire_torch_b.pkfx</file></assetreference></component><anim>Idle<component>fire emitter</component></anim></attachment>
+  <component>mace<assetreference type="GrannyModel"><file>units\natives\aztec\war_chief\tonatiuh_mace</file></assetreference><attach a="fire" frombone="helmetbone" tobone="firebone2" syncanims="0"></attach><attach a="fire" frombone="helmetbone" tobone="firebone5" syncanims="0"></attach><attach a="fire" frombone="helmetbone" tobone="firebone8" syncanims="0"></attach><attach a="fire" frombone="helmetbone" tobone="firebone11" syncanims="0"></attach><attach a="fire" frombone="helmetbone" tobone="firebone13" syncanims="0"></attach></component>
+  <anim>Idle<component>mace</component></anim>
+</animfile>

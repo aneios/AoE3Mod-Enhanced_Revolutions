@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<assetreference type="GrannyModel"><file>units\infantry\pikeman\pikeman_4age_hat</file></assetreference></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

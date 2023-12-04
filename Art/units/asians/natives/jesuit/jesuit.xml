@@ -1,0 +1,29 @@
+<animfile>
+  <definebone>bip01 Prop2</definebone>
+  <definebone>Bip01_AttachRt</definebone>
+  <definebone>bip01 Prop1</definebone>
+  <definebone>bone_pike</definebone>
+  <definebone>bone_hat</definebone>
+  <definebone>bone_sword</definebone>
+  <attachment>bucketWater<component>bucketWater<assetreference type="ParticleSystem"><file>effects\water_effects\bucket_water.particle</file></assetreference></component><anim>Idle<component>bucketWater</component></anim></attachment>
+  <attachment>bucket<component>bucket<assetreference type="GrannyModel"><file>units\attachments\bucket_villager</file></assetreference></component><anim>Idle<component>bucket</component></anim></attachment>
+  <attachment>sword<component>sword<assetreference type="GrannyModel"><file>units\attachments\sword</file></assetreference></component><anim>Idle<component>sword</component></anim></attachment>
+  <attachment>hammer<component>hammer<assetreference type="GrannyModel"><file>units\attachments\hammer_villager</file></assetreference></component><anim>Idle<component>hammer</component></anim></attachment>
+  <component>ModelComp<logic type="Tech"><none><logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>units\asians\natives\jesuit\jesuit_0</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>units\asians\natives\jesuit\jesuit_0</file></assetreference></lowpoly></logic></none></logic><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Death_by_melee<assetreference type="GrannyAnim"><file>animation_library\shared\human_sword_death_a</file><tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.83</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Death_by_range<assetreference type="GrannyAnim"><file>animation_library\shared\human_death_shot_front_a</file><tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.56</tag></assetreference><assetreference type="GrannyAnim"><file>animation_library\shared\human_death_shot_back_a</file><tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.83</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Death_by_havoc<assetreference type="GrannyAnim"><file>animation_library\range\havoc_death</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\range\havoc_deathB</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\range\havoc_deathC</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\range\havoc_deathD</file></assetreference><component>ModelComp</component></anim>
+  <anim>Death_havoc_flail<assetreference type="GrannyAnim"><file>animation_library\range\havoc_flail</file></assetreference><component>ModelComp</component></anim>
+  <anim>Death_havoc_spin<assetreference type="GrannyAnim"><file>animation_library\range\havoc_spin</file></assetreference><component>ModelComp</component></anim>
+  <anim>Recoil<assetreference type="GrannyAnim"><file>animation_library\shared\recoil_A</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\shared\recoil_C</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\shared\recoil_E</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\shared\recoil_G</file></assetreference><component>ModelComp</component></anim>
+  <anim>HC_openDoor<assetreference type="GrannyAnim"><file>animation_library\shared\doorOpen</file></assetreference><component>ModelComp</component></anim>
+  <anim>HC_closeDoor<assetreference type="GrannyAnim"><file>animation_library\shared\doorClose</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\villager\villager_male_bored1</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\villager\villager_male_bored2</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\villager\villager_male_bored3</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\villager\villager_male_bored4</file></assetreference><component>ModelComp</component></anim>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\villager\villager_male_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\villager\villager_male_walk1</file><tag type="FootstepLeft" footprinttype="HumanLeft">0.20</tag><tag type="FootstepRight" footprinttype="HumanRight">0.70</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Jog<assetreference type="GrannyAnim"><file>animation_library\villager\villager_male_jog</file></assetreference><component>ModelComp</component></anim>
+  <anim>Run<assetreference type="GrannyAnim"><file>animation_library\villager\villager_male_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>GatherFarmWeed<assetreference type="GrannyAnim"><file>animation_library\villager\villager_male_gatherfarmweed</file></assetreference><component>ModelComp</component></anim>
+  <anim>Build<assetreference type="GrannyAnim"><file>animation_library\villager\villager_male_build1</file></assetreference><component>ModelComp</component><attach a="hammer" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"></attach></anim>
+  <anim>ThrowWater<assetreference type="GrannyAnim"><file>animation_library\IGC\villager\IGC_villager_extinguish_fire</file></assetreference><component>ModelComp</component><attach a="bucket" frombone="MASTER" tobone="L HAND" syncanims="0"></attach><attach a="bucketWater" frombone="MASTER" tobone="L HAND" syncanims="0"></attach></anim>
+</animfile>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>maces<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\natives\inca\maceman\maceman_mace_age2</file></assetreference></none><fortressize><assetreference type="GrannyModel"><file>units\natives\inca\maceman\maceman_mace_age3</file></assetreference></fortressize><dechampionmacemen><assetreference type="GrannyModel"><file>units\natives\inca\maceman\maceman_mace_age4</file></assetreference></dechampionmacemen></logic></component>
+  <anim>Idle<component>maces</component></anim>
+</animfile>

@@ -1,0 +1,10 @@
+<animfile>
+  <attachment>torch<include>effects\projectiles\torch.xml</include></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\natives\jaguar_warrior</file></assetreference><decal><texture isfakeshadow="1">shadows_selections\shadow_hero_64x64</texture><selectedtexture>shadows_selections\selection_hero_64x64</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\shared\human_idle_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\shared\human_bored_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\shared\human_jog_generic_a</file><tag type="FootstepLeft">0.30</tag><tag type="FootstepRight">0.80</tag></assetreference><component>ModelComp</component></anim>
+  <anim>HandAttack<assetreference type="GrannyAnim"><file>animation_library\shared\human_attack_club_d</file><tag type="Attack">0.50</tag></assetreference><assetreference type="GrannyAnim"><file>animation_library\shared\human_attack_club_e</file><tag type="Attack">0.50</tag></assetreference><component>ModelComp</component></anim>
+  <anim>TorchAttack<assetreference type="GrannyAnim"><file>animation_library\shared\torch_throwB</file><tag type="Attack">0.56</tag></assetreference><assetreference type="GrannyAnim"><file>animation_library\shared\torch_throwA</file><tag type="Attack">0.61</tag></assetreference><component>ModelComp</component><attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"></attach></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\shared\human_death_generic_A</file></assetreference><component>ModelComp</component></anim>
+</animfile>

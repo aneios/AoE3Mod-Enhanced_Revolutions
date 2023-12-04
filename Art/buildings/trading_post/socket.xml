@@ -1,0 +1,4 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>buildings\trading_post\trade_route_marker_a</file></assetreference><decal><texture>buildings\trading_post\trading_post_socket_a</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><width>9.55</width><height>9.55</height><xoffset>0.50</xoffset></decal></component>
+  <anim>Idle<component>ModelComp</component></anim>
+</animfile>

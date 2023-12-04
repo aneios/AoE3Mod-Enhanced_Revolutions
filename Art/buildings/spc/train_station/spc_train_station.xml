@@ -1,0 +1,5 @@
+<animfile>
+  <definebone>bone_geyser</definebone>
+  <component>ModelComp<assetreference type="GrannyModel"><file>buildings\spc\train_station\train_station</file></assetreference></component>
+  <anim>Carry<assetreference type="GrannyAnim"><file>buildings\church\spanish_church_age3_deathAnim</file></assetreference><component>ModelComp</component></anim>
+</animfile>

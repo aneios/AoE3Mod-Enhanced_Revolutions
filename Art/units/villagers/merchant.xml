@@ -1,0 +1,10 @@
+<animfile>
+  <component>ModelComp<logic type="Civ"><italians><logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>units\villagers\merchant</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>units\villagers\lp_merchant</file></assetreference></lowpoly></logic></italians></logic><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\shared\human_idle_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\shared\human_bored_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Heal<assetreference type="GrannyAnim"><file>animation_library\shared\human_bored_generic_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\shared\human_walk_generic_A</file><tag type="FootstepLeft" footprinttype="HumanLeft">0.20</tag><tag type="FootstepRight" footprinttype="HumanRight">0.50</tag></assetreference><component>ModelComp</component></anim>
+  <anim>GatherMine<assetreference type="GrannyAnim"><file>animation_library\shared\human_mine_A</file></assetreference><component>ModelComp</component></anim>
+  <anim>Attack<assetreference type="GrannyAnim"><file>animation_library\shared\human_attack_generic_A</file><tag type="Attack">0.45</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\shared\human_death_generic_A</file></assetreference><component>ModelComp</component></anim>
+</animfile>

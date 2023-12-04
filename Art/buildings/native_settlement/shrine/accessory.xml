@@ -1,0 +1,4 @@
+<animfile>
+  <component>accessory<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\native_settlement\shrine\pole_banner</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\shrine\pole</file></assetreference></data><data><assetreference type="GrannyModel"><file>buildings\native_settlement\shrine\banner</file></assetreference></data></logic></component>
+  <anim>Idle<component>accessory</component></anim>
+</animfile>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>gun<assetreference type="GrannyModel"><file>units\infantry_ranged\janissary\jannisary_gun_guard</file></assetreference></component>
+  <anim>Idle<component>gun</component></anim>
+</animfile>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>guns<assetreference type="GrannyModel"><file>units\artillery\abus_gun\abus_gun</file></assetreference></component>
+  <anim>Idle<component>guns</component></anim>
+</animfile>

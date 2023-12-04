@@ -1,0 +1,6 @@
+<animfile>
+  <attachment>musket<include>units\attachments\muskets.xml</include></attachment>
+  <component>ModelComp<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_age1</file></assetreference></none><elitemusketeers><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_age2</file></assetreference></elitemusketeers><guardmusketeers><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_age3</file></assetreference></guardmusketeers></logic><decal><texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal><attach a="musket" frombone="MASTER" tobone="BIP01 PROP1" syncanims="1"></attach></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\range\volley\volley_kneeling_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>animation_library\range\volley\volley_kneeling_fire</file><tag type="Attack">0.48</tag><tag type="SpecificSoundSet" checkvisible="1" set="MusketShot">0.47</tag><tag type="Particles" particlename="musketshot">0.50</tag></assetreference><component>ModelComp</component></anim>
+</animfile>

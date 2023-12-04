@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>34015</nameID>
+   <tooltipID>41723</tooltipID>
+   <forcedciv>ottomans</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>resources/images/icons/singleplayer/cpai_avatar_ottomans.png</icon>
+   <chatset>suleiman</chatset>
+   <playerNames>
+      <nameID>34015<civ>ottomans</civ></nameID> 
+	</playerNames>
+</AI>

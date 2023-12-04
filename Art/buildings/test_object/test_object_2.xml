@@ -1,0 +1,91 @@
+<animfile>
+  <submodel>rackB<component>rackB<assetreference type="GrannyModel"><file>buildings\native_settlement\tanning_rack_worker</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\tanning_rack_worker_idlea</file></assetreference><component>rackB</component></anim></submodel>
+  <submodel>chiefA<attachment>chiefB<component>chiefB<assetreference type="GrannyModel"><file>buildings\native_settlement\lakotachief_story_group2</file></assetreference></component><anim>Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\lakotachief_story_group2_idlea</file></assetreference><component>chiefB</component></anim></attachment><component>chiefA<assetreference type="GrannyModel"><file>buildings\native_settlement\lakotachief_story_group1</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal><attach a="chiefB" frombone="ATTACHPOINT" tobone="MASTER" syncanims="0"></attach></component><anim>Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\lakotachief_story_group1_idleA</file></assetreference><component>chiefA</component></anim></submodel>
+  <submodel>bowman<component>bowman<assetreference type="GrannyModel"><file>buildings\native_settlement\native_oldman_fixing_bow</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_oldman_fixing_bow_idle</file></assetreference><component>bowman</component></anim></submodel>
+  <submodel>smoke<component>smoke<assetreference type="GrannyModel"><file>buildings\native_settlement\native_oldmen_smoking</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_oldmen_smoking_idle</file></assetreference><component>smoke</component></anim></submodel>
+  <submodel>corn<component>corn<assetreference type="GrannyModel"><file>buildings\native_settlement\native_gather_corn</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_gather_corn_idle</file></assetreference><component>corn</component></anim></submodel>
+  <submodel>cook<component>cook<assetreference type="GrannyModel"><file>buildings\native_settlement\native_women_cooking</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_women_cooking_idle</file></assetreference><component>cook</component></anim></submodel>
+  <submodel>prep<component>prep<assetreference type="GrannyModel"><file>buildings\native_settlement\native_female_foodprep</file></assetreference><decal><effecttype>default</effecttype><texture>buildings\native_settlement\tipi_ground</texture><selectedtexture>shadows_selections\selection_square_64x64</selectedtexture><width>4.00</width><height>4.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_female_foodprep_idleA</file></assetreference><component>prep</component></anim></submodel>
+  <submodel>fence<component>fence<assetreference type="GrannyModel"><file>buildings\native_settlement\native_child_fence</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_child_fence_idleA</file></assetreference><component>fence</component></anim></submodel>
+  <submodel>horse_brown<component>horse_brown<assetreference type="GrannyModel"><file>units\animals\horse\wild_horse_brown</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_idle_generic_a</file></assetreference><component>horse_brown</component></anim><anim>Bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_bored_generic_a</file></assetreference><component>horse_brown</component></anim></submodel>
+  <submodel>horse_black<component>horse_black<assetreference type="GrannyModel"><file>units\animals\horse\wild_horse_black</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_idle_generic_a</file></assetreference><component>horse_black</component></anim><anim>Bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_bored_generic_a</file></assetreference><component>horse_black</component></anim></submodel>
+  <submodel>horse_white<component>horse_white<assetreference type="GrannyModel"><file>units\animals\horse\wild_horse_white</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_idle_generic_a</file></assetreference><component>horse_white</component></anim><anim>Bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_bored_generic_a</file></assetreference><component>horse_white</component></anim></submodel>
+  <submodel>horse_colt_white<component>horse_colt_white<assetreference type="GrannyModel"><file>units\animals\horse\wild_colt_white</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_idle_generic_a</file></assetreference><component>horse_colt_white</component></anim><anim>Bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_bored_generic_a</file></assetreference><component>horse_colt_white</component></anim></submodel>
+  <submodel>horse_colt_app<component>horse_colt_app<assetreference type="GrannyModel"><file>units\animals\horse\wild_colt_appaloosa</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_idle_generic_a</file></assetreference><component>horse_colt_app</component></anim><anim>Bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_bored_generic_a</file></assetreference><component>horse_colt_app</component></anim></submodel>
+  <submodel>horse_colt_black<component>horse_colt_black<assetreference type="GrannyModel"><file>units\animals\horse\wild_colt_black</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_idle_generic_a</file></assetreference><component>horse_colt_black</component></anim><anim>Bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_bored_generic_a</file></assetreference><component>horse_colt_black</component></anim></submodel>
+  <submodel>horse_colt_brown<component>horse_colt_brown<assetreference type="GrannyModel"><file>units\animals\horse\wild_colt_brown</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_idle_generic_a</file></assetreference><component>horse_colt_brown</component></anim><anim>Bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_bored_generic_a</file></assetreference><component>horse_colt_brown</component></anim></submodel>
+  <submodel>horse_app<component>horse_app<assetreference type="GrannyModel"><file>units\animals\horse\wild_horse_appaloosa</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_idle_generic_a</file></assetreference><component>horse_app</component></anim><anim>Bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_bored_generic_a</file></assetreference><component>horse_app</component></anim></submodel>
+  <submodel>tent<component>tent<assetreference type="GrannyModel"><file>buildings\native_settlement\native_woman_tent</file></assetreference><decal><effecttype>default</effecttype><texture>buildings\native_settlement\tipi_ground</texture><selectedtexture>shadows_selections\selection_square_64x64</selectedtexture><width>4.00</width><height>4.00</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_woman_tent_idleA</file></assetreference><component>tent</component></anim></submodel>
+  <component>
+    <logic type="Variation">
+      <data>
+        <submodelref ref="chiefA">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="rackB">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="bowman">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="smoke">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="corn">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="cook">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="prep">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="fence">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="horse_brown">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="horse_app">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="horse_black">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="horse_white">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="horse_colt_app">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="horse_colt_black">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="horse_colt_brown">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="horse_colt_white">
+        </submodelref>
+      </data>
+      <data>
+        <submodelref ref="tent">
+        </submodelref>
+      </data>
+    </logic>
+  </component>
+</animfile>

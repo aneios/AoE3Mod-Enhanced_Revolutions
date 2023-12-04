@@ -1,0 +1,7 @@
+<animfile>
+  <component>fence<assetreference type="GrannyModel"><file>buildings\native_settlement\sm_fence_tupi</file></assetreference><decal><effecttype>default</effecttype><texture>shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.00</width><height>1.00</height></decal></component>
+  <anim>Mode1_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_fence_up_idleA</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_fence_up_idleB</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_fence_up_idleC</file></assetreference><component>fence</component></anim>
+  <anim>Mode1_Mode2<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_fence_down</file></assetreference><component>fence</component></anim>
+  <anim>Mode2_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_fence_down_idleA</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_fence_down_idleB</file></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_fence_down_idleC</file></assetreference><component>fence</component></anim>
+  <anim>Mode2_Mode1<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_fence_up</file></assetreference><component>fence</component></anim>
+</animfile>

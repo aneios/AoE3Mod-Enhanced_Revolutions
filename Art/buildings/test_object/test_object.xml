@@ -1,0 +1,5 @@
+<animfile>
+  <definebone>bone_main</definebone>
+  <component>test_object<assetreference type="GrannyModel"><file>buildings\test_object\test_object</file></assetreference></component>
+  <anim>Idle<component>test_object</component></anim>
+</animfile>

@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "105169" displayNameID = "105170" loadDetails="105168" isLargeMap=""
+    imagepath  = "ui\random_map\panama\panama_mini" cannotReplace = "" loadBackground="ui\random_map\panama\panama_map">
+    <loadss>ui\random_map\panama\panama_ss_01</loadss>
+    <loadss>ui\random_map\panama\panama_ss_02</loadss>
+    <loadss>ui\random_map\panama\panama_ss_03</loadss>
+    <loadss>ui\random_map\panama\panama_ss_04</loadss>
+</mapinfo>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>3</width>
+	<height>4</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="128" posx="-0.8645" posz="-2.3778" orientx="0.0000" orienty="0.0000" orientz="1.0000">GenericCorpse</unit>
+		<unit variation="33" posx="0.4316" posz="-2.5449" orientx="0.7071" orienty="0.0000" orientz="0.7071">PropsColony</unit>
+		<unit variation="164" posx="0.4826" posz="2.0834" orientx="0.0000" orienty="0.0000" orientz="-1.0000">GenericCorpse</unit>
+		<unit variation="134" posx="0.3589" posz="2.9660" orientx="0.3839" orienty="0.0000" orientz="-0.9234">SPCDamagedProps</unit>
+		<unit variation="136" posx="-0.7965" posz="2.5149" orientx="0.7071" orienty="0.0000" orientz="0.7071">PropsColony</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="araucania\ground07_b_ara">
+			<block startx="-1" startz="-2" endx="-1" endz="-2"></block>
+			<block startx="-1" startz="0" endx="-1" endz="0"></block>
+			<block startx="0" startz="-2" endx="0" endz="1"></block>
+			<block startx="1" startz="-1" endx="1" endz="-1"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_lakes\ground_grass1_gls">
+			<block startx="-1" startz="-1" endx="-1" endz="-1"></block>
+			<block startx="-1" startz="1" endx="-1" endz="1"></block>
+			<block startx="1" startz="-2" endx="1" endz="-2"></block>
+			<block startx="1" startz="0" endx="1" endz="0"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="new_england\groundforest_ne">
+			<block startx="1" startz="1" endx="1" endz="1"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

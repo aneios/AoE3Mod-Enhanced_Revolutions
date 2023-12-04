@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Campaign>
+   <!-- DisplayName.  The non-localized name the user will see for this campaign.  -->
+   <DisplayName>Challenges</DisplayName>
+   <!-- DisplayNameStringID.  The localized string ID for the name the user will see for this campaign.  Overrides DisplayName.  -->
+   <DisplayNameStringID>71323</DisplayNameStringID>
+
+   <!-- Challenge 1 Scenario -->
+   <CampaignNode>
+      <Filename>scorechallenges\Bombard_Brawl</Filename>
+      <DisplayName>Bombard Brawl</DisplayName>  <!-- Note - this field is not used -->
+      <DisplayNameStringID>49131</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>49132</LoadTextID>  
+  	  <!-- String ID of the challenge goal  -->
+	    <GoalTextID>49142</GoalTextID>    
+  	  <!-- String ID of the player's civ for this challenge -->
+      <CivDisplayNameID>22868</CivDisplayNameID>
+      <!-- Challenge Type (1 = Timed Score Challenge)  -->
+      <ChallengeType>1</ChallengeType>     
+  	  <!-- Time Limit [minutes] (optional field for challenges in general, but required for 'Timed' type challenges) -->
+	    <ChallengeTimeLimit>15</ChallengeTimeLimit>
+      <!-- Challenge Image -->
+      <ChallengeImage>resources/images/challenges/challenges_01_bombard_brawl.png</ChallengeImage>
+      <!-- The index for the RelicLink leaderboard linked to this challenge -->
+      <LeaderboardStatID>1</LeaderboardStatID>
+   </CampaignNode>
+</Campaign>

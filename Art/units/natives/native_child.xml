@@ -1,0 +1,15 @@
+<animfile>
+  <attachment>torch<include>effects\projectiles\torch.xml</include></attachment>
+  <component>boy<logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>units\natives\native_child</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>units\natives\lp_native_child</file></assetreference></lowpoly></logic><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_child_idle</file></assetreference><component>boy</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_child_walk</file><tag type="FootstepLeft">0.30</tag><tag type="FootstepRight">0.80</tag></assetreference><component>boy</component></anim>
+  <anim>Raze_Idle<assetreference type="GrannyAnim"><file>animation_library\shared\torch_throw_idle</file></assetreference><component>ModelComp</component><attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"></attach></anim>
+  <anim>Raze_Attack<assetreference type="GrannyAnim"><file>animation_library\shared\torch_throwB</file><tag type="Attack">0.56</tag><tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.75</tag></assetreference><assetreference type="GrannyAnim"><file>animation_library\shared\torch_throwA</file><tag type="Attack">0.61</tag><tag type="SpecificSoundSet" checkvisible="1" set="TorchSwing">0.75</tag></assetreference><component>ModelComp</component><attach a="torch" frombone="ATTACHPOINT" tobone="L HAND" syncanims="0"></attach></anim>
+  <anim>StorytellingA<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_child_story_idleA</file></assetreference><component>boy</component></anim>
+  <anim>StorytellingB<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_child_story_idleB</file></assetreference><component>boy</component></anim>
+  <anim>StorytellingC<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_child_story_idleC</file></assetreference><component>boy</component></anim>
+  <anim>StorytellingD<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_child_story_idleD</file></assetreference><component>boy</component></anim>
+  <anim>StorytellingE<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_child_story_idleE</file></assetreference><component>boy</component></anim>
+  <anim>FenceIdleA<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_child_fence_idleA</file></assetreference><component>boy</component></anim>
+  <anim>FenceIdleB<assetreference type="GrannyAnim"><file>buildings\native_settlement\native_child_fence_idleB</file></assetreference><component>boy</component></anim>
+</animfile>

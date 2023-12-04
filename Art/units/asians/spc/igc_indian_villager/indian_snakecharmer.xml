@@ -1,0 +1,7 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\asians\spc\igc_indian_villager\igc_hc_snakecharmer</file></assetreference><decal><effecttype>default</effecttype><texture>shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>starting<assetreference type="GrannyAnim"><file>homecity\homecity_units\indian_snakecharmer\SnakeCharmer_Nuetral_StartPlay</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bite<assetreference type="GrannyAnim"><file>homecity\homecity_units\indian_snakecharmer\SnakeCharmer_Bite2</file></assetreference><component>ModelComp</component></anim>
+  <anim>Finish<assetreference type="GrannyAnim"><file>homecity\homecity_units\indian_snakecharmer\SnakeCharmer_Finish_Play</file></assetreference><component>ModelComp</component></anim>
+  <anim>Idle<assetreference type="GrannyAnim"><file>homecity\homecity_units\indian_snakecharmer\Indian_Snakecharmer_Idle</file></assetreference><assetreference type="GrannyAnim"><file>homecity\homecity_units\indian_snakecharmer\Indian_Snakecharmer_Idle2</file></assetreference><assetreference type="GrannyAnim"><file>homecity\homecity_units\indian_snakecharmer\Indian_Snakecharmer_Idle_Play</file></assetreference><component>ModelComp</component></anim>
+</animfile>

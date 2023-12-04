@@ -1,0 +1,4 @@
+<animfile>
+  <component>guns<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\asians\japanese\ashigaru\ashigaru_0age_hat</file></assetreference></none><ypdisciplinedashigaru><assetreference type="GrannyModel"><file>units\asians\japanese\ashigaru\ashigaru_1age_hat</file></assetreference></ypdisciplinedashigaru><yphonoredashigaru><assetreference type="GrannyModel"><file>units\asians\japanese\ashigaru\ashigaru_2age_hat</file></assetreference></yphonoredashigaru><ypexaltedashigaru><assetreference type="GrannyModel"><file>units\asians\japanese\ashigaru\ashigaru_2age_hat</file><materialvariant index="1"></materialvariant></assetreference></ypexaltedashigaru></logic></component>
+  <anim>Idle<component>guns</component></anim>
+</animfile>

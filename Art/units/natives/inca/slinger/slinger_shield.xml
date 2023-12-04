@@ -1,0 +1,4 @@
+<animfile>
+  <component>shields<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\natives\inca\slinger\slinger_shield_age2</file></assetreference></none><fortressize><assetreference type="GrannyModel"><file>units\natives\inca\slinger\slinger_shield_age3</file></assetreference></fortressize><dechampionslingers><assetreference type="GrannyModel"><file>units\natives\inca\slinger\slinger_shield_age4</file></assetreference></dechampionslingers></logic></component>
+  <anim>Idle<component>shields</component></anim>
+</animfile>

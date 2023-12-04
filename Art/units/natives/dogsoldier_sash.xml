@@ -1,0 +1,54 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\natives\attachment_dogsoldier_sash</file></assetreference></component>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Jog<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Run<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Death_by_melee<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Death_by_range<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Cheer<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Raze_idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Raze_attack<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Cover_bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Cover_melee_idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Cover_melee_attack<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Cover_walk<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Cover_jog<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Cover_run<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bombard_bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bombard_melee_idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bombard_melee_attack<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bombard_walk<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bombard_jog<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bombard_run<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Assault_bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Assault_melee_idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Assault_melee_attack<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Assault_walk<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Assault_jog<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Assault_run<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Volley_standing_idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Volley_standing_attack<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Volley_standing_bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Volley_melee_idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Volley_melee_attack<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Volley_walk<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Volley_jog<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Volley_run<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Defend_idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Defend_bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Defend_attack<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Defend_walk<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Defend_jog<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Defend_run<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Charge_idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Charge_bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Charge_attack<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Charge_special_attack<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Charge_walk<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Charge_jog<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Charge_run<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_run</file></assetreference><component>ModelComp</component></anim>
+  <anim>Charge_death_by_melee<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Charge_death_by_range<assetreference type="GrannyAnim"><file>animation_library\cavalry\sash_idle</file></assetreference><component>ModelComp</component></anim>
+</animfile>

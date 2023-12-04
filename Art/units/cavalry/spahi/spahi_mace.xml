@@ -1,0 +1,4 @@
+<animfile>
+  <component>mace<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\cavalry\spahi\spahi_mace_4</file></assetreference></none><churchkapikulucorps><assetreference type="GrannyModel"><file>units\cavalry\spahi\kapikulu_sipahi_mace</file></assetreference></churchkapikulucorps></logic></component>
+  <anim>Idle<component>mace</component></anim>
+</animfile>

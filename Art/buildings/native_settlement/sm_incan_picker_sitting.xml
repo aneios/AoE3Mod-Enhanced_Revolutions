@@ -1,0 +1,10 @@
+<animfile>
+  <component>cookpot<assetreference type="GrannyModel"><file>buildings\native_settlement\sm_picker_incan_female</file></assetreference><decal><effecttype>default</effecttype><texture>buildings\native_settlement\tipi_ground</texture><selectedtexture>shadows_selections\selection_square_64x64</selectedtexture><width>4.00</width><height>4.00</height></decal></component>
+  <anim>Mode1_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_picker_sitting_tent_idle</file></assetreference><component>cookpot</component></anim>
+  <anim>Mode1_Mode2<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_picker_tepee_picker</file></assetreference><component>cookpot</component></anim>
+  <anim>Mode2_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_picker_picker_idleA</file><weight>60</weight></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_picker_picker_idleB</file><weight>20</weight></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_picker_picker_idleC</file><weight>20</weight></assetreference><component>cookpot</component></anim>
+  <anim>Mode2_Mode1<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_picker_picker_tepee</file></assetreference><component>cookpot</component></anim>
+  <anim>Mode1_Mode3<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_picker_tepee_sitting</file></assetreference><component>cookpot</component></anim>
+  <anim>Mode3_Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_picker_sitting_idleA</file><weight>60</weight></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_picker_sitting_idleB</file><weight>20</weight></assetreference><assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_picker_sitting_idleC</file><weight>20</weight></assetreference><component>cookpot</component></anim>
+  <anim>Mode3_Mode1<assetreference type="GrannyAnim"><file>buildings\native_settlement\sm_picker_sitting_tepee</file></assetreference><component>cookpot</component></anim>
+</animfile>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>shield<logic type="Tech"><none><logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>units\infantry\redolero\redolero_sheild</file></assetreference></normal><lowpoly></lowpoly></logic></none><veteranrodeleros><logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>units\infantry\redolero\redolero_sheild2</file></assetreference></normal><lowpoly></lowpoly></logic></veteranrodeleros><guardrodeleros><logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>units\infantry\redolero\redolero_sheild3</file></assetreference></normal><lowpoly></lowpoly></logic></guardrodeleros></logic></component>
+  <anim>Idle<component>shield</component></anim>
+</animfile>

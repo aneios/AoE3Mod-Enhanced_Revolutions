@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>15</width>
+	<height>12</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="17" posx="6.3100" posz="-10.0014" orientx="0.9239" orienty="0.0000" orientz="0.3827">SPCRailwayProps</unit>
+		<unit variation="9" posx="3.1840" posz="-11.3356" orientx="-0.7071" orienty="0.0000" orientz="0.7071">SPCRailwayProps</unit>
+		<unit variation="12" posx="1.8687" posz="-6.8685" orientx="-0.9239" orienty="0.0000" orientz="0.3827">SPCRailwayProps</unit>
+		<unit variation="15" posx="-0.4213" posz="-5.4364" orientx="0.7071" orienty="0.0000" orientz="-0.7071">SPCRailwayProps</unit>
+		<unit variation="17" posx="-0.1842" posz="-4.7132" orientx="-0.9239" orienty="0.0000" orientz="0.3827">SPCRailwayProps</unit>
+		<unit variation="15" posx="4.0402" posz="-6.2773" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">SPCRailwayProps</unit>
+		<unit variation="15" posx="-2.5793" posz="-3.2564" orientx="-0.3827" orienty="0.0000" orientz="0.9239">SPCRailwayProps</unit>
+		<unit variation="12" posx="6.9136" posz="-3.9321" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">SPCRailwayProps</unit>
+		<unit variation="12" posx="6.1343" posz="-4.6044" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">SPCRailwayProps</unit>
+		<unit variation="12" posx="-7.1554" posz="-0.8132" orientx="-0.3827" orienty="0.0000" orientz="0.9239">SPCRailwayProps</unit>
+		<unit variation="12" posx="8.8984" posz="-2.0212" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">SPCRailwayProps</unit>
+		<unit variation="12" posx="-5.4800" posz="-2.3935" orientx="-0.9239" orienty="0.0000" orientz="0.3827">SPCRailwayProps</unit>
+		<unit variation="15" posx="10.1333" posz="-1.0217" orientx="0.9239" orienty="0.0000" orientz="0.3827">SPCRailwayProps</unit>
+		<unit variation="0" posx="0.6210" posz="0.9991" orientx="-0.0000" orienty="0.0000" orientz="-1.0000">SPCRailwayProps</unit>
+		<unit variation="9" posx="13.8297" posz="0.6116" orientx="-1.0000" orienty="-0.0000" orientz="0.0000">SPCRailwayProps</unit>
+		<unit variation="13" posx="2.3033" posz="0.4864" orientx="-0.0000" orienty="0.0000" orientz="-1.0000">SPCRailwayProps</unit>
+		<unit variation="17" posx="-11.9180" posz="0.1256" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">SPCRailwayProps</unit>
+		<unit variation="17" posx="-7.7013" posz="2.8067" orientx="0.0000" orienty="0.0000" orientz="1.0000">SPCRailwayProps</unit>
+		<unit variation="17" posx="5.4890" posz="3.3074" orientx="-0.3827" orienty="0.0000" orientz="0.9239">SPCRailwayProps</unit>
+		<unit variation="11" posx="-2.8274" posz="3.6545" orientx="-1.0000" orienty="0.0000" orientz="0.0000">SPCRailwayProps</unit>
+		<unit variation="15" posx="-8.2018" posz="4.3933" orientx="-0.0000" orienty="0.0000" orientz="-1.0000">SPCRailwayProps</unit>
+		<unit variation="12" posx="-8.1339" posz="5.9194" orientx="0.0000" orienty="0.0000" orientz="1.0000">SPCRailwayProps</unit>
+		<unit variation="17" posx="-4.5691" posz="5.7131" orientx="0.7071" orienty="0.0000" orientz="-0.7071">SPCRailwayProps</unit>
+		<unit variation="9" posx="-7.1876" posz="10.8250" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCRailwayProps</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="araucania\ground_dirt1_ara">
+			<block startx="-6" startz="-2" endx="-6" endz="3"></block>
+			<block startx="-5" startz="-3" endx="-5" endz="-1"></block>
+			<block startx="-4" startz="-3" endx="-4" endz="-3"></block>
+			<block startx="-3" startz="-4" endx="-3" endz="-4"></block>
+			<block startx="-3" startz="2" endx="-3" endz="3"></block>
+			<block startx="-2" startz="-4" endx="-2" endz="-4"></block>
+			<block startx="-2" startz="1" endx="-2" endz="2"></block>
+			<block startx="-1" startz="0" endx="-1" endz="0"></block>
+			<block startx="0" startz="0" endx="0" endz="0"></block>
+			<block startx="-1" startz="-5" endx="-1" endz="-5"></block>
+			<block startx="0" startz="-6" endx="0" endz="-5"></block>
+			<block startx="-6" startz="4" endx="-6" endz="4"></block>
+			<block startx="-5" startz="5" endx="-5" endz="5"></block>
+			<block startx="-3" startz="4" endx="-3" endz="5"></block>
+			<block startx="1" startz="-6" endx="1" endz="-6"></block>
+			<block startx="2" startz="-6" endx="2" endz="-6"></block>
+			<block startx="3" startz="-5" endx="3" endz="-5"></block>
+			<block startx="4" startz="-5" endx="4" endz="-5"></block>
+			<block startx="1" startz="-1" endx="1" endz="-1"></block>
+			<block startx="2" startz="0" endx="2" endz="0"></block>
+			<block startx="3" startz="0" endx="3" endz="0"></block>
+			<block startx="4" startz="-4" endx="4" endz="-4"></block>
+			<block startx="4" startz="1" endx="4" endz="2"></block>
+			<block startx="5" startz="-4" endx="5" endz="-3"></block>
+			<block startx="5" startz="2" endx="5" endz="2"></block>
+			<block startx="6" startz="-2" endx="6" endz="-2"></block>
+			<block startx="6" startz="1" endx="6" endz="2"></block>
+			<block startx="7" startz="-1" endx="7" endz="1"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground_dirt2_ara">
+			<block startx="-5" startz="0" endx="-5" endz="3"></block>
+			<block startx="-4" startz="-2" endx="-4" endz="3"></block>
+			<block startx="-3" startz="-3" endx="-3" endz="1"></block>
+			<block startx="-2" startz="-3" endx="-2" endz="0"></block>
+			<block startx="-1" startz="-4" endx="-1" endz="-1"></block>
+			<block startx="0" startz="-4" endx="0" endz="-1"></block>
+			<block startx="-5" startz="4" endx="-5" endz="4"></block>
+			<block startx="-4" startz="4" endx="-4" endz="5"></block>
+			<block startx="1" startz="-5" endx="1" endz="-5"></block>
+			<block startx="2" startz="-5" endx="2" endz="-5"></block>
+			<block startx="1" startz="-4" endx="1" endz="-2"></block>
+			<block startx="2" startz="-4" endx="2" endz="-1"></block>
+			<block startx="3" startz="-4" endx="3" endz="-1"></block>
+			<block startx="4" startz="-3" endx="4" endz="0"></block>
+			<block startx="5" startz="-2" endx="5" endz="1"></block>
+			<block startx="6" startz="-1" endx="6" endz="0"></block>
+		</tilegroup>
+		<heights>
+			<tiles x="-7" z="-6">0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 </tiles>
+			<tiles x="-7" z="-5">0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 </tiles>
+			<tiles x="-7" z="-4">0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 -1.402 -1.402 0.003 0.003 0.003 0.003 0.003 </tiles>
+			<tiles x="-7" z="-3">0.003 0.003 0.003 0.003 0.003 0.003 0.003 -1.402 -1.402 -1.402 -1.402 -1.402 0.003 0.003 0.003 </tiles>
+			<tiles x="-7" z="-2">0.003 0.003 0.003 0.003 -1.402 -1.402 -1.402 -1.402 -1.402 0.003 -1.402 -1.402 -1.402 0.003 0.003 </tiles>
+			<tiles x="-7" z="-1">0.003 0.003 0.003 -1.402 -1.402 -1.402 -1.402 -1.402 0.003 0.003 0.003 -1.402 -1.402 -1.402 0.003 </tiles>
+			<tiles x="-7" z="0">0.003 0.003 0.003 -1.402 -1.402 -1.402 0.003 0.003 0.003 0.003 0.003 0.003 -1.402 -1.402 0.003 </tiles>
+			<tiles x="-7" z="1">0.003 0.003 0.003 -1.402 -1.402 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 </tiles>
+			<tiles x="-7" z="2">0.003 0.003 0.003 -1.402 -1.402 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 </tiles>
+			<tiles x="-7" z="3">0.003 0.003 0.003 -1.402 -1.402 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 </tiles>
+			<tiles x="-7" z="4">0.003 0.003 0.003 -1.402 -1.402 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 </tiles>
+			<tiles x="-7" z="5">0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 0.003 </tiles>
+		</heights>
+	</tiles>
+</grouping>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>13</width>
+	<height>9</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="201" posx="3.4199" posz="-5.5332" orientx="0.9239" orienty="0.0000" orientz="0.3827">SPCDamagedCannons</unit>
+		<unit variation="101" posx="-2.2850" posz="-1.3472" orientx="0.3827" orienty="0.0021" orientz="-0.9239">SPCCasualties</unit>
+		<unit variation="18" posx="-8.3911" posz="-0.0915" orientx="0.3827" orienty="0.0000" orientz="-0.9239">Rubble</unit>
+		<unit variation="102" posx="4.8121" posz="-0.4955" orientx="-0.7071" orienty="0.0055" orientz="-0.7071">SPCCasualties</unit>
+		<unit variation="25" posx="9.2737" posz="0.7012" orientx="0.0000" orienty="0.0000" orientz="-1.0000">Rubble</unit>
+		<unit variation="192" posx="2.6468" posz="0.0478" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">PropGrassFire</unit>
+		<unit variation="29" posx="1.2744" posz="1.7210" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">Rubble</unit>
+		<unit variation="98" posx="-1.9259" posz="4.5345" orientx="-0.7071" orienty="-0.0000" orientz="-0.7071">SPCDamagedCannons</unit>
+		<unit variation="84" posx="-0.6091" posz="2.0549" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">PropGrassFire</unit>
+		<unit variation="106" posx="0.0279" posz="6.6226" orientx="-1.0000" orienty="0.0039" orientz="0.0000">SPCCasualties</unit>
+		<unit variation="202" posx="-3.2448" posz="7.1030" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCDamagedCannons</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="araucania\ground_dirt1_ara">
+			<block startx="-6" startz="1" endx="-6" endz="2"></block>
+			<block startx="-5" startz="2" endx="-5" endz="2"></block>
+			<block startx="-4" startz="0" endx="-4" endz="0"></block>
+			<block startx="-4" startz="2" endx="-4" endz="3"></block>
+			<block startx="-3" startz="0" endx="-3" endz="0"></block>
+			<block startx="-3" startz="3" endx="-3" endz="4"></block>
+			<block startx="-2" startz="2" endx="-2" endz="2"></block>
+			<block startx="-2" startz="4" endx="-2" endz="4"></block>
+			<block startx="-1" startz="4" endx="-1" endz="4"></block>
+			<block startx="0" startz="3" endx="0" endz="4"></block>
+			<block startx="1" startz="3" endx="1" endz="4"></block>
+			<block startx="2" startz="3" endx="2" endz="4"></block>
+			<block startx="-5" startz="-2" endx="-5" endz="-2"></block>
+			<block startx="-4" startz="-2" endx="-4" endz="-2"></block>
+			<block startx="-3" startz="-2" endx="-3" endz="-2"></block>
+			<block startx="-2" startz="-2" endx="-2" endz="-2"></block>
+			<block startx="-1" startz="-3" endx="-1" endz="-3"></block>
+			<block startx="1" startz="-4" endx="1" endz="-4"></block>
+			<block startx="1" startz="-2" endx="1" endz="-2"></block>
+			<block startx="2" startz="-4" endx="2" endz="-4"></block>
+			<block startx="3" startz="-4" endx="3" endz="-2"></block>
+			<block startx="4" startz="-3" endx="4" endz="-2"></block>
+			<block startx="5" startz="-3" endx="5" endz="-2"></block>
+			<block startx="5" startz="-1" endx="5" endz="-1"></block>
+			<block startx="6" startz="-1" endx="6" endz="0"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground_dirt2_ara">
+			<block startx="-6" startz="0" endx="-6" endz="0"></block>
+			<block startx="-5" startz="-1" endx="-5" endz="1"></block>
+			<block startx="-4" startz="-1" endx="-4" endz="-1"></block>
+			<block startx="-4" startz="1" endx="-4" endz="1"></block>
+			<block startx="-3" startz="-1" endx="-3" endz="-1"></block>
+			<block startx="-3" startz="1" endx="-3" endz="2"></block>
+			<block startx="-2" startz="-1" endx="-2" endz="1"></block>
+			<block startx="-2" startz="3" endx="-2" endz="3"></block>
+			<block startx="-1" startz="-1" endx="-1" endz="3"></block>
+			<block startx="0" startz="-1" endx="0" endz="2"></block>
+			<block startx="1" startz="-1" endx="1" endz="-1"></block>
+			<block startx="1" startz="2" endx="1" endz="2"></block>
+			<block startx="2" startz="-1" endx="2" endz="2"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="-2"></block>
+			<block startx="0" startz="-3" endx="0" endz="-2"></block>
+			<block startx="1" startz="-3" endx="1" endz="-3"></block>
+			<block startx="2" startz="-3" endx="2" endz="-2"></block>
+			<block startx="3" startz="-1" endx="3" endz="2"></block>
+			<block startx="4" startz="-1" endx="4" endz="-1"></block>
+			<block startx="4" startz="1" endx="4" endz="2"></block>
+			<block startx="5" startz="0" endx="5" endz="2"></block>
+			<block startx="6" startz="1" endx="6" endz="1"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

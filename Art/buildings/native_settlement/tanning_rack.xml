@@ -1,0 +1,6 @@
+<animfile>
+  <definebone>bone_attachpoint</definebone>
+  <component>tanning_rack<assetreference type="GrannyModel"><file>buildings\native_settlement\tanning_rack</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>buildings\native_settlement\tanning_rack_b_idleA</file></assetreference><component>tanning_rack</component></anim>
+  <anim>Tanner_working<assetreference type="GrannyAnim"><file>buildings\native_settlement\tanning_rack_working</file></assetreference><component>tanning_rack</component></anim>
+</animfile>

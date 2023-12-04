@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "130016" displayNameID = "105124" loadDetails="130017" isLargeMap=""
+    imagepath = "ui\random_map\ozarks\ozarks_mini" cannotReplace = "" loadBackground="ui\random_map\ozarks\ozarks_map">
+   <loadss>ui\random_map\ozarks\ozarks_ss_01</loadss>
+   <loadss>ui\random_map\ozarks\ozarks_ss_02</loadss>
+   <loadss>ui\random_map\ozarks\ozarks_ss_03</loadss>
+</mapinfo>

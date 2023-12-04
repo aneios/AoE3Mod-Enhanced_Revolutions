@@ -1,0 +1,32 @@
+<animfile>
+  <definebone>bone_sword</definebone>
+  <definebone>Bip01 Prop1</definebone>
+  <attachment>torch<include>effects\projectiles\torch.xml</include></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\asians\spc\tokugawa\tokugawa_horse</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_canter</file></assetreference><component>ModelComp</component></anim>
+  <anim>Jog<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_jog</file></assetreference><component>ModelComp</component></anim>
+  <anim>Run<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_gallop</file></assetreference><component>ModelComp</component></anim>
+  <anim>Highstep<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_idleA</file></assetreference><component>ModelComp</component></anim>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_idleA</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_idleA</file></assetreference><component>ModelComp</component></anim>
+  <anim>Death_by_havoc<assetreference type="GrannyAnim"><file>animation_library\cavalry\rider_death_havoc_a</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\rider_death_havoc_b</file></assetreference><component>ModelComp</component></anim>
+  <anim>Talk1Sec<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_talk1sec</file></assetreference><component>ModelComp</component></anim>
+  <anim>PointRightSide<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_pointrightside</file></assetreference><component>ModelComp</component></anim>
+  <anim>PointLeftSide<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_pointleftside</file></assetreference><component>ModelComp</component></anim>
+  <anim>PointRightForward<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_pointrightforward</file></assetreference><component>ModelComp</component></anim>
+  <anim>PointLeftForward<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_pointleftforward</file></assetreference><component>ModelComp</component></anim>
+  <anim>LaughA<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_laughA</file></assetreference><component>ModelComp</component></anim>
+  <anim>LaughB<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_laughB</file></assetreference><component>ModelComp</component></anim>
+  <anim>AngryPointing<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_angrypointing</file></assetreference><component>ModelComp</component></anim>
+  <anim>Greeting<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_talkgreeting</file></assetreference><component>ModelComp</component></anim>
+  <anim>Woe<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_talkwoe</file></assetreference><component>ModelComp</component></anim>
+  <anim>Startled<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_startled</file></assetreference><component>ModelComp</component></anim>
+  <anim>Talk2Sec<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_talk2sec</file></assetreference><component>ModelComp</component></anim>
+  <anim>TalkNod<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_talknod</file></assetreference><component>ModelComp</component></anim>
+  <anim>TalkAngry<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_talkangry</file></assetreference><component>ModelComp</component></anim>
+  <anim>TalkQuestion<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_talkquestion</file></assetreference><component>ModelComp</component></anim>
+  <anim>TalkShake<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_talkshake</file></assetreference><component>ModelComp</component></anim>
+  <anim>TalkComeWith<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_talkcomewith</file></assetreference><component>ModelComp</component></anim>
+  <anim>TalkShrug<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_talkshrug</file></assetreference><component>ModelComp</component></anim>
+  <anim>Trot<assetreference type="GrannyAnim"><file>units\asians\spc\mototada\mototada_idleA</file></assetreference><component>ModelComp</component></anim>
+</animfile>

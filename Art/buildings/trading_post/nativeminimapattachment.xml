@@ -1,0 +1,4 @@
+<animfile>
+  <component>jimmy<assetreference type="GrannyModel"><file>effects\fire\directional_arrow</file></assetreference></component>
+  <anim>Idle<component>jimmy</component></anim>
+</animfile>

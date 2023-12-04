@@ -1,0 +1,4 @@
+<animfile>
+  <component>secrets<logic type="Variation"><data><assetreference type="GrannyModel"><file>buildings\native_ruins\spc_aztec_temple</file></assetreference></data></logic><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><width>14.50</width><height>14.50</height></decal></component>
+  <anim>Idle<component>secrets</component></anim>
+</animfile>

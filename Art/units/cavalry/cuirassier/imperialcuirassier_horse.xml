@@ -1,0 +1,9 @@
+<animfile>
+  <attachment>rider<include>units\cavalry\cuirassier\cuirassier_rider.xml</include></attachment>
+  <component>ModelComp<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\cavalry\cuirassier\cuirassier_age2_horse</file></assetreference></none><veterancuirassiers><assetreference type="GrannyModel"><file>units\cavalry\cuirassier\cuirassier_age2_horse</file></assetreference></veterancuirassiers><elitecuirassiers><assetreference type="GrannyModel"><file>units\cavalry\cuirassier\cuirassier_age2_horse</file></assetreference></elitecuirassiers><guardcuirassiers><assetreference type="GrannyModel"><file>units\cavalry\cuirassier\cuirassier_age2_horse</file></assetreference></guardcuirassiers></logic><decal><texture>shadows_selections\shadow_hero_64x64</texture><selectedtexture>shadows_selections\selection_hero_64x64</selectedtexture><width>1.50</width><height>3.00</height></decal><attach a="rider" frombone="hotspot" tobone="Attachpoint" syncanims="1"></attach></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_idle_generic_a</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_bored_generic_a</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_canter_generic_a</file><tag type="FootstepLeft">0.30</tag><tag type="FootstepRight">0.80</tag></assetreference><component>ModelComp</component></anim>
+  <anim>HandAttack<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_attack_generic_a</file><tag type="Attack">0.45</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_death_generic_a</file></assetreference><component>ModelComp</component></anim>
+</animfile>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>gun<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\spy\spy_pistol</file></assetreference></none></logic></component>
+  <anim>Idle<component>gun</component></anim>
+</animfile>

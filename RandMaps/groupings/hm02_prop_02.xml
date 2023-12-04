@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>6</width>
+	<height>5</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="27" posx="1.4033" posz="-4.7925" orientx="-0.0000" orienty="0.0000" orientz="1.0000">SPCDamagedProps</unit>
+		<unit variation="121" posx="-4.7188" posz="-2.8436" orientx="0.9239" orienty="0.0000" orientz="-0.3827">IGCShipwreck</unit>
+		<unit variation="94" posx="5.8336" posz="-2.6672" orientx="0.9239" orienty="0.0000" orientz="-0.3827">IGCShipwreck</unit>
+		<unit variation="245" posx="-1.1053" posz="-1.2928" orientx="0.3827" orienty="-0.0000" orientz="-0.9239">IGCShipwreck</unit>
+		<unit variation="122" posx="-1.6461" posz="-1.1915" orientx="1.0000" orienty="0.0000" orientz="0.0000">IGCShipwreck</unit>
+		<unit variation="161" posx="2.1422" posz="-1.5476" orientx="-0.3827" orienty="0.0000" orientz="0.9239">SPCDamagedProps</unit>
+		<unit variation="202" posx="-1.8375" posz="2.3697" orientx="0.7071" orienty="0.0000" orientz="-0.7071">IGCShipwreck</unit>
+	</units>
+	<tiles>
+		<tilegroup type="Shoreline" subtype="yucatan\ground_shoreline1_yuc">
+			<block startx="-3" startz="-2" endx="-3" endz="2"></block>
+			<block startx="-2" startz="-2" endx="-2" endz="2"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="2"></block>
+			<block startx="0" startz="-2" endx="0" endz="2"></block>
+			<block startx="1" startz="-2" endx="1" endz="2"></block>
+			<block startx="2" startz="-2" endx="2" endz="2"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

@@ -1,0 +1,6 @@
+<animfile>
+  <definebone>bone_attachpointA</definebone>
+  <definebone>bone_attachpointB</definebone>
+  <component>log<assetreference type="GrannyModel"><file>buildings\native_settlement\native_oldmen_smoking</file></assetreference><decal><effecttype>default</effecttype><width>0.0</width><height>0.0</height></decal></component>
+  <anim>Idle<component>log</component></anim>
+</animfile>

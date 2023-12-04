@@ -1,0 +1,4 @@
+<animfile>
+  <component>swords<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\janissary\jannisary_sword_standard</file></assetreference></none><veteranjanissaries><assetreference type="GrannyModel"><file>units\infantry_ranged\janissary\jannisary_sword_veteran</file></assetreference></veteranjanissaries><guardjanissaries><assetreference type="GrannyModel"><file>units\infantry_ranged\janissary\jannisary_sword_guard</file></assetreference></guardjanissaries></logic></component>
+  <anim>Idle<component>swords</component></anim>
+</animfile>

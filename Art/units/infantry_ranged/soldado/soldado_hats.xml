@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\soldado\soldado_age2_hat</file></assetreference></none><deveteransoldados><assetreference type="GrannyModel"><file>units\infantry_ranged\soldado\soldado_age3_hat</file></assetreference></deveteransoldados><deguardsoldados><assetreference type="GrannyModel"><file>units\infantry_ranged\soldado\soldado_age4_hat</file></assetreference></deguardsoldados><deimperialsoldados><assetreference type="GrannyModel"><file>units\infantry_ranged\soldado\soldado_age5_hat</file></assetreference></deimperialsoldados></logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

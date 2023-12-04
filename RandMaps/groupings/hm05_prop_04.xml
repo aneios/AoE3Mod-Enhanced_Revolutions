@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>5</width>
+	<height>5</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="255" posx="-0.4301" posz="-1.5254" orientx="-0.7071" orienty="0.0000" orientz="0.7071">SPCDamagedCannons</unit>
+		<unit variation="123" posx="0.5807" posz="-0.5037" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">SPCRailwayProps</unit>
+		<unit variation="116" posx="3.1620" posz="-0.6573" orientx="-0.9239" orienty="0.0000" orientz="0.3827">Fire</unit>
+		<unit variation="160" posx="1.8527" posz="-1.2332" orientx="-0.7071" orienty="0.0000" orientz="0.7071">SPCRailwayProps</unit>
+		<unit variation="248" posx="3.5595" posz="-0.3505" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCDamagedProps</unit>
+		<unit variation="102" posx="-0.1842" posz="1.0461" orientx="0.0000" orienty="0.0000" orientz="-1.0000">SPCRailwayProps</unit>
+		<unit variation="89" posx="-0.1464" posz="1.8933" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCDamagedProps</unit>
+		<unit variation="134" posx="-1.0962" posz="1.7457" orientx="0.0000" orienty="0.0000" orientz="-1.0000">SPCDamagedProps</unit>
+		<unit variation="194" posx="-0.2663" posz="1.9052" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">Fire</unit>
+		<unit variation="4" posx="-2.1437" posz="2.7297" orientx="0.7071" orienty="0.0000" orientz="-0.7071">SPCDamagedProps</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="great_lakes\ground_grass1_gls">
+			<block startx="-2" startz="-2" endx="-2" endz="-1"></block>
+			<block startx="-2" startz="2" endx="-2" endz="2"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="-1"></block>
+			<block startx="1" startz="2" endx="1" endz="2"></block>
+			<block startx="2" startz="1" endx="2" endz="2"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground07_b_ara">
+			<block startx="-2" startz="0" endx="-2" endz="1"></block>
+			<block startx="-1" startz="0" endx="-1" endz="2"></block>
+			<block startx="0" startz="-2" endx="0" endz="2"></block>
+			<block startx="1" startz="-2" endx="1" endz="1"></block>
+			<block startx="2" startz="-2" endx="2" endz="0"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

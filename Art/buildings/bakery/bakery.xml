@@ -1,0 +1,32 @@
+<animfile>
+	<definebone>bakerysmoke</definebone>
+	<attachment>
+		bakerysmoke
+		<component>
+			bakerysmoke
+			<notshadowcaster></notshadowcaster>
+			<assetreference type="ParticleSystem">
+				<file>D:\age3w\art\effects\homecity\hc_white_smoke_a.particle</file>
+			</assetreference>
+		</component>
+	</attachment>
+	<component>
+		bakery
+		<assetreference type="GrannyModel">
+			<file>buildings\bakery\bakery</file>
+		</assetreference>
+		<decal>
+			<effecttype>default</effecttype>
+			<texture>buildings\saloon\Saloon_floor_00</texture>
+			<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+			<width>8.00</width>
+			<height>8.00</height>
+			<zoffset>0.00</zoffset>
+		</decal>
+		<attach a="bakerysmoke" frombone="ATTACHPOINT" tobone="bakerysmoke" syncanims="0"></attach>
+	</component>
+	<anim>
+		Idle
+		<component>bakery</component>
+	</anim>
+</animfile>

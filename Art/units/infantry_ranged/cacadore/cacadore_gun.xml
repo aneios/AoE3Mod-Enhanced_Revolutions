@@ -1,0 +1,4 @@
+<animfile>
+  <component>gun<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\cacadore\cacadore_2age_gun</file></assetreference></none><guardcacadores><assetreference type="GrannyModel"><file>units\infantry_ranged\cacadore\cacadore_4age_gun</file></assetreference></guardcacadores></logic></component>
+  <anim>Idle<component>gun</component></anim>
+</animfile>

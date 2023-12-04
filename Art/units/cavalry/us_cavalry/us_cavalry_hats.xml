@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\cavalry\us_cavalry\us_cav_age3_hat</file></assetreference></none><deveteranuscavalryshadow><assetreference type="GrannyModel"><file>units\cavalry\us_cavalry\us_cav_age3_hat</file></assetreference></deveteranuscavalryshadow><deguarduscavalry><assetreference type="GrannyModel"><file>units\cavalry\us_cavalry\us_cav_age4_hat</file></assetreference></deguarduscavalry><deimperialuscavalry><assetreference type="GrannyModel"><file>units\cavalry\us_cavalry\us_cav_age5_hat</file></assetreference></deimperialuscavalry></logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

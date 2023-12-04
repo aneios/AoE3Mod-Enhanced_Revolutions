@@ -1,0 +1,1765 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<HomeCity>
+	<Civ>DEEthiopians</Civ>
+	<Name>$$101002$$</Name>
+	<HeroName>$$101003$$</HeroName>
+	<GatherPointUnit>HomeCityGatherFlag</GatherPointUnit>
+	<Visual>ethiopia\ethiopia_homecity.xml</Visual>
+	<WaterVisual>ethiopia\ethiopia_homecity_water.xml</WaterVisual>
+	<BackgroundVisual>ethiopia\ethiopia_background.xml</BackgroundVisual>
+	<PathData>ethiopia\ethiopia_pathable_area.gr2</PathData>
+	<Camera>ethiopia\ethiopia_homecity_camera.cam</Camera>
+	<WidescreenCamera>ethiopia\ethiopia_homecity_widescreencamera.cam</WidescreenCamera>
+	<TransportRoundtripTime>1</TransportRoundtripTime>
+	<TransportActivationTime>0</TransportActivationTime>
+	<Level>1</Level>
+	<skillpoints>9</skillpoints>
+	<LightSet>ethiopia_homecity</LightSet>
+	<WaterType>Lisbon</WaterType>
+	<NumPropUnlocksEarned>0</NumPropUnlocksEarned>
+	<AmbientSounds>homecity\portugueseambientsounds.xml</AmbientSounds>
+	<XSAI>generic_city</XSAI>
+	<heroprotounits>
+		<protounit>dePrince</protounit>
+	</heroprotounits>
+	<Coffers>
+		<Current>
+			<Food>0</Food>
+			<Wood>0</Wood>
+			<Gold>0</Gold>
+			<Fame>0</Fame>
+			<Ships>0</Ships>
+			<SkillPoints>0</SkillPoints>
+			<XP>0</XP>
+		</Current>
+		<Maximum>
+			<Food>0</Food>
+			<Wood>0</Wood>
+			<Gold>0</Gold>
+			<Fame>0</Fame>
+			<Ships>0</Ships>
+			<SkillPoints>-1</SkillPoints>
+			<XP>-1</XP>
+		</Maximum>
+	</Coffers>
+	<Cards>
+		<!-- NEW WORLD TRADING CO -->
+		<Card>
+			<Name>DEHCShipVillagerRepeat</Name>
+			<MaxCount>-1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>3</Age>
+			<DisplayUnitCount>10</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCShipVillagers3</Name>
+			<MaxCount>1</MaxCount>
+			<Level>10</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+			<DisplayUnitCount>3</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+			<OverrideIcon>resources\art\units\african\african_villagers_icon.png</OverrideIcon>
+		</Card>
+		<Card>
+			<Name>DEHCShipVillagers1Repeat</Name>
+			<MaxCount>-1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+			<DisplayUnitCount>2</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+			<OverrideIcon>resources\art\units\african\african_villagers_icon.png</OverrideIcon>
+		</Card>
+		<Card>
+			<Name>DEHCShipVillagers2</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>4</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+			<OverrideIcon>resources\art\units\african\african_villagers_icon.png</OverrideIcon>
+		</Card>
+		<Card>
+			<Name>DEHCShipVillagers4</Name>
+			<MaxCount>1</MaxCount>
+			<Level>10</Level>
+			<PrereqTech>DEHCShipVillagers3</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>5</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+			<OverrideIcon>resources\art\units\african\african_villagers_icon.png</OverrideIcon>
+		</Card>
+		<Card>
+			<Name>DEHCShipVillagers5</Name>
+			<MaxCount>1</MaxCount>
+			<Level>25</Level>
+			<PrereqTech>DEHCShipVillagers4</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>8</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+			<OverrideIcon>resources\art\units\african\african_villagers_icon.png</OverrideIcon>
+		</Card>
+		<Card>
+			<Name>HCShipFoodCrates1</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>300</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipFoodCrates2</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipFoodCrates1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>600</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipFoodCrates3</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipFoodCrates2</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>700</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipFoodCrates4</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipFoodCrates3</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>1000</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipWoodCrates1</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>300</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipWoodCrates2</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipWoodCrates1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>600</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipWoodCrates3</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipwoodCrates2</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>700</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipWoodCrates4</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipWoodCrates3</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>1000</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipWoodCrates5</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>25</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipWoodCrates4</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>3</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>1600</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipCoinCrates1</Name>
+			<!-- Tech Name -->
+			<MaxCount>-1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>300</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipCoinCrates2</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipCoinCrates1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>600</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipCoinCrates3</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipCoinCrates2</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>700</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipCoinCrates4</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipCoinCrates3</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>1000</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipCoinCrates5</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>25</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCShipCoinCrates4</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>3</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>1600</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipWoodCrates6</Name>
+			<MaxCount>-1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>3</Age>
+			<DisplayUnitCount>1200</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCShipGoats1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>16</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipFatGoatsRepeat1</Name>
+			<MaxCount>-1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+			<DisplayUnitCount>3</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCShipZebu1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>7</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipSanga1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>7</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCShipCoveredWagons</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>1</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipCoveredWagonsAfrica</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCDonatarios</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>3</Age>
+			<!-- When you can play the tech -->
+			<DisplayUnitCount>2</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCAfricanHeroCombat</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+		</Card>
+		<!-- ACADEMY -->
+		<Card>
+			<Name>DEHCShipJavelinRidersRepeat1</Name>
+			<MaxCount>-1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>6</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCShipJavelinRiders1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>3</Age>
+			<DisplayUnitCount>14</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipGascenya1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>6</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipGascenya2</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>9</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipGascenya3</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>8</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipGascenya4</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>3</Age>
+			<DisplayUnitCount>16</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipShotel1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>6</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipShotel2</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>9</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipShotel3</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>8</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipShotel4</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>3</Age>
+			<DisplayUnitCount>15</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipNeftenya1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>4</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipNeftenya2</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>3</Age>
+			<DisplayUnitCount>12</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipNeftenyaRepeat</Name>
+			<MaxCount>-1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>3</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCShipSebastopolMortar1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>1</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipSebastopolMortar2</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>3</Age>
+			<DisplayUnitCount>2</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<!-- CATHEDRAL -->
+		<Card>
+			<Name>HCNativeLore</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCXPBloodBrothers</Name>
+			<MaxCount>1</MaxCount>
+			<Level>25</Level>
+			<PrereqTech>HCNativeWarriors</PrereqTech>
+			<Age>3</Age>
+		</Card>
+		<Card>
+			<Name>HCNativeTreaties</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>HCNativeLore</PrereqTech>
+			<Age>1</Age>
+		</Card>
+		<Card>
+			<Name>HCXPShipTradingPostTravois</Name>
+			<MaxCount>1</MaxCount>
+			<Level>10</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>3</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCBigLevy</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+		</Card>
+		<Card>
+			<Name>HCPioneers</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>DEHCBigLevy</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCImprovedBuildings</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCImprovedWallsTeam</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>DEHCShipCampWagonsRepeat</Name>
+			<MaxCount>-1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>2</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>HCHeavyFortifications</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>25</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>DEHCShipCampWagonsRepeat</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>3</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>DEHCWeaponImports</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>DEHCShipPalaceWagon1</PrereqTech>
+			<Age>2</Age>
+		</Card>
+		<Card>
+			<Name>DEHCShipPalaceWagon1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>1</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCShipPalaceWagon2</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>2</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCShipAbuns1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>3</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipAbuns2</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>5</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCExtensiveFortificationsAfrican</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>3</Age>
+		</Card>
+		<Card>
+			<Name>DEHCAdvancedAgriculture</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+		</Card>
+		<Card>
+			<Name>DEHCAdvancedPort</Name>
+			<MaxCount>1</MaxCount>
+			<Level>10</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+			<DisplayUnitCount>1</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCAristocracy</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>700</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCCallToArmsAfrican</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+		</Card>
+		<Card>
+			<Name>DEHCRoyalArchitecture</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+		</Card>
+		<Card>
+			<Name>DEHCFasterTrainingUnitsAfrican</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>3</Age>
+		</Card>
+		<Card>
+			<Name>DEHCAdvancedLivestockMarket</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+		</Card>
+		<Card>
+			<Name>HCAdvancedArsenal</Name>
+			<MaxCount>1</MaxCount>
+			<Level>10</Level>
+			<PrereqTech>HCColonialMilitia</PrereqTech>
+			<Age>3</Age>
+		</Card>
+		<Card>
+			<Name>HCXPAdvancedScouts</Name>
+			<MaxCount>1</MaxCount>
+			<Level>25</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+		</Card>
+		<Card>
+			<Name>YPHCNativeIncorporation</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>YPHCNativeLearning</PrereqTech>
+			<Age>1</Age>
+		</Card>
+		<Card>
+			<Name>HCNativeCombat</Name>
+			<MaxCount>1</MaxCount>
+			<Level>10</Level>
+			<PrereqTech>HCNativeWarriors</PrereqTech>
+			<Age>2</Age>
+		</Card>
+		<Card>
+			<Name>YPHCExpandedTradingPost</Name>
+			<MaxCount>1</MaxCount>
+			<Level>25</Level>
+			<PrereqTech>YPHCNativeTradeTax</PrereqTech>
+			<Age>0</Age>
+			<DisplayUnitCount>1</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCRanchingCattleZebu</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+		</Card>
+		<!-- MFG PLANT -->
+		<Card>
+			<Name>HCFishMarket</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+		</Card>
+		<Card>
+			<Name>HCRenderingPlant</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCFishMarket</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCSchooners</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCRenderingPlant</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCSawmills</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCIronmonger</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCSilversmith</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>10</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCIronmonger</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>1</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCRoyalMint</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>25</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCSilversmith</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>2</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCFoodSilos</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+		</Card>
+		<Card>
+			<Name>HCFullingMills</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>HCStockyards</PrereqTech>
+			<Age>0</Age>
+		</Card>
+		<Card>
+			<Name>HCXPEarthBounty</Name>
+			<MaxCount>1</MaxCount>
+			<Level>25</Level>
+			<PrereqTech>HCXPGreatHunter</PrereqTech>
+			<Age>0</Age>
+		</Card>
+		<Card>
+			<Name>HCXPWoodcrafting</Name>
+			<MaxCount>1</MaxCount>
+			<Level>25</Level>
+			<PrereqTech>HCExoticHardwoods</PrereqTech>
+			<Age>0</Age>
+		</Card>
+		<Card>
+			<Name>HCXPChinampa1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>10</Level>
+			<PrereqTech>HCSustainableAgriculture</PrereqTech>
+			<Age>1</Age>
+		</Card>
+		<Card>
+			<Name>HCXPGreatHunter</Name>
+			<MaxCount>1</MaxCount>
+			<Level>10</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+		</Card>
+		<Card>
+			<Name>HCFurrier</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>0</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>-1</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>HCSpiceTradeTeam</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+		</Card>
+		<Card>
+			<Name>HCMedicine</Name>
+			<MaxCount>1</MaxCount>
+			<Level>25</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+		</Card>
+		<Card>
+			<Name>HCXPEconomicTheory</Name>
+			<!-- Tech Name -->
+			<MaxCount>1</MaxCount>
+			<!-- How many times this card can be played (1 for once, -1 for infinite) -->
+			<Level>40</Level>
+			<!-- HC Level required for purchase / Tier -->
+			<PrereqTech>HCMedicine</PrereqTech>
+			<!-- Prereq to unlock the tech -->
+			<Age>0</Age>
+			<!-- When you can play the tech -->
+		</Card>
+		<Card>
+			<Name>DEHCCharity</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+		</Card>
+		<Card>
+			<Name>DEHCHegemony</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+		</Card>
+		<Card>
+			<Name>DEHCAgrarianWaysAfrican</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+		</Card>
+		<!-- HARBOR -->
+		<Card>
+			<Name>DEHCShipBattleCanoes1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>2</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipBattleCanoesRepeat1</Name>
+			<MaxCount>-1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>1</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCShipBattleCanoes2</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>3</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipBattleCanoesRepeat2</Name>
+			<MaxCount>-1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>2</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCShipAfricanCanoes1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>3</Age>
+			<DisplayUnitCount>4</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>HCNavalCombat</Name>
+			<MaxCount>1</MaxCount>
+			<Level>10</Level>
+			<PrereqTech>HCShipFrigates</PrereqTech>
+			<Age>1</Age>
+		</Card>
+		<Card>
+			<Name>HCCoastalDefensesTeam</Name>
+			<MaxCount>1</MaxCount>
+			<Level>25</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>0</Age>
+		</Card>
+		<Card>
+			<Name>YPHCEuropeanCannons</Name>
+			<MaxCount>1</MaxCount>
+			<Level>40</Level>
+			<PrereqTech>HCNavalCombat</PrereqTech>
+			<Age>1</Age>
+		</Card>
+		<Card>
+			<Name>HCMercenaryLoyalty</Name>
+			<MaxCount>1</MaxCount>
+			<Level>25</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+		</Card>
+		<Card>
+			<Name>DEHCShipSomaliAllies2</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>2</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCShipSomaliAllies3</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>3</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCCanoeCrafting</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+		</Card>
+		<Card>
+			<Name>DEHCBanditry</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+		</Card>
+		
+		<Card>
+			<Name>DEHCSPCShipJavelinRidersRepeat2</Name>
+			<MaxCount>-1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>10</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCSPCShipShotelRepeat1</Name>
+			<MaxCount>-1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>13</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCSPCShipGascenyaRepeat1</Name>
+			<MaxCount>-1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>13</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCSPCCoffeeConsumption</Name>
+			<MaxCount>1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>3</Age>
+		</Card>
+		<Card>
+			<Name>DEHCSPCShipSebastopolMortarRepeat1</Name>
+			<MaxCount>-1</MaxCount>
+			<Level>0</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>3</Age>
+			<DisplayUnitCount>1</DisplayUnitCount>
+			<InfiniteInLastAge>1</InfiniteInLastAge>
+		</Card>
+		<Card>
+			<Name>DEHCSPCShipInfluence1</Name>
+			<MaxCount>1</MaxCount>
+			<Level>10</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>1</Age>
+			<DisplayUnitCount>400</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCSPCShipInfluence2</Name>
+			<MaxCount>1</MaxCount>
+			<Level>25</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>2</Age>
+			<DisplayUnitCount>800</DisplayUnitCount>
+		</Card>
+		<Card>
+			<Name>DEHCSPCShipInfluence3</Name>
+			<MaxCount>1</MaxCount>
+			<Level>40</Level>
+			<PrereqTech>-1</PrereqTech>
+			<Age>3</Age>
+			<DisplayUnitCount>1000</DisplayUnitCount>
+		</Card>
+	</Cards>
+	
+	<Decks>
+		<Deck>
+			<Cards>
+				<Card>DEHCShipVillagers2</Card>
+				<Card>DEHCSPCShipInfluence1</Card>
+				<Card>DEHCSPCShipInfluence2</Card>
+				<Card>DEHCSPCShipInfluence3</Card>
+				<Card>HCShipFoodCrates2</Card>
+				<Card>HCShipWoodCrates2</Card>
+				<Card>DEHCAdvancedLivestockMarket</Card>
+				<Card>DEHCShipZebu1</Card>
+				<Card>DEHCShipShotel1</Card>				
+				<Card>DEHCShipGascenya1</Card>
+				<Card>DEHCShipGascenya2</Card>
+				<Card>DEHCShipShotel3</Card>
+				<Card>DEHCShipJavelinRiders1</Card>
+				<Card>DEHCShipNeftenya2</Card>
+				<Card>DEHCSPCCoffeeConsumption</Card>
+				<Card>DEHCShipAbuns2</Card>
+				<Card>DEHCFasterTrainingUnitsAfrican</Card>
+				<Card>DEHCSPCShipSebastopolMortarRepeat1</Card>
+			</Cards>
+		</Deck>
+	</Decks>
+	<Building>
+		<Name>Estate</Name>
+		<Visual>
+			<File>portuguese\portuguese estate.xml</File>
+			<Bone>bone_estate</Bone>
+		</Visual>
+		<UIX>150</UIX>
+		<UIY>200</UIY>
+		<Camera>portuguese\portuguese_homecity_estate_camera.cam</Camera>
+		<WidescreenCamera>portuguese\portuguese_homecity_estate_camera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\estate_icon</Portrait>
+		<DisplayNameStringID>24968</DisplayNameStringID>
+		<RolloverStringID>25537</RolloverStringID>
+		<ObtainableTechs>
+      </ObtainableTechs>
+		<ActiveTechs>
+      </ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<MercBuilding>1</MercBuilding>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Market</Name>
+		<Visual>
+			<File>ethiopia\ethiopia_marketplace.xml</File>
+			<Bone>bone_market</Bone>
+		</Visual>
+		<UIX>250</UIX>
+		<UIY>375</UIY>
+		<Camera>ethiopia\ethiopia_homecity_market_camera.cam</Camera>
+		<WidescreenCamera>ethiopia\ethiopia_homecity_market_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\market_icon</Portrait>
+		<DisplayNameStringID>101224</DisplayNameStringID>
+		<RolloverStringID>25536</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="1.0" y="1.0">DEHCShipVillagerRepeat</Tech>
+			<Tech x="1.0" y="1.0">DEHCShipVillagers3</Tech>
+			<Tech x="1.0" y="1.0">DEHCShipVillagers1Repeat</Tech>
+			<Tech x="1.0" y="1.0">DEHCShipVillagers2</Tech>
+			<Tech x="1.0" y="1.0">DEHCShipVillagers4</Tech>
+			<Tech x="1.0" y="1.0">DEHCShipVillagers5</Tech>
+			<Tech x="1.0" y="1.0">HCShipFoodCrates1</Tech>
+			<Tech x="1.7" y="1.0">HCShipWoodCrates1</Tech>
+			<Tech x="2.4" y="1.0">HCShipCoinCrates1</Tech>
+			<Tech x="1.0" y="2.0">HCShipFoodCrates2</Tech>
+			<Tech x="1.7" y="2.0">HCShipWoodCrates2</Tech>
+			<Tech x="2.4" y="2.0">HCShipCoinCrates2</Tech>
+			<Tech x="1.0" y="3.0">HCShipFoodCrates3</Tech>
+			<Tech x="1.7" y="3.0">HCShipWoodCrates3</Tech>
+			<Tech x="2.4" y="3.0">HCShipCoinCrates3</Tech>
+			<Tech x="1.0" y="4.0">HCShipFoodCrates4</Tech>
+			<Tech x="1.7" y="4.0">HCShipWoodCrates4</Tech>
+			<Tech x="2.4" y="4.0">HCShipCoinCrates4</Tech>
+			<Tech x="1.7" y="5.0">HCShipWoodCrates5</Tech>
+			<Tech x="2.4" y="5.0">HCShipCoinCrates5</Tech>
+			<Tech x="0.2" y="3.0">HCShipWoodCrates6</Tech>
+			<Tech x="3.3" y="2.0">DEHCShipGoats1</Tech>
+			<Tech x="3.3" y="2.0">DEHCShipFatGoatsRepeat1</Tech>
+			<Tech x="4.4" y="2.0">DEHCShipZebu1</Tech>
+			<Tech x="4.4" y="2.0">DEHCShipSanga1</Tech>
+			<Tech x="4.9" y="2.0">HCShipSurgeons</Tech>
+			<Tech x="4.9" y="3.0">HCXPMasterSurgeons</Tech>
+			<Tech x="4.9" y="5.0">HCXPAdvancedBalloon</Tech>
+			<Tech x="4.9" y="5.0">HCShipBalloons</Tech>
+			<Tech x="5.6" y="1.0">HCShipCoveredWagons</Tech>
+			<Tech x="5.6" y="3.0">HCDonatarios</Tech>
+			<Tech x="5.6" y="4.0">DEHCShipCoveredWagonsAfrica</Tech>
+			<Tech x="6.5" y="1.0">HCExplorerPortuguese</Tech>
+			<Tech x="6.5" y="5.0">HCShipBandeirantes</Tech>
+			<Tech x="6.5" y="5.0">DEHCAfricanHeroCombat</Tech>
+			<Tech x="6.5" y="5.0">DEHCRanchingCattleZebu</Tech>
+			<Tech x="6.5" y="5.0">DEHCSPCShipInfluence1</Tech>
+			<Tech x="6.5" y="5.0">DEHCSPCShipInfluence2</Tech>
+			<Tech x="6.5" y="5.0">DEHCSPCShipInfluence3</Tech>
+			
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="1.0" y="1.0">DEHCShipVillagerRepeat</Tech>
+			<Tech x="1.0" y="1.0">DEHCShipVillagers3</Tech>
+			<Tech x="1.0" y="1.0">DEHCShipVillagers1Repeat</Tech>
+			<Tech x="1.0" y="1.0">DEHCShipVillagers2</Tech>
+			<Tech x="1.0" y="1.0">DEHCShipVillagers4</Tech>
+			<Tech x="1.0" y="1.0">DEHCShipVillagers5</Tech>
+			<Tech x="1.0" y="1.0">HCShipFoodCrates1</Tech>
+			<Tech x="1.7" y="1.0">HCShipWoodCrates1</Tech>
+			<Tech x="2.4" y="1.0">HCShipCoinCrates1</Tech>
+			<Tech x="1.0" y="2.0">HCShipFoodCrates2</Tech>
+			<Tech x="1.7" y="2.0">HCShipWoodCrates2</Tech>
+			<Tech x="2.4" y="2.0">HCShipCoinCrates2</Tech>
+			<Tech x="1.0" y="3.0">HCShipFoodCrates3</Tech>
+			<Tech x="1.7" y="3.0">HCShipWoodCrates3</Tech>
+			<Tech x="2.4" y="3.0">HCShipCoinCrates3</Tech>
+			<Tech x="1.0" y="4.0">HCShipFoodCrates4</Tech>
+			<Tech x="1.7" y="4.0">HCShipWoodCrates4</Tech>
+			<Tech x="2.4" y="4.0">HCShipCoinCrates4</Tech>
+			<Tech x="1.7" y="5.0">HCShipWoodCrates5</Tech>
+			<Tech x="2.4" y="5.0">HCShipCoinCrates5</Tech>
+			<Tech x="0.2" y="3.0">HCShipWoodCrates6</Tech>
+			<Tech x="3.3" y="2.0">DEHCShipGoats1</Tech>
+			<Tech x="3.3" y="2.0">DEHCShipFatGoatsRepeat1</Tech>
+			<Tech x="4.4" y="2.0">DEHCShipZebu1</Tech>
+			<Tech x="4.4" y="2.0">DEHCShipSanga1</Tech>
+			<Tech x="4.9" y="2.0">HCShipSurgeons</Tech>
+			<Tech x="4.9" y="3.0">HCXPMasterSurgeons</Tech>
+			<Tech x="4.9" y="5.0">HCXPAdvancedBalloon</Tech>
+			<Tech x="4.9" y="5.0">HCShipBalloons</Tech>
+			<Tech x="5.6" y="1.0">HCShipCoveredWagons</Tech>
+			<Tech x="5.6" y="3.0">HCDonatarios</Tech>
+			<Tech x="5.6" y="4.0">DEHCShipCoveredWagonsAfrica</Tech>
+			<Tech x="6.5" y="1.0">HCExplorerPortuguese</Tech>
+			<Tech x="6.5" y="5.0">HCShipBandeirantes</Tech>
+			<Tech x="6.5" y="5.0">DEHCAfricanHeroCombat</Tech>
+			<Tech x="6.5" y="5.0">DEHCRanchingCattleZebu</Tech>
+			<Tech x="6.5" y="5.0">DEHCSPCShipInfluence1</Tech>
+			<Tech x="6.5" y="5.0">DEHCSPCShipInfluence2</Tech>
+			<Tech x="6.5" y="5.0">DEHCSPCShipInfluence3</Tech>
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Academy</Name>
+		<Visual>
+			<File>ethiopia\ethiopia_palace.xml</File>
+			<Bone>bone_palace</Bone>
+		</Visual>
+		<UIX>460</UIX>
+		<UIY>125</UIY>
+		<Camera>ethiopia\ethiopia_homecity_academy_camera.cam</Camera>
+		<WidescreenCamera>ethiopia\ethiopia_homecity_academy_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\academy_icon</Portrait>
+		<DisplayNameStringID>101225</DisplayNameStringID>
+		<RolloverStringID>25533</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="0.0" y="2.0">DEHCShipJavelinRidersRepeat1</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipJavelinRiders1</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipGascenya1</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipGascenya2</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipGascenya3</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipGascenya4</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipShotel1</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipShotel2</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipShotel3</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipShotel4</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipNeftenya1</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipNeftenya2</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipNeftenyaRepeat</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipSebastopolMortar1</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipSebastopolMortar2</Tech>
+			<Tech x="0.0" y="3.0">DEHCSPCShipJavelinRidersRepeat2</Tech>
+			<Tech x="0.0" y="3.0">DEHCSPCShipShotelRepeat1</Tech>
+			<Tech x="0.0" y="3.0">DEHCSPCShipGascenyaRepeat1</Tech>
+			<Tech x="0.0" y="3.0">DEHCSPCCoffeeConsumption</Tech>
+			<Tech x="0.0" y="3.0">DEHCSPCShipSebastopolMortarRepeat1</Tech>
+			
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="0.0" y="2.0">DEHCShipJavelinRidersRepeat1</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipJavelinRiders1</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipGascenya1</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipGascenya2</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipGascenya3</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipGascenya4</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipShotel1</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipShotel2</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipShotel3</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipShotel4</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipNeftenya1</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipNeftenya2</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipNeftenyaRepeat</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipSebastopolMortar1</Tech>
+			<Tech x="0.0" y="3.0">DEHCShipSebastopolMortar2</Tech>
+			
+			<Tech x="0.0" y="3.0">DEHCSPCShipJavelinRidersRepeat2</Tech>
+			<Tech x="0.0" y="3.0">DEHCSPCShipShotelRepeat1</Tech>
+			<Tech x="0.0" y="3.0">DEHCSPCShipGascenyaRepeat1</Tech>
+			<Tech x="0.0" y="3.0">DEHCSPCCoffeeConsumption</Tech>
+			<Tech x="0.0" y="3.0">DEHCSPCShipSebastopolMortarRepeat1</Tech>
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Cathedral</Name>
+		<Visual>
+			<File>ethiopia\ethiopia_monastery.xml</File>
+			<Bone>bone_temple</Bone>
+		</Visual>
+		<UIX>80</UIX>
+		<UIY>475</UIY>
+		<Camera>ethiopia\ethiopia_homecity_cathedral_camera.cam</Camera>
+		<WidescreenCamera>ethiopia\ethiopia_homecity_cathedral_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\cathedral_icon</Portrait>
+		<DisplayNameStringID>101229</DisplayNameStringID>
+		<RolloverStringID>25538</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="0.0" y="1.0">HCNativeLore</Tech>
+			<Tech x="0.0" y="2.0">HCNativeTreaties</Tech>
+			<Tech x="0.0" y="3.0">HCNativeWarriors</Tech>
+			<Tech x="0.0" y="5.0">HCAdvancedTradingPost</Tech>
+			<Tech x="0.9" y="5.0">HCXPBloodBrothers</Tech>
+			<Tech x="0.9" y="5.0">HCXPShipTradingPostTravois</Tech>
+			<Tech x="0.9" y="1.0">HCXPRanchingLlama</Tech>
+			<Tech x="0.9" y="3.0">HCFencingSchool</Tech>
+			<Tech x="1.6" y="3.0">HCRidingSchool</Tech>
+			<Tech x="0.9" y="6.0">HCEngineeringSchool</Tech>
+			<Tech x="1.6" y="5.0">HCNavigationSchool</Tech>
+			<Tech x="2.5" y="1.0">DEHCBigLevy</Tech>
+			<Tech x="2.5" y="2.0">HCPioneers</Tech>
+			<Tech x="2.5" y="3.0">HCImprovedWallsTeam</Tech>
+			<Tech x="2.5" y="4.0">HCImprovedBuildings</Tech>
+			<Tech x="3.2" y="1.0">DEHCShipPalaceWagon1</Tech>
+			<Tech x="3.2" y="1.0">DEHCShipPalaceWagon2</Tech>
+			<Tech x="3.2" y="1.0">DEHCShipAbuns1</Tech>
+			<Tech x="3.2" y="1.0">DEHCShipAbuns2</Tech>
+			<Tech x="3.2" y="1.0">DEHCExtensiveFortificationsAfrican</Tech>
+			<Tech x="3.2" y="3.0">DEHCWeaponImports</Tech>
+			<Tech x="3.2" y="5.0">HCXPUnlockFort2</Tech>
+			<Tech x="3.9" y="1.0">HCCheapOutpostsTeam</Tech>
+			<Tech x="3.9" y="2.0">DEHCShipCampWagonsRepeat</Tech>
+			<Tech x="3.9" y="5.0">HCHeavyFortifications</Tech>
+			<Tech x="4.6" y="1.0">HCXPShipSpies1</Tech>
+			<Tech x="4.6" y="3.0">HCXPShipSpies2</Tech>
+			<Tech x="4.6" y="7.0">HCXPAgents</Tech>
+			<Tech x="5.3" y="3.0">HCRoyalDecreePortuguese</Tech>
+			<Tech x="6.0" y="1.0">DEHCAdvancedAgriculture</Tech>
+			<Tech x="6.7" y="1.0">HCAdvancedMarket</Tech>
+			<Tech x="6.0" y="5.0">HCAdvancedPlantations</Tech>
+			<Tech x="6.7" y="3.0">DEHCAdvancedPort</Tech>
+			<Tech x="7.4" y="1.0">HCUnlockFactory</Tech>
+			<Tech x="7.4" y="3.0">HCRobberBarons</Tech>
+			<Tech x="7.4" y="3.0">DEHCAristocracy</Tech>
+			<Tech x="7.4" y="3.0">DEHCCallToArmsAfrican</Tech>
+			<Tech x="7.4" y="3.0">DEHCRoyalArchitecture</Tech>
+			<Tech x="7.4" y="3.0">DEHCFasterTrainingUnitsAfrican</Tech>
+			<Tech x="7.4" y="3.0">DEHCAdvancedLivestockMarket</Tech>
+			<Tech x="7.4" y="3.0">HCAdvancedArsenal</Tech>
+			<Tech x="7.4" y="3.0">HCXPAdvancedScouts</Tech>
+			<Tech x="7.4" y="3.0">YPHCNativeIncorporation</Tech>
+			<Tech x="7.4" y="3.0">HCNativeCombat</Tech>
+			<Tech x="7.4" y="3.0">YPHCExpandedTradingPost</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="0.0" y="1.0">HCNativeLore</Tech>
+			<Tech x="0.0" y="2.0">HCNativeTreaties</Tech>
+			<Tech x="0.0" y="3.0">HCNativeWarriors</Tech>
+			<Tech x="0.0" y="5.0">HCAdvancedTradingPost</Tech>
+			<Tech x="0.9" y="5.0">HCXPBloodBrothers</Tech>
+			<Tech x="3.2" y="2.0">HCXPShipTradingPostTravois</Tech>
+			<Tech x="0.9" y="1.0">HCXPRanchingLlama</Tech>
+			<Tech x="0.9" y="3.0">HCFencingSchool</Tech>
+			<Tech x="1.6" y="3.0">HCRidingSchool</Tech>
+			<Tech x="0.9" y="6.0">HCEngineeringSchool</Tech>
+			<Tech x="1.6" y="5.0">HCNavigationSchool</Tech>
+			<Tech x="2.5" y="1.0">DEHCBigLevy</Tech>
+			<Tech x="2.5" y="2.0">HCPioneers</Tech>
+			<Tech x="2.5" y="3.0">HCImprovedWallsTeam</Tech>
+			<Tech x="2.5" y="4.0">HCImprovedBuildings</Tech>
+			<Tech x="3.2" y="1.0">DEHCShipPalaceWagon1</Tech>
+			<Tech x="3.2" y="1.0">DEHCShipPalaceWagon2</Tech>
+			<Tech x="3.2" y="1.0">DEHCShipAbuns1</Tech>
+			<Tech x="3.2" y="1.0">DEHCShipAbuns2</Tech>
+			<Tech x="3.2" y="1.0">DEHCExtensiveFortificationsAfrican</Tech>
+			<Tech x="3.2" y="3.0">DEHCWeaponImports</Tech>
+			<Tech x="3.2" y="5.0">HCXPUnlockFort2</Tech>
+			<Tech x="3.9" y="1.0">HCCheapOutpostsTeam</Tech>
+			<Tech x="3.9" y="2.0">DEHCShipCampWagonsRepeat</Tech>
+			<Tech x="3.9" y="5.0">HCHeavyFortifications</Tech>
+			<Tech x="4.6" y="1.0">HCXPShipSpies1</Tech>
+			<Tech x="4.6" y="3.0">HCXPShipSpies2</Tech>
+			<Tech x="4.6" y="7.0">HCXPAgents</Tech>
+			<Tech x="5.3" y="3.0">HCRoyalDecreePortuguese</Tech>
+			<Tech x="6.0" y="1.0">DEHCAdvancedAgriculture</Tech>
+			<Tech x="6.7" y="1.0">HCAdvancedMarket</Tech>
+			<Tech x="6.0" y="5.0">HCAdvancedPlantations</Tech>
+			<Tech x="6.7" y="3.0">DEHCAdvancedPort</Tech>
+			<Tech x="7.4" y="1.0">HCUnlockFactory</Tech>
+			<Tech x="7.4" y="3.0">HCRobberBarons</Tech>
+			<Tech x="7.4" y="3.0">DEHCAristocracy</Tech>
+			<Tech x="7.4" y="3.0">DEHCCallToArmsAfrican</Tech>
+			<Tech x="7.4" y="3.0">DEHCRoyalArchitecture</Tech>
+			<Tech x="7.4" y="3.0">DEHCFasterTrainingUnitsAfrican</Tech>
+			<Tech x="7.4" y="3.0">DEHCAdvancedLivestockMarket</Tech>
+			<Tech x="7.4" y="3.0">HCAdvancedArsenal</Tech>
+			<Tech x="7.4" y="3.0">HCXPAdvancedScouts</Tech>
+			<Tech x="7.4" y="3.0">YPHCNativeIncorporation</Tech>
+			<Tech x="7.4" y="3.0">HCNativeCombat</Tech>
+			<Tech x="7.4" y="3.0">YPHCExpandedTradingPost</Tech>
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>ManufacturingPlant</Name>
+		<Visual>
+			<File>ethiopia\ethiopia_royal_library.xml</File>
+			<Bone>bone_royal_library</Bone>
+		</Visual>
+		<UIX>450</UIX>
+		<UIY>275</UIY>
+		<Camera>ethiopia\ethiopia_homecity_plant_camera.cam</Camera>
+		<WidescreenCamera>ethiopia\ethiopia_homecity_plant_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\buildings_west\_icon</Portrait>
+		<DisplayNameStringID>101230</DisplayNameStringID>
+		<RolloverStringID>25535</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="0.0" y="3.0">HCStonemasons</Tech>
+			<Tech x="0.0" y="5.0">HCXPLandGrab</Tech>
+			<Tech x="0.9" y="1.0">HCFishMarket</Tech>
+			<Tech x="0.9" y="3.0">HCRenderingPlant</Tech>
+			<Tech x="0.9" y="4.0">HCSchooners</Tech>
+			<Tech x="0.9" y="5.0">HCSpawnFishingBoats</Tech>
+			<Tech x="0.9" y="7.0">HCXPWhaleOil</Tech>
+			<Tech x="1.8" y="3.0">HCSawmills</Tech>
+			<Tech x="1.8" y="5.0">HCExoticHardwoods</Tech>
+			<Tech x="2.7" y="1.0">HCIronmonger</Tech>
+			<Tech x="2.7" y="3.0">HCSilversmith</Tech>
+			<Tech x="2.7" y="5.0">HCRoyalMint</Tech>
+			<Tech x="2.7" y="5.0">HCFoodSilos</Tech>
+			<Tech x="2.7" y="5.0">HCFullingMills</Tech>
+			<Tech x="2.7" y="5.0">HCXPEarthBounty</Tech>
+			<Tech x="2.7" y="5.0">HCXPWoodcrafting</Tech>
+			<Tech x="2.7" y="5.0">HCXPChinampa1</Tech>
+			<Tech x="2.7" y="5.0">HCXPGreatHunter</Tech>
+			<Tech x="2.7" y="7.0">DEHCCharity</Tech>
+			<Tech x="2.7" y="7.0">DEHCHegemony</Tech>
+			<Tech x="2.7" y="7.0">DEHCAgrarianWaysAfrican</Tech>
+			<Tech x="3.6" y="3.0">HCSustainableAgriculture</Tech>
+			<Tech x="3.6" y="5.0">HCRefrigeration</Tech>
+			<Tech x="4.5" y="1.0">HCFurrier</Tech>
+			<Tech x="4.5" y="5.0">HCSpiceTradeTeam</Tech>
+			<Tech x="4.5" y="5.0">HCMedicine</Tech>
+			<Tech x="4.5" y="7.0">HCXPEconomicTheory</Tech>
+			<Tech x="5.4" y="1.0">HCRumDistillery</Tech>
+			<Tech x="5.4" y="2.0">HCCigarRoller</Tech>
+			<Tech x="5.4" y="3.0">HCTextileMills</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="0.0" y="3.0">HCStonemasons</Tech>
+			<Tech x="0.0" y="5.0">HCXPLandGrab</Tech>
+			<Tech x="0.9" y="1.0">HCFishMarket</Tech>
+			<Tech x="0.9" y="3.0">HCRenderingPlant</Tech>
+			<Tech x="0.9" y="4.0">HCSchooners</Tech>
+			<Tech x="0.9" y="5.0">HCSpawnFishingBoats</Tech>
+			<Tech x="0.9" y="7.0">HCXPWhaleOil</Tech>
+			<Tech x="1.8" y="3.0">HCSawmills</Tech>
+			<Tech x="1.8" y="5.0">HCExoticHardwoods</Tech>
+			<Tech x="2.7" y="1.0">HCIronmonger</Tech>
+			<Tech x="2.7" y="3.0">HCSilversmith</Tech>
+			<Tech x="2.7" y="5.0">HCRoyalMint</Tech>
+			<Tech x="2.7" y="5.0">HCFoodSilos</Tech>
+			<Tech x="2.7" y="5.0">HCFullingMills</Tech>
+			<Tech x="2.7" y="5.0">HCXPEarthBounty</Tech>
+			<Tech x="2.7" y="5.0">HCXPWoodcrafting</Tech>
+			<Tech x="2.7" y="5.0">HCXPChinampa1</Tech>
+			<Tech x="2.7" y="5.0">HCXPGreatHunter</Tech>
+			<Tech x="2.7" y="7.0">DEHCCharity</Tech>
+			<Tech x="2.7" y="7.0">DEHCHegemony</Tech>
+			<Tech x="2.7" y="7.0">DEHCAgrarianWaysAfrican</Tech>
+			<Tech x="3.6" y="3.0">HCSustainableAgriculture</Tech>
+			<Tech x="3.6" y="5.0">HCRefrigeration</Tech>
+			<Tech x="4.5" y="1.0">HCFurrier</Tech>
+			<Tech x="4.5" y="5.0">HCSpiceTradeTeam</Tech>
+			<Tech x="4.5" y="5.0">HCMedicine</Tech>
+			<Tech x="4.5" y="7.0">HCXPEconomicTheory</Tech>
+			<Tech x="5.4" y="1.0">HCRumDistillery</Tech>
+			<Tech x="5.4" y="2.0">HCCigarRoller</Tech>
+			<Tech x="5.4" y="3.0">HCTextileMills</Tech>
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Dock</Name>
+		<Visual>
+			<File>ethiopia\ethiopia_harbour.xml</File>
+			<Bone>bone_harbour</Bone>
+		</Visual>
+		<UIX>200</UIX>
+		<UIY>250</UIY>
+		<Camera>ethiopia\ethiopia_homecity_dock_camera.cam</Camera>
+		<WidescreenCamera>ethiopia\ethiopia_homecity_dock_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\dock_icon</Portrait>
+		<DisplayNameStringID>101228</DisplayNameStringID>
+		<RolloverStringID>35746</RolloverStringID>
+		<ObtainableTechs>
+			<Tech x="1.3" y="1.0">DEHCShipBattleCanoes1</Tech>
+			<Tech x="1.3" y="1.0">DEHCShipBattleCanoesRepeat1</Tech>
+			<Tech x="1.3" y="1.0">DEHCShipBattleCanoes2</Tech>
+			<Tech x="1.3" y="1.0">DEHCShipBattleCanoesRepeat2</Tech>
+			<Tech x="1.3" y="1.0">DEHCShipAfricanCanoes1</Tech>
+			<Tech x="2.4" y="4.0">HCNavalCombat</Tech>
+			<Tech x="4.4" y="1.0">HCCoastalDefensesTeam</Tech>
+			<Tech x="4.4" y="1.0">YPHCEuropeanCannons</Tech>
+			<Tech x="4.4" y="1.0">HCMercenaryLoyalty</Tech>
+			<Tech x="4.4" y="1.0">DEHCShipSomaliAllies2</Tech>
+			<Tech x="4.4" y="1.0">DEHCShipSomaliAllies3</Tech>
+			<Tech x="4.4" y="1.0">DEHCCanoeCrafting</Tech>
+			<Tech x="4.4" y="1.0">DEHCBanditry</Tech>
+		</ObtainableTechs>
+		<ActiveTechs>
+			<Tech x="1.3" y="1.0">DEHCShipBattleCanoes1</Tech>
+			<Tech x="1.3" y="1.0">DEHCShipBattleCanoesRepeat1</Tech>
+			<Tech x="1.3" y="1.0">DEHCShipBattleCanoes2</Tech>
+			<Tech x="1.3" y="1.0">DEHCShipBattleCanoesRepeat2</Tech>
+			<Tech x="1.3" y="1.0">DEHCShipAfricanCanoes1</Tech>
+			<Tech x="2.4" y="4.0">HCNavalCombat</Tech>
+			<Tech x="4.4" y="1.0">HCCoastalDefensesTeam</Tech>
+			<Tech x="4.4" y="1.0">YPHCEuropeanCannons</Tech>
+			<Tech x="4.4" y="1.0">HCMercenaryLoyalty</Tech>
+			<Tech x="4.4" y="1.0">DEHCShipSomaliAllies2</Tech>
+			<Tech x="4.4" y="1.0">DEHCShipSomaliAllies3</Tech>
+			<Tech x="4.4" y="1.0">DEHCCanoeCrafting</Tech>
+			<Tech x="4.4" y="1.0">DEHCBanditry</Tech>
+		</ActiveTechs>
+		<ValidUnits>
+      </ValidUnits>
+		<Units>
+      </Units>
+		<TrainBuilding>1</TrainBuilding>
+	</Building>
+	<Building>
+		<Name>Customization</Name>
+		<Camera>ethiopia\ethiopia_homecity_camera.cam</Camera>
+		<WidescreenCamera>ethiopia\ethiopia_homecity_widescreencamera.cam</WidescreenCamera>
+		<UnlockLevel>0</UnlockLevel>
+		<Portrait>homecity\buildings_west\dock_icon</Portrait>
+		<DisplayNameStringID>24966</DisplayNameStringID>
+		<RolloverStringID>25540</RolloverStringID>
+		<CustomizationBuilding>1</CustomizationBuilding>
+	</Building>
+	<Waypoints>
+		<Waypoint>
+			<Bone>bone_shipment_start</Bone>
+			<ShipmentStart>1</ShipmentStart>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_shipment_end</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode01</Bone>
+			<Exit>1</Exit>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode02</Bone>
+			<VendorEntry>1</VendorEntry>
+			</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode03</Bone>
+			<Exit>1</Exit>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode04</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode05</Bone>
+			<Exit>1</Exit>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode06</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode07</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode08</Bone>
+			<ShipmentEnd>1</ShipmentEnd>
+			<Exit>1</Exit>
+			<VendorEntry>1</VendorEntry>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode09</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode10</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode11</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode12</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode13</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode14</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode15</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode16</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode17</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode18</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode19</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode20</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode21</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_pathnode22</Bone>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_fishing01_special</Bone>
+			<FishingArea>1</FishingArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_fishing02_special</Bone>
+			<FishingArea>1</FishingArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs01_special</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_dregs02_special</Bone>
+			<IllReputeArea>1</IllReputeArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor01_special</Bone>
+			<VendorArea>1</VendorArea>>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor02_special</Bone>
+			<VendorArea>1</VendorArea>>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor03_special</Bone>
+			<VendorArea>1</VendorArea>>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_vendor04_special</Bone>
+			<VendorArea>1</VendorArea>>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_GuardArea01_special</Bone>
+			<GuardArea>1</GuardArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_GuardArea02_special</Bone>
+			<GuardArea>1</GuardArea>
+		</Waypoint>
+		<Waypoint>
+			<Bone>bone_GuardArea03_special</Bone>
+			<GuardArea>1</GuardArea>
+		</Waypoint>
+	</Waypoints>
+	<ObtainableProps>
+		<Prop>StageCoachRoyal</Prop>
+		<Prop>Torchy</Prop>
+		<Prop>Juggler</Prop>
+		<Prop>PeasantVendor</Prop>
+		<Prop>MiddleClassMusician</Prop>
+		<Prop>MiddleClassPreacher</Prop>
+		<Prop>PeasantPainter</Prop>
+		<Prop>Drunk</Prop>
+		<Prop>NiceLady</Prop>
+		<Prop>PeasantFisherman</Prop>
+		<Prop>Thug</Prop>
+		<Prop>UnitChats</Prop>
+		<Prop Active="1">Portuguese_LightSet1</Prop>
+		<Prop>Portuguese_LightSet2</Prop>
+		<Prop>Portuguese_CathProp01</Prop>
+		<Prop>Portuguese_CathProp02</Prop>
+		<Prop>Portuguese_CathProp03</Prop>
+		<Prop>Portuguese_CathProp04</Prop>
+		<Prop>Portuguese_CathProp05</Prop>
+		<Prop>Portuguese_AcadProp01</Prop>
+		<Prop>Portuguese_AcadProp02</Prop>
+		<Prop>Port_NWTCProp01</Prop>
+		<Prop>Port_NWTCProp02</Prop>
+		<Prop>Port_NWTCProp03</Prop>
+		<Prop>Spanish_NWCTProp03</Prop>
+		<Prop>Port_FactProp01</Prop>
+		<Prop>Portuguese_FactProp02</Prop>
+		<Prop>Portuguese_PlantProp03</Prop>
+		<Prop>Portuguese_PlantProp04</Prop>
+		<Prop>Portuguese_PlantProp05</Prop>
+		<Prop>Portuguese_PlantProp06</Prop>
+		<Prop>Portuguese_DockProp01</Prop>
+		<Prop>Portuguese_DockProp02</Prop>
+		<Prop>Portuguese_DockProp03</Prop>
+		<Prop Active="1">Portuguese_NWTCTexture0</Prop>
+		<Prop>Portuguese_NWTCTexture1</Prop>
+		<Prop>Portuguese_NWTCTexture2</Prop>
+		<Prop>Portuguese_NWTCTexture3</Prop>
+		<Prop>Portuguese_NWTCTexture4</Prop>
+		<Prop>Portuguese_NWTCTexture5</Prop>
+		<Prop>Portuguese_NWTCTexture6</Prop>
+		<Prop>Portuguese_NWTCTexture7</Prop>
+		<Prop Active="1">Portuguese_AcademyTexture0</Prop>
+		<Prop>Portuguese_AcademyTexture1</Prop>
+		<Prop>Portuguese_AcademyTexture2</Prop>
+		<Prop>Portuguese_AcademyTexture3</Prop>
+		<Prop>Portuguese_AcademyTexture4</Prop>
+		<Prop>Portuguese_AcademyTexture5</Prop>
+		<Prop>Portuguese_AcademyTexture6</Prop>
+		<Prop>Portuguese_AcademyTexture7</Prop>
+		<Prop Active="1">Portuguese_ManuPlantTexture0</Prop>
+		<Prop>Portuguese_ManuPlantTexture1</Prop>
+		<Prop>Portuguese_ManuPlantTexture2</Prop>
+		<Prop>Portuguese_ManuPlantTexture3</Prop>
+		<Prop>Portuguese_ManuPlantTexture4</Prop>
+		<Prop>Portuguese_ManuPlantTexture5</Prop>
+		<Prop>Portuguese_ManuPlantTexture6</Prop>
+		<Prop>Portuguese_ManuPlantTexture7</Prop>
+		<Prop Active="1">Portuguese_CathedralTexture0</Prop>
+		<Prop>Portuguese_CathedralTexture1</Prop>
+		<Prop>Portuguese_CathedralTexture2</Prop>
+		<Prop>Portuguese_CathedralTexture3</Prop>
+		<Prop Active="1">Portuguese_DockTexture0</Prop>
+		<Prop>Portuguese_DockTexture1</Prop>
+		<Prop>Portuguese_DockTexture2</Prop>
+		<Prop>Portuguese_DockTexture3</Prop>
+	</ObtainableProps>
+</HomeCity>

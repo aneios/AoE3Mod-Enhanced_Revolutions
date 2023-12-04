@@ -1,0 +1,19 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\asians\indians\urumi\urumi_sword</file></assetreference></component>
+  <anim>Cheer<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_cheer</file></assetreference><component>ModelComp</component></anim>
+  <anim>Raze_idle<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hip</file></assetreference><component>ModelComp</component></anim>
+  <anim>Raze_attack<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hip</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hip</file></assetreference><component>ModelComp</component></anim>
+  <anim>Cover_bored<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hand</file></assetreference><component>ModelComp</component></anim>
+  <anim>Cover_Idle<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hand</file></assetreference><component>ModelComp</component></anim>
+  <anim>Cover_walk<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hand</file></assetreference><component>ModelComp</component></anim>
+  <anim>Cover_jog<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hand</file></assetreference><component>ModelComp</component></anim>
+  <anim>Cover_run<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hand</file></assetreference><component>ModelComp</component></anim>
+  <anim>Defend_idle<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hand</file></assetreference><component>ModelComp</component></anim>
+  <anim>Defend_bored<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hand</file></assetreference><component>ModelComp</component></anim>
+  <anim>Charge_idle<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded</file></assetreference><component>ModelComp</component></anim>
+  <anim>Charge_bored<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded</file></assetreference><component>ModelComp</component></anim>
+  <anim>Charge_attack<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_attack01</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_attack02</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_attack04</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_attack05</file></assetreference><component>ModelComp</component></anim>
+  <anim>Charge_walk<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded</file></assetreference><component>ModelComp</component></anim>
+  <anim>Charge_jog<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hand</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hand</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hand</file></assetreference><component>ModelComp</component></anim>
+  <anim>Charge_run<assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hand</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hand</file></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\urumi\urumi_sword_folded_hand</file></assetreference><component>ModelComp</component></anim>
+</animfile>

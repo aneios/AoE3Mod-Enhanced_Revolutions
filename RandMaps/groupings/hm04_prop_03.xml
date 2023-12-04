@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>9</width>
+	<height>7</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="202" posx="-7.0256" posz="-3.9715" orientx="-0.9238" orienty="0.0000" orientz="-0.3829">FenceRock</unit>
+		<unit variation="41" posx="6.0000" posz="-6.0000" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">BerryBush</unit>
+		<unit variation="79" posx="-4.6618" posz="-3.1385" orientx="-0.0000" orienty="0.0000" orientz="1.0000">Campfire</unit>
+		<unit variation="166" posx="5.5284" posz="-3.1535" orientx="-0.9239" orienty="0.0000" orientz="0.3827">PropsNative</unit>
+		<unit variation="233" posx="4.4068" posz="-2.9572" orientx="0.9517" orienty="-0.0025" orientz="-0.3070">Horse</unit>
+		<unit variation="222" posx="6.0000" posz="-4.0000" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">BerryBush</unit>
+		<unit variation="2" posx="-2.9241" posz="2.0081" orientx="0.7072" orienty="0.0000" orientz="-0.7070">dePropsYurt</unit>
+		<unit variation="2" posx="2.9350" posz="1.7409" orientx="-0.3826" orienty="0.0000" orientz="-0.9239">dePropsYurt</unit>
+		<unit variation="202" posx="-7.7760" posz="-1.5883" orientx="-1.0000" orienty="0.0000" orientz="-0.0001">FenceRock</unit>
+		<unit variation="237" posx="4.7749" posz="-1.2251" orientx="0.9239" orienty="0.0000" orientz="0.3827">PropsColony</unit>
+		<unit variation="228" posx="5.8131" posz="0.0319" orientx="0.9239" orienty="0.0000" orientz="0.3827">PropsColony</unit>
+		<unit variation="202" posx="6.2001" posz="-1.5129" orientx="-0.9239" orienty="0.0000" orientz="0.3827">FenceRock</unit>
+		<unit variation="5" posx="-7.2488" posz="1.0122" orientx="-0.9239" orienty="0.0000" orientz="0.3827">FenceRock</unit>
+		<unit variation="141" posx="-6.7572" posz="0.3592" orientx="1.0000" orienty="0.0000" orientz="0.0000">UnderbrushForest</unit>
+		<unit variation="156" posx="6.0010" posz="1.2818" orientx="0.9239" orienty="0.0000" orientz="0.3827">PropsColony</unit>
+		<unit variation="201" posx="7.3109" posz="0.9034" orientx="0.9239" orienty="0.0000" orientz="-0.3827">FenceRock</unit>
+		<unit variation="79" posx="-5.8494" posz="3.3666" orientx="-0.7071" orienty="0.0000" orientz="0.7071">FenceRock</unit>
+		<unit variation="196" posx="-5.0604" posz="3.8260" orientx="0.7071" orienty="0.0000" orientz="-0.7071">UnderbrushForest</unit>
+		<unit variation="143" posx="6.7847" posz="3.3116" orientx="0.7071" orienty="0.0000" orientz="0.7071">FenceRock</unit>
+		<unit variation="159" posx="-3.6079" posz="4.9442" orientx="-0.3827" orienty="0.0000" orientz="0.9239">FenceRock</unit>
+		<unit variation="168" posx="4.5459" posz="4.8180" orientx="0.3827" orienty="0.0000" orientz="0.9239">FenceRock</unit>
+		<unit variation="63" posx="1.7983" posz="5.3226" orientx="-0.0000" orienty="0.0000" orientz="1.0000">FenceRock</unit>
+		<unit variation="105" posx="0.3076" posz="4.0305" orientx="1.0000" orienty="0.0000" orientz="0.0000">UnderbrushForest</unit>
+		<unit variation="64" posx="-0.8501" posz="5.3495" orientx="-0.0000" orienty="0.0000" orientz="1.0000">FenceRock</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="great_plains\ground3_gp">
+			<block startx="-4" startz="-3" endx="-4" endz="-1"></block>
+			<block startx="-3" startz="-3" endx="-3" endz="-2"></block>
+			<block startx="-4" startz="2" endx="-4" endz="3"></block>
+			<block startx="3" startz="1" endx="3" endz="2"></block>
+			<block startx="4" startz="1" endx="4" endz="1"></block>
+			<block startx="2" startz="-3" endx="2" endz="-3"></block>
+			<block startx="3" startz="-3" endx="3" endz="-2"></block>
+			<block startx="4" startz="-2" endx="4" endz="-2"></block>
+			<block startx="4" startz="0" endx="4" endz="0"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_plains\ground2_gp">
+			<block startx="-4" startz="0" endx="-4" endz="0"></block>
+			<block startx="-3" startz="0" endx="-3" endz="0"></block>
+			<block startx="-2" startz="-3" endx="-2" endz="-3"></block>
+			<block startx="-4" startz="1" endx="-4" endz="1"></block>
+			<block startx="-3" startz="2" endx="-3" endz="2"></block>
+			<block startx="-2" startz="2" endx="-2" endz="3"></block>
+			<block startx="0" startz="3" endx="0" endz="3"></block>
+			<block startx="1" startz="3" endx="1" endz="3"></block>
+			<block startx="3" startz="3" endx="3" endz="3"></block>
+			<block startx="4" startz="2" endx="4" endz="3"></block>
+			<block startx="-1" startz="-3" endx="-1" endz="-3"></block>
+			<block startx="3" startz="-1" endx="3" endz="0"></block>
+			<block startx="4" startz="-1" endx="4" endz="-1"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_plains\ground7a_gp">
+			<block startx="-3" startz="-1" endx="-3" endz="-1"></block>
+			<block startx="-2" startz="-2" endx="-2" endz="0"></block>
+			<block startx="-2" startz="1" endx="-2" endz="1"></block>
+			<block startx="-1" startz="1" endx="-1" endz="1"></block>
+			<block startx="0" startz="1" endx="0" endz="2"></block>
+			<block startx="1" startz="1" endx="1" endz="2"></block>
+			<block startx="2" startz="1" endx="2" endz="2"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="0"></block>
+			<block startx="0" startz="-3" endx="0" endz="0"></block>
+			<block startx="1" startz="-3" endx="1" endz="0"></block>
+			<block startx="2" startz="-2" endx="2" endz="0"></block>
+			<block startx="4" startz="-3" endx="4" endz="-3"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="Texas\ground2_tex">
+			<block startx="-3" startz="1" endx="-3" endz="1"></block>
+			<block startx="-1" startz="3" endx="-1" endz="3"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="Texas\ground1_tex">
+			<block startx="-1" startz="2" endx="-1" endz="2"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="rockies\ground4_roc">
+			<block startx="-3" startz="3" endx="-3" endz="3"></block>
+			<block startx="2" startz="3" endx="2" endz="3"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

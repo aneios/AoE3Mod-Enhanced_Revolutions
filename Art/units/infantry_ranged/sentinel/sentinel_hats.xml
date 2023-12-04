@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\sentinel\sentinel_age1_helmet</file></assetreference></none><deveteransentinels><assetreference type="GrannyModel"><file>units\infantry_ranged\sentinel\sentinel_age2_helmet</file></assetreference></deveteransentinels><deguardsentinels><assetreference type="GrannyModel"><file>units\infantry_ranged\sentinel\sentinel_age3_helmet</file></assetreference></deguardsentinels><deimperialsentinels><assetreference type="GrannyModel"><file>units\infantry_ranged\sentinel\sentinel_age4_helmet</file></assetreference></deimperialsentinels></logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

@@ -1,0 +1,26 @@
+<animfile>
+  <definebone>bone_debris_1A</definebone>
+  <definebone>bone_debris_1B</definebone>
+  <definebone>bone_debris_1C</definebone>
+  <definebone>bone_debris_1D</definebone>
+  <definebone>bone_debris_1E</definebone>
+  <definebone>bone_debris_2A</definebone>
+  <definebone>bone_debris_2B</definebone>
+  <definebone>bone_debris_2C</definebone>
+  <definebone>bone_debris_2D</definebone>
+  <definebone>bone_debris_2E</definebone>
+  <definebone>bone_debris_2F</definebone>
+  <definebone>bone_debris_2G</definebone>
+  <definebone>bone_debris_3A</definebone>
+  <definebone>bone_debris_3B</definebone>
+  <definebone>bone_debris_3C</definebone>
+  <definebone>bone_debris_3D</definebone>
+  <definebone>bone_debris_3E</definebone>
+  <definebone>bone_debris_3F</definebone>
+  <definebone>bone_flag_civ</definebone>
+  <definebone>bone_debris_3g</definebone>
+  <definebone>bone_debris_3h</definebone>
+  <definebone>bone_debris_3i</definebone>
+  <component>LIVE<assetreference type="GrannyModel"><file>buildings\spc\africa_east\african_farm</file></assetreference><decal><effecttype>bump</effecttype><texture>buildings\asian_civs\spc\aztec_farm\farm_ground</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\asian_civs\spc\aztec_farm\farm_ground_bump</bumptexture><width>16.00</width><height>16.00</height></decal></component>
+  <anim>Idle<component>LIVE</component><simskeleton><model>buildings\spc\africa_east\african_farm</model></simskeleton></anim>
+</animfile>

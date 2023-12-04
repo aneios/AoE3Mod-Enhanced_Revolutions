@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>6</width>
+	<height>5</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="145" posx="-0.2288" posz="-3.2699" orientx="0.3827" orienty="0.0021" orientz="-0.9239">SPCCasualties</unit>
+		<unit variation="207" posx="-1.5199" posz="0.4765" orientx="0.9239" orienty="0.0000" orientz="-0.3827">SPCDamagedCannons</unit>
+		<unit variation="203" posx="-0.6034" posz="-0.1030" orientx="-0.8624" orienty="0.0000" orientz="0.5062">TreeGreatPlainsGrass</unit>
+		<unit variation="146" posx="-0.8917" posz="2.3770" orientx="-0.3827" orienty="0.0051" orientz="-0.9239">SPCCasualties</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="araucania\ground_dirt1_ara">
+			<block startx="-2" startz="-1" endx="-2" endz="1"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="-2"></block>
+			<block startx="-1" startz="2" endx="-1" endz="2"></block>
+			<block startx="0" startz="-2" endx="0" endz="-1"></block>
+			<block startx="0" startz="2" endx="0" endz="2"></block>
+			<block startx="1" startz="-1" endx="1" endz="1"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground_dirt2_ara">
+			<block startx="-1" startz="-1" endx="-1" endz="1"></block>
+			<block startx="0" startz="0" endx="0" endz="1"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

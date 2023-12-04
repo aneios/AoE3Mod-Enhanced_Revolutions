@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="106210" imagepath="ui\random_map\hybrid_maps" helpTextID="106211" cannotReplace="">
+  <map>euDnieperBasin</map>
+  <map>afGold Coast</map>
+  <map>afLakeChad</map>
+  <map>afLakeVictoria</map>
+  <map>afNiger River</map>
+  <map>afSavanna</map>
+  <map>Amazonia</map>
+  <map>Cascade Range</map>
+  <map>Great Lakes</map>
+  <map>Northwest Territory</map>
+  <map>CentralAsia</map>
+  <map>Korea</map>
+  <map>yellow riverDry</map>
+</randomMaps>

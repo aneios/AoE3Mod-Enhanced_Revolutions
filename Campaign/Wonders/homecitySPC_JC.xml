@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by Sean Bean (Big Huge Games) -->
+<HomeCity>
+  <Civ>SPCJapanese</Civ>
+  <Name>$$60010$$</Name>
+  <HeroName>$$69983$$</HeroName>
+  <GatherPointUnit>HomeCityGatherFlag</GatherPointUnit>
+  <Visual>japan\japan_homecity.xml</Visual>
+  <WaterVisual>japan\japan_homecity_water.xml</WaterVisual>
+  <BackgroundVisual>japan\japan_background.xml</BackgroundVisual>
+  <PathData>japan\pathable_area_object.gr2</PathData>
+  <Camera>japan\japan_homecity_camera.cam</Camera>
+  <WidescreenCamera>japan\japan_homecity_widescreencamera.cam</WidescreenCamera>
+  <TransportRoundtripTime>1</TransportRoundtripTime>
+  <TransportActivationTime>0</TransportActivationTime>
+  <Level>1</Level>
+  <LightSet>Japan</LightSet>
+  <WaterType>Japan_HC</WaterType>
+  <NumPropUnlocksEarned>0</NumPropUnlocksEarned>
+  <AmbientSounds>homecity\spanishambientsounds.xml</AmbientSounds>
+  <XSAI>generic_city</XSAI>
+  <Coffers>
+    <Current>
+      <Food>0</Food>
+      <Wood>0</Wood>
+      <Gold>0</Gold>
+      <Fame>0</Fame>
+      <Ships>0</Ships>
+      <SkillPoints>0</SkillPoints>
+      <XP>0</XP>
+    </Current>
+    <Maximum>
+      <Food>0</Food>
+      <Wood>0</Wood>
+      <Gold>0</Gold>
+      <Fame>0</Fame>
+      <Ships>0</Ships>
+      <SkillPoints>-1</SkillPoints>
+      <XP>-1</XP>
+    </Maximum>
+  </Coffers>
+  <Cards>
+    <!-- NEW WORLD TRADING CO -->
+    <Card>
+      <Name>YPHCShipSettlersAsian1</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>2</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipSettlersAsian2</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipSettlersAsian1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>4</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipSettlersAsian5</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipSettlersAsian2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>7</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>HCShipFoodCrates1</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>300</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>HCShipFoodCrates2</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>HCShipFoodCrates1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>600</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>HCShipFoodCrates4</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>HCShipFoodCrates2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>1000</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>HCShipWoodCrates1</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>300</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>HCShipWoodCrates2</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>HCShipWoodCrates1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>600</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>HCShipWoodCrates4</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>HCShipWoodCrates2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>1000</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>HCShipCoinCrates1</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>300</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>HCShipCoinCrates2</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>HCShipCoinCrates1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>600</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>HCShipCoinCrates4</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>HCShipCoinCrates2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>1000</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipCoveredWagonsJapan</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>1</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipShrineWagon</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>2</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipShrineWagon2</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipShrineWagon</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>4</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCIncreasedTribute</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShrineLearning</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCIncreasedTribute</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipMonitorLizard1</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>3</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <!-- ACADEMY -->
+    <Card>
+      <Name>YPHCShipYumi1</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>5</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipYumi2</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipYumi1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>14</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCYumiDamage</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipYumi2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipYumi3</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipYumi2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>9</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipYumi4</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipYumi3</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>16</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCYumiRange</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCYumiDamage</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipAshigaru1</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>7</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipAshigaru2</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipAshigaru1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>5</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipAshigaru3</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipAshigaru2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>14</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCAshigaruDamage</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipAshigaru2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipAshigaru4</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipAshigaru3</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>8</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCAshigaruAntiCavalryDamage</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCAshigaruDamage</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipSamurai1</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>3</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipSamurai2</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipSamurai1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>7</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipSamurai3</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipSamurai2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>5</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCSamuraiDamage</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipSamurai2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipSamurai4</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipSamurai3</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>6</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCSamuraiSpeed</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCSamuraiDamage</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipNaginataRider1</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>6</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipNaginataRider2</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipNaginataRider1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>5</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCnaginatahitpoints</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipNaginataRider2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCNaginataAntiInfantryDamage</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCnaginatahitpoints</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipNaginataRider3</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipNaginataRider2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>8</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipNaginataRider4</Name>
+      <!-- Tech Name -->
+      <MaxCount>-1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipNaginataRider3</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>4</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipYabusame1</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>4</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipYabusame2</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipYabusame1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>6</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCYabusameDamage</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipYabusame2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCYabusameAntiArtilleryDamage</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCYabusameDamage</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCjapanesesiege</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCSamuraiSpeed</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipFlamingArrow1</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>2</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipFlamingArrow2</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipFlamingArrow1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>3</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipFlamingArrow3</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipFlamingArrow2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>4</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCArtilleryHitpointsJapanese</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipFlamingArrow3</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCArtilleryCostJapanese</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCArtilleryHitpointsJapanese</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipMorutaru1</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>3</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCShipMorutaru2</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipMorutaru1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>4</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCArtilleryDamageJapanese</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipMorutaru2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCMorutaruRangeJapanese</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCArtilleryDamageJapanese</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <!-- CATHEDRAL -->
+    <Card>
+      <Name>HCFencingSchool</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>HCRidingSchool</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCEnlistIrregulars</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCZenDiet</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCEnlistIrregulars</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>HCImprovedBuildings</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCZenDiet</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>HCExtensiveFortifications</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCDojoGenbukan</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>1</DisplayUnitCount>
+    </Card>
+    <Card>
+      <Name>YPHCDojoRenpeikan</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCDojoGenbukan</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>1</DisplayUnitCount>
+    </Card>
+    <Card>
+      <Name>YPSPCHCShipDaimyoTadaoki</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPSPCHCShipDaimyoKiyomasa</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPSPCHCShipDaimyoTadaoki</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPSPCHCShipDaimyoMasamune</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPSPCHCShipDaimyoKiyomasa</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <!-- MFG PLANT -->
+    <Card>
+      <Name>ypHCSawmills</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>HCRoyalMint</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>ypHCSilversmith</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>HCRoyalMint</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCRedSealShip</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>ypHCSilversmith</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>HCFoodSilos</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>HCSustainableAgriculture</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>HCFoodSilos</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>HCRefrigeration</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>HCSustainableAgriculture</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipBerryWagon1</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <DisplayUnitCount>1</DisplayUnitCount>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipBerryWagon2</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipBerryWagon1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <DisplayUnitCount>2</DisplayUnitCount>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipRicePaddyWagon1</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <DisplayUnitCount>1</DisplayUnitCount>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipRicePaddyWagon2</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipRicePaddyWagon1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <DisplayUnitCount>1</DisplayUnitCount>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCShipRicePaddyWagon3</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCShipRicePaddyWagon2</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <DisplayUnitCount>1</DisplayUnitCount>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCBerryGrove</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <Card>
+      <Name>YPHCRainbowTrickle</Name>
+      <!-- Tech Name -->
+      <MaxCount>1</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCBerryGrove</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>0</Age>
+      <!-- When you can play the tech -->
+    </Card>
+    <!-- HARBOR -->
+    <Card>
+      <Name>YPHCMercsYojimbo1</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>4</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMercsNinja1</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCMercsYojimbo1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>10</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMercsRonin1</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>2</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>5</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMercsJapaneseArmy</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCMercsRonin1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>10</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMercsRonin2</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCMercsJapaneseArmy</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>15</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMercssohei1</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>-1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>1</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>11</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+    <Card>
+      <Name>YPHCMercssohei2</Name>
+      <!-- Tech Name -->
+      <MaxCount>2</MaxCount>
+      <!-- How many times this card can be played (1 for once, -1 for infinite) -->
+      <Level>0</Level>
+      <!-- HC Level required for purchase / Tier -->
+      <PrereqTech>YPHCMercssohei1</PrereqTech>
+      <!-- Prereq to unlock the tech -->
+      <Age>3</Age>
+      <!-- When you can play the tech -->
+      <DisplayUnitCount>29</DisplayUnitCount>
+      <InfiniteInLastAge>1</InfiniteInLastAge>
+    </Card>
+  </Cards>
+  <Decks>
+    <Deck>
+      <!-- Customized subset of my active cards -->
+      <Name>$$41682$$</Name>
+      <Cards>
+        <Card>HCShipFoodCrates1</Card>
+        <Card>HCShipCoinCrates1</Card>
+        <Card>YPHCShipCoveredWagonsJapan</Card>
+        <Card>YPHCShipSettlersAsian1</Card>
+        <Card>YPHCShipYumi1</Card>
+        <Card>YPHCShipAshigaru1</Card>
+        <Card>YPHCShipAshigaru2</Card>
+        <Card>YPHCShipNaginataRider1</Card>
+        <Card>YPHCShipNaginataRider2</Card>
+        <Card>YPHCMercsNinja1</Card>
+        <Card>YPHCShipSamurai1</Card>
+        <Card>YPHCShipSamurai2</Card>
+        <Card>YPHCShipYabusame1</Card>
+        <Card>YPHCShipRicePaddyWagon1</Card>
+        <Card>YPSPCHCShipDaimyoTadaoki</Card>
+      </Cards>
+    </Deck>
+  </Decks>
+  <Building>
+    <Name>Estate</Name>
+    <Visual>
+      <File>japan\tori.xml</File>
+      <Bone>bone_tori</Bone>
+    </Visual>
+    <UIX>150</UIX>
+    <UIY>200</UIY>
+    <Camera>japan\japan_homecity_estate_camera.cam</Camera>
+    <WidescreenCamera>japan\japan_homecity_estate_widescreencamera.cam</WidescreenCamera>
+    <UnlockLevel>0</UnlockLevel>
+    <Portrait>homecity\buildings_west\estate_icon</Portrait>
+    <DisplayNameStringID>24968</DisplayNameStringID>
+    <RolloverStringID>25537</RolloverStringID>
+    <ObtainableTechs/>
+    <ActiveTechs/>
+    <ValidUnits>
+		</ValidUnits>
+    <Units>
+		</Units>
+    <TrainBuilding>1</TrainBuilding>
+    <MercBuilding>1</MercBuilding>
+  </Building>
+  <Building>
+    <Name>Emperor's Treasury</Name>
+    <Visual>
+      <File>japan\court.xml</File>
+      <Bone>bone_court</Bone>
+    </Visual>
+    <UIX>250</UIX>
+    <UIY>375</UIY>
+    <Camera>japan\japan_homecity_market_camera.cam</Camera>
+    <WidescreenCamera>japan\japan_homecity_market_widescreencamera.cam</WidescreenCamera>
+    <UnlockLevel>0</UnlockLevel>
+    <Portrait>homecity\buildings_west\market_icon</Portrait>
+    <DisplayNameStringID>63356</DisplayNameStringID>
+    <RolloverStringID>25536</RolloverStringID>
+    <ObtainableTechs>
+      <Tech x="0.3" y="1.0">YPHCShipSettlersAsian1</Tech>
+      <Tech x="0.3" y="2.0">YPHCShipSettlersAsian2</Tech>
+      <Tech x="0.3" y="5.0">YPHCShipSettlersAsian5</Tech>
+      <Tech x="1.3" y="1.0">HCShipFoodCrates1</Tech>
+      <Tech x="1.3" y="2.0">HCShipFoodCrates2</Tech>
+      <Tech x="1.3" y="4">HCShipFoodCrates4</Tech>
+      <Tech x="2.3" y="1.0">HCShipWoodCrates1</Tech>
+      <Tech x="2.3" y="2.0">HCShipWoodCrates2</Tech>
+      <Tech x="2.3" y="4">HCShipWoodCrates4</Tech>
+      <Tech x="3.3" y="1.0">HCShipCoinCrates1</Tech>
+      <Tech x="3.3" y="2.0">HCShipCoinCrates2</Tech>
+      <Tech x="3.3" y="4">HCShipCoinCrates4</Tech>
+      <Tech x="4.3" y="1.0">YPHCShipCoveredWagonsJapan</Tech>
+      <Tech x="5.3" y="2.0">YPHCShipShrineWagon</Tech>
+      <Tech x="5.3" y="3">YPHCShipShrineWagon2</Tech>
+      <Tech x="6.3" y="2">YPHCIncreasedTribute</Tech>
+      <Tech x="6.3" y="3">YPHCShrineLearning</Tech>
+      <Tech x="7.3" y="1">YPHCShipMonitorLizard1</Tech>
+    </ObtainableTechs>
+    <ActiveTechs>
+      <Tech>HCShipFoodCrates1</Tech>
+      <Tech>HCShipCoinCrates1</Tech>
+      <Tech>YPHCShipSettlersAsian1</Tech>
+      <Tech>YPHCShipCoveredWagonsJapan</Tech>
+    </ActiveTechs>
+    <ValidUnits/>
+    <Units/>
+    <TrainBuilding>1</TrainBuilding>
+  </Building>
+  <Building>
+    <Name>Fortress</Name>
+    <Visual>
+      <File>japan\tallbuilding.xml</File>
+      <Bone>bone_tallbuilding</Bone>
+    </Visual>
+    <UIX>460</UIX>
+    <UIY>125</UIY>
+    <Camera>japan\japan_homecity_academy_camera.cam</Camera>
+    <WidescreenCamera>japan\japan_homecity_academy_widescreencamera.cam</WidescreenCamera>
+    <UnlockLevel>0</UnlockLevel>
+    <Portrait>homecity\buildings_west\academy_icon</Portrait>
+    <DisplayNameStringID>63357</DisplayNameStringID>
+    <RolloverStringID>29002</RolloverStringID>
+    <ObtainableTechs>
+      <Tech x="0" y="1">YPHCShipYumi1</Tech>
+      <Tech x="0" y="2">YPHCShipYumi2</Tech>
+      <Tech x="0.7" y="3">YPHCYumiDamage</Tech>
+      <Tech x="0" y="4">YPHCShipYumi3</Tech>
+      <Tech x="0" y="6">YPHCShipYumi4</Tech>
+      <Tech x="0.7" y="5">YPHCYumiRange</Tech>
+      <Tech x="1.5" y="1">YPHCShipAshigaru1</Tech>
+      <Tech x="1.5" y="2">YPHCShipAshigaru2</Tech>
+      <Tech x="1.5" y="4">YPHCShipAshigaru3</Tech>
+      <Tech x="2.2" y="3">YPHCAshigaruDamage</Tech>
+      <Tech x="1.5" y="6">YPHCShipAshigaru4</Tech>
+      <Tech x="2.2" y="5">YPHCAshigaruAntiCavalryDamage</Tech>
+      <Tech x="3.0" y="1">YPHCShipSamurai1</Tech>
+      <Tech x="3.0" y="2">YPHCShipSamurai2</Tech>
+      <Tech x="3.0" y="4">YPHCShipSamurai3</Tech>
+      <Tech x="3.7" y="3">YPHCSamuraiDamage</Tech>
+      <Tech x="3.0" y="6">YPHCShipSamurai4</Tech>
+      <Tech x="3.7" y="5">YPHCSamuraiSpeed</Tech>
+      <Tech x="4.5" y="1">YPHCShipNaginataRider1</Tech>
+      <Tech x="4.5" y="2">YPHCShipNaginataRider2</Tech>
+      <Tech x="5.2" y="3">YPHCnaginatahitpoints</Tech>
+      <Tech x="5.2" y="5">YPHCNaginataAntiInfantryDamage</Tech>
+      <Tech x="4.5" y="4">YPHCShipNaginataRider3</Tech>
+      <Tech x="4.5" y="6">YPHCShipNaginataRider4</Tech>
+      <Tech x="6.0" y="1">YPHCShipYabusame1</Tech>
+      <Tech x="6.0" y="2">YPHCShipYabusame2</Tech>
+      <Tech x="6.0" y="4">YPHCYabusameDamage</Tech>
+      <Tech x="6.0" y="5">YPHCYabusameAntiArtilleryDamage</Tech>
+      <Tech x="3.7" y="7">YPHCjapanesesiege</Tech>
+      <Tech x="6.8" y="1">YPHCShipFlamingArrow1</Tech>
+      <Tech x="6.8" y="2">YPHCShipFlamingArrow2</Tech>
+      <Tech x="6.8" y="3">YPHCShipFlamingArrow3</Tech>
+      <Tech x="6.8" y="5">YPHCArtilleryHitpointsJapanese</Tech>
+      <Tech x="6.8" y="6">YPHCArtilleryCostJapanese</Tech>
+      <Tech x="7.6" y="1">YPHCShipMorutaru1</Tech>
+      <Tech x="7.6" y="3">YPHCShipMorutaru2</Tech>
+      <Tech x="7.6" y="4">YPHCArtilleryDamageJapanese</Tech>
+      <Tech x="7.6" y="5">YPHCMorutaruRangeJapanese</Tech>
+    </ObtainableTechs>
+    <ActiveTechs>
+      <Tech>YPHCShipYumi1</Tech>
+      <Tech>YPHCShipAshigaru1</Tech>
+      <Tech>YPHCShipAshigaru2</Tech>
+      <Tech>YPHCShipNaginataRider1</Tech>
+      <Tech>YPHCShipNaginataRider2</Tech>
+      <Tech>YPHCShipSamurai1</Tech>
+      <Tech>YPHCShipSamurai2</Tech>
+      <Tech>YPHCShipYabusame1</Tech>
+      <Tech>YPHCShipMorutaru1</Tech>
+    </ActiveTechs>
+    <ValidUnits>
+		</ValidUnits>
+    <Units/>
+    <TrainBuilding>1</TrainBuilding>
+  </Building>
+  <Building>
+    <Name>Imperial Court</Name>
+    <Visual>
+      <File>japan\circlebuilding.xml</File>
+      <Bone>bone_circlebuilding</Bone>
+    </Visual>
+    <UIX>80</UIX>
+    <UIY>475</UIY>
+    <Camera>japan\japan_homecity_cathedral_camera.cam</Camera>
+    <WidescreenCamera>japan\japan_homecity_cathedral_widescreencamera.cam</WidescreenCamera>
+    <UnlockLevel>0</UnlockLevel>
+    <Portrait>homecity\buildings_west\cathedral_icon</Portrait>
+    <DisplayNameStringID>63358</DisplayNameStringID>
+    <RolloverStringID>25538</RolloverStringID>
+    <ObtainableTechs>
+      <Tech x="0" y="3">HCFencingSchool</Tech>
+      <Tech x="0.8" y="3">HCRidingSchool</Tech>
+      <Tech x="2" y="1">YPHCEnlistIrregulars</Tech>
+      <Tech x="2" y="3">YPHCZenDiet</Tech>
+      <Tech x="2" y="4">HCImprovedBuildings</Tech>
+      <Tech x="3" y="3">HCExtensiveFortifications</Tech>
+      <Tech x="5" y="2">YPHCDojoGenbukan</Tech>
+      <Tech x="5" y="3">YPHCDojoRenpeikan</Tech>
+      <Tech x="6" y="2">YPSPCHCShipDaimyoTadaoki</Tech>
+      <Tech x="6" y="3">YPSPCHCShipDaimyoKiyomasa</Tech>
+      <Tech x="6" y="4">YPSPCHCShipDaimyoMasamune</Tech>
+    </ObtainableTechs>
+    <ActiveTechs>
+      <Tech>YPSPCHCShipDaimyoTadaoki</Tech>
+    </ActiveTechs>
+    <ValidUnits/>
+    <Units/>
+    <TrainBuilding>1</TrainBuilding>
+  </Building>
+  <Building>
+    <Name>Merchants Guild</Name>
+    <Visual>
+      <File>japan\waterbuilding.xml</File>
+      <Bone>bone_waterbuilding</Bone>
+    </Visual>
+    <UIX>450</UIX>
+    <UIY>275</UIY>
+    <Camera>japan\japan_homecity_manufacturing_plant_camera.cam</Camera>
+    <WidescreenCamera>japan\japan_homecity_plant_widescreencamera.cam</WidescreenCamera>
+    <UnlockLevel>0</UnlockLevel>
+    <Portrait>homecity\buildings_west\manufacturing_plant_icon</Portrait>
+    <DisplayNameStringID>63359</DisplayNameStringID>
+    <RolloverStringID>25535</RolloverStringID>
+    <ObtainableTechs>
+      <Tech x="1" y="1">ypHCSawmills</Tech>
+      <Tech x="2" y="2">HCRoyalMint</Tech>
+      <Tech x="2" y="4">ypHCSilversmith</Tech>
+      <Tech x="2" y="6">YPHCRedSealShip</Tech>
+      <Tech x="3" y="1">HCFoodSilos</Tech>
+      <Tech x="3" y="3">HCSustainableAgriculture</Tech>
+      <Tech x="3" y="5">HCRefrigeration</Tech>
+      <Tech x="6" y="5">YPHCRainbowTrickle</Tech>
+      <Tech x="4" y="1">YPHCShipRicePaddyWagon1</Tech>
+      <Tech x="4" y="3">YPHCShipRicePaddyWagon2</Tech>
+      <Tech x="4" y="5">YPHCShipRicePaddyWagon3</Tech>
+      <Tech x="5" y="2">YPHCShipBerryWagon1</Tech>
+      <Tech x="5" y="4">YPHCShipBerryWagon2</Tech>
+      <Tech x="6" y="2">YPHCBerryGrove</Tech>
+    </ObtainableTechs>
+    <ActiveTechs>
+      <Tech>YPHCShipBerryWagon1</Tech>
+      <Tech>YPHCShipRicePaddyWagon1</Tech>
+    </ActiveTechs>
+    <ValidUnits/>
+    <TrainBuilding>1</TrainBuilding>
+  </Building>
+  <Building>
+    <Name>Customs House</Name>
+    <Visual>
+      <File>japan\boatbuilding.xml</File>
+      <Bone>bone_boatbuilding</Bone>
+    </Visual>
+    <UIX>200</UIX>
+    <UIY>250</UIY>
+    <Camera>japan\japan_homecity_dock_camera.cam</Camera>
+    <WidescreenCamera>japan\japan_homecity_dock_widescreencamera.cam</WidescreenCamera>
+    <UnlockLevel>0</UnlockLevel>
+    <Portrait>homecity\buildings_west\dock_icon</Portrait>
+    <DisplayNameStringID>63360</DisplayNameStringID>
+    <RolloverStringID>35746</RolloverStringID>
+    <ObtainableTechs>
+      <Tech x="2.4" y="1">YPHCMercsRonin1</Tech>
+      <Tech x="2.4" y="3">YPHCMercsJapaneseArmy</Tech>
+      <Tech x="2.4" y="5">YPHCMercsRonin2</Tech>
+      <Tech x="3.7" y="2">YPHCMercsYojimbo1</Tech>
+      <Tech x="3.7" y="4">YPHCMercsNinja1</Tech>
+      <Tech x="5" y="1">YPHCMercssohei1</Tech>
+      <Tech x="5" y="3">YPHCMercssohei2</Tech>
+    </ObtainableTechs>
+    <ActiveTechs>
+      <Tech>YPHCMercsYojimbo1</Tech>
+      <Tech>YPHCMercsNinja1</Tech>
+    </ActiveTechs>
+    <ValidUnits/>
+    <Units/>
+    <TrainBuilding>1</TrainBuilding>
+    <MercBuilding>1</MercBuilding>
+  </Building>
+  <Building>
+    <Name>Customization</Name>
+    <Camera>japan\japan_homecity_camera.cam</Camera>
+    <WidescreenCamera>japan\japan_homecity_widescreencamera.cam</WidescreenCamera>
+    <UnlockLevel>0</UnlockLevel>
+    <Portrait>homecity\buildings_west\dock_icon</Portrait>
+    <DisplayNameStringID>24966</DisplayNameStringID>
+    <RolloverStringID>25540</RolloverStringID>
+    <CustomizationBuilding>1</CustomizationBuilding>
+  </Building>
+  <Waypoints>
+    <Waypoint>
+      <Bone>bone_pathnode_01</Bone>
+      <PerformanceArea>1</PerformanceArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_02</Bone>
+      <PerformanceArea>1</PerformanceArea>
+      <Exit/>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_03</Bone>
+      <PerformanceArea>1</PerformanceArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_04</Bone>
+      <PerformanceArea>1</PerformanceArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_05</Bone>
+      <PerformanceArea>1</PerformanceArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_06</Bone>
+      <PerformanceArea/>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_07</Bone>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_08</Bone>
+      <PerformanceArea/>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_09</Bone>
+      <PerformanceArea/>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_10</Bone>
+      <Exit>1</Exit>
+      <VendorEntry>1</VendorEntry>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_11</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_12</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_13</Bone>
+      <Exit/>
+      <VendorEntry/>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_14</Bone>
+      <Exit/>
+      <VendorEntry/>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_15</Bone>
+      <PerformanceArea/>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_16</Bone>
+      <Exit/>
+      <VendorEntry/>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_17</Bone>
+      <Exit/>
+      <VendorEntry/>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_18</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_19</Bone>
+      <Exit/>
+      <VendorEntry/>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_20</Bone>
+      <PerformanceArea/>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_21</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_22</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_23</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_24</Bone>
+      <PerformanceArea/>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_25</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_26</Bone>
+      <Exit/>
+      <VendorEntry/>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_27</Bone>
+      <PerformanceArea/>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_28</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_29</Bone>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_30</Bone>
+      <PerformanceArea/>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_pathnode_31</Bone>
+      <PerformanceArea/>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_academy_doorway</Bone>
+      <Door>1</Door>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_plant_doorway</Bone>
+      <Door>1</Door>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_plant_side_doorway</Bone>
+      <Door>1</Door>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_small_church_doorway</Bone>
+      <Door>1</Door>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_cathedral_doorway</Bone>
+      <Door>1</Door>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_cathedral_side_doorway</Bone>
+      <Door>1</Door>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_fishing01</Bone>
+      <FishingArea>1</FishingArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_fishing02</Bone>
+      <FishingArea>1</FishingArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_fishing03</Bone>
+      <FishingArea>1</FishingArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_shipment_start</Bone>
+      <ShipmentStart>1</ShipmentStart>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_shipment_end</Bone>
+      <ShipmentEnd>1</ShipmentEnd>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_dregs01</Bone>
+      <IllReputeArea>1</IllReputeArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_dregs02</Bone>
+      <IllReputeArea>1</IllReputeArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_dregs03</Bone>
+      <IllReputeArea>1</IllReputeArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_dregs04</Bone>
+      <IllReputeArea>1</IllReputeArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_dregs05</Bone>
+      <IllReputeArea>1</IllReputeArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_dregs06</Bone>
+      <IllReputeArea>1</IllReputeArea>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor01</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor02</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor03</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor04</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor05</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor06</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor07</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_vendor08</Bone>
+      <VendorArea>1</VendorArea>
+      </Waypoint>
+    <Waypoint>
+      <Bone>bone_firework01</Bone>
+      <Fireworks>1</Fireworks>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_firework02</Bone>
+      <Fireworks>1</Fireworks>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_firework03</Bone>
+      <Fireworks>1</Fireworks>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_firework04</Bone>
+      <Fireworks>1</Fireworks>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_firework05</Bone>
+      <Fireworks>1</Fireworks>
+    </Waypoint>
+    <Waypoint>
+      <Bone>bone_firework06</Bone>
+      <Fireworks>1</Fireworks>
+    </Waypoint>
+  </Waypoints>
+  <ObtainableProps>
+    <Prop Active="1">JapanesePeasant</Prop>
+    <Prop>Torchy</Prop>
+    <Prop>Juggler</Prop>
+    <Prop>PeasantVendor</Prop>
+    <Prop>MiddleClassMusician</Prop>
+    <Prop>MiddleClassPreacher</Prop>
+    <Prop>PeasantPainter</Prop>
+    <Prop>Drunk</Prop>
+    <Prop>NiceLady</Prop>
+    <Prop>Thug</Prop>
+    <Prop>PeasantFisherman</Prop>
+    <Prop>UnitChats</Prop>
+    <Prop Active="1">Spanish_LightSet1</Prop>
+    <Prop>Spanish_LightSet2</Prop>
+    <Prop>Spanish_AcadProp01</Prop>
+    <Prop>Spanish_AcadProp02</Prop>
+    <Prop>Spanish_AcadProp03</Prop>
+    <Prop>Spanish_AcadProp04</Prop>
+    <Prop>Church_RiderStatueProp</Prop>
+    <Prop>Spanish_CathProp01</Prop>
+    <Prop>Spanish_NWCTProp01</Prop>
+    <Prop>Spanish_NWCTProp02</Prop>
+    <Prop>Spanish_NWCTProp03</Prop>
+    <Prop>Spn_FactProp01</Prop>
+    <Prop>Spn_FactProp02</Prop>
+    <Prop>Spn_DockProp01</Prop>
+    <Prop>Spn_DockProp02</Prop>
+    <Prop>Spn_DockProp03</Prop>
+    <Prop>Spn_DockProp04</Prop>
+    <Prop>Spn_DockProp05</Prop>
+    <Prop Active="1">Spanish_NWTCTexture0</Prop>
+    <Prop>Spanish_NWTCTexture1</Prop>
+    <Prop>Spanish_NWTCTexture2</Prop>
+    <Prop>Spanish_NWTCTexture3</Prop>
+    <Prop>Spanish_NWTCTexture4</Prop>
+    <Prop>Spanish_NWTCTexture5</Prop>
+    <Prop>Spanish_NWTCTexture6</Prop>
+    <Prop>Spanish_NWTCTexture7</Prop>
+    <Prop Active="1">Spanish_AcademyTexture0</Prop>
+    <Prop>Spanish_AcademyTexture1</Prop>
+    <Prop>Spanish_AcademyTexture2</Prop>
+    <Prop>Spanish_AcademyTexture3</Prop>
+    <Prop Active="1">Spanish_ManuPlantTexture0</Prop>
+    <Prop>Spanish_ManuPlantTexture1</Prop>
+    <Prop>Spanish_ManuPlantTexture2</Prop>
+    <Prop>Spanish_ManuPlantTexture3</Prop>
+    <Prop>Spanish_ManuPlantTexture4</Prop>
+    <Prop>Spanish_ManuPlantTexture5</Prop>
+    <Prop>Spanish_ManuPlantTexture6</Prop>
+    <Prop>Spanish_ManuPlantTexture7</Prop>
+    <Prop Active="1">Spanish_CathedralTexture0</Prop>
+    <Prop>Spanish_CathedralTexture1</Prop>
+    <Prop>Spanish_CathedralTexture2</Prop>
+    <Prop>Spanish_CathedralTexture3</Prop>
+    <Prop Active="1">Spanish_DockTexture0</Prop>
+    <Prop>Spanish_DockTexture1</Prop>
+    <Prop>Spanish_DockTexture2</Prop>
+    <Prop>Spanish_DockTexture3</Prop>
+    <Prop>Spanish_DockTexture4</Prop>
+    <Prop>Spanish_DockTexture5</Prop>
+    <Prop>Spanish_DockTexture6</Prop>
+    <Prop>Spanish_DockTexture7</Prop>
+  </ObtainableProps>
+</HomeCity>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>hat<assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_3age_hat</file></assetreference></component>
+  <anim>Idle<component>hat</component></anim>
+</animfile>

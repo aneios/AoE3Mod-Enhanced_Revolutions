@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>9</width>
+	<height>8</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="13" posx="-3.0811" posz="-6.6789" orientx="0.9237" orienty="0.0000" orientz="0.3830">UnderbrushForest</unit>
+		<unit variation="13" posx="-3.0654" posz="-6.4317" orientx="-1.0000" orienty="0.0000" orientz="-0.0004">UnderbrushForest</unit>
+		<unit variation="206" posx="-3.0356" posz="-7.1319" orientx="0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushForest</unit>
+		<unit variation="206" posx="-1.4367" posz="-7.9544" orientx="0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushForest</unit>
+		<unit variation="147" posx="-2.1550" posz="-7.0299" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">UnderbrushForest</unit>
+		<unit variation="13" posx="-2.2408" posz="-7.4819" orientx="-0.7073" orienty="0.0000" orientz="0.7069">UnderbrushForest</unit>
+		<unit variation="13" posx="-2.9258" posz="-7.1642" orientx="0.3823" orienty="0.0000" orientz="0.9240">UnderbrushForest</unit>
+		<unit variation="13" posx="-1.7001" posz="-7.6573" orientx="-0.0004" orienty="0.0000" orientz="1.0000">UnderbrushForest</unit>
+		<unit variation="206" posx="0.0171" posz="-7.6739" orientx="0.9239" orienty="0.0000" orientz="-0.3826">UnderbrushForest</unit>
+		<unit variation="57" posx="-2.0685" posz="-4.1891" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushForest</unit>
+		<unit variation="13" posx="-2.7539" posz="-4.1527" orientx="0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushForest</unit>
+		<unit variation="206" posx="-2.1559" posz="-2.8166" orientx="0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushForest</unit>
+		<unit variation="145" posx="-1.2079" posz="-4.2384" orientx="0.7071" orienty="0.0000" orientz="0.7071">UnderbrushForest</unit>
+		<unit variation="74" posx="-4.3970" posz="-2.9928" orientx="-0.9239" orienty="0.0000" orientz="0.3827">UnderbrushForest</unit>
+		<unit variation="206" posx="3.7552" posz="-4.1958" orientx="-0.7070" orienty="0.0000" orientz="-0.7072">UnderbrushForest</unit>
+		<unit variation="190" posx="3.8459" posz="-2.8504" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">UnderbrushForest</unit>
+		<unit variation="13" posx="-5.9974" posz="-3.4146" orientx="-0.3827" orienty="0.0000" orientz="0.9239">UnderbrushForest</unit>
+		<unit variation="13" posx="-6.4894" posz="-3.2133" orientx="-0.9239" orienty="0.0000" orientz="0.3827">UnderbrushForest</unit>
+		<unit variation="13" posx="-5.1617" posz="-2.2403" orientx="-0.0000" orienty="0.0000" orientz="1.0000">UnderbrushForest</unit>
+		<unit variation="125" posx="-5.9848" posz="-2.4120" orientx="-0.9239" orienty="0.0000" orientz="0.3827">UnderbrushForest</unit>
+		<unit variation="13" posx="-6.7014" posz="-2.6533" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushForest</unit>
+		<unit variation="206" posx="3.3930" posz="-1.1833" orientx="-0.9239" orienty="0.0000" orientz="0.3826">UnderbrushForest</unit>
+		<unit variation="206" posx="3.2992" posz="0.5497" orientx="-0.7072" orienty="0.0000" orientz="0.7070">UnderbrushForest</unit>
+		<unit variation="206" posx="-2.8138" posz="3.2912" orientx="0.9239" orienty="0.0000" orientz="0.3827">UnderbrushForest</unit>
+		<unit variation="182" posx="-4.5358" posz="1.5141" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">UnderbrushForest</unit>
+		<unit variation="145" posx="0.3181" posz="2.6326" orientx="0.3826" orienty="0.0000" orientz="0.9239">UnderbrushForest</unit>
+		<unit variation="133" posx="-0.1837" posz="3.0570" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">UnderbrushForest</unit>
+		<unit variation="145" posx="-0.2658" posz="3.1001" orientx="-0.7072" orienty="0.0000" orientz="0.7070">UnderbrushForest</unit>
+		<unit variation="145" posx="-3.5539" posz="3.2584" orientx="0.0003" orienty="0.0000" orientz="-1.0000">UnderbrushForest</unit>
+		<unit variation="206" posx="2.1787" posz="6.0527" orientx="0.7071" orienty="0.0000" orientz="-0.7071">UnderbrushForest</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="araucania\ground12_ara">
+			<block startx="-4" startz="-4" endx="-4" endz="-4"></block>
+			<block startx="-4" startz="1" endx="-4" endz="3"></block>
+			<block startx="-3" startz="1" endx="-3" endz="3"></block>
+			<block startx="-2" startz="2" endx="-2" endz="3"></block>
+			<block startx="-1" startz="1" endx="-1" endz="2"></block>
+			<block startx="0" startz="2" endx="0" endz="2"></block>
+			<block startx="1" startz="1" endx="1" endz="3"></block>
+			<block startx="2" startz="1" endx="2" endz="3"></block>
+			<block startx="3" startz="2" endx="3" endz="2"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_lakes\ground_grass1_gls">
+			<block startx="-4" startz="-3" endx="-4" endz="-1"></block>
+			<block startx="-3" startz="-4" endx="-3" endz="-1"></block>
+			<block startx="-2" startz="-4" endx="-2" endz="-3"></block>
+			<block startx="-4" startz="0" endx="-4" endz="0"></block>
+			<block startx="-3" startz="0" endx="-3" endz="0"></block>
+			<block startx="-2" startz="0" endx="-2" endz="1"></block>
+			<block startx="-1" startz="0" endx="-1" endz="0"></block>
+			<block startx="-1" startz="3" endx="-1" endz="3"></block>
+			<block startx="0" startz="0" endx="0" endz="1"></block>
+			<block startx="0" startz="3" endx="0" endz="3"></block>
+			<block startx="1" startz="0" endx="1" endz="0"></block>
+			<block startx="2" startz="0" endx="2" endz="0"></block>
+			<block startx="3" startz="0" endx="3" endz="1"></block>
+			<block startx="4" startz="1" endx="4" endz="1"></block>
+			<block startx="-1" startz="-4" endx="-1" endz="-4"></block>
+			<block startx="0" startz="-4" endx="0" endz="-4"></block>
+			<block startx="1" startz="-4" endx="1" endz="-1"></block>
+			<block startx="2" startz="-4" endx="2" endz="-1"></block>
+			<block startx="3" startz="-4" endx="3" endz="-1"></block>
+			<block startx="4" startz="-4" endx="4" endz="-2"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_plains\ground3_gp">
+			<block startx="-2" startz="-2" endx="-2" endz="-1"></block>
+			<block startx="3" startz="3" endx="3" endz="3"></block>
+			<block startx="4" startz="0" endx="4" endz="0"></block>
+			<block startx="4" startz="2" endx="4" endz="3"></block>
+			<block startx="-1" startz="-3" endx="-1" endz="-1"></block>
+			<block startx="0" startz="-3" endx="0" endz="-1"></block>
+			<block startx="4" startz="-1" endx="4" endz="-1"></block>
+		</tilegroup>
+		<heights>
+			<tiles x="-4" z="-4">-0.729 -0.350 0.296 1.251 1.922 1.299 -0.541 -0.714 -0.709 </tiles>
+			<tiles x="-4" z="-3">0.240 1.121 2.137 3.384 4.030 3.161 1.171 0.102 -0.474 </tiles>
+			<tiles x="-4" z="-2">1.128 2.543 3.883 4.601 5.135 3.948 2.062 0.799 0.058 </tiles>
+			<tiles x="-4" z="-1">1.655 3.299 4.594 4.520 4.448 3.275 1.880 1.082 0.599 </tiles>
+			<tiles x="-4" z="0">1.711 2.590 3.385 1.507 1.507 1.507 1.507 0.517 0.573 </tiles>
+			<tiles x="-4" z="1">1.331 0.566 1.507 1.619 1.507 1.507 1.507 1.507 -0.362 </tiles>
+			<tiles x="-4" z="2">0.018 0.090 2.206 1.947 1.624 2.142 1.507 1.507 -1.612 </tiles>
+			<tiles x="-4" z="3">-1.160 -0.817 -0.417 0.752 0.915 1.056 1.002 -1.214 -1.595 </tiles>
+		</heights>
+	</tiles>
+</grouping>

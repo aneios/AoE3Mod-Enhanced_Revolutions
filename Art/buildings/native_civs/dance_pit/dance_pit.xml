@@ -1,0 +1,36 @@
+<animfile>
+  <definebone>bone_inner_circle</definebone>
+  <definebone>bone_outer_circle</definebone>
+  <definebone>bone_dancer01</definebone>
+  <definebone>bone_dancer02</definebone>
+  <definebone>bone_dancer03</definebone>
+  <definebone>bone_dancer04</definebone>
+  <definebone>bone_dancer05</definebone>
+  <definebone>bone_dancer06</definebone>
+  <definebone>bone_dancer07</definebone>
+  <definebone>bone_dancer08</definebone>
+  <definebone>bone_dancer09</definebone>
+  <definebone>bone_dancer10</definebone>
+  <definebone>bone_dancer11</definebone>
+  <definebone>bone_dancer12</definebone>
+  <definebone>bone_dancer13</definebone>
+  <definebone>bone_dancer14</definebone>
+  <definebone>bone_dancer15</definebone>
+  <definebone>bone_dancer16</definebone>
+  <definebone>bone_dancer17</definebone>
+  <definebone>bone_dancer18</definebone>
+  <definebone>bone_dancer19</definebone>
+  <definebone>bone_dancer20</definebone>
+  <definebone>bone_dancer21</definebone>
+  <definebone>bone_dancer22</definebone>
+  <definebone>bone_dancer23</definebone>
+  <definebone>bone_dancer24</definebone>
+  <definebone>bone_dancer25</definebone>
+  <definebone>bone_flag_civ</definebone>
+  <attachment>fire_pile<component>signal_fire<assetreference type="GrannyModel"><file>buildings\spc\signal_fire\spc_signal_fire</file></assetreference></component><anim>Idle<component>signal_fire</component></anim></attachment>
+  <attachment>flagpole<component>flagpole<assetreference type="GrannyModel"><file>buildings\native_civs\dance_pit\dance_flagpole</file></assetreference></component><anim>Idle<component>flagpole</component></anim></attachment>
+  <submodel>sub_construction_stage_01<component>construction_stage_01<assetreference type="GrannyModel"><file>buildings\constructions\4x4_stage1</file></assetreference></component><anim>Idle<component>construction_stage_01</component></anim></submodel>
+  <submodel>sub_construction_stage_02<component>construction_stage_02<assetreference type="GrannyModel"><file>buildings\constructions\4x4_stage2</file></assetreference></component><anim>Idle<component>construction_stage_02</component></anim></submodel>
+  <component>ModelComp<logic type="Culture"><aztec><logic type="Tech"><none><logic type="BuildingCompletion"><p0><submodelref ref="sub_construction_stage_01"></submodelref></p0><p33><submodelref ref="sub_construction_stage_02"></submodelref></p33><p66><submodelref ref="sub_construction_stage_02"></submodelref></p66><p100><assetreference type="GrannyModel"><file>buildings\native_civs\dance_pit\dance_circles</file></assetreference></p100></logic></none><colonialize><logic type="BuildingCompletion"><p0><submodelref ref="sub_construction_stage_01"></submodelref></p0><p33><submodelref ref="sub_construction_stage_02"></submodelref></p33><p66><submodelref ref="sub_construction_stage_02"></submodelref></p66><p100><assetreference type="GrannyModel"><file>buildings\native_civs\dance_pit\dance_circles</file></assetreference></p100></logic></colonialize><industrialize><logic type="BuildingCompletion"><p0><submodelref ref="sub_construction_stage_01"></submodelref></p0><p33><submodelref ref="sub_construction_stage_02"></submodelref></p33><p66><submodelref ref="sub_construction_stage_02"></submodelref></p66><p100><assetreference type="GrannyModel"><file>buildings\native_civs\dance_pit\dance_circles</file></assetreference></p100></logic></industrialize></logic></aztec></logic><decal><effecttype>bump</effecttype><texture>buildings\native_civs\dance_pit\dance_pit_ground</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\native_civs\dance_pit\dance_pit_ground_bump</bumptexture><width>16.00</width><height>16.00</height></decal><attach a="fire_pile" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach><attach a="flagpole" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach></component>
+  <anim>idle<component>ModelComp</component></anim>
+</animfile>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_4age_hat</file></assetreference></none><ypbigconsulatedutch><assetreference type="GrannyModel"><file></file></assetreference></ypbigconsulatedutch><ypbigconsulatebritish><assetreference type="GrannyModel"><file></file></assetreference></ypbigconsulatebritish><ypbigconsulateportuguese><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\legionario_hat</file></assetreference></ypbigconsulateportuguese></logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

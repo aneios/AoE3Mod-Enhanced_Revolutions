@@ -1,0 +1,4 @@
+<animfile>
+  <component>swords<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\cavalry\cossack\cossack_2age_sword</file></assetreference></none><veterancossacks><assetreference type="GrannyModel"><file>units\cavalry\cossack\cossack_3age_sword</file></assetreference></veterancossacks><guardcossacks><assetreference type="GrannyModel"><file>units\cavalry\cossack\cossack_4age_sword</file></assetreference></guardcossacks></logic></component>
+  <anim>Idle<component>swords</component></anim>
+</animfile>

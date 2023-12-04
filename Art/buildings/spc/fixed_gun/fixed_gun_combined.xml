@@ -1,0 +1,13 @@
+<animfile>
+  <definebone>bone_launchpoint</definebone>
+  <definebone>bone_muzzle</definebone>
+  <definebone>Bone_main</definebone>
+  <definebone>bone_flag</definebone>
+  <definebone>bone_flag_civ</definebone>
+  <definebone>bone_flag_death</definebone>
+  <component>fixed gun<assetreference type="GrannyModel"><file>buildings\spc\fixed_gun\fixed_gun_combined</file></assetreference></component>
+  <component>fixed gun_death<assetreference type="GrannyModel"><file>buildings\spc\fixed_gun\fixed_gun_combined_deathmodel</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>buildings\spc\fixed_gun\fixed_gun_idle</file></assetreference><component>fixed gun</component></anim>
+  <anim>RangedAttack<assetreference type="GrannyAnim"><file>buildings\spc\fixed_gun\fixed_gun_rangedAttack</file><tag type="CameraShake" force="0.09" duration="0.2">0.35</tag><tag type="Attack">0.35</tag><tag type="SpecificSoundSet" checkvisible="1" set="MortarShot">0.35</tag><tag type="Particles" particlename="fixedgunmuzzlefx">0.35</tag></assetreference><component>fixed gun</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>buildings\spc\fixed_gun\fixed_gun_combined_death</file><tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.15</tag><tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.30</tag><tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.80</tag><tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.43</tag><tag type="SpecificSoundSet" checkvisible="1" set="Thud">0.57</tag><tag type="SpecificSoundSet" checkvisible="1" set="CartBreak">0.22</tag><attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach><attach a="base smoke2" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach></assetreference><component>fixed gun_death</component><attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach></anim>
+</animfile>

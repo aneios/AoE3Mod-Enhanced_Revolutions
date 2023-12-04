@@ -1,0 +1,4 @@
+<animfile>
+  <component>pouch<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\grenadier\grenadier_age2_pouch</file></assetreference></none><veterangrenadiers><assetreference type="GrannyModel"><file>units\infantry_ranged\grenadier\grenadier_age3_pouch</file></assetreference></veterangrenadiers><guardgrenadiers><assetreference type="GrannyModel"><file>units\infantry_ranged\grenadier\grenadier_age4_pouch</file></assetreference></guardgrenadiers><rgpavlovgrenadiers><assetreference type="GrannyModel"><file>units\infantry_ranged\grenadier\grenadier_age4_pouch</file></assetreference></rgpavlovgrenadiers></logic></component>
+  <anim>Idle<component>pouch</component></anim>
+</animfile>

@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "105161" displayNameID = "105159" loadDetails="105160" largeMapName = "MinasGeraisLarge"
+    imagepath  = "ui\random_map\minas_gerais\minas_gerais_mini" cannotReplace = "" loadBackground="ui\random_map\minas_gerais\minas_gerais_map">
+   <loadss>ui\random_map\minas_gerais\minas_gerais_ss_01</loadss>
+   <loadss>ui\random_map\minas_gerais\minas_gerais_ss_02</loadss>
+   <loadss>ui\random_map\minas_gerais\minas_gerais_ss_03</loadss>
+</mapinfo>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>shield<assetreference type="GrannyModel"><file>units\natives\aztec\coyote_man\coyote_shield_age3</file></assetreference></component>
+  <anim>Idle<component>shield</component></anim>
+</animfile>

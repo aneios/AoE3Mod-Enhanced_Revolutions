@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>12</width>
+	<height>13</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="175" posx="3.6241" posz="-7.1782" orientx="0.9468" orienty="0.0000" orientz="-0.3218">TreeGreatPlainsGrass</unit>
+		<unit variation="157" posx="-1.5265" posz="-3.3559" orientx="-0.9757" orienty="0.0000" orientz="-0.2193">TreeGreatPlainsGrass</unit>
+		<unit variation="227" posx="-6.5155" posz="0.6542" orientx="0.4452" orienty="0.0000" orientz="0.8954">TreeGreatPlainsGrass</unit>
+		<unit variation="197" posx="7.0060" posz="1.8994" orientx="-0.3236" orienty="0.0000" orientz="0.9462">TreeGreatPlainsGrass</unit>
+		<unit variation="118" posx="2.4607" posz="3.3562" orientx="-0.7053" orienty="0.0000" orientz="0.7089">UnderbrushCalifornia</unit>
+		<unit variation="118" posx="-4.3387" posz="4.5275" orientx="0.9249" orienty="0.0000" orientz="0.3803">UnderbrushCalifornia</unit>
+		<unit variation="225" posx="-1.4557" posz="5.8265" orientx="0.4941" orienty="0.0000" orientz="-0.8694">TreeGreatPlainsGrass</unit>
+		<unit variation="52" posx="4.4681" posz="7.5229" orientx="-0.1217" orienty="-0.0000" orientz="0.9926">TreeGreatPlainsGrass</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="california\desert6_cal">
+			<block startx="-6" startz="-1" endx="-6" endz="-1"></block>
+			<block startx="-5" startz="-1" endx="-5" endz="-1"></block>
+			<block startx="-4" startz="-2" endx="-4" endz="-2"></block>
+			<block startx="-4" startz="1" endx="-4" endz="2"></block>
+			<block startx="-3" startz="0" endx="-3" endz="1"></block>
+			<block startx="-2" startz="0" endx="-2" endz="0"></block>
+			<block startx="-2" startz="2" endx="-2" endz="2"></block>
+			<block startx="-1" startz="-4" endx="-1" endz="1"></block>
+			<block startx="0" startz="-4" endx="0" endz="-4"></block>
+			<block startx="1" startz="-4" endx="1" endz="-4"></block>
+			<block startx="1" startz="-1" endx="1" endz="-1"></block>
+			<block startx="1" startz="1" endx="1" endz="2"></block>
+			<block startx="2" startz="-4" endx="2" endz="-3"></block>
+			<block startx="3" startz="0" endx="3" endz="2"></block>
+			<block startx="-5" startz="3" endx="-5" endz="3"></block>
+			<block startx="-4" startz="3" endx="-4" endz="3"></block>
+			<block startx="-3" startz="4" endx="-3" endz="4"></block>
+			<block startx="-1" startz="4" endx="-1" endz="4"></block>
+			<block startx="0" startz="3" endx="0" endz="3"></block>
+			<block startx="0" startz="5" endx="0" endz="5"></block>
+			<block startx="2" startz="4" endx="2" endz="5"></block>
+			<block startx="3" startz="3" endx="3" endz="4"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="california\desert3_cal">
+			<block startx="-5" startz="0" endx="-5" endz="1"></block>
+			<block startx="-2" startz="1" endx="-2" endz="1"></block>
+			<block startx="-1" startz="2" endx="-1" endz="2"></block>
+			<block startx="0" startz="-3" endx="0" endz="-1"></block>
+			<block startx="0" startz="2" endx="0" endz="2"></block>
+			<block startx="1" startz="0" endx="1" endz="0"></block>
+			<block startx="2" startz="0" endx="2" endz="2"></block>
+			<block startx="1" startz="3" endx="1" endz="4"></block>
+			<block startx="2" startz="3" endx="2" endz="3"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="california\desert4_cal">
+			<block startx="-4" startz="-1" endx="-4" endz="0"></block>
+			<block startx="-3" startz="-1" endx="-3" endz="-1"></block>
+			<block startx="-3" startz="2" endx="-3" endz="2"></block>
+			<block startx="-2" startz="-2" endx="-2" endz="-1"></block>
+			<block startx="0" startz="0" endx="0" endz="1"></block>
+			<block startx="1" startz="-3" endx="1" endz="-2"></block>
+			<block startx="2" startz="-1" endx="2" endz="-1"></block>
+			<block startx="3" startz="-1" endx="3" endz="-1"></block>
+			<block startx="-3" startz="3" endx="-3" endz="3"></block>
+			<block startx="-2" startz="3" endx="-2" endz="3"></block>
+			<block startx="-1" startz="3" endx="-1" endz="3"></block>
+			<block startx="0" startz="4" endx="0" endz="4"></block>
+			<block startx="1" startz="5" endx="1" endz="5"></block>
+			<block startx="4" startz="-1" endx="4" endz="-1"></block>
+			<block startx="4" startz="2" endx="4" endz="2"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

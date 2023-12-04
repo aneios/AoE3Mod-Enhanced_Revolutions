@@ -1,0 +1,4 @@
+<animfile>
+  <component>pistol<assetreference type="GrannyModel"><file>units\squad\flag_bearer\attachment_pistol</file></assetreference></component>
+  <anim>Idle<component>pistol</component></anim>
+</animfile>

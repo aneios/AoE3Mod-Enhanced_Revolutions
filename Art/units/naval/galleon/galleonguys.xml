@@ -1,0 +1,5 @@
+<animfile>
+  <component>guys<assetreference type="GrannyModel"><file>units\naval\galleon\Galleon_guys</file></assetreference></component>
+  <anim>NormToBomb<assetreference type="GrannyAnim"><file>animation_library\naval\Galleon_normal_bombardguys</file></assetreference><component>guys</component></anim>
+  <anim>NormToBroad<assetreference type="GrannyAnim"><file>animation_library\naval\Galleon_normal_broadsideguys</file></assetreference><component>guys</component></anim>
+</animfile>

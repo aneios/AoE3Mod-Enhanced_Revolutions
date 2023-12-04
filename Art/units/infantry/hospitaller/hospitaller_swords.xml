@@ -1,0 +1,4 @@
+<animfile>
+  <component>sword<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry\boneguard\boneguard_sword</file></assetreference></none><deveteranhospitallers><assetreference type="GrannyModel"><file>units\infantry\boneguard\boneguard_sword</file></assetreference></deveteranhospitallers><deguardhospitallers><assetreference type="GrannyModel"><file>units\infantry\dopplesoldner\dopplesoldner_age3_sword</file></assetreference></deguardhospitallers><deimperialhospitallers><assetreference type="GrannyModel"><file>units\infantry\dopplesoldner\dopplesoldner_age3_sword</file></assetreference></deimperialhospitallers></logic></component>
+  <anim>Idle<component>sword</component></anim>
+</animfile>

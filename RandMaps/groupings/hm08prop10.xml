@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>9</width>
+	<height>11</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="232" posx="4.0135" posz="-5.9682" orientx="-0.6941" orienty="-0.0000" orientz="-0.7199">TreeGreatPlainsGrass</unit>
+		<unit variation="120" posx="3.9745" posz="-4.7378" orientx="0.3827" orienty="0.0000" orientz="-0.9239">FenceRock</unit>
+		<unit variation="14" posx="0.7361" posz="-4.2687" orientx="0.0000" orienty="0.0000" orientz="-1.0000">SPCRailwayProps</unit>
+		<unit variation="11" posx="1.3535" posz="-5.1448" orientx="0.0000" orienty="0.0000" orientz="-1.0000">FenceRock</unit>
+		<unit variation="3" posx="4.0885" posz="-0.1689" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCRailwayProps</unit>
+		<unit variation="65" posx="3.5383" posz="-0.4376" orientx="-1.0000" orienty="0.0000" orientz="0.0005">SPCDamagedCannons</unit>
+		<unit variation="12" posx="3.8600" posz="-0.7008" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCRailwayProps</unit>
+		<unit variation="0" posx="-7.6496" posz="-0.1821" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">PropsColony</unit>
+		<unit variation="5" posx="-6.4985" posz="0.1685" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">SPCRailwayProps</unit>
+		<unit variation="36" posx="-8.3798" posz="0.3113" orientx="1.0000" orienty="0.0000" orientz="0.0000">FenceRock</unit>
+		<unit variation="39" posx="-3.7689" posz="1.0834" orientx="-0.0000" orienty="0.0000" orientz="1.0000">SPCCasualtyCart</unit>
+		<unit variation="12" posx="3.6403" posz="0.8677" orientx="0.9239" orienty="0.0000" orientz="0.3827">SPCRailwayProps</unit>
+		<unit variation="177" posx="7.6234" posz="0.2128" orientx="0.8051" orienty="0.0000" orientz="0.5931">TreeGreatPlainsGrass</unit>
+		<unit variation="17" posx="2.4788" posz="0.6168" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">SPCRailwayProps</unit>
+		<unit variation="8" posx="2.3603" posz="0.3301" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">SPCRailwayProps</unit>
+		<unit variation="3" posx="-7.3800" posz="1.1568" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">PropsColony</unit>
+		<unit variation="4" posx="-5.1393" posz="2.8051" orientx="-0.7071" orienty="0.0000" orientz="0.7071">PropsColony</unit>
+		<unit variation="223" posx="4.1421" posz="2.5253" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">FenceRock</unit>
+		<unit variation="118" posx="5.8730" posz="2.8991" orientx="-0.7078" orienty="0.0000" orientz="-0.7064">UnderbrushCalifornia</unit>
+		<unit variation="247" posx="-7.3179" posz="2.8252" orientx="0.7071" orienty="0.0000" orientz="-0.7071">FenceRock</unit>
+		<unit variation="186" posx="-4.9035" posz="4.4615" orientx="0.3827" orienty="0.0000" orientz="-0.9239">FenceRock</unit>
+		<unit variation="169" posx="-1.5456" posz="6.3619" orientx="0.9837" orienty="-0.0000" orientz="-0.1798">TreeGreatPlainsGrass</unit>
+		<unit variation="226" posx="1.2086" posz="7.2970" orientx="0.4126" orienty="-0.0000" orientz="-0.9109">TreeGreatPlainsGrass</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="california\desert4_cal">
+			<block startx="-4" startz="0" endx="-4" endz="1"></block>
+			<block startx="-3" startz="-1" endx="-3" endz="-1"></block>
+			<block startx="-3" startz="1" endx="-3" endz="1"></block>
+			<block startx="-2" startz="-2" endx="-2" endz="-2"></block>
+			<block startx="-2" startz="2" endx="-2" endz="2"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="-2"></block>
+			<block startx="-1" startz="0" endx="-1" endz="0"></block>
+			<block startx="-1" startz="2" endx="-1" endz="3"></block>
+			<block startx="0" startz="-3" endx="0" endz="-2"></block>
+			<block startx="0" startz="3" endx="0" endz="4"></block>
+			<block startx="1" startz="-2" endx="1" endz="-2"></block>
+			<block startx="1" startz="3" endx="1" endz="4"></block>
+			<block startx="2" startz="-3" endx="2" endz="-2"></block>
+			<block startx="2" startz="2" endx="2" endz="3"></block>
+			<block startx="3" startz="-1" endx="3" endz="2"></block>
+			<block startx="4" startz="0" endx="4" endz="0"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="california\desert3_cal">
+			<block startx="-3" startz="0" endx="-3" endz="0"></block>
+			<block startx="-2" startz="-1" endx="-2" endz="1"></block>
+			<block startx="-1" startz="-1" endx="-1" endz="-1"></block>
+			<block startx="-1" startz="1" endx="-1" endz="1"></block>
+			<block startx="0" startz="-1" endx="0" endz="2"></block>
+			<block startx="1" startz="2" endx="1" endz="2"></block>
+			<block startx="2" startz="1" endx="2" endz="1"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="california\desert2_cal">
+			<block startx="1" startz="-1" endx="1" endz="1"></block>
+			<block startx="2" startz="-1" endx="2" endz="0"></block>
+		</tilegroup>
+		<heights>
+			<tiles x="-4" z="-5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-4" z="-4">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-4" z="-3">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+			<tiles x="-4" z="-2">0.000 0.000 0.000 0.000 0.000 0.000 0.104 0.000 0.000 </tiles>
+			<tiles x="-4" z="-1">0.000 0.000 0.000 0.000 0.602 0.826 1.173 1.173 0.000 </tiles>
+			<tiles x="-4" z="0">0.000 0.000 0.000 0.277 0.825 1.119 1.180 1.173 0.000 </tiles>
+			<tiles x="-4" z="1">0.000 0.000 0.000 0.239 0.727 1.215 1.359 1.173 0.000 </tiles>
+			<tiles x="-4" z="2">0.000 0.000 0.000 0.107 0.491 1.084 1.686 0.106 0.000 </tiles>
+			<tiles x="-4" z="3">0.000 0.000 0.000 0.032 0.180 0.435 0.355 0.000 0.000 </tiles>
+			<tiles x="-4" z="4">0.000 0.000 0.000 0.000 0.027 0.038 0.000 0.000 0.000 </tiles>
+			<tiles x="-4" z="5">0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 </tiles>
+		</heights>
+	</tiles>
+</grouping>

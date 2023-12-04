@@ -1,0 +1,4 @@
+<animfile>
+  <component>rock_church<assetreference type="GrannyModel"><file>buildings\spc\africa_east\rock_church\rock_church</file></assetreference><decal><effecttype>bump</effecttype><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\spc\stockades\stockades_ground_bump</bumptexture><width>12.00</width><height>12.00</height><xoffset>0.00</xoffset><zoffset>0.00</zoffset></decal></component>
+  <anim>idle<component>rock_church</component></anim>
+</animfile>

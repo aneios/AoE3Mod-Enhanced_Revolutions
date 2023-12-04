@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="90606" imagepath="ui\random_map\team_maps" helpTextID="90607" cannotReplace="">
+  <map>euHungarianPlains</map>
+  <map>euKarelian</map>
+  <map>euLithuania</map>
+  <map>euMuscovy</map>
+  <map>euPyrenees</map>
+  <map>euSaxony</map>
+  <map>euScandinavia</map>
+  <map>euWallachia</map>
+  <map>afArabia</map>
+  <map>afDarfur</map>
+  <map>afPepperCoast</map>
+  <map>afSahel</map>
+  <map>afSudd</map>
+  <map>Alaska</map>
+  <map>California</map>
+  <map>Carolina</map>
+  <map>Dakota</map>
+  <map>Fertile Crescent</map>
+  <map>Florida</map>
+  <map>Gran Chaco</map>
+  <map>Great Plains</map>
+  <map>Guianas</map>
+  <map>New England</map>
+  <map>Ozarks</map>
+  <map>Pampas Sierras</map>
+  <map>Panama</map>
+  <map>Patagonia</map>
+  <map>Saguenay</map>
+  <map>Texas</map>
+  <map>Yukon</map>
+  <map>Central Plain</map>
+  <map>Deccan</map>
+  <map>Himalayas</map>
+  <map>Kamchatka</map>
+  <map>Malaysia</map>
+  <map>Manchuria</map>
+  <map>Mongolia</map>
+</randomMaps>

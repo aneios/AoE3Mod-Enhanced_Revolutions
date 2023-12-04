@@ -1,0 +1,5 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>animation_library\optimized\musketeer_1age_opt</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\optimized\idle_opt</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\optimized\walk_opt</file></assetreference><component>ModelComp</component></anim>
+</animfile>

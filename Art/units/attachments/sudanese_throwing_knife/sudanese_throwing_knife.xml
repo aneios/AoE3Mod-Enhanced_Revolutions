@@ -1,0 +1,5 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\attachments\sudanese_throwing_knife\sudanese_throwing_knife</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>effects\projectiles\knife_rotate</file></assetreference><component>ModelComp</component></anim>
+  <anim animlengthoverride="0.500">Volley_standing_attack<assetreference type="GrannyAnim"><file>effects\projectiles\knife_rotate</file></assetreference><component>ModelComp</component></anim>
+</animfile>

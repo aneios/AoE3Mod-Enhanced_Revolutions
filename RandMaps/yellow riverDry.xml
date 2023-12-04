@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapinfo details="63573"  displayNameID="63574" loadDetails="63575" largeMapName = "yellow riverLarge"
+    imagepath="ui\random_map\yellow_river\yellow_river_mini" cannotReplace="" loadBackground="ui\random_map\yellow_river\yellow_river_map">
+    <loadss>ui\random_map\yellow_river\yellow_river_ss_1</loadss>
+    <loadss>ui\random_map\yellow_river\yellow_river_ss_2</loadss>
+    <loadss>ui\random_map\yellow_river\yellow_river_ss_3</loadss>
+</mapinfo>

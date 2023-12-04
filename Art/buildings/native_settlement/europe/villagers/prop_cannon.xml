@@ -1,0 +1,4 @@
+<animfile>
+  <component>prop<logic type="Variation"><data><assetreference type="GrannyModel"><file>homecity\home_city_props\prop_falconet</file></assetreference></data><data><assetreference type="GrannyModel"><file>homecity\home_city_props\cannons\prop_cannon</file></assetreference></data><data><assetreference type="GrannyModel"><file>homecity\home_city_props\prop_bombard</file></assetreference></data></logic></component>
+  <anim>Idle<component>prop</component></anim>
+</animfile>

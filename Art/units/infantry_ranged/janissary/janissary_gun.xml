@@ -1,0 +1,4 @@
+<animfile>
+  <component>gun<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\janissary\jannisary_gun_guard</file></assetreference></none><veteranjanissaries><assetreference type="GrannyModel"><file>units\infantry_ranged\janissary\jannisary_gun_standard</file></assetreference></veteranjanissaries><guardjanissaries><assetreference type="GrannyModel"><file>units\infantry_ranged\janissary\jannisary_gun_veteran</file></assetreference></guardjanissaries></logic></component>
+  <anim>Idle<component>gun</component></anim>
+</animfile>

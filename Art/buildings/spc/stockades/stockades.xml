@@ -1,0 +1,48 @@
+<animfile>
+  <definebone>bone_flag_civ</definebone>
+  <definebone>bone_debris_1a</definebone>
+  <definebone>bone_debris_1b</definebone>
+  <definebone>bone_debris_1c</definebone>
+  <definebone>bone_debris_1d</definebone>
+  <definebone>bone_debris_1e</definebone>
+  <definebone>bone_debris_1f</definebone>
+  <definebone>bone_debris_2a</definebone>
+  <definebone>bone_debris_2b</definebone>
+  <definebone>bone_debris_2c</definebone>
+  <definebone>bone_debris_2d</definebone>
+  <definebone>bone_debris_2e</definebone>
+  <definebone>bone_debris_2f</definebone>
+  <definebone>bone_debris_3a</definebone>
+  <definebone>bone_debris_3b</definebone>
+  <definebone>bone_debris_3c</definebone>
+  <definebone>bone_debris_3d</definebone>
+  <definebone>bone_debris_3e</definebone>
+  <definebone>bone_debris_3f</definebone>
+  <definebone>bone_debris_4a</definebone>
+  <definebone>bone_debris_4b</definebone>
+  <definebone>bone_debris_4c</definebone>
+  <definebone>bone_debris_4d</definebone>
+  <definebone>bone_debris_4e</definebone>
+  <definebone>bone_debris_4f</definebone>
+  <definebone>bone_debris_5a</definebone>
+  <definebone>bone_debris_5b</definebone>
+  <definebone>bone_debris_5c</definebone>
+  <definebone>bone_debris_5d</definebone>
+  <definebone>bone_debris_6a</definebone>
+  <definebone>bone_debris_6b</definebone>
+  <definebone>bone_debris_6c</definebone>
+  <definebone>bone_debris_6d</definebone>
+  <definebone>bone_debris_6e</definebone>
+  <definebone>bone_debris_6f</definebone>
+  <definebone>bone_debris_6g</definebone>
+  <definebone>bone_debris_6h</definebone>
+  <definebone>bone_debris_6i</definebone>
+  <definebone>bone_debris_6j</definebone>
+  <definebone>bone_debris_6k</definebone>
+  <definebone>bone_debris_6l</definebone>
+  <attachment>collapse_smoke<component>collapse_smoke<assetreference type="popcornFx"><file>smoke\collapse_smoke_5x5.pkfx</file></assetreference></component><anim>Idle<component>collapse_smoke</component></anim></attachment>
+  <component>stockades<logic type="LowPoly"><normal><logic type="Destruction"><p1><assetreference type="GrannyModel"><file>buildings\spc\stockades\stockades_damaged</file></assetreference></p1><p99><assetreference type="GrannyModel" shape="spc_stockade"><file>buildings\spc\stockades\stockades</file></assetreference></p99></logic></normal><lowpoly><assetreference type="GrannyModel" shape="spc_stockade"><file>buildings\spc\stockades\stockades</file></assetreference></lowpoly></logic><decal><effecttype>bump</effecttype><texture>buildings\spc\stockades\stockades_ground</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\spc\stockades\stockades_ground_bump</bumptexture><width>12.00</width><height>12.00</height><xoffset>0.00</xoffset><zoffset>0.00</zoffset></decal></component>
+  <component>stockades_death<logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>buildings\spc\stockades\stockades_damaged</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>buildings\spc\stockades\stockades</file></assetreference></lowpoly></logic><decal><effecttype>bump</effecttype><texture>buildings\spc\stockades\stockades_ground</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>buildings\spc\stockades\stockades_ground_bump</bumptexture><width>12.00</width><height>12.00</height><xoffset>0.00</xoffset><zoffset>0.00</zoffset></decal></component>
+  <anim>idle<component>stockades</component><simskeleton><model>buildings\spc\stockades\stockades_damaged</model></simskeleton></anim>
+  <anim>death<component>stockades_death</component><attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach></anim>
+</animfile>

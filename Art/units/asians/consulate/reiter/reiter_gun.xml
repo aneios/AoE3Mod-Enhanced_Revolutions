@@ -1,0 +1,4 @@
+<animfile>
+  <component>gun<assetreference type="GrannyModel"><file>units\cavalry\reiter\reiter_gun_age4</file></assetreference></component>
+  <anim>Idle<component>gun</component></anim>
+</animfile>

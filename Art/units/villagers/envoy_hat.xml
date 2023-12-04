@@ -1,0 +1,4 @@
+<animfile>
+  <component>hat<assetreference type="GrannyModel"><file>units\villagers\envoy_hat</file></assetreference></component>
+  <anim>Idle<component>hat</component></anim>
+</animfile>

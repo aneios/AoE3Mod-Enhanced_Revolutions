@@ -1,0 +1,6 @@
+<animfile>
+  <definebone>firebone</definebone>
+  <attachment>fire<component>fire emitter<assetreference type="popcornFx"><file>fire\fire_torch_b.pkfx</file></assetreference></component><anim>Idle<component>fire emitter</component></anim></attachment>
+  <component>helmet<assetreference type="GrannyModel"><file>units\natives\aztec\war_chief\tonatiuh_staff</file></assetreference><attach a="fire" frombone="helmetbone" tobone="firebone" syncanims="0"></attach></component>
+  <anim>Idle<component>helmet</component></anim>
+</animfile>

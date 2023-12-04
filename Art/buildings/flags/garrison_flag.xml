@@ -1,0 +1,6 @@
+<animfile>
+  <component>garrison_flag<assetreference type="GrannyModel"><file>buildings\flags\garrison_object</file></assetreference><flag><blending>alphatest_color</blending><texture>buildings\flags\garrison_flag</texture><width>3.00</width><height>1.50</height></flag></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>buildings\flags\garrison_flag_idle</file></assetreference><component>garrison_flag</component></anim>
+  <anim>Opening<assetreference type="GrannyAnim"><file>buildings\flags\garrison_flag_up</file></assetreference><component>garrison_flag</component></anim>
+  <anim>Closing<assetreference type="GrannyAnim"><file>buildings\flags\garrison_flag_down</file></assetreference><component>garrison_flag</component></anim>
+</animfile>

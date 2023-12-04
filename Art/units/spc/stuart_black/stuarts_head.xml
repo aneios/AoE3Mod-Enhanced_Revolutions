@@ -1,0 +1,4 @@
+<animfile>
+  <component>stuarts_head<assetreference type="GrannyModel"><file>units\spc\stuart_black\stuart_blackhead</file></assetreference></component>
+  <anim>Idle<component>stuarts_head</component></anim>
+</animfile>

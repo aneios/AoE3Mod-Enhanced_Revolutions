@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>6</width>
+	<height>10</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="2" posx="1.6757" posz="-8.8703" orientx="1.0000" orienty="0.0000" orientz="0.0000">UnderbrushNewEngland</unit>
+		<unit variation="203" posx="-4.5524" posz="-7.7632" orientx="0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushNewEngland</unit>
+		<unit variation="149" posx="-3.0222" posz="-5.3704" orientx="0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushNewEngland</unit>
+		<unit variation="89" posx="3.1411" posz="-5.0614" orientx="-1.0000" orienty="0.0000" orientz="-0.0000">UnderbrushNewEngland</unit>
+		<unit variation="97" posx="5.2020" posz="-3.3559" orientx="-0.9311" orienty="0.0000" orientz="0.3647">FenceRock</unit>
+		<unit variation="101" posx="5.0000" posz="-3.0000" orientx="-0.1491" orienty="0.0000" orientz="0.9888">deTreeCypress</unit>
+		<unit variation="97" posx="-4.9692" posz="-1.1374" orientx="-0.9998" orienty="0.0000" orientz="-0.0193">FenceRock</unit>
+		<unit variation="68" posx="-3.9118" posz="-1.0216" orientx="0.4045" orienty="0.0000" orientz="-0.9145">SPCDamagedProps</unit>
+		<unit variation="68" posx="4.4042" posz="-1.0471" orientx="-0.9997" orienty="0.0000" orientz="-0.0234">SPCDamagedProps</unit>
+		<unit variation="68" posx="4.0957" posz="-2.1773" orientx="-0.7235" orienty="0.0000" orientz="0.6903">SPCDamagedProps</unit>
+		<unit variation="101" posx="-5.0000" posz="-1.0000" orientx="0.1419" orienty="0.0000" orientz="-0.9899">deTreeCypress</unit>
+		<unit variation="81" posx="5.2940" posz="-0.9192" orientx="0.9998" orienty="0.0000" orientz="0.0216">SPCPathBlock2</unit>
+		<unit variation="220" posx="-2.6643" posz="0.8686" orientx="0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushNewEngland</unit>
+		<unit variation="68" posx="-3.7644" posz="0.5544" orientx="-0.9997" orienty="0.0000" orientz="-0.0236">SPCDamagedProps</unit>
+		<unit variation="47" posx="5.0707" posz="0.1915" orientx="-0.9998" orienty="0.0000" orientz="-0.0215">PropsNative</unit>
+		<unit variation="68" posx="4.0136" posz="0.2435" orientx="-0.7235" orienty="0.0000" orientz="0.6903">SPCDamagedProps</unit>
+		<unit variation="101" posx="5.1187" posz="0.9390" orientx="0.1419" orienty="0.0000" orientz="-0.9899">deTreeCypress</unit>
+		<unit variation="97" posx="-4.1606" posz="1.3564" orientx="0.9276" orienty="0.0000" orientz="-0.3736">FenceRock</unit>
+		<unit variation="68" posx="3.1069" posz="3.3928" orientx="0.7169" orienty="0.0000" orientz="-0.6972">SPCDamagedProps</unit>
+		<unit variation="101" posx="-3.0000" posz="3.0000" orientx="0.1419" orienty="0.0000" orientz="-0.9899">deTreeCypress</unit>
+		<unit variation="86" posx="4.0157" posz="1.5807" orientx="-0.9999" orienty="0.0000" orientz="-0.0140">BerryBush</unit>
+		<unit variation="81" posx="4.1184" posz="4.0399" orientx="-0.9185" orienty="0.0000" orientz="-0.3955">SPCPathBlock2</unit>
+		<unit variation="47" posx="0.4277" posz="5.0112" orientx="-0.3955" orienty="0.0000" orientz="0.9185">PropsNative</unit>
+		<unit variation="68" posx="-0.2179" posz="4.1883" orientx="-0.7222" orienty="0.0000" orientz="0.6916">SPCDamagedProps</unit>
+		<unit variation="68" posx="-1.2955" posz="3.6284" orientx="-0.9320" orienty="0.0000" orientz="0.3626">SPCDamagedProps</unit>
+		<unit variation="47" posx="3.3746" posz="4.4265" orientx="-0.9185" orienty="0.0000" orientz="-0.3955">PropsNative</unit>
+		<unit variation="86" posx="-3.0000" posz="3.0000" orientx="0.3698" orienty="0.0000" orientz="0.9291">BerryBush</unit>
+		<unit variation="63" posx="-0.6812" posz="4.5934" orientx="0.3955" orienty="0.0000" orientz="-0.9185">SPCPathBlock2</unit>
+		<unit variation="60" posx="2.6303" posz="5.5584" orientx="0.3827" orienty="0.0000" orientz="0.9239">UnderbrushNewEngland</unit>
+		<unit variation="23" posx="-4.4149" posz="6.3893" orientx="0.7071" orienty="0.0000" orientz="-0.7071">UnderbrushNewEngland</unit>
+		<unit variation="101" posx="2.2196" posz="5.6544" orientx="0.1419" orienty="0.0000" orientz="-0.9899">deTreeCypress</unit>
+		<unit variation="86" posx="1.0000" posz="5.0000" orientx="0.9320" orienty="0.0000" orientz="-0.3626">BerryBush</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="great_lakes\ground_grass1_gls">
+			<block startx="-3" startz="-5" endx="-3" endz="-3"></block>
+			<block startx="-2" startz="-4" endx="-2" endz="-3"></block>
+			<block startx="0" startz="-4" endx="0" endz="-4"></block>
+			<block startx="1" startz="-4" endx="1" endz="-3"></block>
+			<block startx="-3" startz="-2" endx="-3" endz="-1"></block>
+			<block startx="-3" startz="1" endx="-3" endz="4"></block>
+			<block startx="-2" startz="-2" endx="-2" endz="0"></block>
+			<block startx="-2" startz="4" endx="-2" endz="4"></block>
+			<block startx="-1" startz="2" endx="-1" endz="3"></block>
+			<block startx="0" startz="3" endx="0" endz="3"></block>
+			<block startx="1" startz="3" endx="1" endz="3"></block>
+			<block startx="2" startz="-2" endx="2" endz="-1"></block>
+			<block startx="2" startz="1" endx="2" endz="1"></block>
+			<block startx="2" startz="3" endx="2" endz="4"></block>
+			<block startx="2" startz="-5" endx="2" endz="-3"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="new_england\ground4_ne">
+			<block startx="-2" startz="-5" endx="-2" endz="-5"></block>
+			<block startx="-1" startz="-5" endx="-1" endz="-3"></block>
+			<block startx="0" startz="-3" endx="0" endz="-3"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="0"></block>
+			<block startx="0" startz="-2" endx="0" endz="0"></block>
+			<block startx="1" startz="-1" endx="1" endz="0"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_plains\ground3_gp">
+			<block startx="0" startz="-5" endx="0" endz="-5"></block>
+			<block startx="1" startz="-5" endx="1" endz="-5"></block>
+			<block startx="-1" startz="1" endx="-1" endz="1"></block>
+			<block startx="-1" startz="4" endx="-1" endz="4"></block>
+			<block startx="0" startz="1" endx="0" endz="2"></block>
+			<block startx="0" startz="4" endx="0" endz="4"></block>
+			<block startx="1" startz="-2" endx="1" endz="-2"></block>
+			<block startx="1" startz="1" endx="1" endz="2"></block>
+			<block startx="1" startz="4" endx="1" endz="4"></block>
+			<block startx="2" startz="2" endx="2" endz="2"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground12_ara">
+			<block startx="-3" startz="0" endx="-3" endz="0"></block>
+			<block startx="-2" startz="1" endx="-2" endz="3"></block>
+			<block startx="2" startz="0" endx="2" endz="0"></block>
+		</tilegroup>
+		<heights>
+			<tiles x="-3" z="-5">-0.462 -0.462 -0.701 -0.462 -0.462 -0.462 </tiles>
+			<tiles x="-3" z="-4">-0.462 -0.462 -0.281 -0.042 -0.462 -0.462 </tiles>
+			<tiles x="-3" z="-3">-0.462 -0.462 -0.316 -0.462 -0.462 1.129 </tiles>
+			<tiles x="-3" z="-2">-0.022 0.358 -0.036 0.287 0.610 0.755 </tiles>
+			<tiles x="-3" z="-1">2.235 1.478 0.914 1.072 2.235 1.190 </tiles>
+			<tiles x="-3" z="0">2.765 0.481 0.557 1.456 1.936 1.563 </tiles>
+			<tiles x="-3" z="1">0.854 1.446 0.626 0.744 1.189 2.170 </tiles>
+			<tiles x="-3" z="2">-0.396 0.769 0.959 1.006 1.046 1.770 </tiles>
+			<tiles x="-3" z="3">-0.462 -0.345 1.435 1.880 1.257 0.707 </tiles>
+			<tiles x="-3" z="4">-0.462 -0.462 -0.462 -0.340 -0.220 -0.462 </tiles>
+		</heights>
+	</tiles>
+</grouping>

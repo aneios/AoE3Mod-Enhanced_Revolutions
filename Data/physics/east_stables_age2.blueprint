@@ -1,0 +1,8 @@
+<blueprint>
+  <mass>75.0</mass>
+  <friction>2.0</friction>
+  <restitution>0.2</restitution>
+  <centerofmassoffset>0,0,0</centerofmassoffset>
+  <angulardampening>0.01</angulardampening>
+  <shape>east_stables_age2</shape>
+</blueprint>

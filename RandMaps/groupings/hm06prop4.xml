@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>5</width>
+	<height>2</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="80" posx="-0.0215" posz="0.0873" orientx="1.0000" orienty="0.0000" orientz="0.0000">UnderbrushRockiesSnow</unit>
+		<unit variation="81" posx="-2.9234" posz="-0.4586" orientx="0.7071" orienty="0.0000" orientz="-0.7071">UnderbrushRockiesSnow</unit>
+		<unit variation="162" posx="-2.9760" posz="-0.2415" orientx="0.9239" orienty="0.0000" orientz="0.3827">UnderbrushRockiesSnow</unit>
+		<unit variation="55" posx="-0.0526" posz="0.4046" orientx="0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushRockiesSnow</unit>
+		<unit variation="65" posx="-0.5878" posz="-0.8098" orientx="0.9239" orienty="0.0000" orientz="-0.3827">SPCDamagedCannons</unit>
+		<unit variation="82" posx="2.8589" posz="0.0353" orientx="0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushRockiesSnow</unit>
+		<unit variation="162" posx="3.2151" posz="-0.7429" orientx="0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushRockiesSnow</unit>
+	</units>
+</grouping>

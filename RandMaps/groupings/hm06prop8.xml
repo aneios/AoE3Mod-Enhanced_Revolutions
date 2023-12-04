@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>14</width>
+	<height>15</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="234" posx="-1.0000" posz="-12.0000" orientx="-0.4623" orienty="0.0000" orientz="0.8867">TreeRockiesSnow</unit>
+		<unit variation="61" posx="-3.0000" posz="-10.0000" orientx="0.3805" orienty="0.0000" orientz="0.9248">TreeRockiesSnow</unit>
+		<unit variation="47" posx="-4.5044" posz="-8.3897" orientx="-0.9239" orienty="0.0000" orientz="0.3827">UnderbrushRockiesSnow</unit>
+		<unit variation="21" posx="7.0000" posz="-8.0000" orientx="-0.4193" orienty="-0.0000" orientz="0.9078">TreeRockiesSnow</unit>
+		<unit variation="32" posx="-5.1144" posz="-5.9663" orientx="-0.7071" orienty="0.0000" orientz="0.7071">UnderbrushRockiesSnow</unit>
+		<unit variation="123" posx="-8.5251" posz="-3.3508" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushRockiesSnow</unit>
+		<unit variation="34" posx="-9.8138" posz="-1.6019" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushRockiesSnow</unit>
+		<unit variation="227" posx="-5.0000" posz="0.0000" orientx="0.6507" orienty="0.0000" orientz="-0.7593">TreeRockiesSnow</unit>
+		<unit variation="44" posx="3.4931" posz="1.7604" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">UnderbrushRockiesSnow</unit>
+		<unit variation="93" posx="5.0000" posz="2.0000" orientx="0.6463" orienty="0.0000" orientz="0.7631">TreeRockiesSnow</unit>
+		<unit variation="44" posx="-0.0026" posz="3.5601" orientx="-0.7071" orienty="0.0000" orientz="0.7071">UnderbrushRockiesSnow</unit>
+		<unit variation="100" posx="0.6049" posz="2.8337" orientx="-0.7071" orienty="0.0000" orientz="0.7071">UnderbrushRockiesSnow</unit>
+		<unit variation="178" posx="-11.0000" posz="4.0000" orientx="0.9905" orienty="0.0000" orientz="0.1375">TreeRockiesSnow</unit>
+		<unit variation="95" posx="-8.0576" posz="4.5840" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushRockiesSnow</unit>
+		<unit variation="42" posx="2.9822" posz="4.6058" orientx="0.3827" orienty="-0.0000" orientz="-0.9239">UnderbrushRockiesSnow</unit>
+		<unit variation="113" posx="5.0000" posz="6.0000" orientx="-0.4309" orienty="0.0000" orientz="0.9024">TreeRockiesSnow</unit>
+		<unit variation="83" posx="-0.3390" posz="7.7903" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">UnderbrushRockiesSnow</unit>
+		<unit variation="68" posx="1.0435" posz="7.0916" orientx="-0.9239" orienty="0.0000" orientz="0.3827">UnderbrushRockiesSnow</unit>
+		<unit variation="212" posx="-3.9788" posz="9.3141" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushRockiesSnow</unit>
+		<unit variation="22" posx="-4.8948" posz="8.9950" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">UnderbrushRockiesSnow</unit>
+		<unit variation="50" posx="-5.0000" posz="10.0000" orientx="-0.9664" orienty="0.0000" orientz="0.2571">TreeRockiesSnow</unit>
+		<unit variation="213" posx="1.0000" posz="10.0000" orientx="-0.9224" orienty="0.0000" orientz="-0.3862">TreeRockiesSnow</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="rockies\groundsnow7_roc">
+			<block startx="-6" startz="-1" endx="-6" endz="0"></block>
+			<block startx="-5" startz="-2" endx="-5" endz="0"></block>
+			<block startx="-4" startz="-3" endx="-4" endz="0"></block>
+			<block startx="-3" startz="-5" endx="-3" endz="0"></block>
+			<block startx="-2" startz="-6" endx="-2" endz="-1"></block>
+			<block startx="-1" startz="-6" endx="-1" endz="-3"></block>
+			<block startx="0" startz="-7" endx="0" endz="-4"></block>
+			<block startx="1" startz="-7" endx="1" endz="-3"></block>
+			<block startx="-7" startz="2" endx="-7" endz="3"></block>
+			<block startx="-6" startz="1" endx="-6" endz="5"></block>
+			<block startx="-5" startz="1" endx="-5" endz="6"></block>
+			<block startx="-4" startz="1" endx="-4" endz="1"></block>
+			<block startx="-4" startz="4" endx="-4" endz="6"></block>
+			<block startx="-3" startz="5" endx="-3" endz="7"></block>
+			<block startx="-2" startz="5" endx="-2" endz="7"></block>
+			<block startx="-1" startz="6" endx="-1" endz="7"></block>
+			<block startx="0" startz="5" endx="0" endz="7"></block>
+			<block startx="1" startz="4" endx="1" endz="6"></block>
+			<block startx="2" startz="3" endx="2" endz="5"></block>
+			<block startx="3" startz="2" endx="3" endz="5"></block>
+			<block startx="4" startz="1" endx="4" endz="4"></block>
+			<block startx="5" startz="1" endx="5" endz="2"></block>
+			<block startx="6" startz="1" endx="6" endz="1"></block>
+			<block startx="2" startz="-7" endx="2" endz="-2"></block>
+			<block startx="3" startz="-6" endx="3" endz="-1"></block>
+			<block startx="4" startz="-5" endx="4" endz="0"></block>
+			<block startx="5" startz="-4" endx="5" endz="0"></block>
+			<block startx="6" startz="-1" endx="6" endz="0"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="rockies\groundsnow6_roc">
+			<block startx="-2" startz="0" endx="-2" endz="0"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="-1"></block>
+			<block startx="0" startz="-3" endx="0" endz="-1"></block>
+			<block startx="1" startz="-2" endx="1" endz="-2"></block>
+			<block startx="-4" startz="2" endx="-4" endz="3"></block>
+			<block startx="-3" startz="1" endx="-3" endz="4"></block>
+			<block startx="-2" startz="3" endx="-2" endz="4"></block>
+			<block startx="-1" startz="4" endx="-1" endz="5"></block>
+			<block startx="0" startz="4" endx="0" endz="4"></block>
+			<block startx="1" startz="3" endx="1" endz="3"></block>
+			<block startx="2" startz="1" endx="2" endz="2"></block>
+			<block startx="3" startz="1" endx="3" endz="1"></block>
+			<block startx="2" startz="-1" endx="2" endz="-1"></block>
+			<block startx="3" startz="0" endx="3" endz="0"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="rockies\groundsnow5_roc">
+			<block startx="-1" startz="0" endx="-1" endz="0"></block>
+			<block startx="0" startz="0" endx="0" endz="0"></block>
+			<block startx="1" startz="-1" endx="1" endz="0"></block>
+			<block startx="-2" startz="1" endx="-2" endz="2"></block>
+			<block startx="-1" startz="1" endx="-1" endz="3"></block>
+			<block startx="0" startz="1" endx="0" endz="3"></block>
+			<block startx="1" startz="1" endx="1" endz="2"></block>
+			<block startx="2" startz="0" endx="2" endz="0"></block>
+		</tilegroup>
+		<heights>
+			<tiles x="-7" z="-7">1.281 1.043 0.742 0.370 0.119 -0.371 -0.739 -0.945 -0.866 -0.787 -0.839 -0.944 -1.130 -1.130 </tiles>
+			<tiles x="-7" z="-6">1.000 0.815 0.477 0.112 -0.186 -0.456 -0.552 -0.607 -0.384 -0.261 -0.309 -0.506 -0.761 -1.024 </tiles>
+			<tiles x="-7" z="-5">0.742 0.490 0.153 -0.147 -0.260 -0.351 -0.335 -0.024 0.252 0.346 0.347 0.122 -0.229 -0.737 </tiles>
+			<tiles x="-7" z="-4">0.339 0.105 -0.148 -0.293 -0.353 -0.361 0.012 0.512 0.884 1.081 1.055 0.774 0.277 -0.250 </tiles>
+			<tiles x="-7" z="-3">-0.014 -0.291 -0.370 -0.457 -0.360 -0.189 0.500 1.139 1.609 1.883 1.819 1.425 0.914 0.280 </tiles>
+			<tiles x="-7" z="-2">-0.335 -0.575 -0.635 -0.589 -0.248 0.398 1.269 2.022 2.580 2.907 2.811 2.310 1.551 0.665 </tiles>
+			<tiles x="-7" z="-1">-0.619 -0.766 -0.635 -0.204 0.500 1.220 2.226 3.047 3.569 3.781 3.576 3.007 2.196 1.252 </tiles>
+			<tiles x="-7" z="0">-0.872 -0.922 -0.353 0.416 1.223 1.908 2.821 3.902 4.452 4.533 4.153 3.545 2.638 1.509 </tiles>
+			<tiles x="-7" z="1">-1.026 -0.709 0.029 0.881 1.727 2.451 3.223 4.235 4.828 4.869 4.422 3.712 2.698 1.645 </tiles>
+			<tiles x="-7" z="2">-1.103 -0.474 0.316 1.226 2.080 2.826 3.557 4.189 4.796 4.705 4.233 3.508 2.638 1.682 </tiles>
+			<tiles x="-7" z="3">-0.996 -0.397 0.382 1.394 2.320 3.264 3.996 4.378 4.722 4.394 3.872 3.176 2.413 1.413 </tiles>
+			<tiles x="-7" z="4">-0.996 -0.347 0.511 1.517 2.522 3.425 4.258 4.459 4.507 4.113 3.306 2.707 1.926 1.129 </tiles>
+			<tiles x="-7" z="5">-0.998 -0.396 0.415 1.433 2.485 3.324 3.940 4.241 3.970 3.460 2.655 1.997 1.375 0.617 </tiles>
+			<tiles x="-7" z="6">-0.967 -0.604 0.195 1.219 2.190 2.900 3.249 3.399 3.182 2.496 1.884 1.279 0.736 0.107 </tiles>
+			<tiles x="-7" z="7">-1.021 -0.628 -0.037 0.826 1.538 2.187 2.578 2.478 2.086 1.728 1.253 0.671 0.156 -0.349 </tiles>
+		</heights>
+	</tiles>
+</grouping>

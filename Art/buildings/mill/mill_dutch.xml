@@ -1,0 +1,10 @@
+<animfile>
+  <definebone>bone_launchpoint</definebone>
+  <definebone>bone_muzzle</definebone>
+  <definebone>Bone_main</definebone>
+  <definebone>bone_flag</definebone>
+  <definebone>bone_flag_civ</definebone>
+  <definebone>bone_flag_death</definebone>
+  <component>mill_dutch<assetreference type="GrannyModel"><file>buildings\mill\mill_dutch</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>buildings\mill\mill_dutch_idle</file></assetreference><component>mill_dutch</component></anim>
+</animfile>

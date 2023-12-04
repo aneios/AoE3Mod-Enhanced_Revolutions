@@ -1,0 +1,4 @@
+<animfile>
+  <component>guns<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\coureur\coureur_du_bois_gun_milice</file></assetreference></none><ypdisciplinedashigaru><assetreference type="GrannyModel"><file>units\infantry_ranged\coureur\coureur_du_bois_gun</file></assetreference></ypdisciplinedashigaru><yphonoredashigaru><assetreference type="GrannyModel"><file>units\infantry_ranged\janissary\jannisary_gun_guard</file></assetreference></yphonoredashigaru><ypexaltedashigaru><assetreference type="GrannyModel"><file>units\infantry_ranged\janissary\jannisary_gun_veteran</file></assetreference></ypexaltedashigaru></logic></component>
+  <anim>Idle<component>guns</component></anim>
+</animfile>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>surstromming<logic type="Inventory"><p0><assetreference type="GrannyModel"><file>buildings\props_colony\food_crate_a</file></assetreference></p0><p0><assetreference type="GrannyModel"><file>buildings\props_colony\food_crate_c</file></assetreference></p0><p5><assetreference type="GrannyModel"><file>buildings\props_colony\food_crate_large_a</file></assetreference></p5><p5><assetreference type="GrannyModel"><file>buildings\props_colony\food_crate_large_c</file></assetreference></p5></logic><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>4.00</width><height>4.00</height></decal></component>
+  <anim>Idle<component>surstromming</component></anim>
+</animfile>

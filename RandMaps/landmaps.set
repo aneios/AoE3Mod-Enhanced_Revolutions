@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="90608" imagepath="ui\random_map\land_maps" helpTextID="90609" cannotReplace="">
+  <map>euAcropolis</map>
+  <map>euAlps</map>
+  <map>euAnatolia</map>
+  <map>euBalkans</map>
+  <map>euBohemia</map>
+  <map>euBudapest</map>
+  <map>euCarpathians</map>
+  <map>euCourland</map>
+  <map>euFrance</map>
+  <map>euHungarianPlains</map>
+  <map>euItaly</map>
+  <map>euKarelian</map>
+  <map>euLithuania</map>
+  <map>euPripetMarshes</map>
+  <map>euPyrenees</map>
+  <map>euRhine</map>
+  <map>euSaxony</map>
+  <map>euSteppe</map>
+  <map>euVistulaBasin</map>
+  <map>afArabia</map>
+  <map>afAtlas</map>
+  <map>afDarfur</map>
+  <map>afDunes</map>
+  <map>afGreat Rift</map>
+  <map>afHighlands</map>
+  <map>afNile Valley</map>
+  <map>afSahel</map>
+  <map>afSiwaOasis</map>
+  <map>afSudd</map>
+  <map>afTassili</map>
+  <map>afTransSahara</map>
+  <map>Andes</map>
+  <map>Andes Upper</map>
+  <map>Arctic Territories</map>
+  <map>Bayou</map>
+  <map>Colorado</map>
+  <map>Dakota</map>
+  <map>Gran Chaco</map>
+  <map>Great Plains</map>
+  <map>Guianas</map>
+  <map>Mexico</map>
+  <map>MinasGerais</map>
+  <map>Ozarks</map>
+  <map>Orinoco</map>
+  <map>Painted Desert</map>
+  <map>Pampas</map>
+  <map>Pampas Sierras</map>
+  <map>Rockies</map>
+  <map>Sonora</map>
+  <map>Texas</map>
+  <map>TexasFrontier</map>
+  <map>Yukon</map>
+  <map>Bengal</map>
+  <map>CentralAsia</map>
+  <map>Central Plain</map>
+  <map>Deccan</map>
+  <map>Fertile Crescent</map>
+  <map>Himalayas</map>
+  <map>himalayasUpper</map>
+  <map>Kamchatka</map>
+  <map>Mongolia</map>
+  <map>Parallel Rivers</map>
+  <map>Punjab</map>
+  <map>siberia</map>
+  <map>silkRoad</map>
+</randomMaps>

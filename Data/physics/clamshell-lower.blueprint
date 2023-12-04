@@ -1,0 +1,9 @@
+<blueprint>
+  <mass>90.0</mass>
+  <friction>0.1</friction>
+  <restitution>0.18</restitution>
+  <centerofmassoffset>0,0,0</centerofmassoffset>
+  <angulardampening>0.7</angulardampening>
+  <lineardamping>0.1</lineardamping>
+  <shape>clamshell-lower</shape>
+</blueprint>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>quivers<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\longbow\longbow_2age_quiver</file></assetreference></none><veteranlongbowmen><assetreference type="GrannyModel"><file>units\infantry_ranged\longbow\longbow_3age_quiver</file></assetreference></veteranlongbowmen><guardlongbowmen><assetreference type="GrannyModel"><file>units\infantry_ranged\longbow\longbow_4age_quiver</file></assetreference></guardlongbowmen></logic></component>
+  <anim>Idle<component>quivers</component></anim>
+</animfile>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>10</width>
+	<height>10</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="17" posx="-3.8781" posz="-5.0544" orientx="0.3827" orienty="0.0000" orientz="0.9239">SPCRailwayProps</unit>
+		<unit variation="12" posx="-5.0027" posz="-4.3202" orientx="0.3827" orienty="0.0000" orientz="0.9239">SPCRailwayProps</unit>
+		<unit variation="5" posx="4.0782" posz="-3.2567" orientx="0.3827" orienty="0.0000" orientz="0.9239">SPCRailwayProps</unit>
+		<unit variation="11" posx="2.4358" posz="-2.8588" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCRailwayProps</unit>
+		<unit variation="13" posx="5.9212" posz="-2.6552" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCRailwayProps</unit>
+		<unit variation="3" posx="-4.5212" posz="-0.5258" orientx="0.9243" orienty="-0.0000" orientz="0.3818">SPCRailwayProps</unit>
+		<unit variation="3" posx="-4.6176" posz="0.4216" orientx="0.9243" orienty="-0.0000" orientz="0.3818">SPCRailwayProps</unit>
+		<unit variation="182" posx="-4.2590" posz="-0.2211" orientx="-0.3816" orienty="0.0000" orientz="0.9243">SPCMudTrail</unit>
+		<unit variation="3" posx="1.7224" posz="0.0336" orientx="1.0000" orienty="-0.0000" orientz="-0.0010">SPCRailwayProps</unit>
+		<unit variation="12" posx="-0.1452" posz="0.5610" orientx="-1.0000" orienty="0.0000" orientz="0.0010">SPCRailwayProps</unit>
+		<unit variation="12" posx="1.1021" posz="0.6100" orientx="-1.0000" orienty="0.0000" orientz="0.0010">SPCRailwayProps</unit>
+		<unit variation="12" posx="2.3641" posz="0.5782" orientx="-1.0000" orienty="0.0000" orientz="0.0010">SPCRailwayProps</unit>
+		<unit variation="182" posx="2.2157" posz="0.2834" orientx="-0.0011" orienty="0.0000" orientz="-1.0000">SPCMudTrail</unit>
+		<unit variation="2" posx="4.3587" posz="0.3016" orientx="-1.0000" orienty="0.0000" orientz="0.0014">SPCRailwayProps</unit>
+		<unit variation="3" posx="-1.4938" posz="0.0426" orientx="1.0000" orienty="-0.0000" orientz="-0.0010">SPCRailwayProps</unit>
+		<unit variation="12" posx="-2.4628" posz="0.5742" orientx="-1.0000" orienty="0.0000" orientz="0.0010">SPCRailwayProps</unit>
+		<unit variation="12" posx="-1.4160" posz="0.5384" orientx="-1.0000" orienty="0.0000" orientz="0.0010">SPCRailwayProps</unit>
+		<unit variation="3" posx="1.6968" posz="1.0343" orientx="1.0000" orienty="-0.0000" orientz="-0.0010">SPCRailwayProps</unit>
+		<unit variation="3" posx="-1.5195" posz="1.0432" orientx="1.0000" orienty="-0.0000" orientz="-0.0010">SPCRailwayProps</unit>
+		<unit variation="3" posx="4.0014" posz="3.0077" orientx="0.9239" orienty="0.0000" orientz="0.3827">SPCRailwayProps</unit>
+		<unit variation="8" posx="2.6356" posz="3.5084" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCRailwayProps</unit>
+		<unit variation="9" posx="1.8987" posz="3.1491" orientx="-0.0000" orienty="-0.0000" orientz="-1.0000">SPCRailwayProps</unit>
+		<unit variation="5" posx="-4.1200" posz="3.4911" orientx="1.0000" orienty="0.0000" orientz="0.0000">SPCRailwayProps</unit>
+		<unit variation="15" posx="-3.8275" posz="4.5767" orientx="0.3827" orienty="0.0000" orientz="0.9239">SPCRailwayProps</unit>
+		<unit variation="17" posx="3.5702" posz="4.2141" orientx="0.9239" orienty="0.0000" orientz="0.3827">SPCRailwayProps</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="california\desert3_cal">
+			<block startx="-3" startz="-3" endx="-3" endz="-3"></block>
+			<block startx="-5" startz="0" endx="-5" endz="0"></block>
+			<block startx="-4" startz="-2" endx="-4" endz="1"></block>
+			<block startx="-3" startz="-2" endx="-3" endz="-2"></block>
+			<block startx="-3" startz="1" endx="-3" endz="2"></block>
+			<block startx="-2" startz="-2" endx="-2" endz="-1"></block>
+			<block startx="-2" startz="1" endx="-2" endz="2"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="-2"></block>
+			<block startx="-1" startz="1" endx="-1" endz="2"></block>
+			<block startx="0" startz="-2" endx="0" endz="-2"></block>
+			<block startx="0" startz="1" endx="0" endz="2"></block>
+			<block startx="1" startz="-2" endx="1" endz="-1"></block>
+			<block startx="1" startz="1" endx="1" endz="2"></block>
+			<block startx="2" startz="-2" endx="2" endz="-1"></block>
+			<block startx="2" startz="1" endx="2" endz="1"></block>
+			<block startx="3" startz="-2" endx="3" endz="0"></block>
+			<block startx="-2" startz="-3" endx="-2" endz="-3"></block>
+			<block startx="-1" startz="-3" endx="-1" endz="-3"></block>
+			<block startx="0" startz="-3" endx="0" endz="-3"></block>
+			<block startx="1" startz="-3" endx="1" endz="-3"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground_dirt2_ara">
+			<block startx="-3" startz="-1" endx="-3" endz="0"></block>
+			<block startx="-2" startz="0" endx="-2" endz="0"></block>
+			<block startx="-1" startz="-1" endx="-1" endz="0"></block>
+			<block startx="0" startz="-1" endx="0" endz="0"></block>
+			<block startx="1" startz="0" endx="1" endz="0"></block>
+			<block startx="2" startz="0" endx="2" endz="0"></block>
+		</tilegroup>
+	</tiles>
+</grouping>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>shield<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry\azap\azapshield_lvl1_back</file></assetreference></none><deveteranazaps><assetreference type="GrannyModel"><file>units\infantry\azap\azapshield_lvl2_back</file></assetreference></deveteranazaps><deguardazaps><assetreference type="GrannyModel"><file>units\infantry\azap\azapshield_lvl3_back</file></assetreference></deguardazaps></logic></component>
+  <anim>Idle<component>shield</component></anim>
+</animfile>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>club<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\natives\attachment_jaguar_club</file></assetreference></none><championjaguarknight><assetreference type="GrannyModel"><file>units\natives\aztec\jaguar_knight\attachment_jaguar_club</file></assetreference></championjaguarknight><implegendaryjaguarknights><assetreference type="GrannyModel"><file>units\natives\aztec\jaguar_knight\jaguar_knight_club_legendary</file></assetreference></implegendaryjaguarknights></logic></component>
+  <anim>Idle<component>club</component></anim>
+</animfile>

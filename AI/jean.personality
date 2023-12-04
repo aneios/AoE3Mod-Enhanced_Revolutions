@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>122014</nameID>
+   <tooltipID>122015</tooltipID>
+   <forcedciv>DEMaltese</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>resources/images/icons/singleplayer/cpai_avatar_maltese.png</icon>
+   <chatset>jean</chatset>
+   <playerNames>
+      <nameID>122014<civ>demaltese</civ></nameID> 
+   </playerNames>
+</AI>

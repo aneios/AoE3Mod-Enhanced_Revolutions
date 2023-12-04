@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\artillery\gatling_gun\gatling_gunner_hat_age3</file></assetreference></none><heavygatlinggun><assetreference type="GrannyModel"><file>units\artillery\gatling_gun\gatling_gunner_hat_age4</file></assetreference></heavygatlinggun><imperialgatlinggun><assetreference type="GrannyModel"><file>units\infantry_ranged\regular\regular_hat_age5</file></assetreference></imperialgatlinggun></logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

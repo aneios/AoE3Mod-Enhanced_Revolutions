@@ -1,0 +1,4 @@
+<animfile>
+  <component>guns<logic type="Tech"><none><logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_1age_gun</file></assetreference></none><colonialize><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_1age_gun</file></assetreference></colonialize><fortressize><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_2age_gun</file></assetreference></fortressize></logic></none><dehcusmarines><assetreference type="GrannyModel"><file>units\infantry_ranged\skirmisher\skirmisher_4age_gun</file></assetreference></dehcusmarines></logic></component>
+  <anim>Idle<component>guns</component></anim>
+</animfile>

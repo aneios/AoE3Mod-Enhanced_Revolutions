@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapinfo details="63582" displayNameID="63583" loadDetails="63584" largeMapName = "deccanLarge"
+    imagepath="ui\random_map\deccan\deccan_mini" cannotReplace="" loadBackground="ui\random_map\deccan\deccan_map">
+    <loadss>ui\random_map\deccan\deccan_ss_01</loadss>
+    <loadss>ui\random_map\deccan\deccan_ss_02</loadss>
+    <loadss>ui\random_map\deccan\deccan_ss_03</loadss>
+</mapinfo>

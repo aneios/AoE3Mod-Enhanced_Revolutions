@@ -1,0 +1,4 @@
+<animfile>
+  <component>generalstore<assetreference type="GrannyModel"><file>buildings\GeneralStore\generalstore</file></assetreference><decal><effecttype>default</effecttype><texture>buildings\saloon\Saloon_floor_00</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><width>8.00</width><height>8.00</height><zoffset>0.00</zoffset></decal></component>
+  <anim>Idle<component>generalstore</component></anim>
+</animfile>

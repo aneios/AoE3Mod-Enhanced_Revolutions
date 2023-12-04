@@ -1,0 +1,459 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Campaign>
+   <!-- DisplayName.  The non-localized name the user will see for this campaign.  -->
+   <DisplayName>Art of War</DisplayName>
+   <!-- DisplayNameStringID.  The localized string ID for the name the user will see for this campaign.  Overrides DisplayName.  -->
+   <DisplayNameStringID>71323</DisplayNameStringID>
+
+   <!-- Challenge 1 Cinematic -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges01a</Filename>
+      <DisplayName>Art of War Challenge 1</DisplayName>
+      <DisplayNameStringID>83500</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83500</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83540</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83510</ChallengeTextID1>
+      <ChallengeTextID2>83511</ChallengeTextID2>
+      <ChallengeTextID3>83512</ChallengeTextID3>
+   </CampaignNode>
+
+   <!-- Challenge 1 Scenario -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges01</Filename>
+      <PrereqScenarioFile>Challenges\age3challenges01a</PrereqScenarioFile>
+      <DisplayName>Art of War Challenge 1</DisplayName>
+      <DisplayNameStringID>83500</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83500</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83540</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83510</ChallengeTextID1>
+      <ChallengeTextID2>83511</ChallengeTextID2>
+      <ChallengeTextID3>83512</ChallengeTextID3>
+   </CampaignNode>
+
+   <!-- Challenge 2 Cinematic -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges02a</Filename>
+      <DisplayName>Art of War Challenge 2</DisplayName>
+      <DisplayNameStringID>83501</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83501</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83541</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83513</ChallengeTextID1>
+      <ChallengeTextID2>83514</ChallengeTextID2>
+      <ChallengeTextID3>83515</ChallengeTextID3>
+   </CampaignNode>
+
+   <!-- Challenge 2 Scenario -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges02</Filename>
+      <PrereqScenarioFile>Challenges\age3challenges02a</PrereqScenarioFile>
+      <DisplayName>Art of War Challenge 2</DisplayName>
+      <DisplayNameStringID>83501</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83501</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83541</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83513</ChallengeTextID1>
+      <ChallengeTextID2>83514</ChallengeTextID2>
+      <ChallengeTextID3>83515</ChallengeTextID3>
+   </CampaignNode>
+   
+   <!-- Challenge 3 Cinematic -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges03a</Filename>
+      <DisplayName>Art of War Challenge 3</DisplayName>
+      <DisplayNameStringID>83502</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83502</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83542</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83516</ChallengeTextID1>
+      <ChallengeTextID2>83517</ChallengeTextID2>
+      <ChallengeTextID3>83518</ChallengeTextID3>
+   </CampaignNode>
+
+   <!-- Challenge 3 Scenario -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges03</Filename>
+	  <PrereqScenarioFile>Challenges\age3challenges03a</PrereqScenarioFile>
+      <DisplayName>Art of War Challenge 3</DisplayName>
+      <DisplayNameStringID>83502</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83502</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83542</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83516</ChallengeTextID1>
+      <ChallengeTextID2>83517</ChallengeTextID2>
+      <ChallengeTextID3>83518</ChallengeTextID3>
+   </CampaignNode>
+   
+   <!-- Challenge 4 Cinematic -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges04a</Filename>
+      <DisplayName>Art of War Challenge 4</DisplayName>
+      <DisplayNameStringID>83503</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83503</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83543</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83519</ChallengeTextID1>
+      <ChallengeTextID2>83520</ChallengeTextID2>
+      <ChallengeTextID3>83521</ChallengeTextID3>
+   </CampaignNode>
+
+   <!-- Challenge 4 Scenario -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges04</Filename>
+	  <PrereqScenarioFile>Challenges\age3challenges04a</PrereqScenarioFile>
+      <DisplayName>Art of War Challenge 4</DisplayName>
+      <DisplayNameStringID>83503</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83503</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83543</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83519</ChallengeTextID1>
+      <ChallengeTextID2>83520</ChallengeTextID2>
+      <ChallengeTextID3>83521</ChallengeTextID3>
+   </CampaignNode>
+   
+   <!-- Challenge 5 Cinematic -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges05a</Filename>
+      <DisplayName>Art of War Challenge 5</DisplayName>
+      <DisplayNameStringID>83504</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83504</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83544</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83522</ChallengeTextID1>
+      <ChallengeTextID2>83523</ChallengeTextID2>
+      <ChallengeTextID3>83524</ChallengeTextID3>
+   </CampaignNode>
+
+   <!-- Challenge 5 Scenario -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges05</Filename>
+	  <PrereqScenarioFile>Challenges\age3challenges05a</PrereqScenarioFile>
+      <DisplayName>Art of War Challenge 5</DisplayName>
+      <DisplayNameStringID>83504</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83504</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83544</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83522</ChallengeTextID1>
+      <ChallengeTextID2>83523</ChallengeTextID2>
+      <ChallengeTextID3>83524</ChallengeTextID3>
+   </CampaignNode>
+   
+   <!-- Challenge 6 Cinematic -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges06a</Filename>
+      <DisplayName>Art of War Challenge 6</DisplayName>
+      <DisplayNameStringID>83505</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83505</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83545</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83525</ChallengeTextID1>
+      <ChallengeTextID2>83526</ChallengeTextID2>
+      <ChallengeTextID3>83527</ChallengeTextID3>
+   </CampaignNode>
+
+   <!-- Challenge 6 Scenario -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges06</Filename>
+	  <PrereqScenarioFile>Challenges\age3challenges06a</PrereqScenarioFile>
+      <DisplayName>Art of War Challenge 6</DisplayName>
+      <DisplayNameStringID>83505</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83505</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83545</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83525</ChallengeTextID1>
+      <ChallengeTextID2>83526</ChallengeTextID2>
+      <ChallengeTextID3>83527</ChallengeTextID3>
+   </CampaignNode>
+   
+   <!-- Challenge 7 Cinematic -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges07a</Filename>
+      <DisplayName>Art of War Challenge 7</DisplayName>
+      <DisplayNameStringID>83506</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83506</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83546</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83528</ChallengeTextID1>
+      <ChallengeTextID2>83529</ChallengeTextID2>
+      <ChallengeTextID3>83530</ChallengeTextID3>
+   </CampaignNode>
+
+   <!-- Challenge 7 Scenario -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges07</Filename>
+	  <PrereqScenarioFile>Challenges\age3challenges07a</PrereqScenarioFile>
+      <DisplayName>Art of War Challenge 7</DisplayName>
+      <DisplayNameStringID>83506</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83506</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83546</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83528</ChallengeTextID1>
+      <ChallengeTextID2>83529</ChallengeTextID2>
+      <ChallengeTextID3>83530</ChallengeTextID3>
+   </CampaignNode>
+   
+   <!-- Challenge 8 Cinematic -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges08a</Filename>
+      <DisplayName>Art of War Challenge 8</DisplayName>
+      <DisplayNameStringID>83507</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83507</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83547</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83531</ChallengeTextID1>
+      <ChallengeTextID2>83532</ChallengeTextID2>
+      <ChallengeTextID3>83533</ChallengeTextID3>
+   </CampaignNode>
+
+   <!-- Challenge 8 Scenario -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges08</Filename>
+	  <PrereqScenarioFile>Challenges\age3challenges08a</PrereqScenarioFile>
+      <DisplayName>Art of War Challenge 8</DisplayName>
+      <DisplayNameStringID>83507</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83507</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83547</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83531</ChallengeTextID1>
+      <ChallengeTextID2>83532</ChallengeTextID2>
+      <ChallengeTextID3>83533</ChallengeTextID3>
+   </CampaignNode>
+   
+   <!-- Challenge 9 Cinematic -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges09a</Filename>
+      <DisplayName>Art of War Challenge 9</DisplayName>
+      <DisplayNameStringID>83508</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83508</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83548</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83534</ChallengeTextID1>
+      <ChallengeTextID2>83535</ChallengeTextID2>
+      <ChallengeTextID3>83536</ChallengeTextID3>
+   </CampaignNode>
+
+   <!-- Challenge 9 Scenario -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges09</Filename>
+	  <PrereqScenarioFile>Challenges\age3challenges09a</PrereqScenarioFile>
+      <DisplayName>Art of War Challenge 9</DisplayName>
+      <DisplayNameStringID>83508</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83508</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83548</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83534</ChallengeTextID1>
+      <ChallengeTextID2>83535</ChallengeTextID2>
+      <ChallengeTextID3>83536</ChallengeTextID3>
+   </CampaignNode>
+   
+   <!-- Challenge 10 Cinematic -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges10a</Filename>
+      <DisplayName>Art of War Challenge 10</DisplayName>
+      <DisplayNameStringID>83509</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>1</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83509</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83549</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83537</ChallengeTextID1>
+      <ChallengeTextID2>83538</ChallengeTextID2>
+      <ChallengeTextID3>83539</ChallengeTextID3>
+   </CampaignNode>
+
+   <!-- Challenge 10 Scenario -->
+   <CampaignNode>
+      <Filename>Challenges\age3challenges10</Filename>
+	  <PrereqScenarioFile>Challenges\age3challenges10a</PrereqScenarioFile>
+      <DisplayName>Art of War Challenge 10</DisplayName>
+      <DisplayNameStringID>83509</DisplayNameStringID>
+      <Visible>1</Visible>
+      <Cinematic>0</Cinematic>
+      <Act>1</Act>
+      <!-- LoadImage = name of background image file -->
+      <LoadImage>master_basics_load</LoadImage>
+      <!-- LoadTextID - Database stringID of text to display in loading screen for this campaign node. -->
+      <LoadTextID>83509</LoadTextID>
+
+	  <!-- String ID of the challenge goal  -->
+	  <GoalTextID>83549</GoalTextID>
+
+      <!-- String ID's to the challenges required  -->
+      <ChallengeTextID1>83537</ChallengeTextID1>
+      <ChallengeTextID2>83538</ChallengeTextID2>
+      <ChallengeTextID3>83539</ChallengeTextID3>
+   </CampaignNode>
+   
+   
+</Campaign>

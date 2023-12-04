@@ -1,0 +1,6 @@
+<particlesetdef>
+  <particleset name="FireExplosion">
+    <particle filename="units\spc\fire_ship\FireExplosion.pkfx">
+    </particle>
+  </particleset>
+</particlesetdef>

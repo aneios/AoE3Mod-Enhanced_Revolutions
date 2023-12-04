@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>9</width>
+	<height>7</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="149" posx="0.8138" posz="-4.0230" orientx="-0.0006" orienty="0.0000" orientz="1.0000">PropsNative</unit>
+		<unit variation="40" posx="0.1912" posz="-0.3738" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">SPCDamagedCannons</unit>
+		<unit variation="65" posx="3.9313" posz="-3.3693" orientx="-0.3827" orienty="0.0000" orientz="0.9239">FenceRock</unit>
+		<unit variation="139" posx="5.4858" posz="-1.9867" orientx="-0.7071" orienty="0.0000" orientz="0.7071">FenceRock</unit>
+		<unit variation="149" posx="-4.3488" posz="-0.3148" orientx="-0.9239" orienty="0.0000" orientz="-0.3827">PropsNative</unit>
+		<unit variation="222" posx="-0.5989" posz="0.5584" orientx="0.7071" orienty="0.0000" orientz="0.7071">SPCDamagedProps</unit>
+		<unit variation="247" posx="-2.6858" posz="1.3665" orientx="0.3827" orienty="-0.0000" orientz="-0.9239">PropsColony</unit>
+		<unit variation="1" posx="5.4791" posz="2.2381" orientx="-0.7071" orienty="0.0000" orientz="-0.7071">FenceRock</unit>
+		<unit variation="195" posx="6.3917" posz="0.0919" orientx="-1.0000" orienty="0.0000" orientz="-0.0000">FenceRock</unit>
+		<unit variation="137" posx="-4.0269" posz="1.2988" orientx="0.3827" orienty="-0.0000" orientz="-0.9239">PropsColony</unit>
+		<unit variation="10" posx="-4.2744" posz="2.3218" orientx="0.7071" orienty="0.0000" orientz="-0.7071">FenceRock</unit>
+		<unit variation="62" posx="-0.0207" posz="-0.0324" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">PropGrassFire</unit>
+		<unit variation="31" posx="1.0885" posz="2.3863" orientx="0.3827" orienty="0.0000" orientz="0.9239">SPCDamagedProps</unit>
+		<unit variation="23" posx="-1.7969" posz="3.6690" orientx="0.3827" orienty="0.0000" orientz="-0.9239">FenceRock</unit>
+		<unit variation="125" posx="3.2359" posz="3.7778" orientx="-0.3827" orienty="0.0000" orientz="-0.9239">FenceRock</unit>
+		<unit variation="72" posx="0.7495" posz="4.2182" orientx="-0.0000" orienty="0.0000" orientz="1.0000">FenceRock</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="araucania\ground12_ara">
+			<block startx="-4" startz="-3" endx="-4" endz="-1"></block>
+			<block startx="-3" startz="-3" endx="-3" endz="-3"></block>
+			<block startx="-2" startz="-3" endx="-2" endz="-3"></block>
+			<block startx="-4" startz="2" endx="-4" endz="3"></block>
+			<block startx="-3" startz="3" endx="-3" endz="3"></block>
+			<block startx="-2" startz="3" endx="-2" endz="3"></block>
+			<block startx="2" startz="3" endx="2" endz="3"></block>
+			<block startx="3" startz="3" endx="3" endz="3"></block>
+			<block startx="4" startz="3" endx="4" endz="3"></block>
+			<block startx="1" startz="-3" endx="1" endz="-3"></block>
+			<block startx="2" startz="-3" endx="2" endz="-3"></block>
+			<block startx="4" startz="-3" endx="4" endz="-2"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_lakes\ground_grass1_gls">
+			<block startx="-3" startz="-2" endx="-3" endz="0"></block>
+			<block startx="-2" startz="0" endx="-2" endz="0"></block>
+			<block startx="-3" startz="1" endx="-3" endz="1"></block>
+			<block startx="-2" startz="1" endx="-2" endz="1"></block>
+			<block startx="-1" startz="3" endx="-1" endz="3"></block>
+			<block startx="0" startz="2" endx="0" endz="3"></block>
+			<block startx="1" startz="2" endx="1" endz="3"></block>
+			<block startx="2" startz="2" endx="2" endz="2"></block>
+			<block startx="3" startz="1" endx="3" endz="2"></block>
+			<block startx="4" startz="1" endx="4" endz="2"></block>
+			<block startx="-1" startz="-3" endx="-1" endz="-3"></block>
+			<block startx="0" startz="-3" endx="0" endz="-2"></block>
+			<block startx="1" startz="-2" endx="1" endz="-2"></block>
+			<block startx="2" startz="-2" endx="2" endz="-2"></block>
+			<block startx="3" startz="-3" endx="3" endz="0"></block>
+			<block startx="4" startz="-1" endx="4" endz="0"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_lakes\ground_forest_gls">
+			<block startx="-2" startz="-2" endx="-2" endz="-1"></block>
+			<block startx="2" startz="1" endx="2" endz="1"></block>
+			<block startx="-1" startz="-2" endx="-1" endz="-2"></block>
+			<block startx="2" startz="-1" endx="2" endz="0"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground07_b_ara">
+			<block startx="-1" startz="1" endx="-1" endz="1"></block>
+			<block startx="0" startz="1" endx="0" endz="1"></block>
+			<block startx="1" startz="1" endx="1" endz="1"></block>
+			<block startx="-1" startz="-1" endx="-1" endz="0"></block>
+			<block startx="0" startz="-1" endx="0" endz="0"></block>
+			<block startx="1" startz="-1" endx="1" endz="0"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_plains\ground3_gp">
+			<block startx="-4" startz="0" endx="-4" endz="0"></block>
+			<block startx="-4" startz="1" endx="-4" endz="1"></block>
+			<block startx="-3" startz="2" endx="-3" endz="2"></block>
+			<block startx="-2" startz="2" endx="-2" endz="2"></block>
+			<block startx="-1" startz="2" endx="-1" endz="2"></block>
+		</tilegroup>
+		<heights>
+			<tiles x="-4" z="-3">-0.995 -0.815 -0.009 0.645 0.172 0.406 0.419 -0.160 -1.010 </tiles>
+			<tiles x="-4" z="-2">-0.712 -0.106 0.761 3.005 3.005 2.182 1.336 0.689 -0.199 </tiles>
+			<tiles x="-4" z="-1">-0.247 0.762 3.005 3.005 3.005 3.005 3.005 2.527 0.735 </tiles>
+			<tiles x="-4" z="0">0.427 2.277 3.005 3.005 3.005 3.005 3.005 2.610 1.871 </tiles>
+			<tiles x="-4" z="1">0.259 2.130 3.005 3.005 3.005 3.005 3.005 3.005 2.126 </tiles>
+			<tiles x="-4" z="2">-0.706 0.232 2.290 2.603 3.005 3.005 3.005 2.332 1.636 </tiles>
+			<tiles x="-4" z="3">-1.010 -0.391 0.457 0.699 1.485 1.740 2.319 1.502 -0.191 </tiles>
+		</heights>
+	</tiles>
+</grouping>

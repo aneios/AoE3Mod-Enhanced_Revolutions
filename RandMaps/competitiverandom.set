@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="90501" imagepath="ui\random_map\competitive_maps" helpTextID="90502" cannotReplace="">
+  <map>euAcropolis</map>
+  <map>euAlps</map>
+  <map>euAnatolia</map>
+  <map>euArena</map>
+  <map>euBalkans</map>
+  <map>euBaltic</map>
+  <map>euBohemia</map>
+  <map>euCarpathians</map>
+  <map>euCaucasus</map>
+  <map>euCourland</map>
+  <map>euDanishStrait</map>
+  <map>euDnieperBasin</map>
+  <map>euEngland</map>
+  <map>euFinland</map>
+  <map>euFrance</map>
+  <map>euHungarianPlains</map>
+  <map>euIberia</map>
+  <map>euIreland</map>
+  <map>euItaly</map>
+  <map>euKarelian</map>
+  <map>euLithuania</map>
+  <map>euLowCountries</map>
+  <map>euMuscovy</map>
+  <map>euPomerania</map>
+  <map>euPortugal</map>
+  <map>euPripetMarshes</map>
+  <map>euPyrenees</map>
+  <map>euRhine</map>
+  <map>euSaxony</map>
+  <map>euScandinavia</map>
+  <map>euScotland</map>
+  <map>euVistulaBasin</map>
+  <map>euWales</map>
+  <map>euWallachia</map>
+  <map>afAtlas</map>
+  <map>afArabia</map>
+  <map>afDarfur</map>
+  <map>afDunes</map>
+  <map>afGold Coast</map>
+  <map>afGreat Rift</map>
+  <map>afHighlands</map>
+  <map>afHorn</map>
+  <map>afIvoryCoast</map>
+  <map>afLakeChad</map>
+  <map>afLakeVictoria</map>
+  <map>afNiger Delta</map>
+  <map>afNile Valley</map>
+  <map>afPepperCoast</map>
+  <map>afSahel</map>
+  <map>afSavanna</map>
+  <map>afSiwaOasis</map>
+  <map>afSudd</map>
+  <map>afTassili</map>
+  <map>afTransSahara</map>
+  <map>afTripolitania</map>
+  <map>Alaska</map>
+  <map>Andes Upper</map>
+  <map>Araucania</map>
+  <map>Arctic Territories</map>
+  <map>Bahia</map>
+  <map>Baja California</map>
+  <map>Bayou</map>
+  <map>California</map>
+  <map>Carolina</map>
+  <map>Cascade Range</map>
+  <map>Colorado</map>
+  <map>Dakota</map>
+  <map>Florida</map>
+  <map>Gran Chaco</map>
+  <map>Great Lakes</map>
+  <map>Great Plains</map>
+  <map>Guianas</map>
+  <map>Mexico</map>
+  <map>MinasGerais</map>
+  <map>New England</map>
+  <map>Northwest Territory</map>
+  <map>Ozarks</map>
+  <map>Orinoco</map>
+  <map>Painted Desert</map>
+  <map>Pampas</map>
+  <map>Pampas Sierras</map>
+  <map>Panama</map>
+  <map>Patagonia</map>
+  <map>Rockies</map>
+  <map>Saguenay</map>
+  <map>Sonora</map>
+  <map>Texas</map>
+  <map>Yucatan</map>
+  <map>Yukon</map>  
+  <map>Bengal</map>
+  <map>borneo</map>
+  <map>CentralAsia</map>
+  <map>Central Plain</map>
+  <map>Deccan</map>
+  <map>Fertile Crescent</map>
+  <map>Himalayas</map>
+  <map>himalayasUpper</map>
+  <map>Hokkaido</map>
+  <map>indochina</map>
+  <map>Indonesia</map>
+  <map>Kamchatka</map>
+  <map>Korea</map>
+  <map>Malaysia</map>
+  <map>Manchuria</map>
+  <map>Mongolia</map>
+  <map>Parallel Rivers</map>
+  <map>Punjab</map>
+  <map>siberia</map>
+  <map>yellow riverDry</map>
+</randomMaps>

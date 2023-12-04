@@ -1,0 +1,4 @@
+<animfile>
+  <component>pouch<assetreference type="GrannyModel"><file>units\infantry_ranged\grenadier\grenadier_age4_pouch</file></assetreference></component>
+  <anim>Idle<component>pouch</component></anim>
+</animfile>

@@ -1,0 +1,39 @@
+<animfile>
+  <definebone>bone_flag_civ</definebone>
+  <definebone>bone_garrisonflag</definebone>
+  <definebone>bone_smoke</definebone>
+  <definebone>bone_fire</definebone>
+  <definebone>bone_fire01</definebone>
+  <definebone>bone_brazier</definebone>
+  <definebone>bone_brazier1</definebone>
+  <definebone>bone_launchpoint01</definebone>
+  <definebone>bone_launchpoint02</definebone>
+  <definebone>bone_launchpoint04</definebone>
+  <definebone>bone_launchpoint03</definebone>
+  <definebone>bone_launchpoint05</definebone>
+  <definebone>bone_launchpoint06</definebone>
+  <definebone>bone_launchpoint07</definebone>
+  <definebone>bone_launchpoint08</definebone>
+  <definebone>bone_launchpoint09</definebone>
+  <definebone>bone_launchpoint10</definebone>
+  <definebone>bone_launchpoint11</definebone>
+  <definebone>bone_launchpoint12</definebone>
+  <definebone>bone_launchpoint13</definebone>
+  <definebone>bone_debris_1a</definebone>
+  <definebone>bone_debris_1b</definebone>
+  <definebone>bone_debris_1c</definebone>
+  <definebone>bone_debris_1d</definebone>
+  <definebone>bone_debris_1e</definebone>
+  <definebone>bone_debris_2a</definebone>
+  <definebone>bone_debris_2b</definebone>
+  <definebone>bone_debris_2c</definebone>
+  <definebone>bone_debris_3a</definebone>
+  <definebone>bone_debris_3b</definebone>
+  <definebone>bone_debris_3c</definebone>
+  <definebone>bone_debris_3d</definebone>
+  <definebone>bone_debris_3e</definebone>
+  <submodel>university_con_stage_01<component>construction_stage_01<assetreference type="GrannyModel"><file>buildings\constructions\nat_4x4_stage1</file></assetreference><decal><effecttype>bump</effecttype><texture>buildings\constructions\2x2_construction_decal</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><bumptexture>shadows_selections\flat_normal_black_spec</bumptexture><width>10.00</width><height>10.00</height></decal></component><anim>Idle<component>construction_stage_01</component></anim></submodel>
+  <submodel>university_con_stage_02<attachment>con<component>scaffolding<assetreference type="GrannyModel"><file>buildings\constructions\nat_4x4_stage2</file></assetreference></component><anim>Idle<component>scaffolding</component></anim></attachment><component>construction_stage_02<assetreference type="GrannyModel"><file>buildings\african_civs\university\university_con</file></assetreference><decal><effecttype>bump</effecttype><texture>buildings\african_civs\university\university_ground</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><width>10</width><height>10</height></decal><attach a="con" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach></component><anim>Idle<component>construction_stage_02</component></anim></submodel>
+  <submodel>university<attachment>brazier<component>emiter<assetreference type="popcornfx"><file>homecity\fire_pot_hc.pkfx</file></assetreference></component><anim>idle<component>emiter</component></anim></attachment><attachment>collapse_smoke<component>collapse_smoke<assetreference type="popcornFx"><file>smoke\collapse_smoke_3x3.pkfx</file></assetreference></component><anim>Idle<component>collapse_smoke</component></anim></attachment><component>LIVE<logic type="LowPoly"><normal><logic type="Destruction"><p1><assetreference type="GrannyModel"><file>buildings\african_civs\university\university_damaged</file></assetreference></p1><p99><assetreference type="GrannyModel"><file>buildings\african_civs\university\university</file></assetreference></p99></logic></normal><lowpoly><assetreference type="GrannyModel"><file>buildings\african_civs\university\university</file></assetreference></lowpoly></logic><decal><effecttype>bump</effecttype><texture>buildings\african_civs\university\university_ground</texture><selectedtexture>shadows_selections\selection_square_128x128</selectedtexture><width>12</width><height>12</height></decal><attach a="brazier" frombone="ATTACHPOINT" tobone="bone_brazier" syncanims="0"></attach><attach a="brazier" frombone="ATTACHPOINT" tobone="bone_brazier1" syncanims="0"></attach></component><component>DEAD<logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>buildings\african_civs\university\university_damaged</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>buildings\african_civs\university\university</file></assetreference></lowpoly></logic></component><anim>Idle<component>LIVE</component><simskeleton><model>buildings\african_civs\university\university_damaged</model></simskeleton></anim><anim>RangedAttack<assetreference type="GrannyAnim"><file>animation_library\building\ranged_attack</file><tag type="Attack">0.45</tag><tag type="Attack">0.44</tag><tag type="Attack">0.43</tag><tag type="Attack">0.42</tag><tag type="Attack">0.41</tag><tag type="Attack">0.40</tag><tag type="Attack">0.43</tag><tag type="Attack">0.42</tag><tag type="SpecificSoundSet" checkvisible="1" set="CrossbowShoot">0.45</tag><tag type="SpecificSoundSet" checkvisible="1" set="CrossbowShoot">0.44</tag><tag type="SpecificSoundSet" checkvisible="1" set="CrossbowShoot">0.43</tag><tag type="SpecificSoundSet" checkvisible="1" set="CrossbowShoot">0.42</tag><tag type="SpecificSoundSet" checkvisible="1" set="CrossbowShoot">0.41</tag><tag type="SpecificSoundSet" checkvisible="1" set="CrossbowShoot">0.43</tag><tag type="SpecificSoundSet" checkvisible="1" set="CrossbowShoot">0.42</tag><tag type="SpecificSoundSet" checkvisible="1" set="CrossbowShoot">0.40</tag></assetreference><component>LIVE</component><simskeleton><model>buildings\african_civs\university\university_damaged</model></simskeleton></anim><anim>Death<component>DEAD</component><attach a="collapse_smoke" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach></anim></submodel>
+  <component>university	<logic type="BuildingCompletion"><p0><submodelref ref="university_con_stage_01"></submodelref></p0><p33><submodelref ref="university_con_stage_02"></submodelref></p33><p66><submodelref ref="university_con_stage_02"></submodelref></p66><p100><submodelref ref="university"></submodelref></p100></logic></component>
+</animfile>

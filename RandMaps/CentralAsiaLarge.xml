@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "106206" displayNameID = "106207" loadDetails="106205" isLargeMap = ""
+    imagepath  = "ui\random_map\central_asia\central_asia_mini" cannotReplace = "" loadBackground="ui\random_map\central_asia\central_asia_map">
+	<loadss>ui\random_map\central_asia\central_asia_ss_01</loadss>
+	<loadss>ui\random_map\central_asia\central_asia_ss_02</loadss>
+	<loadss>ui\random_map\central_asia\central_asia_ss_03</loadss>
+	<loadss>ui\random_map\central_asia\central_asia_ss_04</loadss>
+	<loadss>ui\random_map\central_asia\central_asia_ss_05</loadss>
+</mapinfo>

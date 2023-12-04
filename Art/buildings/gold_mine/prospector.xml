@@ -1,0 +1,13 @@
+<animfile>
+  <definebone>bone_hat</definebone>
+  <definebone>bone_gun</definebone>
+  <definebone>bip01 Prop1</definebone>
+  <definebone>Bip01 Prop1</definebone>
+  <definebone>Bip01 Prop2</definebone>
+  <definebone>bone_drum</definebone>
+  <definebone>bone_drumstick</definebone>
+  <definebone>bone_rattle</definebone>
+  <submodel>prospector_shovel<attachment>shovel<include>nuggets\pirates\attachment_shovel.xml</include></attachment><component>ModelComp<assetreference type="GrannyModel"><file>units\villagers\we_villager_male</file></assetreference><decal><effecttype>default</effecttype><texture>shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>nuggets\pirates\pirate_diga</file><weight>90</weight></assetreference><assetreference type="GrannyAnim"><file>nuggets\pirates\pirate_dig_boreda</file><weight>10</weight></assetreference><component>ModelComp</component><attach a="shovel" frombone="Bip01 Prop2" tobone="bip01 Prop2" syncanims="0"></attach></anim></submodel>
+  <submodel>prospector_pickaxe<attachment>pickaxe<component>pickaxe<assetreference type="GrannyModel"><file>units\attachments\pickaxe_villager</file></assetreference></component><anim>Idle<component>pickaxe</component></anim></attachment><attachment>shovel<include>nuggets\pirates\attachment_shovel.xml</include></attachment><component>ModelComp<assetreference type="GrannyModel"><file>units\villagers\we_villager_male</file></assetreference><decal><effecttype>default</effecttype><texture>shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component><anim>Idle<assetreference type="GrannyAnim"><file>animation_library\villager\villager_male_gathermine1</file><tag type="SpecificSoundSet" checkvisible="1" set="GatherCoin">0.86</tag></assetreference><component>ModelComp</component><attach a="pickaxe" frombone="MASTER" tobone="Bip01 Prop1" syncanims="0"></attach></anim></submodel>
+  <component>prospector<logic type="BuildingCompletion"><p1><submodelref ref="prospector_shovel"></submodelref></p1><p50><submodelref ref="prospector_pickaxe"></submodelref></p50></logic></component>
+</animfile>

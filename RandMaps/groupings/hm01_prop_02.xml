@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<grouping>
+	<width>5</width>
+	<height>7</height>
+	<ignoreplacementrules>0</ignoreplacementrules>
+	<selectassingleunit>0</selectassingleunit>
+	<workonassingleunit>0</workonassingleunit>
+	<units>
+		<unit variation="254" posx="4.6169" posz="-5.5127" orientx="0.7071" orienty="0.0000" orientz="0.7071">PropsNative</unit>
+		<unit variation="137" posx="0.1478" posz="0.1067" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">SPCDamagedCannons</unit>
+		<unit variation="112" posx="1.9178" posz="-1.4820" orientx="-0.1479" orienty="0.1859" orientz="0.9714">Deer</unit>
+		<unit variation="101" posx="4.8669" posz="-0.9163" orientx="-0.4980" orienty="0.0000" orientz="0.8672">deTreeCypress</unit>
+		<unit variation="205" posx="2.5268" posz="1.8290" orientx="0.3827" orienty="-0.0000" orientz="-0.9239">SPCDamagedProps</unit>
+		<unit variation="71" posx="-1.1154" posz="2.1146" orientx="-0.9239" orienty="0.0000" orientz="0.3827">SPCDamagedProps</unit>
+		<unit variation="101" posx="-4.1649" posz="0.6511" orientx="0.9918" orienty="-0.0000" orientz="0.1282">deTreeCypress</unit>
+		<unit variation="101" posx="4.0000" posz="2.0000" orientx="-0.2612" orienty="-0.0000" orientz="-0.9653">deTreeCypress</unit>
+		<unit variation="17" posx="3.5362" posz="0.4368" orientx="-0.9239" orienty="0.0000" orientz="0.3826">RuinWallSmall</unit>
+		<unit variation="183" posx="0.7936" posz="3.6003" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">PropsNative</unit>
+		<unit variation="205" posx="-1.2757" posz="3.5730" orientx="0.7071" orienty="0.0000" orientz="0.7072">SPCDamagedProps</unit>
+		<unit variation="101" posx="-2.0000" posz="4.0000" orientx="-0.8672" orienty="-0.0000" orientz="-0.4979">deTreeCypress</unit>
+		<unit variation="215" posx="1.4677" posz="3.1560" orientx="-0.3827" orienty="-0.0000" orientz="-0.9239">RuinWallMedium</unit>
+		<unit variation="17" posx="-2.3566" posz="2.5019" orientx="0.9239" orienty="0.0000" orientz="-0.3827">RuinWallSmall</unit>
+	</units>
+	<tiles>
+		<tilegroup type="PassableLand" subtype="new_england\ground4_ne">
+			<block startx="-2" startz="-3" endx="-2" endz="-2"></block>
+			<block startx="-1" startz="-1" endx="-1" endz="0"></block>
+			<block startx="0" startz="0" endx="0" endz="0"></block>
+			<block startx="1" startz="0" endx="1" endz="0"></block>
+			<block startx="-1" startz="1" endx="-1" endz="1"></block>
+			<block startx="0" startz="1" endx="0" endz="1"></block>
+			<block startx="1" startz="1" endx="1" endz="1"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_lakes\ground_grass1_gls">
+			<block startx="-1" startz="-3" endx="-1" endz="-2"></block>
+			<block startx="0" startz="-2" endx="0" endz="-1"></block>
+			<block startx="2" startz="-1" endx="2" endz="0"></block>
+			<block startx="-2" startz="1" endx="-2" endz="1"></block>
+			<block startx="-1" startz="2" endx="-1" endz="3"></block>
+			<block startx="0" startz="2" endx="0" endz="2"></block>
+			<block startx="1" startz="2" endx="1" endz="3"></block>
+			<block startx="2" startz="1" endx="2" endz="2"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="araucania\ground12_ara">
+			<block startx="-2" startz="-1" endx="-2" endz="0"></block>
+			<block startx="0" startz="-3" endx="0" endz="-3"></block>
+			<block startx="1" startz="-3" endx="1" endz="-1"></block>
+			<block startx="2" startz="-3" endx="2" endz="-2"></block>
+			<block startx="-2" startz="2" endx="-2" endz="3"></block>
+		</tilegroup>
+		<tilegroup type="PassableLand" subtype="great_plains\ground3_gp">
+			<block startx="0" startz="3" endx="0" endz="3"></block>
+			<block startx="2" startz="3" endx="2" endz="3"></block>
+		</tilegroup>
+		<heights>
+			<tiles x="-2" z="-3">-0.656 -0.149 -0.629 -0.665 -0.658 </tiles>
+			<tiles x="-2" z="-2">-0.660 0.870 0.394 -0.188 -0.698 </tiles>
+			<tiles x="-2" z="-1">-0.665 1.580 1.580 1.580 1.580 </tiles>
+			<tiles x="-2" z="0">1.270 1.580 1.580 1.580 1.580 </tiles>
+			<tiles x="-2" z="1">0.489 1.580 1.580 1.580 1.580 </tiles>
+			<tiles x="-2" z="2">-0.678 1.505 1.580 2.076 2.620 </tiles>
+			<tiles x="-2" z="3">-0.682 0.663 2.049 1.901 -0.107 </tiles>
+		</heights>
+	</tiles>
+</grouping>

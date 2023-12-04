@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\regular\regular_hat_age2</file></assetreference></none><deveteranusregulars><assetreference type="GrannyModel"><file>units\infantry_ranged\regular\regular_hat_age3</file></assetreference></deveteranusregulars><deguardusregulars><assetreference type="GrannyModel"><file>units\infantry_ranged\regular\regular_hat_age4</file></assetreference></deguardusregulars><deimperialusregulars><assetreference type="GrannyModel"><file>units\infantry_ranged\regular\regular_hat_age5</file></assetreference></deimperialusregulars></logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

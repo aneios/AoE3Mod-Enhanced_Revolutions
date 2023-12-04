@@ -1,0 +1,4 @@
+<animfile>
+  <component>swords<logic type="Variation"><none><assetreference type="GrannyModel"><file>units\spc\custer\spc_custer_sword</file></assetreference></none><guardcuirassiers><assetreference type="GrannyModel"><file>units\asians\spc\edwardson\edwardson_sword</file></assetreference></guardcuirassiers><merccuirassiers><assetreference type="GrannyModel"><file>units\attachments\sword</file></assetreference></merccuirassiers></logic></component>
+  <anim>Idle<component>swords</component></anim>
+</animfile>
