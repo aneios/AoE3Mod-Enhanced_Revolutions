@@ -1,5 +1,10 @@
+param(
+	[Parameter(Mandatory)]
+	[string]$ModPath
+)
+
 # Allowed Missing Animations.xml
-$animationsFile = '.\dist\Data\Allowed Missing Animations.xml'
+$animationsFile = "$ModPath\Data\Allowed Missing Animations.xml"
 $animationsNode = [xml](Get-Content $animationsFile)
 
 foreach ($element in $animationsNode.SelectNodes("//unit[contains(@name, 'Repentant')]")) {
@@ -9,7 +14,7 @@ foreach ($element in $animationsNode.SelectNodes("//unit[contains(@name, 'Repent
 $animationsNode.Save($animationsFile)
 
 # attacktime.xml
-$attacksFile = '.\dist\Data\attacktime.xml'
+$attacksFile = "$ModPath\Data\attacktime.xml"
 $attacksNode = [xml](Get-Content $attacksFile)
 
 foreach ($element in $attacksNode.SelectNodes("//unit[contains(@name, 'Repentant')]")) {
@@ -19,7 +24,7 @@ foreach ($element in $attacksNode.SelectNodes("//unit[contains(@name, 'Repentant
 $attacksNode.Save($attacksFile)
 
 # protoy.xml
-$protoFile = '.\dist\Data\protoy.xml'
+$protoFile = "$ModPath\Data\protoy.xml"
 $protoNode = [xml](Get-Content $protoFile)
 
 foreach ($element in $protoNode.SelectNodes("//unit[contains(@name, 'Repentant')]")) {
@@ -29,7 +34,7 @@ foreach ($element in $protoNode.SelectNodes("//unit[contains(@name, 'Repentant')
 $protoNode.Save($protoFile)
 
 # unithelpy.xml
-$unithelpFile = '.\dist\Data\unithelpy.xml'
+$unithelpFile = "$ModPath\Data\unithelpy.xml"
 $unithelpNode = [xml](Get-Content $unithelpFile)
 
 foreach ($element in $unithelpNode.SelectNodes("//entry[contains(@protoname, 'Repentant')]")) {
@@ -39,9 +44,9 @@ foreach ($element in $unithelpNode.SelectNodes("//entry[contains(@protoname, 'Re
 $unithelpNode.Save($unithelpFile)
 
 # techtreedata_asians.xml
-$techtree_asians = @('.\dist\Data\uitechtree\techtreedata_chinese.xml',
-	'.\dist\Data\uitechtree\techtreedata_indians.xml',
-	'.\dist\Data\uitechtree\techtreedata_japanese.xml')
+$techtree_asians = @("$ModPath\Data\uitechtree\techtreedata_chinese.xml",
+	"$ModPath\Data\uitechtree\techtreedata_indians.xml",
+	"$ModPath\Data\uitechtree\techtreedata_japanese.xml")
 
 foreach ($file in $techtree_asians) {
 	$techtreeNode = [xml](Get-Content $file)
@@ -200,7 +205,7 @@ foreach ($file in $techtree_asians) {
 }
 
 # techtreey.xml
-$techtreeFile = '.\dist\Data\techtreey.xml'
+$techtreeFile = "$ModPath\Data\techtreey.xml"
 $techtreeNode = [xml](Get-Content $techtreeFile)
 
 foreach ($element in $techtreeNode.SelectNodes("//effect[@subtype='Enable']")) {
@@ -219,7 +224,7 @@ if ($targetNode) {
 $techtreeNode.Save($techtreeFile)
 
 # civs.xml
-$civsFile = '.\dist\Data\civs.xml'
+$civsFile = "$ModPath\Data\civs.xml"
 $civsNode = [xml](Get-Content $civsFile)
 $unitNode = $civsNode.SelectSingleNode("//unit[text()='ypRepentantBlindMonk']")
 if ($unitNode) {
